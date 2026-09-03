@@ -160,7 +160,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-    <strong>1 package found.</strong> Page 1 of 1.
+    <strong>3 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -175,6 +175,30 @@ article {
         </tr>
     </thead>
     <tbody id="pkg-body">
+        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-02" data-size="14942">
+            <td>
+                <a class="pkg-name" href="https://github.com/distill-linux/drop" target="_blank" rel="noopener" title="View source code">drop</a>
+            </td>
+            <td>
+                <span class="pkg-tag">0.1.0-1</span>
+            </td>
+            <td>
+                <div class="pkg-desc">Native minimal binary package manager for Distill Linux</div>
+                <div style="margin-top: 0.3em;">
+                    <code class="pkg-cmd" title="Click to copy">drop in drop</code>
+                </div>
+            </td>
+            <td class="pkg-meta">
+                distill-core
+            </td>
+            <td class="pkg-meta">
+                2026-09-02 (UTC)
+            </td>
+            <td>
+                <a href="drop-0.1.0.drop" download style="font-weight: bold;">drop-0.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.6 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="27965">
             <td>
                 <a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" title="View source code">samurai</a>
@@ -197,6 +221,30 @@ article {
             <td>
                 <a href="samurai-1.2.drop" download style="font-weight: bold;">samurai-1.2.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-02" data-size="13790">
+            <td>
+                <a class="pkg-name" href="https://github.com/distill-linux/sink" target="_blank" rel="noopener" title="View source code">sink</a>
+            </td>
+            <td>
+                <span class="pkg-tag">0.1.0-1</span>
+            </td>
+            <td>
+                <div class="pkg-desc">Community source builder and ports engine for Distill Linux</div>
+                <div style="margin-top: 0.3em;">
+                    <code class="pkg-cmd" title="Click to copy">drop in sink</code>
+                </div>
+            </td>
+            <td class="pkg-meta">
+                distill-core
+            </td>
+            <td class="pkg-meta">
+                2026-09-02 (UTC)
+            </td>
+            <td>
+                <a href="sink-0.1.0.drop" download style="font-weight: bold;">sink-0.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.5 KB</span>
             </td>
         </tr>
     </tbody>
