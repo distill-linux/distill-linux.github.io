@@ -9,8 +9,8 @@ Distill is designed to be self-documenting, independent, and minimalist. Below y
 
 ### documentation index
 
-* [Installation Guide](/docs/installation/) &mdash; How to install Distill onto bare metal or a virtual machine.
-* [Package Management with drop & sink](/docs/packages/) &mdash; Installing prebuilt packages, source builds, and repository auditing.
-* [Service Supervision with runit](/docs/runit/) &mdash; Managing daemons, startup services, and run levels.
-* [Userland: Toybox & mksh](/docs/toybox-mksh/) &mdash; Tips on using mksh and toybox multi-call binaries.
-* [Display & Graphics](/docs/display-graphics/) &mdash; Information on X11Libre and Wayland support status.
+* [Installation Guide](/docs/installation/) - How to install Distill onto bare metal or a virtual machine.
+* [Package Management with drop & sink](/docs/packages/) - Installing prebuilt packages, source builds, and repository auditing.
+* [Service Supervision with runit](/docs/runit/) - Managing daemons, startup services, and run levels.
+* [Userland: Toybox & mksh](/docs/toybox-mksh/) - Tips on using mksh and toybox multi-call binaries.
+* [Display & Graphics](/docs/display-graphics/) - Information on X11Libre and Wayland support status.

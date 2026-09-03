@@ -1,6 +1,6 @@
 # distill linux website
 
-Official static website for **Distill Linux** &mdash; an ultra-minimalist, purified Void Linux fork powered by `musl`, `xbps`, `runit`, `toybox`, `mksh`, and `linux-libre`.
+Official static website for **Distill Linux** - a minimal, independent from-scratch Linux distribution based on `musl`, `drop`, `sink`, `runit`, `toybox`, `mksh`, and `linux-libre`.
 
 Built with **Hugo** and pure **HTML / CSS** (0 JavaScript), inspired by the minimalist aesthetic of [derivelinux.org](https://derivelinux.org/) and cat-v/werc.
 
