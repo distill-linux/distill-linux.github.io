@@ -71,10 +71,10 @@ flagship release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
 
 <details>
 <summary>verification</summary>
-<pre><code># verify iso checksum
+<pre><code>  # verify iso checksum
 sha256sum distill-standard-0.1.0.iso
 
-# verify gpg signature
+  # verify gpg signature
 gpg --verify distill-standard-0.1.0.iso.sig distill-standard-0.1.0.iso</code></pre>
 </details>
 
