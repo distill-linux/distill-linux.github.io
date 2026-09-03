@@ -58,3 +58,7 @@ disableKinds = ['taxonomy', 'term']
     name = 'special-thanks/'
     url = '/special-thanks/'
     weight = 70
+
+[markup.highlight]
+  noClasses = false
+  guessSyntax = false

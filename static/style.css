@@ -201,28 +201,74 @@ article li {
     margin-bottom: 0.25em;
 }
 
-article pre {
-    background: rgba(255, 255, 255, 0.55);
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    padding: 0.5em 0.8em;
+article pre, .highlight pre, pre {
+    background: rgba(255, 255, 255, 0.58);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    padding: 0.55em 0.85em;
     overflow-x: auto;
     font-family: monospace;
     font-size: 0.95em;
-    line-height: 1.35;
-    border-radius: 3px;
+    line-height: 1.4;
+    border-radius: 4px;
+    color: #0c142e;
 }
 
-article code {
+.highlight {
+    margin: 0.8em 0;
+}
+
+article code, code {
     font-family: monospace;
-    background: rgba(255, 255, 255, 0.55);
-    padding: 1px 3px;
-    font-size: 0.95em;
-    border-radius: 2px;
+    font-size: 0.92em;
 }
 
-article pre code {
-    background: none;
+/* Inline code tags outside pre blocks */
+article p code, article li code, details p code, details li code {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 1px 4px;
+    border-radius: 3px;
+    color: #0c142e;
+}
+
+article pre code, .highlight pre code, pre code {
+    background: transparent;
+    border: none;
     padding: 0;
+    color: inherit;
+}
+
+/* Chroma Syntax Highlighting matching Distill palette */
+.chroma {
+    color: #0c142e;
+    background: transparent;
+}
+
+/* Comments: subtle slate/navy */
+.chroma .c, .chroma .c1, .chroma .ch, .chroma .cm, .chroma .cp, .chroma .cpf, .chroma .cs {
+    color: #515f8a;
+    font-style: italic;
+}
+
+/* Keywords and operators: Distill crimson */
+.chroma .k, .chroma .kc, .chroma .kd, .chroma .kn, .chroma .kp, .chroma .kr, .chroma .kt, .chroma .o, .chroma .ow {
+    color: #aa2022;
+    font-weight: bold;
+}
+
+/* Strings and regex: deep navy / slate */
+.chroma .s, .chroma .s1, .chroma .s2, .chroma .sb, .chroma .sc, .chroma .sd, .chroma .se, .chroma .sh, .chroma .si, .chroma .sx, .chroma .sr, .chroma .ss {
+    color: #1a4270;
+}
+
+/* Built-ins, shell commands, function names: deep indigo slate */
+.chroma .nb, .chroma .nf, .chroma .na, .chroma .nc, .chroma .nd, .chroma .ne, .chroma .nl, .chroma .nn, .chroma .nt, .chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi, .chroma .vm {
+    color: #1f2c59;
+}
+
+/* Numbers: dark burgundy */
+.chroma .m, .chroma .mb, .chroma .mf, .chroma .mh, .chroma .mi, .chroma .il, .chroma .mo {
+    color: #821516;
 }
 
 table {
