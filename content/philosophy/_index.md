@@ -46,6 +46,15 @@ description: "the design goals behind distill linux"
 <ol>
 <li><strong>drop</strong>: a compact (<40 KB stripped) package installer that checks SHA-256 hashes on the fly and tracks installed files.</li>
 <li><strong>sink</strong>: a source builder that handles git checkouts, builds packages in fakeroot sandboxes, strips binaries, and produces <code>.drop</code> archives.</li>
-<li><strong>runit</strong>: a fast, simple service supervisor that manages processes with minimal overhead.</li>
 </ol>
+</details>
+
+<details open>
+<summary>init & service supervision: runit</summary>
+<p><a href="http://smarden.org/runit/">runit</a> is a fast, simple service supervisor that manages daemons and system startup:</p>
+<ul>
+<li>deterministic 3-stage initialization without complex dependency graphs.</li>
+<li>instant daemon restart upon abnormal termination.</li>
+<li>minimal resource consumption and simple shell run scripts.</li>
+</ul>
 </details>
