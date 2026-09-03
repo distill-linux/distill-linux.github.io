@@ -62,13 +62,14 @@ header h1 {
 }
 
 header h1 a {
-    color: #0a1330;
+    color: #aa2022;
     text-decoration: none;
 }
 
 header h1 a:hover {
     background: transparent;
     color: #aa2022;
+    text-decoration: underline;
 }
 
 #headerSubTitle {

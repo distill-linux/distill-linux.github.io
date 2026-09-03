@@ -1,5 +1,5 @@
 ---
-title: "Ports"
+title: "ports"
 ---
 
 <style>
@@ -131,12 +131,11 @@ article {
 .catalog-link {
     float: right;
     font-size: 0.85em;
-    margin-top: 0.5em;
+    margin-top: -2.2em;
 }
 </style>
 
 <span class="catalog-link">Raw catalog: <a href="index.tsv" style="color: #aa2022;">index.tsv</a></span>
-<h1>packages</h1>
 
 <div class="pkg-search-box">
     <div class="pkg-search-title">Search Criteria</div>
