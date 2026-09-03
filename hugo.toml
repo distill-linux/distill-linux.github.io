@@ -31,10 +31,6 @@ disableKinds = ['taxonomy', 'term']
     weight = 40
 
   [[menu.sidebar]]
-    name = 'ports/'
-    url = '/pkgs/'
-    weight = 5
-  [[menu.sidebar]]
     name = 'docs/'
     url = '/docs/'
     weight = 10
