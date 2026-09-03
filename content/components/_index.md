@@ -6,12 +6,12 @@ description: "technical breakdown of the distill linux architecture"
 <p>distill is assembled from scratch using carefully engineered, minimalist components designed to work in synergy without unnecessary abstraction layers or upstream distribution baggage.</p>
 
 <details open>
-<summary>1. kernel: linux-libre</summary>
-<p>distill uses <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a>, a 100% free software kernel project based on the upstream linux kernel.</p>
+<summary>1. kernel & hardware support: tiered architecture</summary>
+<p>rather than enforcing a single rigid stance on hardware firmware, distill structures kernel support into tiers:</p>
 <ul>
-<li>all proprietary firmware blobs have been completely removed.</li>
-<li>telemetry hooks and corporate analytics/tracing subsystems are stripped.</li>
-<li>all gnu and corporate branding have been cleaned to preserve a pure, distraction-free environment.</li>
+<li><strong>distill-standard (tier 1 / main)</strong>: optimized standard linux kernel with telemetry and tracking stripped out, providing essential modern firmware for WiFi, GPUs, and peripherals.</li>
+<li><strong>distill-libre (tier 2)</strong>: 100% deblobbed <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> kernel for pure free-software hardware.</li>
+<li><strong>distill-t2 (tier 2)</strong>: linux kernel pre-patched with Apple T2 security silicon drivers (SPI keyboard, trackpad, audio, WiFi, Bluetooth, and NVMe).</li>
 </ul>
 </details>
 
@@ -51,6 +51,6 @@ description: "technical breakdown of the distill linux architecture"
 <li><strong>stage0</strong>: host toolchain and hermetic prerequisites.</li>
 <li><strong>stage1</strong>: target cross-toolchain (clang/llvm, musl headers, and sysroot).</li>
 <li><strong>stage2</strong>: pure musl rootfs compilation (toybox, mksh, runit, dropbear, mandoc, drop, sink).</li>
-<li><strong>stage3</strong>: linux-libre kernel integration, initramfs generation, and bootable live ISO production.</li>
+<li><strong>stage3</strong>: kernel integration based on profile (standard, libre, or t2), initramfs generation, and bootable live ISO production.</li>
 </ul>
 </details>

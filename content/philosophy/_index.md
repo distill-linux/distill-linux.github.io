@@ -13,15 +13,20 @@ description: "the principles and motivation behind distill linux"
 
 <p>in distill linux, we apply this exact principle to the operating system:</p>
 <ul>
-<li><strong>the impurities</strong>: proprietary firmware, corporate telemetry, tracking daemons, analytics hooks, artificial vendor lock-in, and bloated duplicate tools.</li>
-<li><strong>the pure distillate</strong>: a clean, posix-conforming, audit-friendly, libre unix-like system where every single binary and line of code serves the user alone.</li>
+<li><strong>the impurities</strong>: corporate telemetry, tracking daemons, analytics hooks, artificial vendor lock-in, and bloated duplicate tools.</li>
+<li><strong>the pure distillate</strong>: a clean, posix-conforming, audit-friendly unix-like system where every single binary and line of code serves the user alone.</li>
 </ul>
 
 <h3>2. our core principles</h3>
 
 <details open>
-<summary>100% free software & libre kernel</summary>
-<p>we believe computing hardware should belong entirely to the user. we reject proprietary closed-source kernel blobs and telemetry daemons. by deploying <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> and stripping out corporate branding and data collection hooks, distill guarantees that your operating system cannot spy on you.</p>
+<summary>practical minimalism & tiered editions</summary>
+<p>we do not arbitrarily sacrifice hardware functionality to satisfy dogmatic extremes. instead, we provide clear tiers:</p>
+<ul>
+<li><strong>distill-standard (tier 1 / main)</strong>: our flagship release. provides pure musl/toybox/mksh minimalism while including practical modern hardware firmware (for WiFi, GPUs, and peripherals) stripped of all corporate telemetry.</li>
+<li><strong>distill-libre (tier 2)</strong>: a 100% deblobbed linux-libre edition for users with open-source hardware who require absolute free-software purity.</li>
+<li><strong>distill-t2 (tier 2)</strong>: dedicated kernel support for Apple T2 Mac computers.</li>
+</ul>
 </details>
 
 <details open>

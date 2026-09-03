@@ -5,8 +5,28 @@ description: "common questions about distill linux"
 
 <details open>
 <summary>why build distill linux from scratch?</summary>
-<p>most modern linux distributions rely on deeply entrenched legacy stacks: sprawling GNU toolchains, complex systemd service graphs, glibc binary bloat, and upstream package trees carrying thousands of non-free firmware blobs and telemetry hooks.</p>
+<p>most modern linux distributions rely on deeply entrenched legacy stacks: sprawling GNU toolchains, complex systemd service graphs, glibc binary bloat, and upstream package trees carrying non-free telemetry hooks.</p>
 <p>distill is built completely from the ground up to achieve total architectural independence and purification. by implementing our own multi-stage cross-compilation pipeline, native package management (<strong>drop & sink</strong>), pure musl libc, toybox, and mksh, distill guarantees a strictly audited, distraction-free environment that answers only to its users.</p>
+</details>
+
+<details open>
+<summary>what are the official distill editions?</summary>
+<p>distill organizes its releases into a primary tier 1 flagship and two tier 2 community editions:</p>
+<ul>
+<li><strong>distill-standard (tier 1 / main)</strong>: our primary release for standard modern PCs and laptops. provides clean minimalism while retaining necessary hardware firmware and drivers for out-of-the-box hardware compatibility.</li>
+<li><strong>distill-libre (tier 2)</strong>: a 100% libre edition running a deblobbed linux-libre kernel for open-hardware enthusiasts and free-software purists.</li>
+<li><strong>distill-t2 (tier 2)</strong>: an edition tailored specifically for Intel-based Apple Macs equipped with the Apple T2 security silicon (MacBook Pro, Air, and Mac mini 2018–2020).</li>
+</ul>
+</details>
+
+<details open>
+<summary>how does distill handle proprietary firmware?</summary>
+<p>we do not completely remove proprietary firmware from the entire project—instead, we provide distinct editions:</p>
+<ul>
+<li>our main version, <strong>distill-standard</strong>, includes essential hardware firmware so that devices like modern Intel/AMD/Broadcom WiFi cards, Bluetooth, and GPUs work out of the box without corporate telemetry.</li>
+<li>for users who demand absolute blob-free purity, we provide <strong>distill-libre</strong>, which removes all non-free firmware and uses the linux-libre kernel.</li>
+<li>for Apple T2 Mac hardware, <strong>distill-t2</strong> packages the required Apple T2 firmware and drivers.</li>
+</ul>
 </details>
 
 <details open>
@@ -32,14 +52,9 @@ description: "common questions about distill linux"
 </details>
 
 <details>
-<summary>is any proprietary software allowed in distill?</summary>
-<p>no. the core repositories of distill do not package or distribute closed-source binaries, drm blobs, or proprietary drivers. if hardware requires closed binary firmware to function, you will need libre-compatible hardware or libre firmware equivalents.</p>
-</details>
-
-<details>
 <summary>how does distill strip telemetry and corporate branding?</summary>
 <ul>
-<li><strong>kernel</strong>: built with linux-libre deblobbing scripts, purging non-free microcode and corporate telemetry drivers.</li>
+<li><strong>kernel</strong>: builds scrub analytics hooks, corporate telemetry daemons, and tracking subsystems.</li>
 <li><strong>base system</strong>: removed any package reporting, crash report hooks, or phone-home daemons.</li>
 <li><strong>software ports</strong>: packages are compiled with privacy-preserving flags (telemetry disabled at compile time).</li>
 </ul>
