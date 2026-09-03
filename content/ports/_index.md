@@ -1,9 +1,9 @@
 ---
-title: "Packages"
+title: "Ports"
 ---
 
 <style>
-/* Spread packages page to the edge of the screen */
+/* Spread ports page to the edge of the screen */
 article {
     max-width: none !important;
     margin-right: 2em !important;
@@ -130,7 +130,7 @@ article {
 </style>
 
 <span class="catalog-link">Raw catalog: <a href="index.tsv">index.tsv</a></span>
-<h1>Packages</h1>
+<h1>Ports</h1>
 
 <div class="pkg-search-box">
     <div class="pkg-search-title">Search Criteria</div>

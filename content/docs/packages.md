@@ -15,7 +15,7 @@ description: "guide to native package management with drop and sink in distill l
 
 ```sh
 # configure official repository URL
-export DROP_REPO_URL="https://distill-linux.github.io/pkgs"
+export DROP_REPO_URL="https://distill-linux.github.io/ports"
 
 # synchronize repository catalog (index.tsv)
 drop update

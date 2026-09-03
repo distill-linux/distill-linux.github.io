@@ -1,5 +1,0 @@
-# Distill Linux Package Catalog
-# NAME	VERSION	SHA256	SIZE	FILENAME	DEPENDS
-drop	0.1.0	662005ed917cc73ff963efe3c8d32e9851822c1b86b717ced589ff5f2f5a04b1	14942	drop-0.1.0.drop	
-samurai	1.2	8a0b2a4006d9c80f96ea973bedad05a04e588a8de51a9de0b94e195b11f12831	27965	samurai-1.2.drop	
-sink	0.1.0	c58220b2e529ffd4049ee9488d7fdc41e9c2e5815a3ace95d15eccb3621046ce	13790	sink-0.1.0.drop	libgit2 curl

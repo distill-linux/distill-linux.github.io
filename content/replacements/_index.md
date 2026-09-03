@@ -51,7 +51,7 @@ description: "components chosen in distill for simplicity and minimalism"
 </tr>
 <tr>
 <td>gnu make / gcc</td>
-<td><a href="/pkgs/">samurai & clang</a></td>
+<td><a href="/ports/">samurai & clang</a></td>
 <td>fast C99 ninja-compatible build engine and modern LLVM toolchain</td>
 </tr>
 </tbody>
