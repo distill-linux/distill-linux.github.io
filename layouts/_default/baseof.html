@@ -7,6 +7,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+        (function() {
+            if (localStorage.getItem('distill-inverted') === 'true') {
+                document.documentElement.classList.add('inverted');
+            }
+        })();
+        function toggleInvert() {
+            var isInv = document.documentElement.classList.toggle('inverted');
+            try {
+                localStorage.setItem('distill-inverted', isInv ? 'true' : 'false');
+            } catch (e) {}
+        }
+    </script>
 </head>
 <body>
 <header>
@@ -16,6 +29,7 @@
             {{- if gt $index 0 }} | {{ end -}}
             <a href="{{ $element.URL }}">{{ $element.Name }}</a>
         {{- end -}}
+            | <a href="javascript:void(0)" onclick="toggleInvert()" id="invert-toggle" title="Invert colors">invert</a>
         </div>
     </nav>
     <h1><a href="/">distill <span id="headerSubTitle">{{ .Site.Params.tagline }}</span></a></h1>

@@ -1,4 +1,22 @@
 /* bare werc / cat-v / derive style with distill #b4bbed theme & #aa2022 link color */
+html {
+    background: #b4bbed;
+}
+
+html.inverted {
+    filter: invert(1) hue-rotate(180deg);
+    background: #b4bbed;
+}
+
+html.inverted img,
+html.inverted video {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+html.inverted .distill-hero {
+    filter: none;
+}
+
 body {
     font-family: sans-serif;
     margin: 1.5em 2.5em;
