@@ -181,7 +181,7 @@ article {
         </tr>
     </thead>
     <tbody id="pkg-body">
-        <tr class="pkg-row" data-name="alacritty" data-desc="cross-platform, gpu-accelerated terminal emulator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="alacritty" data-desc="cross-platform, gpu-accelerated terminal emulator" data-date="2026-09-02" data-size="3487639">
             <td><a class="pkg-name" href="https://github.com/alacritty/alacritty" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alacritty</a></td>
             <td><span class="pkg-tag">0.17.0-1</span></td>
             <td>
@@ -191,11 +191,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/alacritty.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">alacritty.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="alacritty-0.17.0.drop" download style="font-weight: bold; color: #aa2022;">alacritty-0.17.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="alsa-lib" data-desc="advanced linux sound architecture (alsa) library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="alsa-lib" data-desc="advanced linux sound architecture (alsa) library" data-date="2026-09-02" data-size="552780">
             <td><a class="pkg-name" href="https://www.alsa-project.org/wiki/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alsa-lib</a></td>
             <td><span class="pkg-tag">1.2.16.1-1</span></td>
             <td>
@@ -205,11 +205,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/alsa-lib.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">alsa-lib.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="alsa-lib-1.2.16.1.drop" download style="font-weight: bold; color: #aa2022;">alsa-lib-1.2.16.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">539.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="alsa-utils" data-desc="advanced linux sound architecture (alsa) utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="alsa-utils" data-desc="advanced linux sound architecture (alsa) utilities" data-date="2026-09-02" data-size="1380076">
             <td><a class="pkg-name" href="https://www.alsa-project.org/wiki/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alsa-utils</a></td>
             <td><span class="pkg-tag">1.2.16-1</span></td>
             <td>
@@ -219,11 +219,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/alsa-utils.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">alsa-utils.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="alsa-utils-1.2.16.drop" download style="font-weight: bold; color: #aa2022;">alsa-utils-1.2.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-02" data-size="993107">
             <td><a class="pkg-name" href="http://www.gnu.org/software/autoconf" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">autoconf</a></td>
             <td><span class="pkg-tag">2.73-1</span></td>
             <td>
@@ -233,11 +233,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/autoconf.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">autoconf.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="autoconf-2.73.drop" download style="font-weight: bold; color: #aa2022;">autoconf-2.73.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">969.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="automake" data-desc="gnu standards-compliant makefile generator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="automake" data-desc="gnu standards-compliant makefile generator" data-date="2026-09-02" data-size="679196">
             <td><a class="pkg-name" href="https://www.gnu.org/software/automake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">automake</a></td>
             <td><span class="pkg-tag">1.16.5-1</span></td>
             <td>
@@ -247,11 +247,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/automake.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">automake.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="automake-1.16.5.drop" download style="font-weight: bold; color: #aa2022;">automake-1.16.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">663.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="azpainter" data-desc="painting software for illustrations and image editing" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="azpainter" data-desc="painting software for illustrations and image editing" data-date="2026-09-02" data-size="847265">
             <td><a class="pkg-name" href="https://azelpg.gitlab.io/azsky2" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">azpainter</a></td>
             <td><span class="pkg-tag">3.0.12-1</span></td>
             <td>
@@ -261,11 +261,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/azpainter.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">azpainter.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="azpainter-3.0.12.drop" download style="font-weight: bold; color: #aa2022;">azpainter-3.0.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">827.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="badwolf" data-desc="minimalist and privacy-oriented webkitgtk+ browser" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="badwolf" data-desc="minimalist and privacy-oriented webkitgtk+ browser" data-date="2026-09-02" data-size="92647">
             <td><a class="pkg-name" href="https://hacktivis.me/projects/badwolf" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">badwolf</a></td>
             <td><span class="pkg-tag">1.4.0-1</span></td>
             <td>
@@ -275,11 +275,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/badwolf.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">badwolf.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="badwolf-1.4.0.drop" download style="font-weight: bold; color: #aa2022;">badwolf-1.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">90.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bearssl" data-desc="implementation of the ssl/tls protocol in c" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="bearssl" data-desc="implementation of the ssl/tls protocol in c" data-date="2026-09-02" data-size="370393">
             <td><a class="pkg-name" href="https://bearssl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bearssl</a></td>
             <td><span class="pkg-tag">0.6-1</span></td>
             <td>
@@ -289,11 +289,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/bearssl.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">bearssl.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="bearssl-0.6.drop" download style="font-weight: bold; color: #aa2022;">bearssl-0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">361.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="binutils" data-desc="gnu binary utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="binutils" data-desc="gnu binary utilities" data-date="2026-09-02" data-size="2216760">
             <td><a class="pkg-name" href="http://www.gnu.org/software/binutils/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">binutils</a></td>
             <td><span class="pkg-tag">2.44-1</span></td>
             <td>
@@ -303,11 +303,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/binutils.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">binutils.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="binutils-2.44.drop" download style="font-weight: bold; color: #aa2022;">binutils-2.44.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.1 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bitmap" data-desc="bitmap editor and converter utilities for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="bitmap" data-desc="bitmap editor and converter utilities for x" data-date="2026-09-02" data-size="62033">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bitmap</a></td>
             <td><span class="pkg-tag">1.1.2-1</span></td>
             <td>
@@ -317,11 +317,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/bitmap.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">bitmap.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="bitmap-1.1.2.drop" download style="font-weight: bold; color: #aa2022;">bitmap-1.1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">60.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bsd-mk-files" data-desc="system bmake mk files" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="bsd-mk-files" data-desc="system bmake mk files" data-date="2026-09-02" data-size="354">
             <td><a class="pkg-name" href="https://github.com/crux-arm/mk-files" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bsd-mk-files</a></td>
             <td><span class="pkg-tag">20240414-1</span></td>
             <td>
@@ -331,11 +331,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/bsd-mk-files.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">bsd-mk-files.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="bsd-mk-files-20240414.drop" download style="font-weight: bold; color: #aa2022;">bsd-mk-files-20240414.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">354 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bsdmake" data-desc="bsd make (bmake) ported from netbsd" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="bsdmake" data-desc="bsd make (bmake) ported from netbsd" data-date="2026-09-02" data-size="241982">
             <td><a class="pkg-name" href="https://github.com/crux-arm/bmake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bsdmake</a></td>
             <td><span class="pkg-tag">20240414-1</span></td>
             <td>
@@ -345,11 +345,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/bsdmake.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">bsdmake.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="bsdmake-20240414.drop" download style="font-weight: bold; color: #aa2022;">bsdmake-20240414.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">236.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="btrfs-progs" data-desc="btrfs filesystem utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="btrfs-progs" data-desc="btrfs filesystem utilities" data-date="2026-09-02" data-size="3023456">
             <td><a class="pkg-name" href="https://btrfs.wiki.kernel.org/index.php/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">btrfs-progs</a></td>
             <td><span class="pkg-tag">6.11-1</span></td>
             <td>
@@ -359,11 +359,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/btrfs-progs.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">btrfs-progs.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="btrfs-progs-6.11.drop" download style="font-weight: bold; color: #aa2022;">btrfs-progs-6.11.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.9 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="byacc" data-desc="berkeley yacc, a lalr(1) parser generator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="byacc" data-desc="berkeley yacc, a lalr(1) parser generator" data-date="2026-09-02" data-size="78108">
             <td><a class="pkg-name" href="https://invisible-island.net/byacc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">byacc</a></td>
             <td><span class="pkg-tag">20260126-1</span></td>
             <td>
@@ -373,11 +373,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/byacc.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">byacc.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="byacc-20260126.drop" download style="font-weight: bold; color: #aa2022;">byacc-20260126.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">76.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="ca-certificates" data-desc="common ca certificates for ssl/tls from mozilla" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="ca-certificates" data-desc="common ca certificates for ssl/tls from mozilla" data-date="2026-09-02" data-size="166292">
             <td><a class="pkg-name" href="https://wiki.mozilla.org/NSS:Root_certs" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">ca-certificates</a></td>
             <td><span class="pkg-tag">20250419+3.127-1</span></td>
             <td>
@@ -387,11 +387,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/ca-certificates.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">ca-certificates.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="ca-certificates-20250419+3.127.drop" download style="font-weight: bold; color: #aa2022;">ca-certificates-20250419+3.127.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">162.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="cage" data-desc="kiosk compositor for wayland" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="cage" data-desc="kiosk compositor for wayland" data-date="2026-09-02" data-size="24221">
             <td><a class="pkg-name" href="https://www.hjdskes.nl/projects/cage/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cage</a></td>
             <td><span class="pkg-tag">0.3.0-1</span></td>
             <td>
@@ -401,11 +401,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/cage.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">cage.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="cage-0.3.0.drop" download style="font-weight: bold; color: #aa2022;">cage-0.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="cairo" data-desc="vector graphics library with cross-device output support" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="cairo" data-desc="vector graphics library with cross-device output support" data-date="2026-09-02" data-size="659276">
             <td><a class="pkg-name" href="https://cairographics.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cairo</a></td>
             <td><span class="pkg-tag">1.18.4-1</span></td>
             <td>
@@ -415,11 +415,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/cairo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">cairo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="cairo-1.18.4.drop" download style="font-weight: bold; color: #aa2022;">cairo-1.18.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">643.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="cargo" data-desc="rust package manager" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="cargo" data-desc="rust package manager" data-date="2026-09-02" data-size="11235090">
             <td><a class="pkg-name" href="https://crates.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cargo</a></td>
             <td><span class="pkg-tag">1.98.0-1</span></td>
             <td>
@@ -429,11 +429,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/cargo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">cargo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="cargo-1.98.0.drop" download style="font-weight: bold; color: #aa2022;">cargo-1.98.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.7 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="chrony" data-desc="versatile implementation of the network time protocol (ntp)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="chrony" data-desc="versatile implementation of the network time protocol (ntp)" data-date="2026-09-02" data-size="299696">
             <td><a class="pkg-name" href="https://chrony-project.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">chrony</a></td>
             <td><span class="pkg-tag">4.8-1</span></td>
             <td>
@@ -443,11 +443,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/chrony.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">chrony.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="chrony-4.8.drop" download style="font-weight: bold; color: #aa2022;">chrony-4.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">292.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="clang" data-desc="llvm meta package" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="clang" data-desc="llvm meta package" data-date="2026-09-02" data-size="254">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">clang</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -457,11 +457,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/clang.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">clang.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="clang-21.drop" download style="font-weight: bold; color: #aa2022;">clang-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">254 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="compiler-rt" data-desc="llvm meta package" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="compiler-rt" data-desc="llvm meta package" data-date="2026-09-02" data-size="265">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">compiler-rt</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -471,11 +471,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/compiler-rt.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">compiler-rt.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="compiler-rt-21.drop" download style="font-weight: bold; color: #aa2022;">compiler-rt-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">265 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="cproc" data-desc="c11 compiler using qbe as backend written by michael forney" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="cproc" data-desc="c11 compiler using qbe as backend written by michael forney" data-date="2026-09-02" data-size="365">
             <td><a class="pkg-name" href="https://github.com/michaelforney/cproc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cproc</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -485,11 +485,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/cproc.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">cproc.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="cproc-main.drop" download style="font-weight: bold; color: #aa2022;">cproc-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">365 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="cryptsetup" data-desc="setup virtual encryption devices under linux dm-crypt" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="cryptsetup" data-desc="setup virtual encryption devices under linux dm-crypt" data-date="2026-09-02" data-size="910026">
             <td><a class="pkg-name" href="https://gitlab.com/cryptsetup/cryptsetup" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cryptsetup</a></td>
             <td><span class="pkg-tag">2.8.7-1</span></td>
             <td>
@@ -499,11 +499,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/cryptsetup.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">cryptsetup.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="cryptsetup-2.8.7.drop" download style="font-weight: bold; color: #aa2022;">cryptsetup-2.8.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">888.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="curl" data-desc="client that groks urls" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="curl" data-desc="client that groks urls" data-date="2026-09-02" data-size="284976">
             <td><a class="pkg-name" href="https://curl.se" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">curl</a></td>
             <td><span class="pkg-tag">8.21.0-1</span></td>
             <td>
@@ -513,11 +513,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/curl.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">curl.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="curl-8.21.0.drop" download style="font-weight: bold; color: #aa2022;">curl-8.21.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">278.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dav1d" data-desc="small and fast av1 decoder" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dav1d" data-desc="small and fast av1 decoder" data-date="2026-09-02" data-size="18716">
             <td><a class="pkg-name" href="https://code.videolan.org/videolan/dav1d" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dav1d</a></td>
             <td><span class="pkg-tag">1.5.3-1</span></td>
             <td>
@@ -527,11 +527,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dav1d.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dav1d.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dav1d-1.5.3.drop" download style="font-weight: bold; color: #aa2022;">dav1d-1.5.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dbus" data-desc="message bus system" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dbus" data-desc="message bus system" data-date="2026-09-02" data-size="163805">
             <td><a class="pkg-name" href="https://dbus.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dbus</a></td>
             <td><span class="pkg-tag">1.16.2-1</span></td>
             <td>
@@ -541,11 +541,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dbus.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dbus.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dbus-1.16.2.drop" download style="font-weight: bold; color: #aa2022;">dbus-1.16.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">160.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dejavu-fonts-ttf" data-desc="dejavu family of truetype fonts" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dejavu-fonts-ttf" data-desc="dejavu family of truetype fonts" data-date="2026-09-02" data-size="5421004">
             <td><a class="pkg-name" href="https://dejavu-fonts.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dejavu-fonts-ttf</a></td>
             <td><span class="pkg-tag">2.37-1</span></td>
             <td>
@@ -555,11 +555,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dejavu-fonts-ttf.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dejavu-fonts-ttf.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dejavu-fonts-ttf-2.37.drop" download style="font-weight: bold; color: #aa2022;">dejavu-fonts-ttf-2.37.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dhcpcd" data-desc="rfc2131 compliant dhcp client" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dhcpcd" data-desc="rfc2131 compliant dhcp client" data-date="2026-09-02" data-size="206860">
             <td><a class="pkg-name" href="https://roy.marples.name/projects/dhcpcd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dhcpcd</a></td>
             <td><span class="pkg-tag">10.3.2-1</span></td>
             <td>
@@ -569,11 +569,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dhcpcd.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dhcpcd.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dhcpcd-10.3.2.drop" download style="font-weight: bold; color: #aa2022;">dhcpcd-10.3.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">202.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="diffutils" data-desc="gnu diff utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="diffutils" data-desc="gnu diff utilities" data-date="2026-09-02" data-size="639231">
             <td><a class="pkg-name" href="https://www.gnu.org/software/diffutils" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">diffutils</a></td>
             <td><span class="pkg-tag">3.12-1</span></td>
             <td>
@@ -583,11 +583,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/diffutils.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">diffutils.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="diffutils-3.12.drop" download style="font-weight: bold; color: #aa2022;">diffutils-3.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">624.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dillo" data-desc="small and light graphical web browser" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dillo" data-desc="small and light graphical web browser" data-date="2026-09-02" data-size="800804">
             <td><a class="pkg-name" href="https://dillo-browser.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dillo</a></td>
             <td><span class="pkg-tag">3.3.0-1</span></td>
             <td>
@@ -597,11 +597,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dillo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dillo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dillo-3.3.0.drop" download style="font-weight: bold; color: #aa2022;">dillo-3.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">782.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dmenu" data-desc="generic menu for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dmenu" data-desc="generic menu for x" data-date="2026-09-02" data-size="21444">
             <td><a class="pkg-name" href="https://tools.suckless.org/dmenu/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dmenu</a></td>
             <td><span class="pkg-tag">5.4-1</span></td>
             <td>
@@ -611,11 +611,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dmenu.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dmenu.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dmenu-5.4.drop" download style="font-weight: bold; color: #aa2022;">dmenu-5.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">20.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dosfstools" data-desc="dos filesystem tools" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dosfstools" data-desc="dos filesystem tools" data-date="2026-09-02" data-size="94489">
             <td><a class="pkg-name" href="https://github.com/dosfstools/dosfstools" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dosfstools</a></td>
             <td><span class="pkg-tag">4.2-1</span></td>
             <td>
@@ -625,8 +625,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dosfstools.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dosfstools.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dosfstools-4.2.drop" download style="font-weight: bold; color: #aa2022;">dosfstools-4.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">92.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-02" data-size="14942">
@@ -643,7 +643,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">14.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dropbear" data-desc="small ssh server and client" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dropbear" data-desc="small ssh server and client" data-date="2026-09-02" data-size="295113">
             <td><a class="pkg-name" href="https://matt.ucc.asn.au/dropbear/dropbear.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dropbear</a></td>
             <td><span class="pkg-tag">2025.89-1</span></td>
             <td>
@@ -653,11 +653,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dropbear.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dropbear.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dropbear-2025.89.drop" download style="font-weight: bold; color: #aa2022;">dropbear-2025.89.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">288.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dwl" data-desc="compact, hackable wayland compositor based on wlroots" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dwl" data-desc="compact, hackable wayland compositor based on wlroots" data-date="2026-09-02" data-size="354">
             <td><a class="pkg-name" href="https://codeberg.org/dwl/dwl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dwl</a></td>
             <td><span class="pkg-tag">0.6-1</span></td>
             <td>
@@ -667,11 +667,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dwl.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dwl.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dwl-0.6.drop" download style="font-weight: bold; color: #aa2022;">dwl-0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">354 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dwm" data-desc="dynamic window manager for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="dwm" data-desc="dynamic window manager for x" data-date="2026-09-02" data-size="30691">
             <td><a class="pkg-name" href="https://dwm.suckless.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dwm</a></td>
             <td><span class="pkg-tag">6.8-1</span></td>
             <td>
@@ -681,11 +681,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/dwm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">dwm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="dwm-6.8.drop" download style="font-weight: bold; color: #aa2022;">dwm-6.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">30.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="e2fsprogs" data-desc="ext2/3/4 filesystem utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="e2fsprogs" data-desc="ext2/3/4 filesystem utilities" data-date="2026-09-02" data-size="1717230">
             <td><a class="pkg-name" href="http://e2fsprogs.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">e2fsprogs</a></td>
             <td><span class="pkg-tag">1.47.2-1</span></td>
             <td>
@@ -695,11 +695,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/e2fsprogs.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">e2fsprogs.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="e2fsprogs-1.47.2.drop" download style="font-weight: bold; color: #aa2022;">e2fsprogs-1.47.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.6 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="efibootmgr" data-desc="tool to modify uefi firmware boot manager variables" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="efibootmgr" data-desc="tool to modify uefi firmware boot manager variables" data-date="2026-09-02" data-size="30668">
             <td><a class="pkg-name" href="https://github.com/rhboot/efibootmgr" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">efibootmgr</a></td>
             <td><span class="pkg-tag">18-1</span></td>
             <td>
@@ -709,11 +709,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/efibootmgr.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">efibootmgr.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="efibootmgr-18.drop" download style="font-weight: bold; color: #aa2022;">efibootmgr-18.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">29.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="eudev" data-desc="fork of systemd-udev (enhanced userland device daemon)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="eudev" data-desc="fork of systemd-udev (enhanced userland device daemon)" data-date="2026-09-02" data-size="1918959">
             <td><a class="pkg-name" href="https://github.com/eudev-project/eudev" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">eudev</a></td>
             <td><span class="pkg-tag">3.2.14-1</span></td>
             <td>
@@ -723,11 +723,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/eudev.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">eudev.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="eudev-3.2.14.drop" download style="font-weight: bold; color: #aa2022;">eudev-3.2.14.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-02" data-size="322">
             <td><a class="pkg-name" href="https://github.com/distill-linux/fbpad" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fbpad</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -737,11 +737,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/fbpad.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">fbpad.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="fbpad-1.0.drop" download style="font-weight: bold; color: #aa2022;">fbpad-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">322 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fbv" data-desc="framebuffer image viewer" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fbv" data-desc="framebuffer image viewer" data-date="2026-09-02" data-size="15717">
             <td><a class="pkg-name" href="http://www.eclis.ch/fbv/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fbv</a></td>
             <td><span class="pkg-tag">1.0b-1</span></td>
             <td>
@@ -751,11 +751,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/fbv.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">fbv.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="fbv-1.0b.drop" download style="font-weight: bold; color: #aa2022;">fbv-1.0b.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">15.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="feh" data-desc="fast and light imlib2-based image viewer" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="feh" data-desc="fast and light imlib2-based image viewer" data-date="2026-09-02" data-size="206739">
             <td><a class="pkg-name" href="https://feh.finalrewind.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">feh</a></td>
             <td><span class="pkg-tag">3.12.2-1</span></td>
             <td>
@@ -765,11 +765,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/feh.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">feh.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="feh-3.12.2.drop" download style="font-weight: bold; color: #aa2022;">feh-3.12.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">201.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="ffmpeg" data-desc="decoding, encoding and streaming software (transitional dummy package)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="ffmpeg" data-desc="decoding, encoding and streaming software (transitional dummy package)" data-date="2026-09-02" data-size="334">
             <td><a class="pkg-name" href="https://www.ffmpeg.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">ffmpeg</a></td>
             <td><span class="pkg-tag">4.4.8-1</span></td>
             <td>
@@ -779,11 +779,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/ffmpeg.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">ffmpeg.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="ffmpeg-4.4.8.drop" download style="font-weight: bold; color: #aa2022;">ffmpeg-4.4.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">334 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fim" data-desc="fbi improved - image viewer" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fim" data-desc="fbi improved - image viewer" data-date="2026-09-02" data-size="821874">
             <td><a class="pkg-name" href="https://www.nongnu.org/fbi-improved/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fim</a></td>
             <td><span class="pkg-tag">0.7.1-1</span></td>
             <td>
@@ -793,11 +793,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/fim.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">fim.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="fim-0.7.1.drop" download style="font-weight: bold; color: #aa2022;">fim-0.7.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">802.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="flac" data-desc="free lossless audio codec" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="flac" data-desc="free lossless audio codec" data-date="2026-09-02" data-size="188154">
             <td><a class="pkg-name" href="https://xiph.org/flac/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flac</a></td>
             <td><span class="pkg-tag">1.5.0-1</span></td>
             <td>
@@ -807,11 +807,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/flac.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">flac.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="flac-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">flac-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">183.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="flex" data-desc="fast lexical analyzer" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="flex" data-desc="fast lexical analyzer" data-date="2026-09-02" data-size="352541">
             <td><a class="pkg-name" href="https://github.com/westes/flex" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flex</a></td>
             <td><span class="pkg-tag">2.6.4-1</span></td>
             <td>
@@ -821,11 +821,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/flex.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">flex.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="flex-2.6.4.drop" download style="font-weight: bold; color: #aa2022;">flex-2.6.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">344.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="font-awesome" data-desc="an iconic font" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="font-awesome" data-desc="an iconic font" data-date="2026-09-02" data-size="111594">
             <td><a class="pkg-name" href="https://fontawesome.com/v4.7.0/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">font-awesome</a></td>
             <td><span class="pkg-tag">4.7.0-1</span></td>
             <td>
@@ -835,11 +835,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/font-awesome.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">font-awesome.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="font-awesome-4.7.0.drop" download style="font-weight: bold; color: #aa2022;">font-awesome-4.7.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">109.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fontconfig" data-desc="library for configuring and customizing font access" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fontconfig" data-desc="library for configuring and customizing font access" data-date="2026-09-02" data-size="202741">
             <td><a class="pkg-name" href="http://www.fontconfig.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fontconfig</a></td>
             <td><span class="pkg-tag">2.17.1-1</span></td>
             <td>
@@ -849,11 +849,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/fontconfig.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">fontconfig.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="fontconfig-2.17.1.drop" download style="font-weight: bold; color: #aa2022;">fontconfig-2.17.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">198.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="foot" data-desc="fast, lightweight, and minimalistic wayland terminal emulator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="foot" data-desc="fast, lightweight, and minimalistic wayland terminal emulator" data-date="2026-09-02" data-size="378964">
             <td><a class="pkg-name" href="https://codeberg.org/dnkl/foot" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">foot</a></td>
             <td><span class="pkg-tag">1.17.2-1</span></td>
             <td>
@@ -863,11 +863,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/foot.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">foot.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="foot-1.17.2.drop" download style="font-weight: bold; color: #aa2022;">foot-1.17.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">370.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="freetype" data-desc="font rendering engine and library api" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="freetype" data-desc="font rendering engine and library api" data-date="2026-09-02" data-size="398555">
             <td><a class="pkg-name" href="https://www.freetype.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">freetype</a></td>
             <td><span class="pkg-tag">2.14.3-1</span></td>
             <td>
@@ -877,11 +877,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/freetype.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">freetype.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="freetype-2.14.3.drop" download style="font-weight: bold; color: #aa2022;">freetype-2.14.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">389.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fribidi" data-desc="free implementation of the unicode bidirectional algorithm" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fribidi" data-desc="free implementation of the unicode bidirectional algorithm" data-date="2026-09-02" data-size="32494">
             <td><a class="pkg-name" href="https://github.com/fribidi/fribidi/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fribidi</a></td>
             <td><span class="pkg-tag">1.0.16-1</span></td>
             <td>
@@ -891,11 +891,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/fribidi.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">fribidi.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="fribidi-1.0.16.drop" download style="font-weight: bold; color: #aa2022;">fribidi-1.0.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">31.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fslsfonts" data-desc="fslsfonts package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fslsfonts" data-desc="fslsfonts package for distill linux" data-date="2026-09-02" data-size="276">
             <td><a class="pkg-name" href="https://github.com/distill-linux/fslsfonts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fslsfonts</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -905,11 +905,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/fslsfonts.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">fslsfonts.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="fslsfonts-1.0.drop" download style="font-weight: bold; color: #aa2022;">fslsfonts-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">276 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fuzzel" data-desc="application launcher for wlroots based wayland compositors" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fuzzel" data-desc="application launcher for wlroots based wayland compositors" data-date="2026-09-02" data-size="125749">
             <td><a class="pkg-name" href="https://codeberg.org/dnkl/fuzzel" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fuzzel</a></td>
             <td><span class="pkg-tag">1.14.1-1</span></td>
             <td>
@@ -919,11 +919,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/fuzzel.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">fuzzel.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="fuzzel-1.14.1.drop" download style="font-weight: bold; color: #aa2022;">fuzzel-1.14.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">122.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="giflib" data-desc="library to handle, display and manipulate gif images" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="giflib" data-desc="library to handle, display and manipulate gif images" data-date="2026-09-02" data-size="48656">
             <td><a class="pkg-name" href="https://sourceforge.net/projects/giflib/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">giflib</a></td>
             <td><span class="pkg-tag">6.1.3-1</span></td>
             <td>
@@ -933,11 +933,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/giflib.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">giflib.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="giflib-6.1.3.drop" download style="font-weight: bold; color: #aa2022;">giflib-6.1.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">47.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="glslang" data-desc="khronos reference front-end for glsl, essl, and sample spir-v generator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="glslang" data-desc="khronos reference front-end for glsl, essl, and sample spir-v generator" data-date="2026-09-02" data-size="3344300">
             <td><a class="pkg-name" href="https://github.com/KhronosGroup/glslang" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">glslang</a></td>
             <td><span class="pkg-tag">16.3.0-1</span></td>
             <td>
@@ -947,11 +947,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/glslang.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">glslang.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="glslang-16.3.0.drop" download style="font-weight: bold; color: #aa2022;">glslang-16.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="go" data-desc="go programming language" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="go" data-desc="go programming language" data-date="2026-09-02" data-size="64215375">
             <td><a class="pkg-name" href="https://go.dev/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">go</a></td>
             <td><span class="pkg-tag">1.26.5-1</span></td>
             <td>
@@ -961,11 +961,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/go.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">go.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="go-1.26.5.drop" download style="font-weight: bold; color: #aa2022;">go-1.26.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">61.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="gptfdisk" data-desc="gpt fdisk text-mode partitioning tool" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="gptfdisk" data-desc="gpt fdisk text-mode partitioning tool" data-date="2026-09-02" data-size="357959">
             <td><a class="pkg-name" href="https://www.rodsbooks.com/gdisk/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gptfdisk</a></td>
             <td><span class="pkg-tag">1.0.10-1</span></td>
             <td>
@@ -975,11 +975,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/gptfdisk.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">gptfdisk.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="gptfdisk-1.0.10.drop" download style="font-weight: bold; color: #aa2022;">gptfdisk-1.0.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">349.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="grim" data-desc="grab images from a wayland compositor" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="grim" data-desc="grab images from a wayland compositor" data-date="2026-09-02" data-size="19112">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/emersion/grim" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">grim</a></td>
             <td><span class="pkg-tag">1.5.0-1</span></td>
             <td>
@@ -989,11 +989,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/grim.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">grim.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="grim-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">grim-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="harfbuzz" data-desc="opentype text shaping engine" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="harfbuzz" data-desc="opentype text shaping engine" data-date="2026-09-02" data-size="153767">
             <td><a class="pkg-name" href="https://harfbuzz.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">harfbuzz</a></td>
             <td><span class="pkg-tag">14.3.1-1</span></td>
             <td>
@@ -1003,11 +1003,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/harfbuzz.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">harfbuzz.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="harfbuzz-14.3.1.drop" download style="font-weight: bold; color: #aa2022;">harfbuzz-14.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">150.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="hsetroot" data-desc="tool which changes x server wallpapers" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="hsetroot" data-desc="tool which changes x server wallpapers" data-date="2026-09-02" data-size="10381">
             <td><a class="pkg-name" href="https://github.com/himdel/hsetroot" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">hsetroot</a></td>
             <td><span class="pkg-tag">1.0.5-1</span></td>
             <td>
@@ -1017,11 +1017,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/hsetroot.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">hsetroot.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="hsetroot-1.0.5.drop" download style="font-weight: bold; color: #aa2022;">hsetroot-1.0.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="imv" data-desc="image viewer for x11/wayland" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="imv" data-desc="image viewer for x11/wayland" data-date="2026-09-02" data-size="116835">
             <td><a class="pkg-name" href="https://sr.ht/~exec64/imv/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">imv</a></td>
             <td><span class="pkg-tag">5.0.1-1</span></td>
             <td>
@@ -1031,11 +1031,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/imv.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">imv.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="imv-5.0.1.drop" download style="font-weight: bold; color: #aa2022;">imv-5.0.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">114.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="iproute2" data-desc="ip routing utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="iproute2" data-desc="ip routing utilities" data-date="2026-09-02" data-size="1752921">
             <td><a class="pkg-name" href="https://wiki.linuxfoundation.org/networking/iproute2" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">iproute2</a></td>
             <td><span class="pkg-tag">7.1.0-1</span></td>
             <td>
@@ -1045,11 +1045,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/iproute2.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">iproute2.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="iproute2-7.1.0.drop" download style="font-weight: bold; color: #aa2022;">iproute2-7.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="kitty" data-desc="modern, hackable, featureful, opengl based terminal emulator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="kitty" data-desc="modern, hackable, featureful, opengl based terminal emulator" data-date="2026-09-02" data-size="12690403">
             <td><a class="pkg-name" href="https://sw.kovidgoyal.net/kitty/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kitty</a></td>
             <td><span class="pkg-tag">0.48.2-1</span></td>
             <td>
@@ -1059,11 +1059,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/kitty.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">kitty.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="kitty-0.48.2.drop" download style="font-weight: bold; color: #aa2022;">kitty-0.48.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.1 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="kitty-terminfo" data-desc="modern, hackable, featureful, opengl based terminal emulator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="kitty-terminfo" data-desc="modern, hackable, featureful, opengl based terminal emulator" data-date="2026-09-02" data-size="2290">
             <td><a class="pkg-name" href="https://sw.kovidgoyal.net/kitty/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kitty-terminfo</a></td>
             <td><span class="pkg-tag">0.48.2-1</span></td>
             <td>
@@ -1073,11 +1073,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/kitty-terminfo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">kitty-terminfo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="kitty-terminfo-0.48.2.drop" download style="font-weight: bold; color: #aa2022;">kitty-terminfo-0.48.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="kmscon" data-desc="linux kms/drm based virtual console emulator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="kmscon" data-desc="linux kms/drm based virtual console emulator" data-date="2026-09-02" data-size="1361902">
             <td><a class="pkg-name" href="https://github.com/kmscon/kmscon" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kmscon</a></td>
             <td><span class="pkg-tag">9.3.4-1</span></td>
             <td>
@@ -1087,11 +1087,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/kmscon.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">kmscon.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="kmscon-9.3.4.drop" download style="font-weight: bold; color: #aa2022;">kmscon-9.3.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libX11" data-desc="base x libraries from xorg" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libX11" data-desc="base x libraries from xorg" data-date="2026-09-02" data-size="1545271">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libx11" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libX11</a></td>
             <td><span class="pkg-tag">1.8.13-1</span></td>
             <td>
@@ -1101,11 +1101,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libX11.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libX11.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libX11-1.8.13.drop" download style="font-weight: bold; color: #aa2022;">libX11-1.8.13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.5 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXScrnSaver" data-desc="x11 screen saver library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXScrnSaver" data-desc="x11 screen saver library" data-date="2026-09-02" data-size="4654">
             <td><a class="pkg-name" href="https://cgit.freedesktop.org/xorg/lib/libXScrnSaver/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXScrnSaver</a></td>
             <td><span class="pkg-tag">1.2.5-1</span></td>
             <td>
@@ -1115,11 +1115,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXScrnSaver.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXScrnSaver.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXScrnSaver-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">libXScrnSaver-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">4.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXau" data-desc="authorization protocol for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXau" data-desc="authorization protocol for x" data-date="2026-09-02" data-size="5645">
             <td><a class="pkg-name" href="$XORG_SITE" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXau</a></td>
             <td><span class="pkg-tag">1.0.12-1</span></td>
             <td>
@@ -1129,11 +1129,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXau.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXau.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXau-1.0.12.drop" download style="font-weight: bold; color: #aa2022;">libXau-1.0.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXaw" data-desc="x athena widgets library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXaw" data-desc="x athena widgets library" data-date="2026-09-02" data-size="345537">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXaw</a></td>
             <td><span class="pkg-tag">1.0.16-1</span></td>
             <td>
@@ -1143,11 +1143,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXaw.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXaw.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXaw-1.0.16.drop" download style="font-weight: bold; color: #aa2022;">libXaw-1.0.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">337.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXaw3d" data-desc="x athena widget 3d library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXaw3d" data-desc="x athena widget 3d library" data-date="2026-09-02" data-size="169854">
             <td><a class="pkg-name" href="https://cgit.freedesktop.org/xorg/lib/libXaw3d" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXaw3d</a></td>
             <td><span class="pkg-tag">1.6.6-1</span></td>
             <td>
@@ -1157,11 +1157,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXaw3d.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXaw3d.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXaw3d-1.6.6.drop" download style="font-weight: bold; color: #aa2022;">libXaw3d-1.6.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">165.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXcomposite" data-desc="x composite library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXcomposite" data-desc="x composite library" data-date="2026-09-02" data-size="3747">
             <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXcomposite</a></td>
             <td><span class="pkg-tag">0.4.7-1</span></td>
             <td>
@@ -1171,11 +1171,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXcomposite.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXcomposite.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXcomposite-0.4.7.drop" download style="font-weight: bold; color: #aa2022;">libXcomposite-0.4.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXcursor" data-desc="client-side cursor loading library for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXcursor" data-desc="client-side cursor loading library for x" data-date="2026-09-02" data-size="20482">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcursor" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXcursor</a></td>
             <td><span class="pkg-tag">1.2.3-1</span></td>
             <td>
@@ -1185,11 +1185,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXcursor.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXcursor.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXcursor-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">libXcursor-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">20.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXdamage" data-desc="xdamage extension library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXdamage" data-desc="xdamage extension library" data-date="2026-09-02" data-size="4694">
             <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXdamage</a></td>
             <td><span class="pkg-tag">1.1.7-1</span></td>
             <td>
@@ -1199,11 +1199,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXdamage.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXdamage.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXdamage-1.1.7.drop" download style="font-weight: bold; color: #aa2022;">libXdamage-1.1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">4.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXdmcp" data-desc="x display manager control protocol library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXdmcp" data-desc="x display manager control protocol library" data-date="2026-09-02" data-size="26405">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXdmcp</a></td>
             <td><span class="pkg-tag">1.1.5-1</span></td>
             <td>
@@ -1213,11 +1213,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXdmcp.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXdmcp.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXdmcp-1.1.5.drop" download style="font-weight: bold; color: #aa2022;">libXdmcp-1.1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">25.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXext" data-desc="x extension library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXext" data-desc="x extension library" data-date="2026-09-02" data-size="55484">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxext" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXext</a></td>
             <td><span class="pkg-tag">1.3.7-1</span></td>
             <td>
@@ -1227,11 +1227,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXext.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXext.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXext-1.3.7.drop" download style="font-weight: bold; color: #aa2022;">libXext-1.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">54.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXfixes" data-desc="xfixes library and extension of x randr from modular x.org" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXfixes" data-desc="xfixes library and extension of x randr from modular x.org" data-date="2026-09-02" data-size="8341">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXfixes</a></td>
             <td><span class="pkg-tag">6.0.2-1</span></td>
             <td>
@@ -1241,11 +1241,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXfixes.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXfixes.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXfixes-6.0.2.drop" download style="font-weight: bold; color: #aa2022;">libXfixes-6.0.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXft" data-desc="library for configuring and customizing font access" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXft" data-desc="library for configuring and customizing font access" data-date="2026-09-02" data-size="47011">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxft" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXft</a></td>
             <td><span class="pkg-tag">2.3.9-1</span></td>
             <td>
@@ -1255,11 +1255,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXft.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXft.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXft-2.3.9.drop" download style="font-weight: bold; color: #aa2022;">libXft-2.3.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">45.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXi" data-desc="x input extension library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXi" data-desc="x input extension library" data-date="2026-09-02" data-size="29119">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxi" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXi</a></td>
             <td><span class="pkg-tag">1.8.3-1</span></td>
             <td>
@@ -1269,11 +1269,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXi.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXi.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXi-1.8.3.drop" download style="font-weight: bold; color: #aa2022;">libXi-1.8.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXinerama" data-desc="x panoramix extension library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXinerama" data-desc="x panoramix extension library" data-date="2026-09-02" data-size="3661">
             <td><a class="pkg-name" href="https://www.x.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXinerama</a></td>
             <td><span class="pkg-tag">1.1.6-1</span></td>
             <td>
@@ -1283,11 +1283,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXinerama.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXinerama.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXinerama-1.1.6.drop" download style="font-weight: bold; color: #aa2022;">libXinerama-1.1.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXmu" data-desc="x miscellaneous utilities library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXmu" data-desc="x miscellaneous utilities library" data-date="2026-09-02" data-size="77317">
             <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXmu</a></td>
             <td><span class="pkg-tag">1.3.1-1</span></td>
             <td>
@@ -1297,11 +1297,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXmu.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXmu.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXmu-1.3.1.drop" download style="font-weight: bold; color: #aa2022;">libXmu-1.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">75.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXmuu" data-desc="libxmuu package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXmuu" data-desc="libxmuu package for distill linux" data-date="2026-09-02" data-size="77315">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libXmuu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXmuu</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1311,11 +1311,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXmuu.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXmuu.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXmuu-1.0.drop" download style="font-weight: bold; color: #aa2022;">libXmuu-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">75.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXpm" data-desc="x pixmap library from modular xorg x11" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXpm" data-desc="x pixmap library from modular xorg x11" data-date="2026-09-02" data-size="58035">
             <td><a class="pkg-name" href="https://www.x.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXpm</a></td>
             <td><span class="pkg-tag">3.5.19-1</span></td>
             <td>
@@ -1325,11 +1325,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXpm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXpm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXpm-3.5.19.drop" download style="font-weight: bold; color: #aa2022;">libXpm-3.5.19.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">56.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXrandr" data-desc="x randr library from x.org" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXrandr" data-desc="x randr library from x.org" data-date="2026-09-02" data-size="18113">
             <td><a class="pkg-name" href="https://www.x.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXrandr</a></td>
             <td><span class="pkg-tag">1.5.5-1</span></td>
             <td>
@@ -1339,11 +1339,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXrandr.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXrandr.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXrandr-1.5.5.drop" download style="font-weight: bold; color: #aa2022;">libXrandr-1.5.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">17.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXrender" data-desc="x render library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXrender" data-desc="x render library" data-date="2026-09-02" data-size="24335">
             <td><a class="pkg-name" href="${XORG_SITE}" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXrender</a></td>
             <td><span class="pkg-tag">0.9.12-1</span></td>
             <td>
@@ -1353,11 +1353,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXrender.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXrender.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXrender-0.9.12.drop" download style="font-weight: bold; color: #aa2022;">libXrender-0.9.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXres" data-desc="x resource information extension library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXres" data-desc="x resource information extension library" data-date="2026-09-02" data-size="5537">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxres" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXres</a></td>
             <td><span class="pkg-tag">1.2.3-1</span></td>
             <td>
@@ -1367,11 +1367,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXres.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXres.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXres-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">libXres-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXt" data-desc="x toolkit intrinsics library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXt" data-desc="x toolkit intrinsics library" data-date="2026-09-02" data-size="187892">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXt</a></td>
             <td><span class="pkg-tag">1.3.1-1</span></td>
             <td>
@@ -1381,11 +1381,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXt.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXt.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXt-1.3.1.drop" download style="font-weight: bold; color: #aa2022;">libXt-1.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">183.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXtst" data-desc="x tst library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXtst" data-desc="x tst library" data-date="2026-09-02" data-size="9555">
             <td><a class="pkg-name" href="${XORG_SITE}" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXtst</a></td>
             <td><span class="pkg-tag">1.2.5-1</span></td>
             <td>
@@ -1395,11 +1395,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXtst.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXtst.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXtst-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">libXtst-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXv" data-desc="xv extension library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libXv" data-desc="xv extension library" data-date="2026-09-02" data-size="7909">
             <td><a class="pkg-name" href="${XORG_SITE}" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXv</a></td>
             <td><span class="pkg-tag">1.0.13-1</span></td>
             <td>
@@ -1409,11 +1409,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libXv.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libXv.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libXv-1.0.13.drop" download style="font-weight: bold; color: #aa2022;">libXv-1.0.13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libarchive" data-desc="library to read/write several different streaming archive formats" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libarchive" data-desc="library to read/write several different streaming archive formats" data-date="2026-09-02" data-size="379380">
             <td><a class="pkg-name" href="https://www.libarchive.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libarchive</a></td>
             <td><span class="pkg-tag">3.8.9-1</span></td>
             <td>
@@ -1423,11 +1423,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libarchive.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libarchive.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libarchive-3.8.9.drop" download style="font-weight: bold; color: #aa2022;">libarchive-3.8.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">370.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libcxx" data-desc="llvm compiler infrastructure project - version ${_major}" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libcxx" data-desc="llvm compiler infrastructure project - version ${_major}" data-date="2026-09-02" data-size="459899">
             <td><a class="pkg-name" href="https://www.llvm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libcxx</a></td>
             <td><span class="pkg-tag">22.1.4-1</span></td>
             <td>
@@ -1437,11 +1437,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libcxx.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libcxx.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libcxx-22.1.4.drop" download style="font-weight: bold; color: #aa2022;">libcxx-22.1.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">449.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libcxxabi" data-desc="llvm compiler infrastructure project - version ${_major}" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libcxxabi" data-desc="llvm compiler infrastructure project - version ${_major}" data-date="2026-09-02" data-size="106080">
             <td><a class="pkg-name" href="https://www.llvm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libcxxabi</a></td>
             <td><span class="pkg-tag">22.1.4-1</span></td>
             <td>
@@ -1451,11 +1451,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libcxxabi.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libcxxabi.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libcxxabi-22.1.4.drop" download style="font-weight: bold; color: #aa2022;">libcxxabi-22.1.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">103.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libdrm" data-desc="userspace interface to kernel drm services" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libdrm" data-desc="userspace interface to kernel drm services" data-date="2026-09-02" data-size="170475">
             <td><a class="pkg-name" href="https://dri.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libdrm</a></td>
             <td><span class="pkg-tag">2.4.134-1</span></td>
             <td>
@@ -1465,11 +1465,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libdrm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libdrm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libdrm-2.4.134.drop" download style="font-weight: bold; color: #aa2022;">libdrm-2.4.134.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">166.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libepoxy" data-desc="library for handling opengl function pointer management for you" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libepoxy" data-desc="library for handling opengl function pointer management for you" data-date="2026-09-02" data-size="266024">
             <td><a class="pkg-name" href="https://github.com/anholt/libepoxy" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libepoxy</a></td>
             <td><span class="pkg-tag">1.5.10-1</span></td>
             <td>
@@ -1479,11 +1479,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libepoxy.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libepoxy.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libepoxy-1.5.10.drop" download style="font-weight: bold; color: #aa2022;">libepoxy-1.5.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">259.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="liberation-fonts-ttf" data-desc="fonts from redhat with same metrics as times, arial and courier" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="liberation-fonts-ttf" data-desc="fonts from redhat with same metrics as times, arial and courier" data-date="2026-09-02" data-size="2385846">
             <td><a class="pkg-name" href="https://github.com/liberationfonts/liberation-fonts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">liberation-fonts-ttf</a></td>
             <td><span class="pkg-tag">2.1.5-1</span></td>
             <td>
@@ -1493,11 +1493,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/liberation-fonts-ttf.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">liberation-fonts-ttf.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="liberation-fonts-ttf-2.1.5.drop" download style="font-weight: bold; color: #aa2022;">liberation-fonts-ttf-2.1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libfontenc" data-desc="fontenc library from x.org" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libfontenc" data-desc="fontenc library from x.org" data-date="2026-09-02" data-size="13044">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libfontenc</a></td>
             <td><span class="pkg-tag">1.1.9-1</span></td>
             <td>
@@ -1507,11 +1507,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libfontenc.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libfontenc.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libfontenc-1.1.9.drop" download style="font-weight: bold; color: #aa2022;">libfontenc-1.1.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libglvnd" data-desc="gl vendor-neutral dispatch library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libglvnd" data-desc="gl vendor-neutral dispatch library" data-date="2026-09-02" data-size="492839">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/glvnd/libglvnd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libglvnd</a></td>
             <td><span class="pkg-tag">1.7.0-1</span></td>
             <td>
@@ -1521,11 +1521,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libglvnd.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libglvnd.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libglvnd-1.7.0.drop" download style="font-weight: bold; color: #aa2022;">libglvnd-1.7.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">481.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libjpeg-turbo" data-desc="derivative of libjpeg which uses simd instructions" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libjpeg-turbo" data-desc="derivative of libjpeg which uses simd instructions" data-date="2026-09-02" data-size="557513">
             <td><a class="pkg-name" href="https://libjpeg-turbo.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libjpeg-turbo</a></td>
             <td><span class="pkg-tag">3.1.4.1-1</span></td>
             <td>
@@ -1535,11 +1535,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libjpeg-turbo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libjpeg-turbo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libjpeg-turbo-3.1.4.1.drop" download style="font-weight: bold; color: #aa2022;">libjpeg-turbo-3.1.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">544.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libogg" data-desc="ogg bitstream file format library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libogg" data-desc="ogg bitstream file format library" data-date="2026-09-02" data-size="19539">
             <td><a class="pkg-name" href="https://www.xiph.org/ogg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libogg</a></td>
             <td><span class="pkg-tag">1.3.6-1</span></td>
             <td>
@@ -1549,11 +1549,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libogg.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libogg.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libogg-1.3.6.drop" download style="font-weight: bold; color: #aa2022;">libogg-1.3.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">19.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libopus" data-desc="libopus package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libopus" data-desc="libopus package for distill linux" data-date="2026-09-02" data-size="4088340">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libopus" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libopus</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1563,11 +1563,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libopus.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libopus.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libopus-1.0.drop" download style="font-weight: bold; color: #aa2022;">libopus-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.9 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libpng" data-desc="library for manipulating png images" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libpng" data-desc="library for manipulating png images" data-date="2026-09-02" data-size="111661">
             <td><a class="pkg-name" href="http://www.libpng.org/pub/png/libpng.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libpng</a></td>
             <td><span class="pkg-tag">1.6.58-1</span></td>
             <td>
@@ -1577,11 +1577,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libpng.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libpng.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libpng-1.6.58.drop" download style="font-weight: bold; color: #aa2022;">libpng-1.6.58.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">109.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libressl" data-desc="libressl package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libressl" data-desc="libressl package for distill linux" data-date="2026-09-02" data-size="327">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libressl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libressl</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1591,11 +1591,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libressl.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libressl.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libressl-1.0.drop" download style="font-weight: bold; color: #aa2022;">libressl-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">327 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="librsync" data-desc="library that implements the rsync remote-delta algorithm (rdiff)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="librsync" data-desc="library that implements the rsync remote-delta algorithm (rdiff)" data-date="2026-09-02" data-size="29834">
             <td><a class="pkg-name" href="http://librsync.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">librsync</a></td>
             <td><span class="pkg-tag">2.3.4-1</span></td>
             <td>
@@ -1605,11 +1605,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/librsync.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">librsync.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="librsync-2.3.4.drop" download style="font-weight: bold; color: #aa2022;">librsync-2.3.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">29.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libtiff" data-desc="libtiff package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libtiff" data-desc="libtiff package for distill linux" data-date="2026-09-02" data-size="454029">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libtiff" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtiff</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1619,11 +1619,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libtiff.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libtiff.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libtiff-1.0.drop" download style="font-weight: bold; color: #aa2022;">libtiff-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">443.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libtool" data-desc="generic library support script" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libtool" data-desc="generic library support script" data-date="2026-09-02" data-size="615603">
             <td><a class="pkg-name" href="http://www.gnu.org/software/libtool" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtool</a></td>
             <td><span class="pkg-tag">2.4.7-1</span></td>
             <td>
@@ -1633,11 +1633,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libtool.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libtool.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libtool-2.4.7.drop" download style="font-weight: bold; color: #aa2022;">libtool-2.4.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">601.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libva" data-desc="video acceleration (va) api" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libva" data-desc="video acceleration (va) api" data-date="2026-09-02" data-size="97362">
             <td><a class="pkg-name" href="https://intel.github.io/libva" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libva</a></td>
             <td><span class="pkg-tag">2.24.1-1</span></td>
             <td>
@@ -1647,11 +1647,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libva.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libva.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libva-2.24.1.drop" download style="font-weight: bold; color: #aa2022;">libva-2.24.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">95.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libva-utils" data-desc="video acceleration (va) api - utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libva-utils" data-desc="video acceleration (va) api - utilities" data-date="2026-09-02" data-size="1899787">
             <td><a class="pkg-name" href="https://github.com/intel/libva-utils" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libva-utils</a></td>
             <td><span class="pkg-tag">2.24.0-1</span></td>
             <td>
@@ -1661,11 +1661,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libva-utils.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libva-utils.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libva-utils-2.24.0.drop" download style="font-weight: bold; color: #aa2022;">libva-utils-2.24.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libvdpau" data-desc="video decode and presentation api for unix" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libvdpau" data-desc="video decode and presentation api for unix" data-date="2026-09-02" data-size="28869">
             <td><a class="pkg-name" href="https://freedesktop.org/wiki/Software/VDPAU/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvdpau</a></td>
             <td><span class="pkg-tag">1.5-1</span></td>
             <td>
@@ -1675,11 +1675,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libvdpau.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libvdpau.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libvdpau-1.5.drop" download style="font-weight: bold; color: #aa2022;">libvdpau-1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libvorbis" data-desc="the vorbis general audio compression codec" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libvorbis" data-desc="the vorbis general audio compression codec" data-date="2026-09-02" data-size="214375">
             <td><a class="pkg-name" href="https://www.xiph.org/vorbis/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvorbis</a></td>
             <td><span class="pkg-tag">1.3.7-1</span></td>
             <td>
@@ -1689,11 +1689,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libvorbis.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libvorbis.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libvorbis-1.3.7.drop" download style="font-weight: bold; color: #aa2022;">libvorbis-1.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">209.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libvpx" data-desc="vp8 and vp9 video codec" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libvpx" data-desc="vp8 and vp9 video codec" data-date="2026-09-02" data-size="1034851">
             <td><a class="pkg-name" href="http://www.webmproject.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvpx</a></td>
             <td><span class="pkg-tag">1.16.0-1</span></td>
             <td>
@@ -1703,11 +1703,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libvpx.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libvpx.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libvpx-1.16.0.drop" download style="font-weight: bold; color: #aa2022;">libvpx-1.16.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1010.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libwebp" data-desc="webp image format" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libwebp" data-desc="webp image format" data-date="2026-09-02" data-size="374434">
             <td><a class="pkg-name" href="https://developers.google.com/speed/webp/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libwebp</a></td>
             <td><span class="pkg-tag">1.6.0-1</span></td>
             <td>
@@ -1717,11 +1717,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libwebp.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libwebp.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libwebp-1.6.0.drop" download style="font-weight: bold; color: #aa2022;">libwebp-1.6.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">365.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libxcb" data-desc="x protocol c-language binding" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libxcb" data-desc="x protocol c-language binding" data-date="2026-09-02" data-size="245531">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxcb</a></td>
             <td><span class="pkg-tag">1.17.0-1</span></td>
             <td>
@@ -1731,11 +1731,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libxcb.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libxcb.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libxcb-1.17.0.drop" download style="font-weight: bold; color: #aa2022;">libxcb-1.17.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">239.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libxkbcommon" data-desc="library to handle keyboard descriptions" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libxkbcommon" data-desc="library to handle keyboard descriptions" data-date="2026-09-02" data-size="186265">
             <td><a class="pkg-name" href="https://xkbcommon.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxkbcommon</a></td>
             <td><span class="pkg-tag">1.13.2-1</span></td>
             <td>
@@ -1745,11 +1745,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libxkbcommon.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libxkbcommon.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libxkbcommon-1.13.2.drop" download style="font-weight: bold; color: #aa2022;">libxkbcommon-1.13.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">181.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libxshmfence" data-desc="x shared memory 'syncfence' synchronization primitive" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="libxshmfence" data-desc="x shared memory 'syncfence' synchronization primitive" data-date="2026-09-02" data-size="3621">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxshmfence</a></td>
             <td><span class="pkg-tag">1.3.3-1</span></td>
             <td>
@@ -1759,11 +1759,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/libxshmfence.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">libxshmfence.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="libxshmfence-1.3.3.drop" download style="font-weight: bold; color: #aa2022;">libxshmfence-1.3.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="linux-pam" data-desc="linux-pam package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="linux-pam" data-desc="linux-pam package for distill linux" data-date="2026-09-02" data-size="390684">
             <td><a class="pkg-name" href="https://github.com/distill-linux/linux-pam" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">linux-pam</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1773,11 +1773,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/linux-pam.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">linux-pam.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="linux-pam-1.0.drop" download style="font-weight: bold; color: #aa2022;">linux-pam-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">381.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="lld" data-desc="llvm meta package" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="lld" data-desc="llvm meta package" data-date="2026-09-02" data-size="251">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lld</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -1787,11 +1787,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/lld.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">lld.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="lld-21.drop" download style="font-weight: bold; color: #aa2022;">lld-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">251 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="llvm" data-desc="llvm meta package" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="llvm" data-desc="llvm meta package" data-date="2026-09-02" data-size="252">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">llvm</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -1801,11 +1801,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/llvm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">llvm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="llvm-21.drop" download style="font-weight: bold; color: #aa2022;">llvm-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">252 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="luit" data-desc="luit package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="luit" data-desc="luit package for distill linux" data-date="2026-09-02" data-size="265">
             <td><a class="pkg-name" href="https://github.com/distill-linux/luit" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">luit</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1815,11 +1815,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/luit.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">luit.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="luit-1.0.drop" download style="font-weight: bold; color: #aa2022;">luit-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">265 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="lvm2" data-desc="logical volume manager 2 utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="lvm2" data-desc="logical volume manager 2 utilities" data-date="2026-09-02" data-size="2525202">
             <td><a class="pkg-name" href="https://sourceware.org/lvm2/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lvm2</a></td>
             <td><span class="pkg-tag">2.03.29-1</span></td>
             <td>
@@ -1829,11 +1829,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/lvm2.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">lvm2.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="lvm2-2.03.29.drop" download style="font-weight: bold; color: #aa2022;">lvm2-2.03.29.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.4 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="lynx" data-desc="text browser for the world wide web" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="lynx" data-desc="text browser for the world wide web" data-date="2026-09-02" data-size="851039">
             <td><a class="pkg-name" href="http://lynx.invisible-island.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lynx</a></td>
             <td><span class="pkg-tag">2.9.3-1</span></td>
             <td>
@@ -1843,11 +1843,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/lynx.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">lynx.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="lynx-2.9.3.drop" download style="font-weight: bold; color: #aa2022;">lynx-2.9.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">831.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="lz4" data-desc="extremely fast compression algorithm" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="lz4" data-desc="extremely fast compression algorithm" data-date="2026-09-02" data-size="123099">
             <td><a class="pkg-name" href="https://lz4.github.io/lz4" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lz4</a></td>
             <td><span class="pkg-tag">1.10.0-1</span></td>
             <td>
@@ -1857,11 +1857,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/lz4.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">lz4.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="lz4-1.10.0.drop" download style="font-weight: bold; color: #aa2022;">lz4-1.10.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">120.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="m4" data-desc="gnu version of unix m4 macro language processor" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="m4" data-desc="gnu version of unix m4 macro language processor" data-date="2026-09-02" data-size="281229">
             <td><a class="pkg-name" href="https://www.gnu.org/software/m4/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">m4</a></td>
             <td><span class="pkg-tag">1.4.19-1</span></td>
             <td>
@@ -1871,11 +1871,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/m4.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">m4.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="m4-1.4.19.drop" download style="font-weight: bold; color: #aa2022;">m4-1.4.19.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">274.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mako" data-desc="lightweight wayland notification daemon" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="mako" data-desc="lightweight wayland notification daemon" data-date="2026-09-02" data-size="61089">
             <td><a class="pkg-name" href="https://wayland.emersion.fr/mako/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mako</a></td>
             <td><span class="pkg-tag">1.11.0-1</span></td>
             <td>
@@ -1885,11 +1885,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/mako.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">mako.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="mako-1.11.0.drop" download style="font-weight: bold; color: #aa2022;">mako-1.11.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">59.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mandoc" data-desc="mandoc package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="mandoc" data-desc="mandoc package for distill linux" data-date="2026-09-02" data-size="416565">
             <td><a class="pkg-name" href="https://github.com/distill-linux/mandoc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mandoc</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1899,11 +1899,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/mandoc.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">mandoc.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="mandoc-1.0.drop" download style="font-weight: bold; color: #aa2022;">mandoc-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">406.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mesa" data-desc="open source implementation of opengl and vulkan" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="mesa" data-desc="open source implementation of opengl and vulkan" data-date="2026-09-02" data-size="966917">
             <td><a class="pkg-name" href="https://www.mesa3d.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mesa</a></td>
             <td><span class="pkg-tag">26.1.8-1</span></td>
             <td>
@@ -1913,11 +1913,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/mesa.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">mesa.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="mesa-26.1.8.drop" download style="font-weight: bold; color: #aa2022;">mesa-26.1.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">944.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="meson" data-desc="super fast build system" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="meson" data-desc="super fast build system" data-date="2026-09-02" data-size="915068">
             <td><a class="pkg-name" href="https://mesonbuild.com" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">meson</a></td>
             <td><span class="pkg-tag">1.9.1-1</span></td>
             <td>
@@ -1927,11 +1927,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/meson.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">meson.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="meson-1.9.1.drop" download style="font-weight: bold; color: #aa2022;">meson-1.9.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">893.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="moc" data-desc="moc package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="moc" data-desc="moc package for distill linux" data-date="2026-09-02" data-size="320">
             <td><a class="pkg-name" href="https://github.com/distill-linux/moc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">moc</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1941,11 +1941,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/moc.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">moc.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="moc-1.0.drop" download style="font-weight: bold; color: #aa2022;">moc-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">320 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mpv" data-desc="video player based on mplayer/mplayer2" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="mpv" data-desc="video player based on mplayer/mplayer2" data-date="2026-09-02" data-size="2702247">
             <td><a class="pkg-name" href="https://mpv.io" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mpv</a></td>
             <td><span class="pkg-tag">0.41.0-1</span></td>
             <td>
@@ -1955,11 +1955,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/mpv.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">mpv.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="mpv-0.41.0.drop" download style="font-weight: bold; color: #aa2022;">mpv-0.41.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.6 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="musl-dev" data-desc="the musl c standard library - development headers" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="musl-dev" data-desc="the musl c standard library - development headers" data-date="2026-09-02" data-size="728060">
             <td><a class="pkg-name" href="https://git.musl-libc.org/git/musl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-dev</a></td>
             <td><span class="pkg-tag">1.2.5-1</span></td>
             <td>
@@ -1969,11 +1969,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/musl-dev.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">musl-dev.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="musl-dev-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">musl-dev-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">711.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="musl-fts" data-desc="implementation of fts(3) for musl libc" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="musl-fts" data-desc="implementation of fts(3) for musl libc" data-date="2026-09-02" data-size="7764">
             <td><a class="pkg-name" href="https://github.com/void-linux/musl-fts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-fts</a></td>
             <td><span class="pkg-tag">1.2.7-1</span></td>
             <td>
@@ -1983,11 +1983,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/musl-fts.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">musl-fts.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="musl-fts-1.2.7.drop" download style="font-weight: bold; color: #aa2022;">musl-fts-1.2.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="musl-obstack" data-desc="implementation of obstack for musl libc" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="musl-obstack" data-desc="implementation of obstack for musl libc" data-date="2026-09-02" data-size="3344">
             <td><a class="pkg-name" href="https://github.com/void-linux/musl-obstack" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-obstack</a></td>
             <td><span class="pkg-tag">1.2.3-1</span></td>
             <td>
@@ -1997,11 +1997,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/musl-obstack.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">musl-obstack.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="musl-obstack-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">musl-obstack-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="nasm" data-desc="80x86 assembler designed for portability and modularity" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="nasm" data-desc="80x86 assembler designed for portability and modularity" data-date="2026-09-02" data-size="607005">
             <td><a class="pkg-name" href="https://www.nasm.us" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nasm</a></td>
             <td><span class="pkg-tag">2.16.03-1</span></td>
             <td>
@@ -2011,11 +2011,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/nasm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">nasm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="nasm-2.16.03.drop" download style="font-weight: bold; color: #aa2022;">nasm-2.16.03.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">592.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="netsurf" data-desc="free, open source web browser written in c" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="netsurf" data-desc="free, open source web browser written in c" data-date="2026-09-02" data-size="1811464">
             <td><a class="pkg-name" href="https://www.netsurf-browser.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">netsurf</a></td>
             <td><span class="pkg-tag">3.11-1</span></td>
             <td>
@@ -2025,11 +2025,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/netsurf.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">netsurf.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="netsurf-3.11.drop" download style="font-weight: bold; color: #aa2022;">netsurf-3.11.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="nsxiv" data-desc="neo (or new or not) simple (or small or suckless) x image viewer" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="nsxiv" data-desc="neo (or new or not) simple (or small or suckless) x image viewer" data-date="2026-09-02" data-size="50919">
             <td><a class="pkg-name" href="https://codeberg.org/nsxiv/nsxiv" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nsxiv</a></td>
             <td><span class="pkg-tag">34-1</span></td>
             <td>
@@ -2039,11 +2039,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/nsxiv.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">nsxiv.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="nsxiv-34.drop" download style="font-weight: bold; color: #aa2022;">nsxiv-34.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">49.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="oclock" data-desc="round x clock" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="oclock" data-desc="round x clock" data-date="2026-09-02" data-size="10685">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">oclock</a></td>
             <td><span class="pkg-tag">1.0.6-1</span></td>
             <td>
@@ -2053,11 +2053,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/oclock.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">oclock.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="oclock-1.0.6.drop" download style="font-weight: bold; color: #aa2022;">oclock-1.0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="openbox" data-desc="standards compliant, fast, light-weight, extensible window manager" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="openbox" data-desc="standards compliant, fast, light-weight, extensible window manager" data-date="2026-09-02" data-size="332865">
             <td><a class="pkg-name" href="http://www.openbox.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openbox</a></td>
             <td><span class="pkg-tag">3.6.1-1</span></td>
             <td>
@@ -2067,11 +2067,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/openbox.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">openbox.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="openbox-3.6.1.drop" download style="font-weight: bold; color: #aa2022;">openbox-3.6.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">325.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="openntpd" data-desc="free, easy to use implementation of the network time protocol" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="openntpd" data-desc="free, easy to use implementation of the network time protocol" data-date="2026-09-02" data-size="59328">
             <td><a class="pkg-name" href="http://openntpd.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openntpd</a></td>
             <td><span class="pkg-tag">7.9p1-1</span></td>
             <td>
@@ -2081,11 +2081,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/openntpd.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">openntpd.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="openntpd-7.9p1.drop" download style="font-weight: bold; color: #aa2022;">openntpd-7.9p1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">57.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="openssh" data-desc="openssh free secure shell (ssh) client and server implementation" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="openssh" data-desc="openssh free secure shell (ssh) client and server implementation" data-date="2026-09-02" data-size="3385083">
             <td><a class="pkg-name" href="https://www.openssh.com" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openssh</a></td>
             <td><span class="pkg-tag">10.5p1-1</span></td>
             <td>
@@ -2095,11 +2095,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/openssh.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">openssh.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="openssh-10.5p1.drop" download style="font-weight: bold; color: #aa2022;">openssh-10.5p1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pango" data-desc="library for layout and rendering of text" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="pango" data-desc="library for layout and rendering of text" data-date="2026-09-02" data-size="299754">
             <td><a class="pkg-name" href="https://www.pango.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pango</a></td>
             <td><span class="pkg-tag">1.56.3-1</span></td>
             <td>
@@ -2109,11 +2109,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/pango.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">pango.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="pango-1.56.3.drop" download style="font-weight: bold; color: #aa2022;">pango-1.56.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">292.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="patch" data-desc="patch files using diff output" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="patch" data-desc="patch files using diff output" data-date="2026-09-02" data-size="97947">
             <td><a class="pkg-name" href="http://www.gnu.org/software/patch/patch.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">patch</a></td>
             <td><span class="pkg-tag">2.8-1</span></td>
             <td>
@@ -2123,11 +2123,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/patch.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">patch.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="patch-2.8.drop" download style="font-weight: bold; color: #aa2022;">patch-2.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">95.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pdpmake" data-desc="pdpmake package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="pdpmake" data-desc="pdpmake package for distill linux" data-date="2026-09-02" data-size="26440">
             <td><a class="pkg-name" href="https://github.com/distill-linux/pdpmake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pdpmake</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2137,11 +2137,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/pdpmake.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">pdpmake.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="pdpmake-1.0.drop" download style="font-weight: bold; color: #aa2022;">pdpmake-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">25.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="picom" data-desc="lightweight compositor for x11 (previously a compton fork)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="picom" data-desc="lightweight compositor for x11 (previously a compton fork)" data-date="2026-09-02" data-size="296523">
             <td><a class="pkg-name" href="https://github.com/yshui/picom/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">picom</a></td>
             <td><span class="pkg-tag">13-1</span></td>
             <td>
@@ -2151,11 +2151,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/picom.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">picom.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="picom-13.drop" download style="font-weight: bold; color: #aa2022;">picom-13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">289.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pipewire" data-desc="server and user space api to deal with multimedia pipelines" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="pipewire" data-desc="server and user space api to deal with multimedia pipelines" data-date="2026-09-02" data-size="1843843">
             <td><a class="pkg-name" href="https://pipewire.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pipewire</a></td>
             <td><span class="pkg-tag">1.6.7-1</span></td>
             <td>
@@ -2165,11 +2165,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/pipewire.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">pipewire.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="pipewire-1.6.7.drop" download style="font-weight: bold; color: #aa2022;">pipewire-1.6.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pixman" data-desc="library of low-level pixel manipulation routines" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="pixman" data-desc="library of low-level pixel manipulation routines" data-date="2026-09-02" data-size="321581">
             <td><a class="pkg-name" href="http://pixman.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pixman</a></td>
             <td><span class="pkg-tag">0.46.4-1</span></td>
             <td>
@@ -2179,11 +2179,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/pixman.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">pixman.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="pixman-0.46.4.drop" download style="font-weight: bold; color: #aa2022;">pixman-0.46.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">314.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pkgconf" data-desc="provides compiler and linker configuration" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="pkgconf" data-desc="provides compiler and linker configuration" data-date="2026-09-02" data-size="33814">
             <td><a class="pkg-name" href="http://pkgconf.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pkgconf</a></td>
             <td><span class="pkg-tag">2.1.0-1</span></td>
             <td>
@@ -2193,11 +2193,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/pkgconf.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">pkgconf.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="pkgconf-2.1.0.drop" download style="font-weight: bold; color: #aa2022;">pkgconf-2.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="python3" data-desc="python programming language (${version%.*} series)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="python3" data-desc="python programming language (${version%.*} series)" data-date="2026-09-02" data-size="8575092">
             <td><a class="pkg-name" href="https://www.python.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">python3</a></td>
             <td><span class="pkg-tag">3.14.6-1</span></td>
             <td>
@@ -2207,11 +2207,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/python3.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">python3.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="python3-3.14.6.drop" download style="font-weight: bold; color: #aa2022;">python3-3.14.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="python3-dev" data-desc="python 3 programming language - development headers" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="python3-dev" data-desc="python 3 programming language - development headers" data-date="2026-09-02" data-size="3130892">
             <td><a class="pkg-name" href="https://github.com/python/cpython" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">python3-dev</a></td>
             <td><span class="pkg-tag">3.12.2-1</span></td>
             <td>
@@ -2221,11 +2221,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/python3-dev.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">python3-dev.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="python3-dev-3.12.2.drop" download style="font-weight: bold; color: #aa2022;">python3-dev-3.12.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.0 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="qbe" data-desc="quick backend for compilers" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="qbe" data-desc="quick backend for compilers" data-date="2026-09-02" data-size="113870">
             <td><a class="pkg-name" href="https://c9x.me/git/qbe" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">qbe</a></td>
             <td><span class="pkg-tag">1.1-1</span></td>
             <td>
@@ -2235,11 +2235,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/qbe.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">qbe.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="qbe-1.1.drop" download style="font-weight: bold; color: #aa2022;">qbe-1.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">111.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="river" data-desc="dynamic tiling wayland compositor" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="river" data-desc="dynamic tiling wayland compositor" data-date="2026-09-02" data-size="620901">
             <td><a class="pkg-name" href="https://codeberg.org/river/river" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">river</a></td>
             <td><span class="pkg-tag">0.3.7-1</span></td>
             <td>
@@ -2249,11 +2249,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/river.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">river.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="river-0.3.7.drop" download style="font-weight: bold; color: #aa2022;">river-0.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">606.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="rustc-bin" data-desc="rust compiler (precompiled binary bootstrap toolchain)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="rustc-bin" data-desc="rust compiler (precompiled binary bootstrap toolchain)" data-date="2026-09-02" data-size="396">
             <td><a class="pkg-name" href="https://static.rust-lang.org/dist/rust-1.78.0-x86_64-unknown-linux-musl.tar.gz" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">rustc-bin</a></td>
             <td><span class="pkg-tag">1.78.0-1</span></td>
             <td>
@@ -2263,11 +2263,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/rustc-bin.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">rustc-bin.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="rustc-bin-1.78.0.drop" download style="font-weight: bold; color: #aa2022;">rustc-bin-1.78.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">396 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="rxvt-unicode" data-desc="terminal emulator supporting xft fonts and unicode" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="rxvt-unicode" data-desc="terminal emulator supporting xft fonts and unicode" data-date="2026-09-02" data-size="1383967">
             <td><a class="pkg-name" href="http://software.schmorp.de/pkg/rxvt-unicode.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">rxvt-unicode</a></td>
             <td><span class="pkg-tag">9.31-1</span></td>
             <td>
@@ -2277,8 +2277,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/rxvt-unicode.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">rxvt-unicode.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="rxvt-unicode-9.31.drop" download style="font-weight: bold; color: #aa2022;">rxvt-unicode-9.31.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="27965">
@@ -2295,7 +2295,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-02" data-size="369">
             <td><a class="pkg-name" href="https://github.com/jcs/sdorfehs" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sdorfehs</a></td>
             <td><span class="pkg-tag">1.5-1</span></td>
             <td>
@@ -2305,11 +2305,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/sdorfehs.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">sdorfehs.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="sdorfehs-1.5.drop" download style="font-weight: bold; color: #aa2022;">sdorfehs-1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">369 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="seatd" data-desc="minimal seat management daemon" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="seatd" data-desc="minimal seat management daemon" data-date="2026-09-02" data-size="23753">
             <td><a class="pkg-name" href="https://sr.ht/~kennylevinsen/seatd/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">seatd</a></td>
             <td><span class="pkg-tag">0.9.3-1</span></td>
             <td>
@@ -2319,11 +2319,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/seatd.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">seatd.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="seatd-0.9.3.drop" download style="font-weight: bold; color: #aa2022;">seatd-0.9.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="setxkbmap" data-desc="set the keyboard map using the x keyboard extension" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="setxkbmap" data-desc="set the keyboard map using the x keyboard extension" data-date="2026-09-02" data-size="12479">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/setxkbmap" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">setxkbmap</a></td>
             <td><span class="pkg-tag">1.3.4-1</span></td>
             <td>
@@ -2333,11 +2333,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/setxkbmap.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">setxkbmap.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="setxkbmap-1.3.4.drop" download style="font-weight: bold; color: #aa2022;">setxkbmap-1.3.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="shadow" data-desc="shadow password file utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="shadow" data-desc="shadow password file utilities" data-date="2026-09-02" data-size="585773">
             <td><a class="pkg-name" href="https://github.com/shadow-maint/shadow" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">shadow</a></td>
             <td><span class="pkg-tag">4.8.1-1</span></td>
             <td>
@@ -2347,11 +2347,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/shadow.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">shadow.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="shadow-4.8.1.drop" download style="font-weight: bold; color: #aa2022;">shadow-4.8.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">572.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="simde" data-desc="implementations of simd instruction sets" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="simde" data-desc="implementations of simd instruction sets" data-date="2026-09-02" data-size="704231">
             <td><a class="pkg-name" href="https://github.com/simd-everywhere/simde" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">simde</a></td>
             <td><span class="pkg-tag">0.8.2-1</span></td>
             <td>
@@ -2361,8 +2361,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/simde.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">simde.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="simde-0.8.2.drop" download style="font-weight: bold; color: #aa2022;">simde-0.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">687.7 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-02" data-size="13790">
@@ -2379,7 +2379,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">13.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="slock" data-desc="simple screen locker for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="slock" data-desc="simple screen locker for x" data-date="2026-09-02" data-size="7156">
             <td><a class="pkg-name" href="http://tools.suckless.org/slock" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">slock</a></td>
             <td><span class="pkg-tag">1.7-1</span></td>
             <td>
@@ -2389,11 +2389,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/slock.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">slock.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="slock-1.7.drop" download style="font-weight: bold; color: #aa2022;">slock-1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="slstatus" data-desc="suckless status monitor for dwm" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="slstatus" data-desc="suckless status monitor for dwm" data-date="2026-09-02" data-size="12581">
             <td><a class="pkg-name" href="https://tools.suckless.org/slstatus/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">slstatus</a></td>
             <td><span class="pkg-tag">20180708-1</span></td>
             <td>
@@ -2403,11 +2403,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/slstatus.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">slstatus.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="slstatus-20180708.drop" download style="font-weight: bold; color: #aa2022;">slstatus-20180708.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="slurp" data-desc="select a region in a wayland compositor" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="slurp" data-desc="select a region in a wayland compositor" data-date="2026-09-02" data-size="19112">
             <td><a class="pkg-name" href="https://wayland.emersion.fr/slurp/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">slurp</a></td>
             <td><span class="pkg-tag">1.5.0-1</span></td>
             <td>
@@ -2417,11 +2417,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/slurp.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">slurp.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="slurp-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">slurp-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="smake" data-desc="schily's portable tools" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="smake" data-desc="schily's portable tools" data-date="2026-09-02" data-size="93233">
             <td><a class="pkg-name" href="https://codeberg.org/schilytools/schilytools" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">smake</a></td>
             <td><span class="pkg-tag">2024.03.21-1</span></td>
             <td>
@@ -2431,11 +2431,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/smake.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">smake.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="smake-2024.03.21.drop" download style="font-weight: bold; color: #aa2022;">smake-2024.03.21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">91.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="spirv-headers" data-desc="machine-readable files for the spir-v registry" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="spirv-headers" data-desc="machine-readable files for the spir-v registry" data-date="2026-09-02" data-size="479670">
             <td><a class="pkg-name" href="https://github.com/KhronosGroup/SPIRV-Headers" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">spirv-headers</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
             <td>
@@ -2445,11 +2445,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/spirv-headers.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">spirv-headers.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="spirv-headers-1.4.350.1.drop" download style="font-weight: bold; color: #aa2022;">spirv-headers-1.4.350.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">468.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="spirv-tools" data-desc="api and commands for processing spir-v modules" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="spirv-tools" data-desc="api and commands for processing spir-v modules" data-date="2026-09-02" data-size="8574503">
             <td><a class="pkg-name" href="https://github.com/KhronosGroup/SPIRV-Tools" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">spirv-tools</a></td>
             <td><span class="pkg-tag">2026.2-1</span></td>
             <td>
@@ -2459,11 +2459,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/spirv-tools.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">spirv-tools.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="spirv-tools-2026.2.drop" download style="font-weight: bold; color: #aa2022;">spirv-tools-2026.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="st" data-desc="simple terminal implementation for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="st" data-desc="simple terminal implementation for x" data-date="2026-09-02" data-size="47343">
             <td><a class="pkg-name" href="https://st.suckless.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">st</a></td>
             <td><span class="pkg-tag">0.9.3-1</span></td>
             <td>
@@ -2473,11 +2473,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/st.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">st.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="st-0.9.3.drop" download style="font-weight: bold; color: #aa2022;">st-0.9.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">46.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="sway" data-desc="tiling wayland compositor compatible with i3" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="sway" data-desc="tiling wayland compositor compatible with i3" data-date="2026-09-02" data-size="5378674">
             <td><a class="pkg-name" href="https://swaywm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sway</a></td>
             <td><span class="pkg-tag">1.12-1</span></td>
             <td>
@@ -2487,11 +2487,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/sway.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">sway.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="sway-1.12.drop" download style="font-weight: bold; color: #aa2022;">sway-1.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.1 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="swaybg" data-desc="wallpaper tool for wayland compositors" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="swaybg" data-desc="wallpaper tool for wayland compositors" data-date="2026-09-02" data-size="14417">
             <td><a class="pkg-name" href="https://swaywm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">swaybg</a></td>
             <td><span class="pkg-tag">1.2.2-1</span></td>
             <td>
@@ -2501,11 +2501,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/swaybg.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">swaybg.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="swaybg-1.2.2.drop" download style="font-weight: bold; color: #aa2022;">swaybg-1.2.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="swaylock" data-desc="screen locker for wayland" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="swaylock" data-desc="screen locker for wayland" data-date="2026-09-02" data-size="31312">
             <td><a class="pkg-name" href="https://github.com/swaywm/swaylock" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">swaylock</a></td>
             <td><span class="pkg-tag">1.8.6-1</span></td>
             <td>
@@ -2515,11 +2515,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/swaylock.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">swaylock.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="swaylock-1.8.6.drop" download style="font-weight: bold; color: #aa2022;">swaylock-1.8.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">30.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="tcc" data-desc="tiny c compiler" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="tcc" data-desc="tiny c compiler" data-date="2026-09-02" data-size="398763">
             <td><a class="pkg-name" href="http://bellard.org/tcc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tcc</a></td>
             <td><span class="pkg-tag">0.9.27.20250903-1</span></td>
             <td>
@@ -2529,11 +2529,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/tcc.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">tcc.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="tcc-0.9.27.20250903.drop" download style="font-weight: bold; color: #aa2022;">tcc-0.9.27.20250903.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">389.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="terminus-font" data-desc="clean, fixed width bitmap font" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="terminus-font" data-desc="clean, fixed width bitmap font" data-date="2026-09-02" data-size="2425492">
             <td><a class="pkg-name" href="http://terminus-font.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">terminus-font</a></td>
             <td><span class="pkg-tag">4.49.1-1</span></td>
             <td>
@@ -2543,11 +2543,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/terminus-font.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">terminus-font.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="terminus-font-4.49.1.drop" download style="font-weight: bold; color: #aa2022;">terminus-font-4.49.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="twm" data-desc="tab window manager for the x window system" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="twm" data-desc="tab window manager for the x window system" data-date="2026-09-02" data-size="111693">
             <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/twm.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">twm</a></td>
             <td><span class="pkg-tag">1.0.13.1-1</span></td>
             <td>
@@ -2557,11 +2557,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/twm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">twm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="twm-1.0.13.1.drop" download style="font-weight: bold; color: #aa2022;">twm-1.0.13.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">109.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="util-linux" data-desc="miscellaneous linux utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="util-linux" data-desc="miscellaneous linux utilities" data-date="2026-09-02" data-size="3280826">
             <td><a class="pkg-name" href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">util-linux</a></td>
             <td><span class="pkg-tag">2.41.4-1</span></td>
             <td>
@@ -2571,11 +2571,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/util-linux.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">util-linux.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="util-linux-2.41.4.drop" download style="font-weight: bold; color: #aa2022;">util-linux-2.41.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.1 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="uxterm" data-desc="x terminal emulator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="uxterm" data-desc="x terminal emulator" data-date="2026-09-02" data-size="502866">
             <td><a class="pkg-name" href="https://invisible-island.net/xterm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">uxterm</a></td>
             <td><span class="pkg-tag">411-1</span></td>
             <td>
@@ -2585,11 +2585,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/uxterm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">uxterm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="uxterm-411.drop" download style="font-weight: bold; color: #aa2022;">uxterm-411.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">491.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="vulkan-headers" data-desc="vulkan header files" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="vulkan-headers" data-desc="vulkan header files" data-date="2026-09-02" data-size="3193142">
             <td><a class="pkg-name" href="https://www.khronos.org/vulkan/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">vulkan-headers</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
             <td>
@@ -2599,11 +2599,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/vulkan-headers.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">vulkan-headers.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="vulkan-headers-1.4.350.1.drop" download style="font-weight: bold; color: #aa2022;">vulkan-headers-1.4.350.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.0 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="vulkan-loader" data-desc="vulkan installable client driver (icd) loader" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="vulkan-loader" data-desc="vulkan installable client driver (icd) loader" data-date="2026-09-02" data-size="170741">
             <td><a class="pkg-name" href="https://www.khronos.org/vulkan/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">vulkan-loader</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
             <td>
@@ -2613,11 +2613,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/vulkan-loader.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">vulkan-loader.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="vulkan-loader-1.4.350.1.drop" download style="font-weight: bold; color: #aa2022;">vulkan-loader-1.4.350.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">166.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="w3m" data-desc="text-based web browser and pager (with debian patches)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="w3m" data-desc="text-based web browser and pager (with debian patches)" data-date="2026-09-02" data-size="1199177">
             <td><a class="pkg-name" href="https://sr.ht/~rkta/w3m/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">w3m</a></td>
             <td><span class="pkg-tag">0.5.6-1</span></td>
             <td>
@@ -2627,11 +2627,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/w3m.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">w3m.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="w3m-0.5.6.drop" download style="font-weight: bold; color: #aa2022;">w3m-0.5.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.1 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="waybar" data-desc="polybar-like wayland bar for sway and wlroots based compositors" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="waybar" data-desc="polybar-like wayland bar for sway and wlroots based compositors" data-date="2026-09-02" data-size="964653">
             <td><a class="pkg-name" href="https://github.com/Alexays/Waybar" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">waybar</a></td>
             <td><span class="pkg-tag">0.15.0-1</span></td>
             <td>
@@ -2641,11 +2641,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/waybar.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">waybar.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="waybar-0.15.0.drop" download style="font-weight: bold; color: #aa2022;">waybar-0.15.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">942.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wayland" data-desc="core wayland window system code and protocol" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wayland" data-desc="core wayland window system code and protocol" data-date="2026-09-02" data-size="73833">
             <td><a class="pkg-name" href="https://wayland.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland</a></td>
             <td><span class="pkg-tag">1.26.0-1</span></td>
             <td>
@@ -2655,11 +2655,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wayland.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wayland.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wayland-1.26.0.drop" download style="font-weight: bold; color: #aa2022;">wayland-1.26.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">72.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wayland-protocols" data-desc="protocols and extensions complementing the wayland core protocol" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wayland-protocols" data-desc="protocols and extensions complementing the wayland core protocol" data-date="2026-09-02" data-size="205982">
             <td><a class="pkg-name" href="https://wayland.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland-protocols</a></td>
             <td><span class="pkg-tag">1.49-1</span></td>
             <td>
@@ -2669,11 +2669,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wayland-protocols.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wayland-protocols.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wayland-protocols-1.49.drop" download style="font-weight: bold; color: #aa2022;">wayland-protocols-1.49.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">201.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wayland-scanner" data-desc="wayland xml protocol tool for generating c bindings" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wayland-scanner" data-desc="wayland xml protocol tool for generating c bindings" data-date="2026-09-02" data-size="151444">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/wayland/wayland" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland-scanner</a></td>
             <td><span class="pkg-tag">1.23.0-1</span></td>
             <td>
@@ -2683,11 +2683,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wayland-scanner.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wayland-scanner.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wayland-scanner-1.23.0.drop" download style="font-weight: bold; color: #aa2022;">wayland-scanner-1.23.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">147.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wireplumber" data-desc="session and policy manager implementation for pipewire" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wireplumber" data-desc="session and policy manager implementation for pipewire" data-date="2026-09-02" data-size="556968">
             <td><a class="pkg-name" href="https://pipewire.pages.freedesktop.org/wireplumber" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wireplumber</a></td>
             <td><span class="pkg-tag">0.5.15-1</span></td>
             <td>
@@ -2697,11 +2697,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wireplumber.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wireplumber.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wireplumber-0.5.15.drop" download style="font-weight: bold; color: #aa2022;">wireplumber-0.5.15.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">543.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wl-clipboard" data-desc="wayland clipboard utilities" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wl-clipboard" data-desc="wayland clipboard utilities" data-date="2026-09-02" data-size="42786">
             <td><a class="pkg-name" href="https://github.com/bugaevc/wl-clipboard" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wl-clipboard</a></td>
             <td><span class="pkg-tag">2.3.0-1</span></td>
             <td>
@@ -2711,11 +2711,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wl-clipboard.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wl-clipboard.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wl-clipboard-2.3.0.drop" download style="font-weight: bold; color: #aa2022;">wl-clipboard-2.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">41.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wlr-protocols" data-desc="wayland protocols used by wlroots and associated compositors" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wlr-protocols" data-desc="wayland protocols used by wlroots and associated compositors" data-date="2026-09-02" data-size="75403">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/wlroots/wlr-protocols" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlr-protocols</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -2725,11 +2725,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wlr-protocols.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wlr-protocols.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wlr-protocols-main.drop" download style="font-weight: bold; color: #aa2022;">wlr-protocols-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">73.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wlroots" data-desc="modular wayland compositor library" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wlroots" data-desc="modular wayland compositor library" data-date="2026-09-02" data-size="275">
             <td><a class="pkg-name" href="https://github.com/swaywm/wlroots" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlroots</a></td>
             <td><span class="pkg-tag">0.20-1</span></td>
             <td>
@@ -2739,11 +2739,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wlroots.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wlroots.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wlroots-0.20.drop" download style="font-weight: bold; color: #aa2022;">wlroots-0.20.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">275 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wlsunset" data-desc="day/night gamma adjustments for wayland compositors" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wlsunset" data-desc="day/night gamma adjustments for wayland compositors" data-date="2026-09-02" data-size="13512">
             <td><a class="pkg-name" href="https://sr.ht/~kennylevinsen/wlsunset/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlsunset</a></td>
             <td><span class="pkg-tag">0.4.0-1</span></td>
             <td>
@@ -2753,11 +2753,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wlsunset.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wlsunset.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wlsunset-0.4.0.drop" download style="font-weight: bold; color: #aa2022;">wlsunset-0.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wmenu" data-desc="dynamic menu for wayland (dmenu clone for wlroots)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wmenu" data-desc="dynamic menu for wayland (dmenu clone for wlroots)" data-date="2026-09-02" data-size="34397">
             <td><a class="pkg-name" href="https://codeberg.org/adnano/wmenu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wmenu</a></td>
             <td><span class="pkg-tag">0.1.8-1</span></td>
             <td>
@@ -2767,11 +2767,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wmenu.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wmenu.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wmenu-0.1.8.drop" download style="font-weight: bold; color: #aa2022;">wmenu-0.1.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wpa_supplicant" data-desc="wpa/wpa2/ieee 802.1x supplicant" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wpa_supplicant" data-desc="wpa/wpa2/ieee 802.1x supplicant" data-date="2026-09-02" data-size="1603166">
             <td><a class="pkg-name" href="http://w1.fi/wpa_supplicant/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wpa_supplicant</a></td>
             <td><span class="pkg-tag">2.12-1</span></td>
             <td>
@@ -2781,11 +2781,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wpa_supplicant.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wpa_supplicant.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wpa_supplicant-2.12.drop" download style="font-weight: bold; color: #aa2022;">wpa_supplicant-2.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.5 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wtype" data-desc="wayland version of xdotool" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="wtype" data-desc="wayland version of xdotool" data-date="2026-09-02" data-size="8513">
             <td><a class="pkg-name" href="https://github.com/atx/wtype" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wtype</a></td>
             <td><span class="pkg-tag">0.4-1</span></td>
             <td>
@@ -2795,11 +2795,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/wtype.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">wtype.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="wtype-0.4.drop" download style="font-weight: bold; color: #aa2022;">wtype-0.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xarchiver" data-desc="lightweight desktop independent archive manager" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xarchiver" data-desc="lightweight desktop independent archive manager" data-date="2026-09-02" data-size="457108">
             <td><a class="pkg-name" href="https://github.com/ib/xarchiver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xarchiver</a></td>
             <td><span class="pkg-tag">0.5.4.26-1</span></td>
             <td>
@@ -2809,11 +2809,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xarchiver.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xarchiver.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xarchiver-0.5.4.26.drop" download style="font-weight: bold; color: #aa2022;">xarchiver-0.5.4.26.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">446.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xbiff" data-desc="mailbox flag for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xbiff" data-desc="mailbox flag for x" data-date="2026-09-02" data-size="10881">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xbiff</a></td>
             <td><span class="pkg-tag">1.0.6-1</span></td>
             <td>
@@ -2823,11 +2823,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xbiff.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xbiff.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xbiff-1.0.6.drop" download style="font-weight: bold; color: #aa2022;">xbiff-1.0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcalc" data-desc="scientific calculator for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcalc" data-desc="scientific calculator for x" data-date="2026-09-02" data-size="27660">
             <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xcalc.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcalc</a></td>
             <td><span class="pkg-tag">1.1.3-1</span></td>
             <td>
@@ -2837,11 +2837,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcalc.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcalc.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcalc-1.1.3.drop" download style="font-weight: bold; color: #aa2022;">xcalc-1.1.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">27.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcb-proto" data-desc="xml-xcb (x c bindings) protocol descriptions" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcb-proto" data-desc="xml-xcb (x c bindings) protocol descriptions" data-date="2026-09-02" data-size="116279">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/proto/xcbproto" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-proto</a></td>
             <td><span class="pkg-tag">1.17.0-1</span></td>
             <td>
@@ -2851,11 +2851,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcb-proto.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcb-proto.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcb-proto-1.17.0.drop" download style="font-weight: bold; color: #aa2022;">xcb-proto-1.17.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">113.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcb-util-cursor" data-desc="xcb cursor library (libxcursor port)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcb-util-cursor" data-desc="xcb cursor library (libxcursor port)" data-date="2026-09-02" data-size="9239">
             <td><a class="pkg-name" href="https://xcb.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-cursor</a></td>
             <td><span class="pkg-tag">0.1.4-1</span></td>
             <td>
@@ -2865,11 +2865,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcb-util-cursor.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcb-util-cursor.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcb-util-cursor-0.1.4.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-cursor-0.1.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcb-util-image" data-desc="utility libraries for xcb - ximage and xshmimage functions" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcb-util-image" data-desc="utility libraries for xcb - ximage and xshmimage functions" data-date="2026-09-02" data-size="8475">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb-image" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-image</a></td>
             <td><span class="pkg-tag">0.4.1-1</span></td>
             <td>
@@ -2879,11 +2879,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcb-util-image.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcb-util-image.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcb-util-image-0.4.1.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-image-0.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcb-util-keysyms" data-desc="utility libraries for xcb - key constants and keycode conversion" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcb-util-keysyms" data-desc="utility libraries for xcb - key constants and keycode conversion" data-date="2026-09-02" data-size="4903">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb-keysyms" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-keysyms</a></td>
             <td><span class="pkg-tag">0.4.1-1</span></td>
             <td>
@@ -2893,11 +2893,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcb-util-keysyms.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcb-util-keysyms.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcb-util-keysyms-0.4.1.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-keysyms-0.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">4.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcb-util-renderutil" data-desc="utility libraries for xcb - render extension convenience functions" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcb-util-renderutil" data-desc="utility libraries for xcb - render extension convenience functions" data-date="2026-09-02" data-size="7053">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb-render-util" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-renderutil</a></td>
             <td><span class="pkg-tag">0.3.10-1</span></td>
             <td>
@@ -2907,11 +2907,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcb-util-renderutil.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcb-util-renderutil.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcb-util-renderutil-0.3.10.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-renderutil-0.3.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">6.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcb-util-wm" data-desc="utility libraries for xc binding - window-manager helpers for icccm" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcb-util-wm" data-desc="utility libraries for xc binding - window-manager helpers for icccm" data-date="2026-09-02" data-size="22637">
             <td><a class="pkg-name" href="https://xcb.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-wm</a></td>
             <td><span class="pkg-tag">0.4.2-1</span></td>
             <td>
@@ -2921,11 +2921,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcb-util-wm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcb-util-wm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcb-util-wm-0.4.2.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-wm-0.4.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">22.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xclip" data-desc="command line interface to the x11 clipboard" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xclip" data-desc="command line interface to the x11 clipboard" data-date="2026-09-02" data-size="13351">
             <td><a class="pkg-name" href="https://github.com/astrand/xclip" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xclip</a></td>
             <td><span class="pkg-tag">0.13-1</span></td>
             <td>
@@ -2935,11 +2935,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xclip.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xclip.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xclip-0.13.drop" download style="font-weight: bold; color: #aa2022;">xclip-0.13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xclipboard" data-desc="x clipboard client" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xclipboard" data-desc="x clipboard client" data-date="2026-09-02" data-size="16515">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xclipboard</a></td>
             <td><span class="pkg-tag">1.1.6-1</span></td>
             <td>
@@ -2949,11 +2949,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xclipboard.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xclipboard.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xclipboard-1.1.6.drop" download style="font-weight: bold; color: #aa2022;">xclipboard-1.1.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xclock" data-desc="analog and digital clock for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xclock" data-desc="analog and digital clock for x" data-date="2026-09-02" data-size="31248">
             <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xclock.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xclock</a></td>
             <td><span class="pkg-tag">1.2.1-1</span></td>
             <td>
@@ -2963,11 +2963,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xclock.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xclock.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xclock-1.2.1.drop" download style="font-weight: bold; color: #aa2022;">xclock-1.2.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">30.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcutsel" data-desc="xcutsel package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xcutsel" data-desc="xcutsel package for distill linux" data-date="2026-09-02" data-size="272">
             <td><a class="pkg-name" href="https://github.com/distill-linux/xcutsel" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcutsel</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2977,11 +2977,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xcutsel.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xcutsel.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xcutsel-1.0.drop" download style="font-weight: bold; color: #aa2022;">xcutsel-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">272 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xdpyinfo" data-desc="display information utility for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xdpyinfo" data-desc="display information utility for x" data-date="2026-09-02" data-size="13797">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xdpyinfo" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xdpyinfo</a></td>
             <td><span class="pkg-tag">1.4.0-1</span></td>
             <td>
@@ -2991,11 +2991,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xdpyinfo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xdpyinfo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xdpyinfo-1.4.0.drop" download style="font-weight: bold; color: #aa2022;">xdpyinfo-1.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xedit" data-desc="simple text editor for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xedit" data-desc="simple text editor for x" data-date="2026-09-02" data-size="368933">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xedit</a></td>
             <td><span class="pkg-tag">1.2.5-1</span></td>
             <td>
@@ -3005,11 +3005,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xedit.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xedit.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xedit-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">xedit-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">360.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xev" data-desc="display x events" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xev" data-desc="display x events" data-date="2026-09-02" data-size="14284">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xev</a></td>
             <td><span class="pkg-tag">1.2.6-1</span></td>
             <td>
@@ -3019,11 +3019,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xev.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xev.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xev-1.2.6.drop" download style="font-weight: bold; color: #aa2022;">xev-1.2.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xeyes" data-desc="follow the mouse" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xeyes" data-desc="follow the mouse" data-date="2026-09-02" data-size="13664">
             <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xeyes.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xeyes</a></td>
             <td><span class="pkg-tag">1.3.1-1</span></td>
             <td>
@@ -3033,11 +3033,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xeyes.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xeyes.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xeyes-1.3.1.drop" download style="font-weight: bold; color: #aa2022;">xeyes-1.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xf86-input-libinput" data-desc="generic input driver for the x.org server based on libinput" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xf86-input-libinput" data-desc="generic input driver for the x.org server based on libinput" data-date="2026-09-02" data-size="44744">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xf86-input-libinput</a></td>
             <td><span class="pkg-tag">1.5.0-1</span></td>
             <td>
@@ -3047,11 +3047,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xf86-input-libinput.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xf86-input-libinput.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xf86-input-libinput-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">xf86-input-libinput-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">43.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xf86-video-modesetting" data-desc="generic modesetting video driver for x server (integrated)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xf86-video-modesetting" data-desc="generic modesetting video driver for x server (integrated)" data-date="2026-09-02" data-size="1690147">
             <td><a class="pkg-name" href="https://github.com/X11Libre/xserver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xf86-video-modesetting</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -3061,11 +3061,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xf86-video-modesetting.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xf86-video-modesetting.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xf86-video-modesetting-main.drop" download style="font-weight: bold; color: #aa2022;">xf86-video-modesetting-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.6 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xfd" data-desc="display all the characters in an x font" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xfd" data-desc="display all the characters in an x font" data-date="2026-09-02" data-size="17126">
             <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfd</a></td>
             <td><span class="pkg-tag">1.1.5-1</span></td>
             <td>
@@ -3075,11 +3075,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xfd.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xfd.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xfd-1.1.5.drop" download style="font-weight: bold; color: #aa2022;">xfd-1.1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xfe" data-desc="lightweight file manager for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xfe" data-desc="lightweight file manager for x" data-date="2026-09-02" data-size="5693539">
             <td><a class="pkg-name" href="http://roland65.free.fr/xfe/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfe</a></td>
             <td><span class="pkg-tag">2.1.7-1</span></td>
             <td>
@@ -3089,11 +3089,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xfe.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xfe.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xfe-2.1.7.drop" download style="font-weight: bold; color: #aa2022;">xfe-2.1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.4 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xfontsel" data-desc="x font selector" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xfontsel" data-desc="x font selector" data-date="2026-09-02" data-size="24849">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfontsel</a></td>
             <td><span class="pkg-tag">1.1.2-1</span></td>
             <td>
@@ -3103,11 +3103,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xfontsel.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xfontsel.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xfontsel-1.1.2.drop" download style="font-weight: bold; color: #aa2022;">xfontsel-1.1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">24.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xfsprogs" data-desc="utilities for managing the xfs filesystem" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xfsprogs" data-desc="utilities for managing the xfs filesystem" data-date="2026-09-02" data-size="1917499">
             <td><a class="pkg-name" href="http://xfs.org/index.php/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfsprogs</a></td>
             <td><span class="pkg-tag">6.19.0-1</span></td>
             <td>
@@ -3117,11 +3117,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xfsprogs.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xfsprogs.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xfsprogs-6.19.0.drop" download style="font-weight: bold; color: #aa2022;">xfsprogs-6.19.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xgamma" data-desc="alter gamma correction" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xgamma" data-desc="alter gamma correction" data-date="2026-09-02" data-size="6616">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xgamma</a></td>
             <td><span class="pkg-tag">1.0.8-1</span></td>
             <td>
@@ -3131,11 +3131,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xgamma.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xgamma.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xgamma-1.0.8.drop" download style="font-weight: bold; color: #aa2022;">xgamma-1.0.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">6.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xhost" data-desc="server access control program for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xhost" data-desc="server access control program for x" data-date="2026-09-02" data-size="9649">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xhost</a></td>
             <td><span class="pkg-tag">1.0.10-1</span></td>
             <td>
@@ -3145,11 +3145,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xhost.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xhost.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xhost-1.0.10.drop" download style="font-weight: bold; color: #aa2022;">xhost-1.0.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xkill" data-desc="kill a client by its x resource" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xkill" data-desc="kill a client by its x resource" data-date="2026-09-02" data-size="7127">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xkill</a></td>
             <td><span class="pkg-tag">1.0.7-1</span></td>
             <td>
@@ -3159,11 +3159,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xkill.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xkill.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xkill-1.0.7.drop" download style="font-weight: bold; color: #aa2022;">xkill-1.0.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xlibre-server" data-desc="x11libre modern standalone x server without legacy cruft or systemd" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xlibre-server" data-desc="x11libre modern standalone x server without legacy cruft or systemd" data-date="2026-09-02" data-size="1690140">
             <td><a class="pkg-name" href="https://github.com/X11Libre/xserver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xlibre-server</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -3173,11 +3173,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xlibre-server.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xlibre-server.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xlibre-server-main.drop" download style="font-weight: bold; color: #aa2022;">xlibre-server-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.6 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xload" data-desc="system load average display for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xload" data-desc="system load average display for x" data-date="2026-09-02" data-size="9302">
             <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xload.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xload</a></td>
             <td><span class="pkg-tag">1.2.2-1</span></td>
             <td>
@@ -3187,11 +3187,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xload.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xload.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xload-1.2.2.drop" download style="font-weight: bold; color: #aa2022;">xload-1.2.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xlogo" data-desc="x window system logo" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xlogo" data-desc="x window system logo" data-date="2026-09-02" data-size="8836">
             <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xlogo.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xlogo</a></td>
             <td><span class="pkg-tag">1.0.7-1</span></td>
             <td>
@@ -3201,11 +3201,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xlogo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xlogo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xlogo-1.0.7.drop" download style="font-weight: bold; color: #aa2022;">xlogo-1.0.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xlsfonts" data-desc="server font list displayer for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xlsfonts" data-desc="server font list displayer for x" data-date="2026-09-02" data-size="10418">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xlsfonts</a></td>
             <td><span class="pkg-tag">1.0.9-1</span></td>
             <td>
@@ -3215,11 +3215,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xlsfonts.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xlsfonts.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xlsfonts-1.0.9.drop" download style="font-weight: bold; color: #aa2022;">xlsfonts-1.0.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xmag" data-desc="x utility to magnify parts of the screen" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xmag" data-desc="x utility to magnify parts of the screen" data-date="2026-09-02" data-size="20445">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xmag" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xmag</a></td>
             <td><span class="pkg-tag">1.0.8-1</span></td>
             <td>
@@ -3229,11 +3229,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xmag.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xmag.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xmag-1.0.8.drop" download style="font-weight: bold; color: #aa2022;">xmag-1.0.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">20.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xmessage" data-desc="display a message or query in a x window" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xmessage" data-desc="display a message or query in a x window" data-date="2026-09-02" data-size="12252">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xmessage</a></td>
             <td><span class="pkg-tag">1.0.7-1</span></td>
             <td>
@@ -3243,11 +3243,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xmessage.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xmessage.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xmessage-1.0.7.drop" download style="font-weight: bold; color: #aa2022;">xmessage-1.0.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xmodmap" data-desc="x modmap program to modify keymaps and pointer button mappings" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xmodmap" data-desc="x modmap program to modify keymaps and pointer button mappings" data-date="2026-09-02" data-size="21647">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xmodmap</a></td>
             <td><span class="pkg-tag">1.0.12-1</span></td>
             <td>
@@ -3257,11 +3257,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xmodmap.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xmodmap.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xmodmap-1.0.12.drop" download style="font-weight: bold; color: #aa2022;">xmodmap-1.0.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">21.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xorgproto" data-desc="combined x.org x11 protocol headers" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xorgproto" data-desc="combined x.org x11 protocol headers" data-date="2026-09-02" data-size="329111">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/proto/xorgproto" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xorgproto</a></td>
             <td><span class="pkg-tag">2025.1-1</span></td>
             <td>
@@ -3271,11 +3271,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xorgproto.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xorgproto.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xorgproto-2025.1.drop" download style="font-weight: bold; color: #aa2022;">xorgproto-2025.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">321.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xprop" data-desc="property displayer for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xprop" data-desc="property displayer for x" data-date="2026-09-02" data-size="25709">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xprop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xprop</a></td>
             <td><span class="pkg-tag">1.2.8-1</span></td>
             <td>
@@ -3285,11 +3285,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xprop.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xprop.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xprop-1.2.8.drop" download style="font-weight: bold; color: #aa2022;">xprop-1.2.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">25.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xrdb" data-desc="x server resource database utility" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xrdb" data-desc="x server resource database utility" data-date="2026-09-02" data-size="18947">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xrdb" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xrdb</a></td>
             <td><span class="pkg-tag">1.2.3-1</span></td>
             <td>
@@ -3299,11 +3299,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xrdb.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xrdb.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xrdb-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">xrdb-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xrefresh" data-desc="refresh all or part of an x screen" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xrefresh" data-desc="refresh all or part of an x screen" data-date="2026-09-02" data-size="6971">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xrefresh" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xrefresh</a></td>
             <td><span class="pkg-tag">1.1.1-1</span></td>
             <td>
@@ -3313,11 +3313,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xrefresh.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xrefresh.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xrefresh-1.1.1.drop" download style="font-weight: bold; color: #aa2022;">xrefresh-1.1.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">6.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xrestop" data-desc="top-like x server resource usage monitor that uses the xres extension" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xrestop" data-desc="top-like x server resource usage monitor that uses the xres extension" data-date="2026-09-02" data-size="7653">
             <td><a class="pkg-name" href="https://www.freedesktop.org/wiki/Software/xrestop/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xrestop</a></td>
             <td><span class="pkg-tag">0.6-1</span></td>
             <td>
@@ -3327,11 +3327,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xrestop.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xrestop.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xrestop-0.6.drop" download style="font-weight: bold; color: #aa2022;">xrestop-0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xsel" data-desc="command-line getting and setting the contents of the x selection" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xsel" data-desc="command-line getting and setting the contents of the x selection" data-date="2026-09-02" data-size="17207">
             <td><a class="pkg-name" href="http://www.kfish.org/software/xsel/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xsel</a></td>
             <td><span class="pkg-tag">1.2.1-1</span></td>
             <td>
@@ -3341,11 +3341,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xsel.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xsel.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xsel-1.2.1.drop" download style="font-weight: bold; color: #aa2022;">xsel-1.2.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xterm" data-desc="x terminal emulator" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xterm" data-desc="x terminal emulator" data-date="2026-09-02" data-size="502861">
             <td><a class="pkg-name" href="https://invisible-island.net/xterm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xterm</a></td>
             <td><span class="pkg-tag">411-1</span></td>
             <td>
@@ -3355,11 +3355,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xterm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xterm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xterm-411.drop" download style="font-weight: bold; color: #aa2022;">xterm-411.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">491.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xwd" data-desc="dump an image of an x window" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xwd" data-desc="dump an image of an x window" data-date="2026-09-02" data-size="17233">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xwd</a></td>
             <td><span class="pkg-tag">1.0.10-1</span></td>
             <td>
@@ -3369,11 +3369,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xwd.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xwd.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xwd-1.0.10.drop" download style="font-weight: bold; color: #aa2022;">xwd-1.0.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xwininfo" data-desc="query information about x windows" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xwininfo" data-desc="query information about x windows" data-date="2026-09-02" data-size="23111">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xwininfo</a></td>
             <td><span class="pkg-tag">1.1.7-1</span></td>
             <td>
@@ -3383,11 +3383,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xwininfo.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xwininfo.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xwininfo-1.1.7.drop" download style="font-weight: bold; color: #aa2022;">xwininfo-1.1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">22.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xwud" data-desc="image displayer for x" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xwud" data-desc="image displayer for x" data-date="2026-09-02" data-size="14530">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xwud</a></td>
             <td><span class="pkg-tag">1.0.8-1</span></td>
             <td>
@@ -3397,11 +3397,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xwud.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xwud.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xwud-1.0.8.drop" download style="font-weight: bold; color: #aa2022;">xwud-1.0.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xxhash" data-desc="fast non-cryptographic hashing algorithm" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xxhash" data-desc="fast non-cryptographic hashing algorithm" data-date="2026-09-02" data-size="33076">
             <td><a class="pkg-name" href="https://cyan4973.github.io/xxHash/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xxhash</a></td>
             <td><span class="pkg-tag">0.8.2-1</span></td>
             <td>
@@ -3411,11 +3411,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xxhash.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xxhash.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xxhash-0.8.2.drop" download style="font-weight: bold; color: #aa2022;">xxhash-0.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">32.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xz-embedded" data-desc="xz-embedded package for distill linux" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="xz-embedded" data-desc="xz-embedded package for distill linux" data-date="2026-09-02" data-size="334">
             <td><a class="pkg-name" href="https://github.com/distill-linux/xz-embedded" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xz-embedded</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -3425,11 +3425,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/xz-embedded.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">xz-embedded.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="xz-embedded-1.0.drop" download style="font-weight: bold; color: #aa2022;">xz-embedded-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">334 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="yambar" data-desc="modular status panel library and daemon for wayland and x11" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="yambar" data-desc="modular status panel library and daemon for wayland and x11" data-date="2026-09-02" data-size="163810">
             <td><a class="pkg-name" href="https://codeberg.org/dnkl/yambar" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yambar</a></td>
             <td><span class="pkg-tag">1.10.0-1</span></td>
             <td>
@@ -3439,11 +3439,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/yambar.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">yambar.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="yambar-1.10.0.drop" download style="font-weight: bold; color: #aa2022;">yambar-1.10.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">160.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="yasm" data-desc="complete rewrite of the nasm assembler" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="yasm" data-desc="complete rewrite of the nasm assembler" data-date="2026-09-02" data-size="1023429">
             <td><a class="pkg-name" href="http://www.tortall.net/projects/yasm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yasm</a></td>
             <td><span class="pkg-tag">1.3.0-1</span></td>
             <td>
@@ -3453,11 +3453,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/yasm.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">yasm.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="yasm-1.3.0.drop" download style="font-weight: bold; color: #aa2022;">yasm-1.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">999.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="zathura" data-desc="highly customizable and functional document viewer" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="zathura" data-desc="highly customizable and functional document viewer" data-date="2026-09-02" data-size="641091">
             <td><a class="pkg-name" href="https://pwmt.org/projects/zathura/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zathura</a></td>
             <td><span class="pkg-tag">2026.07.18-1</span></td>
             <td>
@@ -3467,11 +3467,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/zathura.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">zathura.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="zathura-2026.07.18.drop" download style="font-weight: bold; color: #aa2022;">zathura-2026.07.18.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">626.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="zathura-pdf-mupdf" data-desc="pdf support for zathura (using mupdf)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="zathura-pdf-mupdf" data-desc="pdf support for zathura (using mupdf)" data-date="2026-09-02" data-size="30333353">
             <td><a class="pkg-name" href="https://pwmt.org/projects/zathura-pdf-mupdf/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zathura-pdf-mupdf</a></td>
             <td><span class="pkg-tag">2026.07.18-1</span></td>
             <td>
@@ -3481,11 +3481,11 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/zathura-pdf-mupdf.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">zathura-pdf-mupdf.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="zathura-pdf-mupdf-2026.07.18.drop" download style="font-weight: bold; color: #aa2022;">zathura-pdf-mupdf-2026.07.18.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.9 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="zstd" data-desc="fast real-time compression algorithm - cli tool" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="zstd" data-desc="fast real-time compression algorithm - cli tool" data-date="2026-09-02" data-size="153338">
             <td><a class="pkg-name" href="https://facebook.github.io/zstd/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zstd</a></td>
             <td><span class="pkg-tag">1.5.7-1</span></td>
             <td>
@@ -3495,8 +3495,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="https://github.com/distill-linux/ports/blob/main/recipes/zstd.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">zstd.port</a><br>
-                <span style="font-size: 0.8em; color: #555;">source recipe</span>
+                <a href="zstd-1.5.7.drop" download style="font-weight: bold; color: #aa2022;">zstd-1.5.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">149.7 KB</span>
             </td>
         </tr>
     </tbody>
