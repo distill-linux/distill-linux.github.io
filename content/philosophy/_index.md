@@ -5,7 +5,7 @@ description: "the principles and motivation behind distill linux"
 
 <p>modern computing has largely lost its simplicity. standard operating systems ship gigabytes of opaque binaries, corporate telemetry frameworks, binary blobs, and overlapping layers of abstraction that obscure what your computer is actually doing.</p>
 
-<p><strong>distill</strong> was created to reverse this trend through deliberate distillation.</p>
+<p><strong>distill</strong> was created to reverse this trend through deliberate distillation and from-scratch independence.</p>
 
 <h3>1. what does "distill" mean?</h3>
 
@@ -25,6 +25,11 @@ description: "the principles and motivation behind distill linux"
 </details>
 
 <details open>
+<summary>built from scratch: total architectural independence</summary>
+<p>distill does not fork or depend on any upstream distribution. it is cross-compiled from source through an independent multi-stage bootstrap pipeline (stage0 to stage3), establishing full provenance and transparency over every binary on the root filesystem.</p>
+</details>
+
+<details open>
 <summary>minimalist userland (toybox & mksh)</summary>
 <p>rather than pulling in massive utility suites with legacy complexity, distill pairs <a href="https://landley.net/toybox/">toybox</a> with <a href="https://www.mirbsd.org/mksh.htm">mksh</a>:</p>
 <ul>
@@ -39,10 +44,11 @@ description: "the principles and motivation behind distill linux"
 </details>
 
 <details open>
-<summary>xbps & runit: void's finest foundations</summary>
-<p>void linux got two crucial things right:</p>
+<summary>native package management: drop & sink</summary>
+<p>package management in distill follows the same ethos of strict minimalism and speed:</p>
 <ol>
-<li><strong>xbps</strong>: one of the fastest binary package managers in existence, written in clean c with byte verification.</li>
-<li><strong>runit</strong>: an init system that does process supervision cleanly, predictably, and with near-zero resource consumption.</li>
+<li><strong>drop</strong>: an ultra-compact (<40 KB stripped) precompiled package client verifying SHA-256 on the fly with atomic database recording.</li>
+<li><strong>sink</strong>: an isolated ports engine and recipe builder utilizing libgit2 and POSIX sandboxing to produce verifiable <code>.drop</code> container archives.</li>
+<li><strong>runit</strong>: a bulletproof 3-stage service supervisor that manages processes with near-zero resource consumption.</li>
 </ol>
 </details>

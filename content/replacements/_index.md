@@ -45,9 +45,14 @@ description: "components replaced in distill to achieve purification"
 <td>community modernization with seatd support and TearFree by default</td>
 </tr>
 <tr>
-<td>apt / dnf / pacman</td>
-<td><a href="https://github.com/void-linux/xbps">xbps</a></td>
-<td>blazing-fast binary package manager with cryptographic verification</td>
+<td>apt / dnf / pacman / xbps</td>
+<td><a href="/docs/packages/">drop & sink</a></td>
+<td>independent native C package management (<40 KB drop client, .drop containers, on-the-fly streaming SHA-256 verification)</td>
+</tr>
+<tr>
+<td>gnu make / gcc</td>
+<td><a href="/pkgs/">samurai & clang</a></td>
+<td>ninja-compatible C99 build engine and LLVM/clang compiler toolchain</td>
 </tr>
 </tbody>
 </table>

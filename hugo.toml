@@ -9,7 +9,7 @@ disableKinds = ['taxonomy', 'term']
       unsafe = true
 
 [params]
-  description = 'distill is a simple, purified, independent x86-64 linux distribution forked from void linux based on musl, toybox, mksh, runit, and linux-libre.'
+  description = 'distill is an independent, from-scratch x86-64 linux distribution built on pure musl, toybox, mksh, runit, drop/sink, and linux-libre.'
   tagline = 'the purified operating system'
 
 [menu]

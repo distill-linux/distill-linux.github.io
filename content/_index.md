@@ -6,7 +6,7 @@ title: "distill the purified operating system"
     <img class="distill-hero" src="/images/distill-hero.svg" alt="distill">
 </div>
 
-<p><em>distill</em> is a purified, lightweight, and independent x86-64 <a href="https://en.wikipedia.org/wiki/Linux">linux</a> distribution forked from <a href="https://voidlinux.org/">void linux</a>. it strips all big corpo and proprietary code, providing a pure, lean system based on <a href="https://musl.libc.org/">musl libc</a>, <a href="https://landley.net/toybox/">toybox</a>, <a href="https://www.mirbsd.org/mksh.htm">mksh</a>, <a href="http://smarden.org/runit/">runit</a>, <a href="https://github.com/void-linux/xbps">xbps</a>, and the <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> kernel.</p>
+<p><em>distill</em> is an independent, purified, and lightweight from-scratch x86-64 <a href="https://en.wikipedia.org/wiki/Linux">linux</a> distribution built from the ground up. it completely strips all corporate telemetry, proprietary blobs, and bloated legacy layers, providing a pure, minimal system based on <a href="https://musl.libc.org/">musl libc</a>, <a href="https://landley.net/toybox/">toybox</a>, <a href="https://www.mirbsd.org/mksh.htm">mksh</a>, <a href="http://smarden.org/runit/">runit</a>, the native <strong><a href="/docs/packages/">drop & sink</a></strong> package management ecosystem, and the <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> kernel.</p>
 
 <div class="release-banner">
 latest release: <a href="/releases/">distill 0.1.0-alpha</a> (x86_64-musl-libre)
@@ -16,17 +16,21 @@ latest release: <a href="/releases/">distill 0.1.0-alpha</a> (x86_64-musl-libre)
 <summary>features</summary>
 <ul>
 <li>
+<strong>built from scratch</strong> via an independent multi-stage cross-compilation bootstrap pipeline
+</li><li>
 coreutils replaced with <a href="https://landley.net/toybox/">toybox</a> (0-bsd licensed)
 </li><li>
 shell replaced with <a href="https://www.mirbsd.org/mksh.htm">mksh</a> (mirbsd korn shell)
 </li><li>
-kernel switched to <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> with gnu and corporate branding and telemetry stripped out
+native C package management with <strong><a href="/docs/packages/">drop</a></strong> (binary client) and <strong><a href="/docs/packages/">sink</a></strong> (source builder) using verified <code>.drop</code> containers
 </li><li>
-uses void linux's <a href="https://musl.libc.org/">musl libc</a>, <a href="https://github.com/void-linux/xbps">xbps</a>, and <a href="http://smarden.org/runit/">runit</a>
+pure <a href="https://musl.libc.org/">musl libc</a> and lightweight <a href="http://smarden.org/runit/">runit</a> process supervision
 </li><li>
-zero proprietary blobs, corporate tracking, or telemetry
+kernel built from <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> with proprietary blobs, tracking, and corporate branding removed
 </li><li>
-almost 100% gnu free
+clean clang / llvm toolchain with samurai (samu) build engine
+</li><li>
+100% free software, zero corporate tracking, and completely gnu-free
 </li>
 </ul>
 </details>
@@ -39,8 +43,8 @@ almost 100% gnu free
 
 <details>
 <summary>contribute</summary>
-<p>pull requests and package templates are always welcome on <a href="https://git.distill-linux.org">git</a>.</p>
-<p>contribute a package template to <a href="https://git.distill-linux.org/packages">the distill package tree</a>.</p>
+<p>pull requests, port recipes, and bug reports are welcome on <a href="https://github.com/distill-linux">github</a>.</p>
+<p>explore and contribute package recipes in the <a href="https://github.com/distill-linux/ports">distill ports repository</a>.</p>
 </details>
 
 <details>
