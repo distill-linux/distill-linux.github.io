@@ -1,0 +1,318 @@
+/* Distill Linux Stylesheet - Inspired by werc / cat-v / derivelinux */
+
+:root {
+    --bg-color: #fcfcfc;
+    --text-color: #1a1a1a;
+    --link-color: #0044bb;
+    --link-visited: #551a8b;
+    --link-hover: #dd0000;
+    --border-color: #d0d0d0;
+    --header-bg: #f4f4f4;
+    --code-bg: #f0f0f0;
+    --code-border: #e0e0e0;
+    --subtle-text: #666666;
+    --highlight-bg: #fff8dc;
+    --accent: #2c5282;
+    --sidebar-width: 170px;
+    --font-stack: "Liberation Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --text-color: #d8d8d8;
+        --link-color: #63a0ff;
+        --link-visited: #b388ff;
+        --link-hover: #ff6b6b;
+        --border-color: #333333;
+        --header-bg: #1a1a1a;
+        --code-bg: #1e1e1e;
+        --code-border: #2a2a2a;
+        --subtle-text: #888888;
+        --highlight-bg: #222010;
+        --accent: #90cdf4;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-stack);
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+a:hover, a:focus {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px 40px 15px;
+}
+
+header {
+    margin-top: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header nav.top-nav {
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 8px;
+    color: var(--subtle-text);
+}
+
+header nav.top-nav a {
+    margin: 0 4px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+header h1 a {
+    color: var(--text-color);
+}
+
+header h1 a:hover {
+    text-decoration: none;
+    color: var(--link-hover);
+}
+
+header #headerSubTitle {
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--subtle-text);
+    margin-left: 10px;
+}
+
+#main-layout {
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    gap: 25px;
+}
+
+#side-bar {
+    width: var(--sidebar-width);
+    flex-shrink: 0;
+    font-size: 13px;
+}
+
+#side-bar .sideBarTitle {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: var(--subtle-text);
+    text-transform: lowercase;
+}
+
+#side-bar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#side-bar li {
+    margin-bottom: 4px;
+    white-space: nowrap;
+}
+
+#side-bar li a {
+    display: block;
+    padding: 2px 4px;
+}
+
+#side-bar li a.active, #side-bar li a:hover {
+    background-color: var(--code-bg);
+}
+
+#content {
+    flex-grow: 1;
+    min-width: 0;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+article h1 { font-size: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; }
+article h2 { font-size: 17px; }
+article h3 { font-size: 15px; }
+
+article p {
+    margin-bottom: 1em;
+}
+
+article ul, article ol {
+    margin-bottom: 1em;
+    padding-left: 24px;
+}
+
+article li {
+    margin-bottom: 0.3em;
+}
+
+article pre {
+    background-color: var(--code-bg);
+    border: 1px solid var(--code-border);
+    padding: 10px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    margin: 1em 0;
+    line-height: 1.4;
+}
+
+article code {
+    background-color: var(--code-bg);
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+article pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+article blockquote {
+    border-left: 3px solid var(--accent);
+    padding-left: 12px;
+    margin: 1em 0;
+    color: var(--subtle-text);
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.2em 0;
+    font-size: 13px;
+}
+
+th, td {
+    border: 1px solid var(--border-color);
+    padding: 6px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--header-bg);
+    font-weight: bold;
+}
+
+.distill-hero-box {
+    border: 1px solid var(--border-color);
+    background-color: var(--header-bg);
+    padding: 12px 16px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.distill-ascii {
+    font-family: monospace;
+    white-space: pre;
+    font-size: 11px;
+    line-height: 1.15;
+    color: var(--accent);
+}
+
+.release-banner {
+    background-color: var(--code-bg);
+    border-left: 4px solid var(--accent);
+    padding: 10px 14px;
+    margin: 1.5em 0;
+    font-weight: bold;
+}
+
+.spec-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin: 1.2em 0;
+}
+
+.spec-card {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    background-color: var(--header-bg);
+}
+
+.spec-card h4 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 13px;
+    color: var(--accent);
+}
+
+.spec-card p {
+    margin: 0;
+    font-size: 12px;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+    font-size: 12px;
+    color: var(--subtle-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: var(--subtle-text);
+}
+
+footer a:hover {
+    color: var(--link-hover);
+}
+
+@media (max-width: 680px) {
+    #main-layout {
+        flex-direction: column;
+        gap: 15px;
+    }
+    #side-bar {
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 10px;
+    }
+    #side-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .distill-hero-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}

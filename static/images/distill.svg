@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" width="100%" height="auto">
+  <rect width="680" height="200" fill="#2d336b" rx="4"/>
+  
+  <!-- Subtle Grid Pattern in background -->
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#3b4284" stroke-width="1"/>
+  </pattern>
+  <rect width="680" height="200" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Distillation Apparatus Drawing (Left) -->
+  <!-- Boiling Flask -->
+  <circle cx="90" cy="130" r="38" fill="#1e2247" stroke="#ffffff" stroke-width="3"/>
+  <!-- Liquid in Flask -->
+  <path d="M 58 142 Q 90 135 122 142 A 38 38 0 0 1 58 142" fill="#5865c3"/>
+  <!-- Distillation Neck & Thermometer -->
+  <path d="M 82 92 L 82 45 L 98 45 L 98 92" fill="#1e2247" stroke="#ffffff" stroke-width="3"/>
+  <line x1="90" y1="35" x2="90" y2="80" stroke="#ff5c5c" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="90" cy="82" r="3.5" fill="#ff5c5c"/>
+  
+  <!-- Condenser Column (angled) -->
+  <path d="M 98 60 L 195 105 L 188 118 L 92 73 Z" fill="#242956" stroke="#ffffff" stroke-width="3"/>
+  <line x1="95" y1="67" x2="192" y2="112" stroke="#a5b4fc" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- Water In/Out Tubes -->
+  <line x1="120" y1="65" x2="110" y2="48" stroke="#ffffff" stroke-width="2.5"/>
+  <line x1="170" y1="117" x2="160" y2="135" stroke="#ffffff" stroke-width="2.5"/>
+  
+  <!-- Receiving Flask (Purified Distillate) -->
+  <path d="M 195 110 L 205 130 L 225 165 L 175 165 L 192 130 Z" fill="#1e2247" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pure Condensed Distillate -->
+  <path d="M 180 155 Q 200 152 220 155 L 223 163 L 177 163 Z" fill="#67e8f9"/>
+  <!-- Condensation droplets -->
+  <circle cx="200" cy="138" r="2.5" fill="#67e8f9"/>
+  <circle cx="200" cy="148" r="2" fill="#67e8f9"/>
+
+  <!-- Distill Wordmark & Slogan -->
+  <text x="260" y="95" font-family="monospace, sans-serif" font-size="46" font-weight="900" fill="#ffffff" letter-spacing="4">DISTILL</text>
+  <text x="262" y="128" font-family="sans-serif" font-size="16" font-weight="bold" fill="#67e8f9" letter-spacing="1.5">THE PURIFIED OPERATING SYSTEM</text>
+  <text x="262" y="152" font-family="monospace, sans-serif" font-size="12" fill="#cbd5e1">void fork &bull; musl &bull; xbps &bull; runit &bull; toybox &bull; mksh &bull; linux-libre</text>
+</svg>

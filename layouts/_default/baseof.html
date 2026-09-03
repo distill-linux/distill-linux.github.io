@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="{{ "style.css" | relURL }}" type="text/css" media="screen">
+    <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/vnd.microsoft.icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<header>
+    <nav>
+        <div>
+        {{- range $index, $element := .Site.Menus.top -}}
+            {{- if gt $index 0 }} | {{ end -}}
+            <a href="{{ $element.URL }}">{{ $element.Name }}</a>
+        {{- end -}}
+        </div>
+    </nav>
+    <h1><a href="/">distill <span id="headerSubTitle">{{ .Site.Params.tagline }}</span></a></h1>
+</header>
+
+<nav id="side-bar">
+    <div>
+        <p class="sideBarTitle">pages:</p>
+        <ul>
+            {{- range .Site.Menus.sidebar -}}
+            <li><a href="{{ .URL }}">&rsaquo; {{ .Name }}</a></li>
+            {{- end -}}
+        </ul>
+    </div>
+</nav>
+
+<article>
+{{ block "main" . }}{{ end }}
+</article>
+
+<footer>
+</footer>
+</body>
+</html>

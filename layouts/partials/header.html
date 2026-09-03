@@ -1,0 +1,9 @@
+<header>
+    <nav class="top-nav">
+        {{- range $index, $element := .Site.Menus.top -}}
+            {{- if gt $index 0 }} | {{ end -}}
+            <a href="{{ $element.URL }}">{{ $element.Name }}</a>
+        {{- end -}}
+    </nav>
+    <h1><a href="/">distill <span id="headerSubTitle">{{ .Site.Params.tagline | default "the purified operating system" }}</span></a></h1>
+</header>

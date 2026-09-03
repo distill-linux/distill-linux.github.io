@@ -1,0 +1,64 @@
+baseURL = 'https://distill-linux.github.io/'
+languageCode = 'en-us'
+title = 'distill the purified operating system'
+disableKinds = ['taxonomy', 'term']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = 'distill is a simple, purified, independent x86-64 linux distribution forked from void linux based on musl, toybox, mksh, runit, and linux-libre.'
+  tagline = 'the purified operating system'
+
+[menu]
+  [[menu.top]]
+    name = 'git'
+    url = 'https://github.com/distill-linux'
+    weight = 10
+  [[menu.top]]
+    name = 'ports'
+    url = '/ports/'
+    weight = 20
+  [[menu.top]]
+    name = 'docs'
+    url = '/docs/'
+    weight = 30
+  [[menu.top]]
+    name = 'discord'
+    url = 'https://discord.gg/distill'
+    weight = 40
+
+  [[menu.sidebar]]
+    name = 'ports/'
+    url = '/ports/'
+    weight = 5
+  [[menu.sidebar]]
+    name = 'docs/'
+    url = '/docs/'
+    weight = 10
+  [[menu.sidebar]]
+    name = 'components/'
+    url = '/components/'
+    weight = 20
+  [[menu.sidebar]]
+    name = 'replacements/'
+    url = '/replacements/'
+    weight = 30
+  [[menu.sidebar]]
+    name = 'philosophy/'
+    url = '/philosophy/'
+    weight = 40
+  [[menu.sidebar]]
+    name = 'faq/'
+    url = '/faq/'
+    weight = 50
+  [[menu.sidebar]]
+    name = 'releases/'
+    url = '/releases/'
+    weight = 60
+  [[menu.sidebar]]
+    name = 'special-thanks/'
+    url = '/special-thanks/'
+    weight = 70

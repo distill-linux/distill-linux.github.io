@@ -1,0 +1,13 @@
+<nav id="side-bar">
+    <div>
+        <p class="sideBarTitle">pages:</p>
+        <ul>
+            {{- $currentPage := . -}}
+            {{- range .Site.Menus.sidebar -}}
+            <li>
+                <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "sidebar" . }}active{{ end }}">&rsaquo; {{ .Name }}</a>
+            </li>
+            {{- end -}}
+        </ul>
+    </div>
+</nav>
