@@ -177,7 +177,7 @@ article {
     <tbody id="pkg-body">
         <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="27965">
             <td>
-                <a class="pkg-name" href="samurai-1.2.drop">samurai</a>
+                <a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" title="View source code">samurai</a>
             </td>
             <td>
                 <span class="pkg-tag">1.2-1</span>
@@ -195,7 +195,7 @@ article {
                 2026-09-02 (UTC)
             </td>
             <td>
-                <a href="samurai-1.2.drop">samurai-1.2.drop</a><br>
+                <a href="samurai-1.2.drop" download style="font-weight: bold;">samurai-1.2.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
             </td>
         </tr>
