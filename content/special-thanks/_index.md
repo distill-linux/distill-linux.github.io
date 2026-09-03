@@ -7,7 +7,7 @@ description: "acknowledgments and appreciation to the projects and communities t
 
 <details open>
 <summary>toybox (rob landley & contributors)</summary>
-<p>for developing <a href="https://landley.net/toybox/">toybox</a> under the 0-bsd license, giving us a clean, unified, fast, and bloat-free implementation of posix core utilities.</p>
+<p>for developing <a href="https://landley.net/toybox/">toybox</a> under the 0-bsd license, giving us a clean, unified, fast, implementation of posix core utilities.</p>
 </details>
 
 <details open>
@@ -32,7 +32,7 @@ description: "acknowledgments and appreciation to the projects and communities t
 
 <details open>
 <summary>samurai (michael forney)</summary>
-<p>for engineering <a href="https://github.com/michaelforney/samurai">samurai (samu)</a>, an ultra-fast, ninja-compatible build tool written in pure C99 with zero C++ or Python bloat.</p>
+<p>for engineering <a href="https://github.com/michaelforney/samurai">samurai (samu)</a>, an ultra-fast, ninja-compatible build tool written in pure C99 with zero C++ or Python dependencies.</p>
 </details>
 
 <details open>
@@ -42,7 +42,7 @@ description: "acknowledgments and appreciation to the projects and communities t
 
 <details open>
 <summary>d&eacute;rive (derivelinux.org)</summary>
-<p>for providing direct inspiration for our website design and philosophy. <a href="https://derivelinux.org/">d&eacute;rive</a> demonstrates the raw power and beauty of independent, unbloated operating system design.</p>
+<p>for providing direct inspiration for our website design and philosophy. <a href="https://derivelinux.org/">d&eacute;rive</a> demonstrates the raw power and beauty of independent, minimal operating system design.</p>
 </details>
 
 <details open>

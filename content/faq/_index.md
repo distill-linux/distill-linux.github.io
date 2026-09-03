@@ -4,63 +4,53 @@ description: "common questions about distill linux"
 ---
 
 <details open>
-<summary>why build distill linux from scratch?</summary>
-<p>most modern linux distributions rely on deeply entrenched legacy stacks: sprawling GNU toolchains, complex systemd service graphs, glibc binary bloat, and upstream package trees carrying non-free telemetry hooks.</p>
-<p>distill is built completely from the ground up to achieve total architectural independence and purification. by implementing our own multi-stage cross-compilation pipeline, native package management (<strong>drop & sink</strong>), pure musl libc, toybox, and mksh, distill guarantees a strictly audited, distraction-free environment that answers only to its users.</p>
+<summary>why build distill from scratch?</summary>
+<p>most linux distributions carry decades of legacy code, large toolchains, and overlapping layers of background services. distill is built from the ground up to provide a simple, verifiable base system with musl libc, toybox, mksh, runit, and a lightweight native package manager.</p>
 </details>
 
 <details open>
-<summary>what are the official distill editions?</summary>
-<p>distill organizes its releases into a primary tier 1 flagship and two tier 2 community editions:</p>
+<summary>what editions are available?</summary>
+<p>distill provides three release editions:</p>
 <ul>
-<li><strong>distill-standard (tier 1 / main)</strong>: our primary release for standard modern PCs and laptops. provides clean minimalism while retaining necessary hardware firmware and drivers for out-of-the-box hardware compatibility.</li>
-<li><strong>distill-libre (tier 2)</strong>: a 100% libre edition running a deblobbed linux-libre kernel for open-hardware enthusiasts and free-software purists.</li>
-<li><strong>distill-t2 (tier 2)</strong>: an edition tailored specifically for Intel-based Apple Macs equipped with the Apple T2 security silicon (MacBook Pro, Air, and Mac mini 2018–2020).</li>
+<li><strong>distill-standard (tier 1 / main)</strong>: our primary release for standard x86_64 PCs, laptops, and servers. includes standard hardware firmware so devices like WiFi, Bluetooth, and graphics work out of the box.</li>
+<li><strong>distill-libre (tier 2)</strong>: a 100% free-software edition running the linux-libre kernel with no proprietary firmware blobs.</li>
+<li><strong>distill-t2 (tier 2)</strong>: an edition pre-configured with drivers for Intel Apple Macs with the T2 security chip.</li>
 </ul>
 </details>
 
 <details open>
-<summary>how does distill handle proprietary firmware?</summary>
-<p>we do not completely remove proprietary firmware from the entire project—instead, we provide distinct editions:</p>
+<summary>how does distill handle hardware firmware?</summary>
+<p>we provide separate editions based on hardware and user requirements:</p>
 <ul>
-<li>our main version, <strong>distill-standard</strong>, includes essential hardware firmware so that devices like modern Intel/AMD/Broadcom WiFi cards, Bluetooth, and GPUs work out of the box without corporate telemetry.</li>
-<li>for users who demand absolute blob-free purity, we provide <strong>distill-libre</strong>, which removes all non-free firmware and uses the linux-libre kernel.</li>
-<li>for Apple T2 Mac hardware, <strong>distill-t2</strong> packages the required Apple T2 firmware and drivers.</li>
+<li><strong>distill-standard</strong> includes standard hardware firmware so common WiFi cards, Bluetooth adapters, and graphics cards work without manual setup.</li>
+<li><strong>distill-libre</strong> removes all non-free firmware for users running fully open hardware.</li>
+<li><strong>distill-t2</strong> includes the necessary drivers and firmware for Apple T2 hardware.</li>
 </ul>
 </details>
 
 <details open>
 <summary>what package manager does distill use?</summary>
-<p>distill uses its own native dual-tool package management ecosystem:</p>
+<p>distill uses a native dual-tool package management system:</p>
 <ul>
-<li><strong>drop</strong>: an ultra-compact (<40 KB stripped) precompiled package manager targeting pure musl libc with on-the-fly streaming SHA-256 verification and atomic state registration.</li>
-<li><strong>sink</strong>: the community ports engine and recipe builder, orchestrating Git repositories, POSIX sandbox builds, and automated ELF stripping into verified <code>.drop</code> container archives.</li>
+<li><strong>drop</strong>: a small (<40 KB stripped) C client targeting musl libc that installs binary packages, verifies SHA-256 checksums on the fly, and tracks installed files.</li>
+<li><strong>sink</strong>: a source builder that checks out git sources, builds packages in an isolated fakeroot environment, strips binaries, and generates <code>.drop</code> archives.</li>
 </ul>
 </details>
 
 <details open>
 <summary>why toybox instead of gnu coreutils or busybox?</summary>
 <ul>
-<li><strong>vs gnu coreutils</strong>: gnu tools carry decades of legacy code, massive binary sizes, complex dependency chains, and non-standard flags. toybox is clean, tiny, and strictly posix-compliant.</li>
-<li><strong>vs busybox</strong>: while busybox is great, toybox is developed under the 0-bsd license, specifically crafted with clean modern c standards and designed from the ground up for full linux desktop and posix compatibility.</li>
+<li><strong>vs gnu coreutils</strong>: toybox implements standard posix utilities in a compact multi-call binary with zero external dependencies and a clean 0-bsd license.</li>
+<li><strong>vs busybox</strong>: toybox is designed specifically for standard linux desktop and development environments, with posix compliance and modern C code.</li>
 </ul>
 </details>
 
 <details open>
 <summary>why mksh instead of bash or zsh?</summary>
-<p>gnu bash is large, slow to start, and prone to complex feature bloat. <a href="https://www.mirbsd.org/mksh.htm">mksh</a> (mirbsd korn shell) provides a rock-solid, standards-compliant, and secure shell environment with interactive line editing, low memory footprint, and instantaneous execution.</p>
-</details>
-
-<details>
-<summary>how does distill strip telemetry and corporate branding?</summary>
-<ul>
-<li><strong>kernel</strong>: builds scrub analytics hooks, corporate telemetry daemons, and tracking subsystems.</li>
-<li><strong>base system</strong>: removed any package reporting, crash report hooks, or phone-home daemons.</li>
-<li><strong>software ports</strong>: packages are compiled with privacy-preserving flags (telemetry disabled at compile time).</li>
-</ul>
+<p><a href="https://www.mirbsd.org/mksh.htm">mksh</a> (mirbsd korn shell) starts instantaneously, has a low memory footprint, and provides a strict standards-compliant shell with interactive line editing.</p>
 </details>
 
 <details>
 <summary>can i run graphical desktop environments?</summary>
-<p>yes. distill supports lightweight window managers and desktop environments through our modernized <a href="https://github.com/X11Libre/xserver">X11Libre</a> display server stack with seatd, as well as modern Wayland compositors.</p>
+<p>yes. distill supports lightweight window managers and desktop environments through <a href="https://github.com/X11Libre/xserver">X11Libre</a> with seatd, as well as modern Wayland compositors.</p>
 </details>

@@ -6,7 +6,7 @@ description: "information regarding display servers, x11libre, and graphics supp
 <details open>
 <summary>is wayland supported on distill?</summary>
 <p><strong>wayland is not officially supported at this time.</strong></p>
-<p>our primary focus for distill right now is delivering a rock-solid, bloat-free baseline around <a href="https://github.com/X11Libre/xserver">X11Libre</a>.</p>
+<p>our primary focus for distill right now is delivering a clean, minimal baseline around <a href="https://github.com/X11Libre/xserver">X11Libre</a>.</p>
 <p>wayland packages can still be installed through <code>xbps</code>, but support might be janky or require manual tinkering out of the box. native, officially tested wayland support is planned for a future release once our core stack has fully stabilized.</p>
 </details>
 

@@ -1,6 +1,6 @@
 baseURL = 'https://distill-linux.github.io/'
 languageCode = 'en-us'
-title = 'distill the purified operating system'
+title = 'distill - simple from-scratch linux'
 disableKinds = ['taxonomy', 'term']
 
 [markup]
@@ -9,8 +9,8 @@ disableKinds = ['taxonomy', 'term']
       unsafe = true
 
 [params]
-  description = 'distill is an independent, from-scratch x86-64 linux distribution built on pure musl, toybox, mksh, runit, drop/sink, and linux-libre.'
-  tagline = 'the purified operating system'
+  description = 'distill is an independent, from-scratch x86-64 linux distribution based on musl, toybox, mksh, runit, drop/sink, and clang.'
+  tagline = 'simple from-scratch linux'
 
 [menu]
   [[menu.top]]

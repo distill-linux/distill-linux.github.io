@@ -1,26 +1,26 @@
 ---
-title: "distill the purified operating system"
+title: "distill"
 ---
 
 <div class="distill-backdrop">
     <img class="distill-hero" src="/images/distill-hero.svg" alt="distill">
 </div>
 
-<p><em>distill</em> is an independent, purified, and lightweight from-scratch x86-64 <a href="https://en.wikipedia.org/wiki/Linux">linux</a> distribution built from the ground up. it strips corporate telemetry, tracking, and bloated legacy layers, providing a pure, minimal system based on <a href="https://musl.libc.org/">musl libc</a>, <a href="https://landley.net/toybox/">toybox</a>, <a href="https://www.mirbsd.org/mksh.htm">mksh</a>, <a href="http://smarden.org/runit/">runit</a>, and the native <strong><a href="/docs/packages/">drop & sink</a></strong> package management ecosystem.</p>
+<p><em>distill</em> is an independent, from-scratch x86-64 <a href="https://en.wikipedia.org/wiki/Linux">linux</a> distribution built from source. it provides a minimal, simple base system based on <a href="https://musl.libc.org/">musl libc</a>, <a href="https://landley.net/toybox/">toybox</a>, <a href="https://www.mirbsd.org/mksh.htm">mksh</a>, <a href="http://smarden.org/runit/">runit</a>, and a native package management system: <strong><a href="/docs/packages/">drop & sink</a></strong>.</p>
 
 <div class="release-banner">
-latest release: <a href="/releases/">distill-standard 0.1.0-alpha</a> (tier 1 flagship)
+latest release: <a href="/releases/">distill-standard 0.1.0-alpha</a> (tier 1 main)
 </div>
 
 <details open>
-<summary>our editions</summary>
+<summary>editions</summary>
 <ul>
 <li>
-<strong>distill-standard (tier 1 / main)</strong>: our flagship release for standard x86_64 PCs, laptops, and workstations. maintains lean minimalism while including practical hardware support and firmware without corporate telemetry.
+<strong>distill-standard (tier 1 / main)</strong>: our primary release for standard x86_64 PCs, laptops, and servers. provides a minimal base system with standard hardware drivers and firmware for out-of-the-box hardware support.
 </li><li>
-<strong>distill-libre (tier 2)</strong>: a 100% libre edition running a deblobbed <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> kernel for pure free-software purists.
+<strong>distill-libre (tier 2)</strong>: 100% free-software edition running the deblobbed <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> kernel with no non-free firmware.
 </li><li>
-<strong>distill-t2 (tier 2)</strong>: a specialized edition pre-configured with kernel drivers for apple t2 security chip macs (2018–2020 macbook pro, macbook air, and mac mini).
+<strong>distill-t2 (tier 2)</strong>: specialized edition pre-configured with drivers for apple t2 macs (2018–2020 macbook pro, macbook air, and mac mini).
 </li>
 </ul>
 </details>
@@ -31,34 +31,33 @@ latest release: <a href="/releases/">distill-standard 0.1.0-alpha</a> (tier 1 fl
 <li>
 <strong>built from scratch</strong> via an independent multi-stage cross-compilation bootstrap pipeline
 </li><li>
-coreutils replaced with <a href="https://landley.net/toybox/">toybox</a> (0-bsd licensed)
+core utilities provided by <a href="https://landley.net/toybox/">toybox</a> (0-bsd license)
 </li><li>
-shell replaced with <a href="https://www.mirbsd.org/mksh.htm">mksh</a> (mirbsd korn shell)
+default shell is <a href="https://www.mirbsd.org/mksh.htm">mksh</a> (mirbsd korn shell)
 </li><li>
-native C package management with <strong><a href="/docs/packages/">drop</a></strong> (binary client) and <strong><a href="/docs/packages/">sink</a></strong> (source builder) using verified <code>.drop</code> containers
+native C package management with <strong><a href="/docs/packages/">drop</a></strong> (binary client) and <strong><a href="/docs/packages/">sink</a></strong> (source builder) using <code>.drop</code> packages
 </li><li>
-pure <a href="https://musl.libc.org/">musl libc</a> and lightweight <a href="http://smarden.org/runit/">runit</a> process supervision
+C library: <a href="https://musl.libc.org/">musl libc</a>
 </li><li>
-clean clang / llvm compiler toolchain with samurai (samu) build engine
+init system and service supervision: <a href="http://smarden.org/runit/">runit</a>
 </li><li>
-zero corporate tracking, telemetry, or spyware
+build toolchain: clang / llvm and samurai (samu)
 </li>
 </ul>
 </details>
 
 <details>
-<summary>name & definition</summary>
-<p>the name is derived from the definition of <strong>distill</strong> (<em>"to purify a substance by vaporizing and condensing it; to extract the essential essence while leaving behind all impurities and sediments"</em>).</p>
-<p>distill strips out telemetry, spyware, and architectural bloat to leave only a clean, pure operating system.</p>
+<summary>about the project</summary>
+<p>the name comes from the distillation process: keeping only what is necessary for a functional, minimal operating system without extra layers of complexity.</p>
 </details>
 
 <details>
 <summary>contribute</summary>
-<p>pull requests, port recipes, and bug reports are welcome on <a href="https://github.com/distill-linux">github</a>.</p>
-<p>explore and contribute package recipes in the <a href="https://github.com/distill-linux/ports">distill ports repository</a>.</p>
+<p>source code and issue trackers are available on <a href="https://github.com/distill-linux">github</a>.</p>
+<p>package recipes can be found in the <a href="https://github.com/distill-linux/ports">distill ports repository</a>.</p>
 </details>
 
 <details>
 <summary>discord</summary>
-<p>join our community and chat with contributors on discord: <a href="https://discord.gg/distill">discord.gg/distill</a></p>
+<p>chat with contributors on discord: <a href="https://discord.gg/distill">discord.gg/distill</a></p>
 </details>

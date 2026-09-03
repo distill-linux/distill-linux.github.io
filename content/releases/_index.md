@@ -3,10 +3,10 @@ title: "releases"
 description: "download official ISO images and release notes for distill linux"
 ---
 
-<p>distill linux produces reproducible live ISO images built from source via our independent cross-compilation pipeline. we offer a flagship <strong>tier 1</strong> release alongside two specialized <strong>tier 2</strong> community editions:</p>
+<p>distill produces live ISO images built from source through our independent cross-compilation pipeline. we offer a primary <strong>tier 1</strong> release alongside two specialized <strong>tier 2</strong> community editions:</p>
 
 <div class="release-banner">
-flagship release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
+latest release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
 </div>
 
 <h3>available editions</h3>
@@ -26,14 +26,14 @@ flagship release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
 <td><strong>tier 1 (main)</strong></td>
 <td><strong>distill-standard</strong></td>
 <td>standard x86_64 PCs, laptops, and servers</td>
-<td>standard linux kernel with practical hardware firmware and drivers (zero telemetry)</td>
+<td>standard linux kernel with device drivers and firmware for common hardware</td>
 <td><a href="#">distill-standard-0.1.0.iso</a></td>
 </tr>
 <tr>
 <td><strong>tier 2</strong></td>
 <td><strong>distill-libre</strong></td>
-<td>100% libre & open-hardware platforms</td>
-<td>linux-libre kernel (fully deblobbed, zero proprietary firmware blobs)</td>
+<td>libre and open-hardware platforms</td>
+<td>linux-libre kernel (deblobbed, zero non-free firmware blobs)</td>
 <td><a href="#">distill-libre-0.1.0.iso</a></td>
 </tr>
 <tr>
@@ -60,12 +60,11 @@ flagship release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
 </details>
 
 <details open>
-<summary>understanding our tiers</summary>
-<p>we do not arbitrarily break hardware support. while distill firmly rejects corporate spyware, tracking, telemetry, and unneeded bloat, we recognize that real-world hardware often requires firmware:</p>
+<summary>edition details</summary>
 <ul>
-<li><strong>distill-standard (tier 1)</strong>: our default and recommended distribution. provides clean musl/toybox/mksh minimalism while including standard Linux device support and firmware so your WiFi, GPU, and peripherals work out of the box.</li>
-<li><strong>distill-libre (tier 2)</strong>: built for users and hardware that demand absolute 100% free software purity with no proprietary blobs whatsoever.</li>
-<li><strong>distill-t2 (tier 2)</strong>: pre-patched with out-of-tree Apple T2 drivers, enabling native Linux execution on 2018–2020 Intel Macs without complex manual kernel configuration.</li>
+<li><strong>distill-standard (tier 1)</strong>: our primary edition. provides a minimal musl/toybox/mksh base while including standard hardware drivers and firmware for WiFi, GPU, and peripherals.</li>
+<li><strong>distill-libre (tier 2)</strong>: built for users and systems requiring 100% free software, using the deblobbed linux-libre kernel.</li>
+<li><strong>distill-t2 (tier 2)</strong>: includes out-of-tree Apple T2 drivers, enabling native Linux execution on 2018–2020 Intel Macs.</li>
 </ul>
 </details>
 
