@@ -4,7 +4,7 @@ title: "packages"
 
 # distill ports & package repository
 
-Official precompiled binary packages for Distill Linux (`x86_64-musl`), built from source with `sink` and managed via `drop`.
+Official precompiled binary packages for Distill Linux (`x86_64-musl`), built purely with `clang`, managed via `drop`, and packaged with `sink`.
 
 ### Using with `drop`
 ```sh
@@ -29,5 +29,4 @@ Plain-text catalog for scripts: [`index.tsv`](index.tsv)
 
 | Package | Version | Size | SHA-256 | Download |
 |---|---|---|---|---|
-| **samurai** | `1.2` | 26.8 KB | `6a6ca06b2dc038299ddb2843144fb160f4818b3f42a9ae6839843f3d1aba39a4` | [samurai-1.2.drop](samurai-1.2.drop) |
-
+| **samurai** | `1.2` | 27.3 KB | `8a0b2a4006d9c80f96ea973bedad05a04e588a8de51a9de0b94e195b11f12831` | [samurai-1.2.drop](samurai-1.2.drop) |
