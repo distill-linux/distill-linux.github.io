@@ -629,7 +629,7 @@ article {
                 <span style="font-size: 0.8em; color: #555;">source recipe</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-02" data-size="14942">
+        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-02" data-size="0">
             <td><a class="pkg-name" href="https://github.com/distill-linux/drop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">drop</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -639,8 +639,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="drop-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">drop-0.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">14.6 KB</span>
+                <a href="https://github.com/distill-linux/ports/blob/main/recipes/drop.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">drop.port</a><br>
+                <span style="font-size: 0.8em; color: #555;">source recipe</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="dropbear" data-desc="small ssh server and client" data-date="2026-09-02" data-size="0">
@@ -2281,7 +2281,7 @@ article {
                 <span style="font-size: 0.8em; color: #555;">source recipe</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="27965">
+        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="0">
             <td><a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">samurai</a></td>
             <td><span class="pkg-tag">1.3-1</span></td>
             <td>
@@ -2291,8 +2291,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="samurai-1.2.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
+                <a href="https://github.com/distill-linux/ports/blob/main/recipes/samurai.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">samurai.port</a><br>
+                <span style="font-size: 0.8em; color: #555;">source recipe</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-02" data-size="0">
@@ -2365,7 +2365,7 @@ article {
                 <span style="font-size: 0.8em; color: #555;">source recipe</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-02" data-size="13790">
+        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-02" data-size="0">
             <td><a class="pkg-name" href="https://github.com/distill-linux/sink" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sink</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -2375,8 +2375,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="sink-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">sink-0.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">13.5 KB</span>
+                <a href="https://github.com/distill-linux/ports/blob/main/recipes/sink.port" target="_blank" rel="noopener" style="color: #aa2022; font-weight: bold;">sink.port</a><br>
+                <span style="font-size: 0.8em; color: #555;">source recipe</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="slock" data-desc="simple screen locker for x" data-date="2026-09-02" data-size="0">
