@@ -25,11 +25,9 @@
 <header>
     <nav>
         <div>
-        {{- range $index, $element := .Site.Menus.top -}}
-            {{- if gt $index 0 }} | {{ end -}}
-            <a href="{{ $element.URL }}">{{ $element.Name }}</a>
-        {{- end -}}
-            | <a href="javascript:void(0)" onclick="toggleInvert()" id="invert-toggle" title="Invert colors">invert</a>
+        {{- range $index, $element := .Site.Menus.top }}
+            {{- if gt $index 0 }} | {{ end }}<a href="{{ $element.URL }}">{{ $element.Name }}</a>
+        {{- end }} | <a href="javascript:void(0)" onclick="toggleInvert()" id="invert-toggle" title="Invert colors">invert</a>
         </div>
     </nav>
     <h1><a href="/">distill <span id="headerSubTitle">{{ .Site.Params.tagline }}</span></a></h1>
