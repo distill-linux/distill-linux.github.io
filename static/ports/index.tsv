@@ -5,6 +5,7 @@ alsa-lib	1.2.16.1	42c0969d81bea2948dafad05bf52b7ccb1d4080eb6a83813965cfb6f39c4d5
 alsa-utils	1.2.16	e14cfd70000739d6a300694db231bfae821af9d87fb1f113836891f9e9e57047	1380076	alsa-utils-1.2.16.drop	libsamplerate-devel ncurses-devel
 appimage	1.0	9c97c7ecde423f3fb69ce952a7f2a49efd74e68ad80c6dafea0c3af4d44c362d	376	appimage-1.0.drop	squashfs-tools fuse zlib
 appimaged	20240901	ff18b7385a209dd3baad661ce655eb2b5e0faac9e59e855a690154672c533ce9	390	appimaged-20240901.drop	fuse cairo glib
+apple-bcm-firmware	14.0	eff9c3fc662f922f2d52a2818587ce8e9df58fcbe2bbf0f8ea12cf69ef3ecc2d	15035453	apple-bcm-firmware-14.0.drop	
 autoconf	2.73	16463c02f2ebaa5c3ab52826edc4de995e7c71a131c41b675d11764530bffda9	993107	autoconf-2.73.drop	
 automake	1.16.5	49228018cc7d1688ece65341b2136cf4ae2cf5d4b9235873a64c066c97a1690a	679196	automake-1.16.5.drop	
 azpainter	3.0.12	95c74338cfd5c6f70eacc3d086fdd79a94a9e128aba141591b747b46ac0316af	847265	azpainter-3.0.12.drop	fontconfig-devel libXcursor-devel libXi-devel libXrender-devel libjpeg-turbo-devel libpng-devel libwebp-devel tiff-devel zlib-devel freetype-devel

@@ -165,7 +165,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>257 packages found.</strong> Page 1 of 1.
+  <strong>258 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -248,6 +248,20 @@ article {
             <td>
                 <a href="appimaged-20240901.drop" download style="font-weight: bold; color: #aa2022;">appimaged-20240901.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">390 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-02" data-size="15035453">
+            <td><a class="pkg-name" href="https://github.com/NoaHimesaka1873/apple-bcm-firmware" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-bcm-firmware</a></td>
+            <td><span class="pkg-tag">14.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Wi-Fi and Bluetooth Firmware from macOS Big Sur for T2 and M1 Macs</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in apple-bcm-firmware</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="apple-bcm-firmware-14.0.drop" download style="font-weight: bold; color: #aa2022;">apple-bcm-firmware-14.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.3 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-02" data-size="993107">
