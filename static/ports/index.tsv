@@ -48,6 +48,7 @@ dwm	6.8	d8c23e8337b819040ce0ee617564325f56d0336ef7999acd37a8adfdef3fd18f	30691	d
 e2fsprogs	1.47.2	2cd0c5a04b1f0e0a2b542da7e421bd040f5800cb47949e71f97a0cd530d4fae1	1717230	e2fsprogs-1.47.2.drop	libuuid-devel libblkid-devel fuse-devel
 efibootmgr	18	61df5c59af9cdb3c040ba2e267ff265c5a34d77176edc0d3d32cea8bf33037c9	30668	efibootmgr-18.drop	libefivar-devel popt-devel
 eudev	3.2.14	433bf082c903afa6d1ff3b4595fdfdd2c373795832ee5e90d0ca3df88a3b178c	1918959	eudev-3.2.14.drop	libblkid-devel libkmod-devel
+fastfetch	2.67.1		0	fastfetch-2.67.1.drop	yyjson vulkan-loader libXrandr wayland libdrm glib dconf zlib dbus MesaLib
 fbpad	1.0	118bd35a3a0ec37873d478f70389b84d4642c8c716b9a63c15b9561cbd93a281	322	fbpad-1.0.drop	
 fbv	1.0b	5940884268532c9950fdcfa55a9b7fb7e78fb4f3db83601e42f41eccf536ffe7	15717	fbv-1.0b.drop	libpng-devel libjpeg-turbo-devel giflib-devel
 feh	3.12.2	a154ee6a7061e3bdb45e417225bd3c62863e3fc97b52c3df21571227e8643711	206739	feh-3.12.2.drop	giblib-devel libXinerama-devel libXt-devel libcurl-devel
@@ -146,6 +147,7 @@ musl-dev	1.2.5	b16fa50ba6f1addc750fea57251e30b674cb9d0441d5dce13c9fd1f22701d97c	
 musl-fts	1.2.7	fd3f5cadc467d76a34439c012cd55b670b33897d50b0145b2df4e19877c7ee2c	7764	musl-fts-1.2.7.drop	
 musl-obstack	1.2.3	41d78b2df3ec1a8c3bff7b1ccc9f94430503cbdcca42a8727b8cb8696f8272b1	3344	musl-obstack-1.2.3.drop	
 nasm	2.16.03	3667d4928e8bba860381f69264b47f90aa94ad69759312ebf85b88f218187acf	607005	nasm-2.16.03.drop	
+neofetch	7.1.0		0	neofetch-7.1.0.drop	bash
 netsurf	3.11	16347a45cb5aeb62a917b466f40154a3f0a33e88208ef08a7896dbfaa1bd6d83	1811464	netsurf-3.11.drop	
 nsxiv	34	1183b0b493be8e673edcc658e59166ac799c41f53a68c9c746b6ebaadc40f340	50919	nsxiv-34.drop	libX11-devel imlib2-devel giflib-devel libexif-devel libXft-devel
 oclock	1.0.6	1db82436ef31d5df825dede745b005eab081f2744a88e95356f8456098455cb4	10685	oclock-1.0.6.drop	libXmu-devel libxkbfile-devel

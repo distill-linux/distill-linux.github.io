@@ -165,7 +165,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>258 packages found.</strong> Page 1 of 1.
+  <strong>260 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -850,6 +850,20 @@ article {
             <td>
                 <a href="eudev-3.2.14.drop" download style="font-weight: bold; color: #aa2022;">eudev-3.2.14.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fastfetch" data-desc="fast, highly customizable system information fetching tool" data-date="2026-09-02" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/fastfetch-cli/fastfetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fastfetch</a></td>
+            <td><span class="pkg-tag">2.67.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast, highly customizable system information fetching tool</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fastfetch</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="fastfetch-2.67.1.drop" download style="font-weight: bold; color: #aa2022;">fastfetch-2.67.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-02" data-size="322">
@@ -2222,6 +2236,20 @@ article {
             <td>
                 <a href="nasm-2.16.03.drop" download style="font-weight: bold; color: #aa2022;">nasm-2.16.03.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">592.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="neofetch" data-desc="cli system information tool written in bash" data-date="2026-09-02" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/dylanaraps/neofetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">neofetch</a></td>
+            <td><span class="pkg-tag">7.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">CLI system information tool written in bash</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in neofetch</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="neofetch-7.1.0.drop" download style="font-weight: bold; color: #aa2022;">neofetch-7.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="netsurf" data-desc="free, open source web browser written in c" data-date="2026-09-02" data-size="1811464">
