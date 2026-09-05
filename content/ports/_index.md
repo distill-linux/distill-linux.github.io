@@ -2518,7 +2518,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="27965">
+        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="36332">
             <td><a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">samurai</a></td>
             <td><span class="pkg-tag">1.3-1</span></td>
             <td>
@@ -2528,8 +2528,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="samurai-1.2.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
+                <a href="samurai-1.3.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">35.5 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-02" data-size="369">
@@ -2966,7 +2966,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">147.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wine" data-desc="compatibility layer for running windows applications on posix systems" data-date="2026-09-02" data-size="58645850">
+        <tr class="pkg-row" data-name="wine" data-desc="compatibility layer for running windows applications on posix systems" data-date="2026-09-02" data-size="58645946">
             <td><a class="pkg-name" href="https://gitlab.winehq.org/wine/wine" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wine</a></td>
             <td><span class="pkg-tag">11.16-1</span></td>
             <td>
