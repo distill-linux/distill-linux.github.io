@@ -165,7 +165,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>237 packages found.</strong> Page 1 of 1.
+  <strong>257 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -220,6 +220,34 @@ article {
             <td>
                 <a href="alsa-utils-1.2.16.drop" download style="font-weight: bold; color: #aa2022;">alsa-utils-1.2.16.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="appimage" data-desc="appimage runtime and desktop integration utility" data-date="2026-09-02" data-size="376">
+            <td><a class="pkg-name" href="https://github.com/AppImage/AppImageKit" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">appimage</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">AppImage runtime and desktop integration utility</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in appimage</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="appimage-1.0.drop" download style="font-weight: bold; color: #aa2022;">appimage-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">376 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="appimaged" data-desc="daemon that monitors the system and integrates appimages" data-date="2026-09-02" data-size="390">
+            <td><a class="pkg-name" href="https://github.com/probonopd/go-appimage" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">appimaged</a></td>
+            <td><span class="pkg-tag">20240901-1</span></td>
+            <td>
+                <div class="pkg-desc">Daemon that monitors the system and integrates AppImages</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in appimaged</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="appimaged-20240901.drop" download style="font-weight: bold; color: #aa2022;">appimaged-20240901.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">390 B</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-02" data-size="993107">
@@ -362,6 +390,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">2.9 MB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="bubblewrap" data-desc="unprivileged sandboxing tool utilizing linux user namespaces" data-date="2026-09-02" data-size="40718">
+            <td><a class="pkg-name" href="https://github.com/containers/bubblewrap" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bubblewrap</a></td>
+            <td><span class="pkg-tag">0.12.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Unprivileged sandboxing tool utilizing Linux user namespaces</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bubblewrap</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="bubblewrap-0.12.0.drop" download style="font-weight: bold; color: #aa2022;">bubblewrap-0.12.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">39.8 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="byacc" data-desc="berkeley yacc, a lalr(1) parser generator" data-date="2026-09-02" data-size="78108">
             <td><a class="pkg-name" href="https://invisible-island.net/byacc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">byacc</a></td>
             <td><span class="pkg-tag">20260126-1</span></td>
@@ -474,6 +516,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">265 B</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="containerd" data-desc="open and reliable container runtime daemon" data-date="2026-09-02" data-size="29457498">
+            <td><a class="pkg-name" href="https://github.com/containerd/containerd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">containerd</a></td>
+            <td><span class="pkg-tag">2.3.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Open and reliable container runtime daemon</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in containerd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="containerd-2.3.2.drop" download style="font-weight: bold; color: #aa2022;">containerd-2.3.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.1 MB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="cproc" data-desc="c11 compiler using qbe as backend written by michael forney" data-date="2026-09-02" data-size="365">
             <td><a class="pkg-name" href="https://github.com/michaelforney/cproc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cproc</a></td>
             <td><span class="pkg-tag">main-1</span></td>
@@ -486,6 +542,34 @@ article {
             <td>
                 <a href="cproc-main.drop" download style="font-weight: bold; color: #aa2022;">cproc-main.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">365 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="crio" data-desc="lightweight container runtime interface for kubernetes" data-date="2026-09-02" data-size="24298352">
+            <td><a class="pkg-name" href="https://github.com/cri-o/cri-o" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">crio</a></td>
+            <td><span class="pkg-tag">1.36.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Lightweight Container Runtime Interface for Kubernetes</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in crio</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="crio-1.36.3.drop" download style="font-weight: bold; color: #aa2022;">crio-1.36.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="crun" data-desc="fast and lightweight fully compliant oci container runtime in c" data-date="2026-09-02" data-size="284599">
+            <td><a class="pkg-name" href="https://github.com/containers/crun" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">crun</a></td>
+            <td><span class="pkg-tag">1.29.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast and lightweight fully compliant OCI container runtime in C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in crun</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="crun-1.29.1.drop" download style="font-weight: bold; color: #aa2022;">crun-1.29.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">277.9 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="cryptsetup" data-desc="setup virtual encryption devices under linux dm-crypt" data-date="2026-09-02" data-size="910026">
@@ -600,6 +684,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">782.0 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="distrobox" data-desc="use any linux distribution inside your terminal using podman or docker" data-date="2026-09-02" data-size="384">
+            <td><a class="pkg-name" href="https://github.com/89luca89/distrobox" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">distrobox</a></td>
+            <td><span class="pkg-tag">1.8.1.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Use any Linux distribution inside your terminal using Podman or Docker</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in distrobox</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="distrobox-1.8.1.2.drop" download style="font-weight: bold; color: #aa2022;">distrobox-1.8.1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">384 B</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="dmenu" data-desc="generic menu for x" data-date="2026-09-02" data-size="21444">
             <td><a class="pkg-name" href="https://tools.suckless.org/dmenu/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dmenu</a></td>
             <td><span class="pkg-tag">5.4-1</span></td>
@@ -612,6 +710,20 @@ article {
             <td>
                 <a href="dmenu-5.4.drop" download style="font-weight: bold; color: #aa2022;">dmenu-5.4.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">20.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="docker" data-desc="pack, ship and run any application as a lightweight container" data-date="2026-09-02" data-size="320">
+            <td><a class="pkg-name" href="https://github.com/moby/moby" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">docker</a></td>
+            <td><span class="pkg-tag">29.7.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Pack, ship and run any application as a lightweight container</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in docker</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="docker-29.7.2.drop" download style="font-weight: bold; color: #aa2022;">docker-29.7.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">320 B</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="dosfstools" data-desc="dos filesystem tools" data-date="2026-09-02" data-size="94489">
@@ -796,6 +908,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">802.6 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="firejail" data-desc="linux namespaces sandbox program using seccomp-bpf filters" data-date="2026-09-02" data-size="780808">
+            <td><a class="pkg-name" href="https://github.com/netblue30/firejail" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">firejail</a></td>
+            <td><span class="pkg-tag">0.9.80-1</span></td>
+            <td>
+                <div class="pkg-desc">Linux namespaces sandbox program using seccomp-bpf filters</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in firejail</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="firejail-0.9.80.drop" download style="font-weight: bold; color: #aa2022;">firejail-0.9.80.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">762.5 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="flac" data-desc="free lossless audio codec" data-date="2026-09-02" data-size="188154">
             <td><a class="pkg-name" href="https://xiph.org/flac/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flac</a></td>
             <td><span class="pkg-tag">1.5.0-1</span></td>
@@ -808,6 +934,20 @@ article {
             <td>
                 <a href="flac-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">flac-1.5.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">183.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="flatpak" data-desc="application sandboxing and distribution framework for desktop apps" data-date="2026-09-02" data-size="2728890">
+            <td><a class="pkg-name" href="https://github.com/flatpak/flatpak" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flatpak</a></td>
+            <td><span class="pkg-tag">1.18.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Application sandboxing and distribution framework for desktop apps</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in flatpak</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="flatpak-1.18.1.drop" download style="font-weight: bold; color: #aa2022;">flatpak-1.18.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.6 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="flex" data-desc="fast lexical analyzer" data-date="2026-09-02" data-size="352541">
@@ -1032,6 +1172,20 @@ article {
             <td>
                 <a href="imv-5.0.1.drop" download style="font-weight: bold; color: #aa2022;">imv-5.0.1.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">114.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="incus" data-desc="community fork of lxd system container and virtual machine manager" data-date="2026-09-02" data-size="34797015">
+            <td><a class="pkg-name" href="https://github.com/lxc/incus" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">incus</a></td>
+            <td><span class="pkg-tag">6.22.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Community fork of LXD system container and virtual machine manager</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in incus</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="incus-6.22.0.drop" download style="font-weight: bold; color: #aa2022;">incus-6.22.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.2 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="iproute2" data-desc="ip routing utilities" data-date="2026-09-02" data-size="1752921">
@@ -1678,6 +1832,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">28.2 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="libvirt" data-desc="virtualization management toolkit and daemon for kvm, qemu and lxc" data-date="2026-09-02" data-size="14647780">
+            <td><a class="pkg-name" href="https://gitlab.com/libvirt/libvirt" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvirt</a></td>
+            <td><span class="pkg-tag">12.6.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Virtualization management toolkit and daemon for KVM, QEMU and LXC</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libvirt</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="libvirt-12.6.0.drop" download style="font-weight: bold; color: #aa2022;">libvirt-12.6.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.0 MB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="libvorbis" data-desc="the vorbis general audio compression codec" data-date="2026-09-02" data-size="214375">
             <td><a class="pkg-name" href="https://www.xiph.org/vorbis/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvorbis</a></td>
             <td><span class="pkg-tag">1.3.7-1</span></td>
@@ -1762,6 +1930,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.5 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="lilipod" data-desc="simple and lightweight container manager in c" data-date="2026-09-02" data-size="362">
+            <td><a class="pkg-name" href="https://github.com/illiliti/lilipod" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lilipod</a></td>
+            <td><span class="pkg-tag">0.4.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Simple and lightweight container manager in C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lilipod</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="lilipod-0.4.1.drop" download style="font-weight: bold; color: #aa2022;">lilipod-0.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">362 B</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="linux-pam" data-desc="linux-pam package for distill linux" data-date="2026-09-02" data-size="390684">
             <td><a class="pkg-name" href="https://github.com/distill-linux/linux-pam" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">linux-pam</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
@@ -1830,6 +2012,20 @@ article {
             <td>
                 <a href="lvm2-2.03.29.drop" download style="font-weight: bold; color: #aa2022;">lvm2-2.03.29.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">2.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="lxc" data-desc="linux containers userspace tools and runtime library" data-date="2026-09-02" data-size="747838">
+            <td><a class="pkg-name" href="https://github.com/lxc/lxc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lxc</a></td>
+            <td><span class="pkg-tag">6.0.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Linux Containers userspace tools and runtime library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lxc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="lxc-6.0.3.drop" download style="font-weight: bold; color: #aa2022;">lxc-6.0.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">730.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="lynx" data-desc="text browser for the world wide web" data-date="2026-09-02" data-size="851039">
@@ -2196,6 +2392,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">33.0 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="podman" data-desc="tool and library for managing oci containers and pods without a daemon" data-date="2026-09-02" data-size="30556388">
+            <td><a class="pkg-name" href="https://github.com/containers/podman" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">podman</a></td>
+            <td><span class="pkg-tag">5.8.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Tool and library for managing OCI containers and pods without a daemon</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in podman</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="podman-5.8.3.drop" download style="font-weight: bold; color: #aa2022;">podman-5.8.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">29.1 MB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="python3" data-desc="python programming language (${version%.*} series)" data-date="2026-09-02" data-size="8575092">
             <td><a class="pkg-name" href="https://www.python.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">python3</a></td>
             <td><span class="pkg-tag">3.14.6-1</span></td>
@@ -2236,6 +2446,20 @@ article {
             <td>
                 <a href="qbe-1.1.drop" download style="font-weight: bold; color: #aa2022;">qbe-1.1.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">111.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="qemu" data-desc="generic machine emulator and virtualizer with kvm kernel acceleration" data-date="2026-09-02" data-size="346">
+            <td><a class="pkg-name" href="https://github.com/qemu/qemu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">qemu</a></td>
+            <td><span class="pkg-tag">11.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Generic machine emulator and virtualizer with KVM kernel acceleration</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in qemu</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="qemu-11.1.0.drop" download style="font-weight: bold; color: #aa2022;">qemu-11.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">346 B</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="river" data-desc="dynamic tiling wayland compositor" data-date="2026-09-02" data-size="620901">
@@ -2434,6 +2658,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">91.0 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="snapd" data-desc="service and tools for management of snap packages" data-date="2026-09-02" data-size="386">
+            <td><a class="pkg-name" href="https://github.com/canonical/snapd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">snapd</a></td>
+            <td><span class="pkg-tag">2.68.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Service and tools for management of snap packages</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in snapd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="snapd-2.68.0.drop" download style="font-weight: bold; color: #aa2022;">snapd-2.68.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">386 B</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="spirv-headers" data-desc="machine-readable files for the spir-v registry" data-date="2026-09-02" data-size="479670">
             <td><a class="pkg-name" href="https://github.com/KhronosGroup/SPIRV-Headers" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">spirv-headers</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
@@ -2588,6 +2826,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">491.1 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="virtualbox" data-desc="powerful x86 and amd64/intel64 virtualization software" data-date="2026-09-02" data-size="388">
+            <td><a class="pkg-name" href="https://www.virtualbox.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">virtualbox</a></td>
+            <td><span class="pkg-tag">7.1.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Powerful x86 and AMD64/Intel64 virtualization software</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in virtualbox</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="virtualbox-7.1.6.drop" download style="font-weight: bold; color: #aa2022;">virtualbox-7.1.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">388 B</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="vulkan-headers" data-desc="vulkan header files" data-date="2026-09-02" data-size="3193142">
             <td><a class="pkg-name" href="https://www.khronos.org/vulkan/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">vulkan-headers</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
@@ -2644,6 +2896,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">942.0 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="waydroid" data-desc="container-based approach to boot a full android system on wayland" data-date="2026-09-02" data-size="226241">
+            <td><a class="pkg-name" href="https://github.com/waydroid/waydroid" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">waydroid</a></td>
+            <td><span class="pkg-tag">1.6.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Container-based approach to boot a full Android system on Wayland</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in waydroid</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="waydroid-1.6.3.drop" download style="font-weight: bold; color: #aa2022;">waydroid-1.6.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">220.9 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="wayland" data-desc="core wayland window system code and protocol" data-date="2026-09-02" data-size="73833">
             <td><a class="pkg-name" href="https://wayland.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland</a></td>
             <td><span class="pkg-tag">1.26.0-1</span></td>
@@ -2684,6 +2950,20 @@ article {
             <td>
                 <a href="wayland-scanner-1.23.0.drop" download style="font-weight: bold; color: #aa2022;">wayland-scanner-1.23.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">147.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wine" data-desc="compatibility layer for running windows applications on posix systems" data-date="2026-09-02" data-size="58645850">
+            <td><a class="pkg-name" href="https://gitlab.winehq.org/wine/wine" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wine</a></td>
+            <td><span class="pkg-tag">11.16-1</span></td>
+            <td>
+                <div class="pkg-desc">Compatibility layer for running Windows applications on POSIX systems</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wine</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="wine-11.16.drop" download style="font-weight: bold; color: #aa2022;">wine-11.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">55.9 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="wireplumber" data-desc="session and policy manager implementation for pipewire" data-date="2026-09-02" data-size="556968">
