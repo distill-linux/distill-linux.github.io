@@ -684,7 +684,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">18.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dbus" data-desc="message bus system" data-date="2026-09-02" data-size="163805">
+        <tr class="pkg-row" data-name="dbus" data-desc="message bus system" data-date="2026-09-02" data-size="166206">
             <td><a class="pkg-name" href="https://dbus.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dbus</a></td>
             <td><span class="pkg-tag">1.16.2-1</span></td>
             <td>
@@ -695,7 +695,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="dbus-1.16.2.drop" download style="font-weight: bold; color: #aa2022;">dbus-1.16.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">160.0 KB</span>
+                <span style="font-size: 0.8em; color: #666;">162.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="dejavu-fonts-ttf" data-desc="dejavu family of truetype fonts" data-date="2026-09-02" data-size="5421004">
@@ -824,7 +824,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">92.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-07" data-size="68263">
+        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-07" data-size="68927">
             <td><a class="pkg-name" href="https://github.com/distill-linux/drop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">drop</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -835,7 +835,7 @@ article {
             <td class="pkg-meta">2026-09-07 (UTC)</td>
             <td>
                 <a href="drop-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">drop-0.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">66.7 KB</span>
+                <span style="font-size: 0.8em; color: #666;">67.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="dropbear" data-desc="small ssh server and client" data-date="2026-09-02" data-size="295113">
@@ -936,7 +936,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fastfetch" data-desc="fast, highly customizable system information fetching tool" data-date="2026-09-02" data-size="780109">
+        <tr class="pkg-row" data-name="fastfetch" data-desc="fast, highly customizable system information fetching tool" data-date="2026-09-02" data-size="781824">
             <td><a class="pkg-name" href="https://github.com/fastfetch-cli/fastfetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fastfetch</a></td>
             <td><span class="pkg-tag">2.67.1-1</span></td>
             <td>
@@ -947,7 +947,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="fastfetch-2.67.1.drop" download style="font-weight: bold; color: #aa2022;">fastfetch-2.67.1.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">761.8 KB</span>
+                <span style="font-size: 0.8em; color: #666;">763.5 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-02" data-size="322">
@@ -1650,7 +1650,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">56.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXrandr" data-desc="x randr library from x.org" data-date="2026-09-02" data-size="18113">
+        <tr class="pkg-row" data-name="libXrandr" data-desc="x randr library from x.org" data-date="2026-09-02" data-size="18321">
             <td><a class="pkg-name" href="https://www.x.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXrandr</a></td>
             <td><span class="pkg-tag">1.5.5-1</span></td>
             <td>
@@ -1661,7 +1661,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="libXrandr-1.5.5.drop" download style="font-weight: bold; color: #aa2022;">libXrandr-1.5.5.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">17.7 KB</span>
+                <span style="font-size: 0.8em; color: #666;">17.9 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libXrender" data-desc="x render library" data-date="2026-09-02" data-size="24335">
@@ -1776,7 +1776,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">103.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libdrm" data-desc="userspace interface to kernel drm services" data-date="2026-09-02" data-size="170475">
+        <tr class="pkg-row" data-name="libdrm" data-desc="userspace interface to kernel drm services" data-date="2026-09-02" data-size="171475">
             <td><a class="pkg-name" href="https://dri.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libdrm</a></td>
             <td><span class="pkg-tag">2.4.134-1</span></td>
             <td>
@@ -1787,7 +1787,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="libdrm-2.4.134.drop" download style="font-weight: bold; color: #aa2022;">libdrm-2.4.134.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">166.5 KB</span>
+                <span style="font-size: 0.8em; color: #666;">167.5 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libelf" data-desc="elf object file access library" data-date="2026-09-07" data-size="177430">
@@ -3176,7 +3176,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.0 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="vulkan-loader" data-desc="vulkan installable client driver (icd) loader" data-date="2026-09-02" data-size="170741">
+        <tr class="pkg-row" data-name="vulkan-loader" data-desc="vulkan installable client driver (icd) loader" data-date="2026-09-02" data-size="170834">
             <td><a class="pkg-name" href="https://www.khronos.org/vulkan/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">vulkan-loader</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
             <td>
@@ -3187,7 +3187,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="vulkan-loader-1.4.350.1.drop" download style="font-weight: bold; color: #aa2022;">vulkan-loader-1.4.350.1.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">166.7 KB</span>
+                <span style="font-size: 0.8em; color: #666;">166.8 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="w3m" data-desc="text-based web browser and pager (with debian patches)" data-date="2026-09-02" data-size="1199177">
@@ -3232,7 +3232,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">220.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wayland" data-desc="core wayland window system code and protocol" data-date="2026-09-02" data-size="73833">
+        <tr class="pkg-row" data-name="wayland" data-desc="core wayland window system code and protocol" data-date="2026-09-02" data-size="74207">
             <td><a class="pkg-name" href="https://wayland.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland</a></td>
             <td><span class="pkg-tag">1.26.0-1</span></td>
             <td>
@@ -3243,7 +3243,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="wayland-1.26.0.drop" download style="font-weight: bold; color: #aa2022;">wayland-1.26.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">72.1 KB</span>
+                <span style="font-size: 0.8em; color: #666;">72.5 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="wayland-protocols" data-desc="protocols and extensions complementing the wayland core protocol" data-date="2026-09-02" data-size="205982">
