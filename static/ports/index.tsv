@@ -6,6 +6,7 @@ alsa-utils	1.2.16	e14cfd70000739d6a300694db231bfae821af9d87fb1f113836891f9e9e570
 appimage	1.0	9c97c7ecde423f3fb69ce952a7f2a49efd74e68ad80c6dafea0c3af4d44c362d	376	appimage-1.0.drop	squashfs-tools fuse zlib
 appimaged	20240901	ff18b7385a209dd3baad661ce655eb2b5e0faac9e59e855a690154672c533ce9	390	appimaged-20240901.drop	fuse cairo glib
 apple-bcm-firmware	14.0	eff9c3fc662f922f2d52a2818587ce8e9df58fcbe2bbf0f8ea12cf69ef3ecc2d	15035453	apple-bcm-firmware-14.0.drop	
+apple-t2-audio-config	0.4		0	apple-t2-audio-config-0.4.drop	alsa-ucm-conf
 autoconf	2.73	16463c02f2ebaa5c3ab52826edc4de995e7c71a131c41b675d11764530bffda9	993107	autoconf-2.73.drop	
 automake	1.16.5	49228018cc7d1688ece65341b2136cf4ae2cf5d4b9235873a64c066c97a1690a	679196	automake-1.16.5.drop	
 azpainter	3.0.12	95c74338cfd5c6f70eacc3d086fdd79a94a9e128aba141591b747b46ac0316af	847265	azpainter-3.0.12.drop	fontconfig-devel libXcursor-devel libXi-devel libXrender-devel libjpeg-turbo-devel libpng-devel libwebp-devel tiff-devel zlib-devel freetype-devel
@@ -139,6 +140,7 @@ lz4	1.10.0	ccaaf69b63010e76cd22068047788046dd78b2675e64382f4bd640b75287f7bf	1230
 m4	1.4.19	2bc5eaf073437583f3e698f980b8b2ada3e07b34e5ace3301190af847f11918b	281229	m4-1.4.19.drop	
 mako	1.11.0	e0a80cd6931f9e6c9c89069ca9df6033d65adf5de318be2d1126283f3b267024	61089	mako-1.11.0.drop	wayland-devel wayland-protocols pango-devel cairo-devel
 mandoc	1.0	78961e779846b359e897ce6d21819e9741689baf6e4ecf5b4b39bfedb4f3ce24	416565	mandoc-1.0.drop	
+mbpfan	2.4.0		0	mbpfan-2.4.0.drop	
 mesa	26.1.8	f91a3ae6856492d311776188591a5ea592bf5cd0090a35c34fd4fea24d11b13e	966917	mesa-26.1.8.drop	elfutils-devel expat-devel libXdamage-devel
 meson	1.9.1	9beeec70930106708e7642f22670f4e91648ea823ebc1c963432fe1e0b2ff6aa	915068	meson-1.9.1.drop	
 moc	1.0	1c2588b0b9fd8772a44ce21894f3024e5b6a1a2f3a72840466438a5a875038e7	320	moc-1.0.drop	
@@ -187,8 +189,10 @@ st	0.9.3	b1e10cf2eb95dcddc5ee7a7919a3ba769037c702198227b25054948dcd69cae7	47343	
 sway	1.12	8969fae4a254cbcbf40f4b6fb4ac875351533ee011974e6a8e44373c6b222a2c	5378674	sway-1.12.drop	wlroots0.20-devel pcre2-devel json-c-devel pango-devel cairo-devel
 swaybg	1.2.2	ba536df20ecf7cd2b694289d80d0d74440f82d576e3f05cc2832943061f64b11	14417	swaybg-1.2.2.drop	wayland-protocols cairo-devel gdk-pixbuf-devel wayland-devel
 swaylock	1.8.6	dd2c4e0c0f089df7fd052c919d026bb9e5c0ec9be2255b88e0dab20c7c7f3d9d	31312	swaylock-1.8.6.drop	wayland-protocols cairo-devel gdk-pixbuf-devel pam-devel
+t2fanrd	0.1.0		0	t2fanrd-0.1.0.drop	
 tcc	0.9.27.20250903	28b25cc03b02e060a83868630f3c490d67f7588346e1615fc63c897dd226944a	398763	tcc-0.9.27.20250903.drop	
 terminus-font	4.49.1	2e42496d6a197081630657b6328f6a91c39d57656e789821eb14a6d009e71c39	2425492	terminus-font-4.49.1.drop	
+tiny-dfr	0.3.7		0	tiny-dfr-0.3.7.drop	pango libinput gdk-pixbuf librsvg
 twm	1.0.13.1	e654954adcce59dea4a0753431b5108704fd535449eaab82f7e4b14d73a10bb8	111693	twm-1.0.13.1.drop	libXmu-devel
 util-linux	2.41.4	8695dc262c558f1983b50e1f3dce8dae00a8049f9caa1be90ae4dd20b26d1c35	3280826	util-linux-2.41.4.drop	libcap-ng-devel pam-devel readline-devel zlib-devel
 uxterm	411	92ded9e34be0bc06c2523f0bd79764de2e6a1951c9256c85c205ac5632d4cdc2	502866	uxterm-411.drop	libXaw-devel libXft-devel libutempter-devel libxkbfile-devel

@@ -165,7 +165,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>260 packages found.</strong> Page 1 of 1.
+  <strong>264 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -262,6 +262,20 @@ article {
             <td>
                 <a href="apple-bcm-firmware-14.0.drop" download style="font-weight: bold; color: #aa2022;">apple-bcm-firmware-14.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">14.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="apple-t2-audio-config" data-desc="alsa ucm configuration for the t2bce audio driver on apple t2 macs" data-date="2026-09-02" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/deqrocks/t2bce" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-t2-audio-config</a></td>
+            <td><span class="pkg-tag">0.4-1</span></td>
+            <td>
+                <div class="pkg-desc">ALSA UCM configuration for the t2bce audio driver on Apple T2 Macs</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in apple-t2-audio-config</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="apple-t2-audio-config-0.4.drop" download style="font-weight: bold; color: #aa2022;">apple-t2-audio-config-0.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-02" data-size="993107">
@@ -2126,6 +2140,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">406.8 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="mbpfan" data-desc="daemon that uses applesmc to set fan speed on macbook laptops" data-date="2026-09-02" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/dgraziotin/mbpfan" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mbpfan</a></td>
+            <td><span class="pkg-tag">2.4.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Daemon that uses applesmc to set fan speed on MacBook laptops</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mbpfan</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="mbpfan-2.4.0.drop" download style="font-weight: bold; color: #aa2022;">mbpfan-2.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="mesa" data-desc="open source implementation of opengl and vulkan" data-date="2026-09-02" data-size="966917">
             <td><a class="pkg-name" href="https://www.mesa3d.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mesa</a></td>
             <td><span class="pkg-tag">26.1.8-1</span></td>
@@ -2798,6 +2826,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">30.6 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="t2fanrd" data-desc="supercharged apple t2 mac fan control daemon in rust" data-date="2026-09-02" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/GnomedDev/t2fanrd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">t2fanrd</a></td>
+            <td><span class="pkg-tag">0.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Supercharged Apple T2 Mac fan control daemon in Rust</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in t2fanrd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="t2fanrd-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">t2fanrd-0.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="tcc" data-desc="tiny c compiler" data-date="2026-09-02" data-size="398763">
             <td><a class="pkg-name" href="http://bellard.org/tcc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tcc</a></td>
             <td><span class="pkg-tag">0.9.27.20250903-1</span></td>
@@ -2824,6 +2866,20 @@ article {
             <td>
                 <a href="terminus-font-4.49.1.drop" download style="font-weight: bold; color: #aa2022;">terminus-font-4.49.1.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="tiny-dfr" data-desc="dynamic function row daemon for apple touch bar" data-date="2026-09-02" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/AsahiLinux/tiny-dfr" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tiny-dfr</a></td>
+            <td><span class="pkg-tag">0.3.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Dynamic function row daemon for Apple Touch Bar</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in tiny-dfr</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="tiny-dfr-0.3.7.drop" download style="font-weight: bold; color: #aa2022;">tiny-dfr-0.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="twm" data-desc="tab window manager for the x window system" data-date="2026-09-02" data-size="111693">
