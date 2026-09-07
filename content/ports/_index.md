@@ -165,7 +165,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>264 packages found.</strong> Page 1 of 1.
+  <strong>265 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -738,6 +738,20 @@ article {
             <td>
                 <a href="dmenu-5.4.drop" download style="font-weight: bold; color: #aa2022;">dmenu-5.4.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">20.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="doas" data-desc="execute commands as another user (openbsd doas replacement for sudo)" data-date="2026-09-02" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/Duncaen/OpenDoas" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">doas</a></td>
+            <td><span class="pkg-tag">6.8.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Execute commands as another user (OpenBSD doas replacement for sudo)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in doas</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td>
+                <a href="doas-6.8.2.drop" download style="font-weight: bold; color: #aa2022;">doas-6.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="docker" data-desc="pack, ship and run any application as a lightweight container" data-date="2026-09-02" data-size="320">
