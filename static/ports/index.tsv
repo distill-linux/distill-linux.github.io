@@ -162,6 +162,7 @@ musl-obstack	1.2.3	41d78b2df3ec1a8c3bff7b1ccc9f94430503cbdcca42a8727b8cb8696f827
 nasm	2.16.03	3667d4928e8bba860381f69264b47f90aa94ad69759312ebf85b88f218187acf	607005	nasm-2.16.03.drop		
 neofetch	7.1.0	ce39b140e2e2f53d837ba582bdbfe966c3fd0c522425e06c20ebaaadddb2fd5c	91666	neofetch-7.1.0.drop	bash	
 netsurf	3.11	16347a45cb5aeb62a917b466f40154a3f0a33e88208ef08a7896dbfaa1bd6d83	1811464	netsurf-3.11.drop	libwebp	
+nmtui	1.0.0		0	nmtui-1.0.0.drop	wpa_supplicant	
 nsxiv	34	1183b0b493be8e673edcc658e59166ac799c41f53a68c9c746b6ebaadc40f340	50919	nsxiv-34.drop	libX11 giflib libXft libwebp freetype fontconfig	
 oclock	1.0.6	1db82436ef31d5df825dede745b005eab081f2744a88e95356f8456098455cb4	10685	oclock-1.0.6.drop	libXmu	
 openbox	3.6.1	42bb2c7273f5e8e1e48bf274330bd6b4aee72215e5879b6ca8304b912ee20c7b	332865	openbox-3.6.1.drop	libXrandr libXcursor libXinerama pango	

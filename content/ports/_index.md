@@ -185,7 +185,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>282 packages found.</strong> Page 1 of 1.
+  <strong>283 packages found.</strong> Page 1 of 1.
 </div>
 
 <div class="pkg-table-wrap">
@@ -2467,6 +2467,20 @@ article {
             <td>
                 <a href="netsurf-3.11.drop" download style="font-weight: bold; color: #aa2022;">netsurf-3.11.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="nmtui" data-desc="networkmanager tui clone and terminal network configuration tool" data-date="2026-09-07" data-time="1788814737" data-size="0">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/nmtui" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nmtui</a></td>
+            <td><span class="pkg-tag">1.0.0-1</span></td>
+            <td>
+                <div class="pkg-desc">NetworkManager TUI clone and terminal network configuration tool</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in nmtui</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="nmtui-1.0.0.drop" download style="font-weight: bold; color: #aa2022;">nmtui-1.0.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="nsxiv" data-desc="neo (or new or not) simple (or small or suckless) x image viewer" data-date="2026-09-07" data-time="1788814060" data-size="50919">
