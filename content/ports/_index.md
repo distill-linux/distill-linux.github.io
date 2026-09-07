@@ -250,7 +250,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">390 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-02" data-size="15035453">
+        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-02" data-size="31820329">
             <td><a class="pkg-name" href="https://github.com/NoaHimesaka1873/apple-bcm-firmware" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-bcm-firmware</a></td>
             <td><span class="pkg-tag">14.0-1</span></td>
             <td>
@@ -261,10 +261,10 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="apple-bcm-firmware-14.0.drop" download style="font-weight: bold; color: #aa2022;">apple-bcm-firmware-14.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">14.3 MB</span>
+                <span style="font-size: 0.8em; color: #666;">30.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="apple-t2-audio-config" data-desc="alsa ucm configuration for the t2bce audio driver on apple t2 macs" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="apple-t2-audio-config" data-desc="alsa ucm configuration for the t2bce audio driver on apple t2 macs" data-date="2026-09-02" data-size="1204">
             <td><a class="pkg-name" href="https://github.com/deqrocks/t2bce" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-t2-audio-config</a></td>
             <td><span class="pkg-tag">0.4-1</span></td>
             <td>
@@ -275,7 +275,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="apple-t2-audio-config-0.4.drop" download style="font-weight: bold; color: #aa2022;">apple-t2-audio-config-0.4.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+                <span style="font-size: 0.8em; color: #666;">1.2 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-02" data-size="993107">
@@ -740,7 +740,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">20.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="doas" data-desc="execute commands as another user (openbsd doas replacement for sudo)" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="doas" data-desc="execute commands as another user (openbsd doas replacement for sudo)" data-date="2026-09-02" data-size="76569">
             <td><a class="pkg-name" href="https://github.com/Duncaen/OpenDoas" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">doas</a></td>
             <td><span class="pkg-tag">6.8.2-1</span></td>
             <td>
@@ -751,7 +751,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="doas-6.8.2.drop" download style="font-weight: bold; color: #aa2022;">doas-6.8.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+                <span style="font-size: 0.8em; color: #666;">74.8 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="docker" data-desc="pack, ship and run any application as a lightweight container" data-date="2026-09-02" data-size="320">
@@ -782,7 +782,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">92.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-02" data-size="14942">
+        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-02" data-size="17677">
             <td><a class="pkg-name" href="https://github.com/distill-linux/drop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">drop</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -793,7 +793,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="drop-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">drop-0.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">14.6 KB</span>
+                <span style="font-size: 0.8em; color: #666;">17.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="dropbear" data-desc="small ssh server and client" data-date="2026-09-02" data-size="295113">
@@ -880,7 +880,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fastfetch" data-desc="fast, highly customizable system information fetching tool" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="fastfetch" data-desc="fast, highly customizable system information fetching tool" data-date="2026-09-02" data-size="780109">
             <td><a class="pkg-name" href="https://github.com/fastfetch-cli/fastfetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fastfetch</a></td>
             <td><span class="pkg-tag">2.67.1-1</span></td>
             <td>
@@ -891,7 +891,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="fastfetch-2.67.1.drop" download style="font-weight: bold; color: #aa2022;">fastfetch-2.67.1.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+                <span style="font-size: 0.8em; color: #666;">761.8 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-02" data-size="322">
@@ -2154,7 +2154,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">406.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mbpfan" data-desc="daemon that uses applesmc to set fan speed on macbook laptops" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="mbpfan" data-desc="daemon that uses applesmc to set fan speed on macbook laptops" data-date="2026-09-02" data-size="33355">
             <td><a class="pkg-name" href="https://github.com/dgraziotin/mbpfan" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mbpfan</a></td>
             <td><span class="pkg-tag">2.4.0-1</span></td>
             <td>
@@ -2165,7 +2165,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="mbpfan-2.4.0.drop" download style="font-weight: bold; color: #aa2022;">mbpfan-2.4.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+                <span style="font-size: 0.8em; color: #666;">32.6 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="mesa" data-desc="open source implementation of opengl and vulkan" data-date="2026-09-02" data-size="966917">
@@ -2280,7 +2280,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">592.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="neofetch" data-desc="cli system information tool written in bash" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="neofetch" data-desc="cli system information tool written in bash" data-date="2026-09-02" data-size="91666">
             <td><a class="pkg-name" href="https://github.com/dylanaraps/neofetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">neofetch</a></td>
             <td><span class="pkg-tag">7.1.0-1</span></td>
             <td>
@@ -2291,7 +2291,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="neofetch-7.1.0.drop" download style="font-weight: bold; color: #aa2022;">neofetch-7.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+                <span style="font-size: 0.8em; color: #666;">89.5 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="netsurf" data-desc="free, open source web browser written in c" data-date="2026-09-02" data-size="1811464">
@@ -2588,7 +2588,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="36332">
+        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="27965">
             <td><a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">samurai</a></td>
             <td><span class="pkg-tag">1.3-1</span></td>
             <td>
@@ -2598,8 +2598,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
-                <a href="samurai-1.3.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">35.5 KB</span>
+                <a href="samurai-1.2.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-02" data-size="369">
@@ -2840,7 +2840,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">30.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="t2fanrd" data-desc="supercharged apple t2 mac fan control daemon in rust" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="t2fanrd" data-desc="supercharged apple t2 mac fan control daemon in rust" data-date="2026-09-02" data-size="248397">
             <td><a class="pkg-name" href="https://github.com/GnomedDev/t2fanrd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">t2fanrd</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -2851,7 +2851,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="t2fanrd-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">t2fanrd-0.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+                <span style="font-size: 0.8em; color: #666;">242.6 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="tcc" data-desc="tiny c compiler" data-date="2026-09-02" data-size="398763">
@@ -2882,7 +2882,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="tiny-dfr" data-desc="dynamic function row daemon for apple touch bar" data-date="2026-09-02" data-size="0">
+        <tr class="pkg-row" data-name="tiny-dfr" data-desc="dynamic function row daemon for apple touch bar" data-date="2026-09-02" data-size="746102">
             <td><a class="pkg-name" href="https://github.com/AsahiLinux/tiny-dfr" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tiny-dfr</a></td>
             <td><span class="pkg-tag">0.3.7-1</span></td>
             <td>
@@ -2893,7 +2893,7 @@ article {
             <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="tiny-dfr-0.3.7.drop" download style="font-weight: bold; color: #aa2022;">tiny-dfr-0.3.7.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+                <span style="font-size: 0.8em; color: #666;">728.6 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="twm" data-desc="tab window manager for the x window system" data-date="2026-09-02" data-size="111693">

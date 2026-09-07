@@ -3,10 +3,10 @@
 alacritty	0.17.0	23e30e6f70063982c87a4621d7ac4d33983efe3b200a72d33861db1b74cf6d29	3487639	alacritty-0.17.0.drop	freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel
 alsa-lib	1.2.16.1	42c0969d81bea2948dafad05bf52b7ccb1d4080eb6a83813965cfb6f39c4d57d	552780	alsa-lib-1.2.16.1.drop	
 alsa-utils	1.2.16	e14cfd70000739d6a300694db231bfae821af9d87fb1f113836891f9e9e57047	1380076	alsa-utils-1.2.16.drop	libsamplerate-devel ncurses-devel
-appimage	1.0	9c97c7ecde423f3fb69ce952a7f2a49efd74e68ad80c6dafea0c3af4d44c362d	376	appimage-1.0.drop	squashfs-tools fuse zlib
-appimaged	20240901	ff18b7385a209dd3baad661ce655eb2b5e0faac9e59e855a690154672c533ce9	390	appimaged-20240901.drop	fuse cairo glib
-apple-bcm-firmware	14.0	eff9c3fc662f922f2d52a2818587ce8e9df58fcbe2bbf0f8ea12cf69ef3ecc2d	15035453	apple-bcm-firmware-14.0.drop	
-apple-t2-audio-config	0.4		0	apple-t2-audio-config-0.4.drop	alsa-ucm-conf
+appimage	1.0	a3e9b11fbd50e88703e9b813d6c44163004e6887e5cc0bb880578c1c6c39ae0a	376	appimage-1.0.drop	squashfs-tools fuse zlib
+appimaged	20240901	ce03e11dc04e89d4d9bea5cffe952e726ea5bbf3c88295e4c9c08956155a724e	390	appimaged-20240901.drop	fuse cairo glib
+apple-bcm-firmware	14.0	e99775baa7f596ce342a562a3d4eb68621c126a1d7b01c90b31573b4cf014fec	31820329	apple-bcm-firmware-14.0.drop	
+apple-t2-audio-config	0.4	753fb9f354393d0d9b5a56d11e9c34f55cead3c5f2f1b57064f214a227f00a9e	1204	apple-t2-audio-config-0.4.drop	alsa-ucm-conf
 autoconf	2.73	16463c02f2ebaa5c3ab52826edc4de995e7c71a131c41b675d11764530bffda9	993107	autoconf-2.73.drop	
 automake	1.16.5	49228018cc7d1688ece65341b2136cf4ae2cf5d4b9235873a64c066c97a1690a	679196	automake-1.16.5.drop	
 azpainter	3.0.12	95c74338cfd5c6f70eacc3d086fdd79a94a9e128aba141591b747b46ac0316af	847265	azpainter-3.0.12.drop	fontconfig-devel libXcursor-devel libXi-devel libXrender-devel libjpeg-turbo-devel libpng-devel libwebp-devel tiff-devel zlib-devel freetype-devel
@@ -14,7 +14,7 @@ badwolf	1.4.0	b49a5be04e2113b0ce05372558566c3c37128b9c5772cb05307aee8f1f829c53	9
 bearssl	0.6	7d18744d1b243e68c1806081d0b719268b19a011d93ba5b13e8f828822520691	370393	bearssl-0.6.drop	
 binutils	2.44	0a3490bacda34753289ef5beb828843dc440382a456a5d6392ef202183ded3ef	2216760	binutils-2.44.drop	zlib-devel libzstd-devel
 bitmap	1.1.2	d4c9792b746f68e88224ab8f7aab4c7a2c2b90d13a69cf9c470a56f2b42cd3b8	62033	bitmap-1.1.2.drop	libXt-devel libXmu-devel libXaw-devel xbitmaps
-bsd-mk-files	20240414	40dc519d05a455123bd6ec47dc44969fd3763f44acb84bea180ebd408bec744a	354	bsd-mk-files-20240414.drop	
+bsd-mk-files	20240414	a04d2c8bd1299eb0d2ff56ac8b19f39ddd385674f1eff42dadf2bbedd640c920	354	bsd-mk-files-20240414.drop	
 bsdmake	20240414	265c64e92166b6d6626de90527aea7971f47fa5145a170cd2ecc70654206d1df	241982	bsdmake-20240414.drop	
 btrfs-progs	6.11	36f74101ac2ed676b4507f9ca9870a6a3662f594d6c2ddf7a023a5159e5678e4	3023456	btrfs-progs-6.11.drop	acl-devel libzstd-devel lzo-devel libblkid-devel libuuid-devel
 bubblewrap	0.12.0	ed10ff574a6d2d34da97a3b03ee64fb0832e7dda05591eb96684a8a7a12786c1	40718	bubblewrap-0.12.0.drop	libcap libseccomp
@@ -24,10 +24,10 @@ cage	0.3.0	86184019e7e0b13236af0fce6561a6606b653fd2abb5b8e11d3692244760bf41	2422
 cairo	1.18.4	882c984be2e517d9c1693a79ee379db1648156e50ed17b3edee021ed020cee00	659276	cairo-1.18.4.drop	fontconfig-devel freetype-devel libglib-devel libpng-devel libX11-devel
 cargo	1.98.0	e78b244bbae4cb5df591f987445094df48715cfe528b4eb10d61f63e97162133	11235090	cargo-1.98.0.drop	rust libcurl-devel openssl-devel
 chrony	4.8	a60353cbb95a3ddc48eb55997e18eaf2013827b5e079b3205d0db88e04070366	299696	chrony-4.8.drop	gnutls-devel libcap-devel libedit-devel libseccomp-devel
-clang	21	3f649ede697d04db356ba49c7aa7c32376327648f6ba7225f57d252545b9751f	254	clang-21.drop	
-compiler-rt	21	94ab2ae8f33dacdfcb1b978a3d885a66c1a1236737547570dc2e984acd58b544	265	compiler-rt-21.drop	
+clang	21	cec03b6bbe72a6b63bbf7d35df2e0b7b5cdaa9e0160d514fc7ee14ea3168931d	254	clang-21.drop	
+compiler-rt	21	5b35d41b194e912641ea9cf51a8c8701111d3badacb3742be3485d84a6fdb120	265	compiler-rt-21.drop	
 containerd	2.3.2	b953ff05995f30817a05842f956682f7eafa62e03d0bf24d06a99cc4ddb295b6	29457498	containerd-2.3.2.drop	runc libseccomp btrfs-progs
-cproc	main	e09b46f9fb55b567834e7cdcc478f1f6691a710b00e2424a52945727131ff114	365	cproc-main.drop	
+cproc	main	731bbfd8e7dc0107efe8c6159a950eb69b3066b1b343c4e8daa7be5ad87a1358	365	cproc-main.drop	
 crio	1.36.3	74424cbede57463862b5e7698f00dc8c1ad52f423b762e7bab568cfc670973e4	24298352	crio-1.36.3.drop	conmon crun cni-plugins gpgme libseccomp
 crun	1.29.1	53420d2a0a5f83f25b58074d82c7956ef902c9354884d16a847cd3d8595aec9e	284599	crun-1.29.1.drop	libcap libseccomp yajl
 cryptsetup	2.8.7	1ea69e636b6b4d94cf5e00b9126d7560ca8c946fe36839a77b214dcd2fdc9a60	910026	cryptsetup-2.8.7.drop	device-mapper-devel json-c-devel openssl-devel popt-devel
@@ -38,23 +38,23 @@ dejavu-fonts-ttf	2.37	040eee998bedb63ee78b58f5d3beb4775226308c72553b63b9e588ca20
 dhcpcd	10.3.2	e1c15364bdcb96023033420ea6783683721eb24e26baa732f49177266a3d3284	206860	dhcpcd-10.3.2.drop	eudev-libudev-devel
 diffutils	3.12	889aead6f0d6bb47c5717a3b21286f65784eaf2625f834c5a357b3472cdbe83f	639231	diffutils-3.12.drop	
 dillo	3.3.0	7a2a947265bc99fd9b74f337b08d1908fdda331f4d6fac27461bc79f3c298114	800804	dillo-3.3.0.drop	brotli-devel fltk-devel libwebp-devel openssl-devel
-distrobox	1.8.1.2	8d9d843b0a6c100e811f3fd20e491e1ccd85f7a3abc3e20e9e66ce0dd69fbc75	384	distrobox-1.8.1.2.drop	podman
+distrobox	1.8.1.2	c52277f9a10ea4091c9e217bf538010f0d089b43db7cd6577dd0e841c437ed22	384	distrobox-1.8.1.2.drop	podman
 dmenu	5.4	f289e4a011016695142246ddc93a384534c3fa4ec9ecaf30944f7fd45f2ef1f6	21444	dmenu-5.4.drop	libXinerama-devel libXft-devel freetype-devel
-doas	6.8.2		0	doas-6.8.2.drop	
-docker	29.7.2	05ba6078303d6ab4036db55a0aba32a62ca821568f78f3d5613d961753c866f2	320	docker-29.7.2.drop	containerd runc iptables ca-certificates
+doas	6.8.2	683f351ad6ec2c266999ce95eecc49530f3bc013c943f6d292398449b02230d4	76569	doas-6.8.2.drop	
+docker	29.7.2	0914ba8de96e2489199287d0e8cb82a1fc1432fd93971fe5b9d3f3eec8096fff	320	docker-29.7.2.drop	containerd runc iptables ca-certificates
 dosfstools	4.2	a68bc78a49cea616983fa90c2b908b3ef0e9d05e1e4e9946fb40ea53dbbd8ee8	94489	dosfstools-4.2.drop	eudev-libudev-devel
-drop	0.1.0	662005ed917cc73ff963efe3c8d32e9851822c1b86b717ced589ff5f2f5a04b1	14942	drop-0.1.0.drop	
+drop	0.1.0	1f895114c1fa702774a1b68ba05d15b6561e194882312d57b08589aad1e03039	17677	drop-0.1.0.drop	
 dropbear	2025.89	049bc03f6c082957263fe627414f9c98057aa8986a9f4cfa323d20d51315491b	295113	dropbear-2025.89.drop	zlib-devel libtommath-devel libtomcrypt-devel
-dwl	0.6	ec198f244238e54087b72a48953549a62e0fa60f0147d6ecb02e1be14613fa05	354	dwl-0.6.drop	
+dwl	0.6	a0752578a848edabb2ca4dd840cff2e86db16ba2511717461939d0bbb7d2006d	354	dwl-0.6.drop	
 dwm	6.8	d8c23e8337b819040ce0ee617564325f56d0336ef7999acd37a8adfdef3fd18f	30691	dwm-6.8.drop	libXinerama-devel libXft-devel freetype-devel
 e2fsprogs	1.47.2	2cd0c5a04b1f0e0a2b542da7e421bd040f5800cb47949e71f97a0cd530d4fae1	1717230	e2fsprogs-1.47.2.drop	libuuid-devel libblkid-devel fuse-devel
 efibootmgr	18	61df5c59af9cdb3c040ba2e267ff265c5a34d77176edc0d3d32cea8bf33037c9	30668	efibootmgr-18.drop	libefivar-devel popt-devel
 eudev	3.2.14	433bf082c903afa6d1ff3b4595fdfdd2c373795832ee5e90d0ca3df88a3b178c	1918959	eudev-3.2.14.drop	libblkid-devel libkmod-devel
-fastfetch	2.67.1		0	fastfetch-2.67.1.drop	yyjson vulkan-loader libXrandr wayland libdrm glib dconf zlib dbus MesaLib
-fbpad	1.0	118bd35a3a0ec37873d478f70389b84d4642c8c716b9a63c15b9561cbd93a281	322	fbpad-1.0.drop	
+fastfetch	2.67.1	026cd41e1f69e4690859bbeca46d58f7b812f53287c03548969d49b8752c8ae4	780109	fastfetch-2.67.1.drop	yyjson vulkan-loader libXrandr wayland libdrm glib dconf zlib dbus MesaLib
+fbpad	1.0	257b0852fd94df4d5bc739b20d6679b69d4cba5823fb06c4a75d9135f0dd4ca8	322	fbpad-1.0.drop	
 fbv	1.0b	5940884268532c9950fdcfa55a9b7fb7e78fb4f3db83601e42f41eccf536ffe7	15717	fbv-1.0b.drop	libpng-devel libjpeg-turbo-devel giflib-devel
 feh	3.12.2	a154ee6a7061e3bdb45e417225bd3c62863e3fc97b52c3df21571227e8643711	206739	feh-3.12.2.drop	giblib-devel libXinerama-devel libXt-devel libcurl-devel
-ffmpeg	4.4.8	ffbddf8938338781cb3e0530699b01458329d9753d48c9f198767668cde924c9	334	ffmpeg-4.4.8.drop	zlib-devel bzip2-devel freetype-devel alsa-lib-devel libXfixes-devel
+ffmpeg	4.4.8	d66438407ae5c058c234d2ff1e79676865edddf390a9137aa71769673c35bb73	334	ffmpeg-4.4.8.drop	zlib-devel bzip2-devel freetype-devel alsa-lib-devel libXfixes-devel
 fim	0.7.1	b5831b8e3302542f1aea04d5b3fbfbeaaaf710ed35c8d439d747db01bad4c065	821874	fim-0.7.1.drop	SDL2-devel djvulibre-devel giflib-devel gtk+3-devel jasper-devel
 firejail	0.9.80	67563f744ac92fd6e98d7084c1f654d59953059f50074408e53cc784315f3b26	780808	firejail-0.9.80.drop	libseccomp
 flac	1.5.0	18371682f24a18b698c05ba7cecfbd8401938df07125a7284e63b1c2984e09de	188154	flac-1.5.0.drop	libogg-devel
@@ -65,7 +65,7 @@ fontconfig	2.17.1	ee8eddd2117363ee83e90e2fcf99b7d217aed752f3472507857aadf53686cf
 foot	1.17.2	cdb66c045d63aab2a0faf316263fa8cb3571ad7c220d683c3849b362b7710dbf	378964	foot-1.17.2.drop	
 freetype	2.14.3	b46eef185109f7cc553a94dbbcab6eb445021dd399471795d7957ab21a3a439d	398555	freetype-2.14.3.drop	bzip2-devel libpng-devel brotli-devel
 fribidi	1.0.16	f07523eb1853c62f156469cb080262f34a5c93143b1f238708697494a6e9b26b	32494	fribidi-1.0.16.drop	
-fslsfonts	1.0	6c716165df7bcd4001babbc3e047019234c22f9e7b39ba382b514c90bd2ee1c7	276	fslsfonts-1.0.drop	
+fslsfonts	1.0	2bc1d2ce8a642f55051bb8c6c2c011b01fa442c5f354cb1711fecdb812b5f388	276	fslsfonts-1.0.drop	
 fuzzel	1.14.1	94871d3c1ae0f7406bfa0a14d211b4dc6d5b375d3ff650cf106aad4b9ce9a344	125749	fuzzel-1.14.1.drop	fcft-devel libresvg-devel libpng-devel
 giflib	6.1.3	a9053cda8af1d91871a97ae9fb34ee98476fde1abe1b0b64720e3257a13f84f5	48656	giflib-6.1.3.drop	
 glslang	16.3.0	067bdc069496b6449b8d63959b37ebcf7aca30f56c0c9f9602a47667ea8aabaa	3344300	glslang-16.3.0.drop	SPIRV-Tools-devel
@@ -115,7 +115,7 @@ libjpeg-turbo	3.1.4.1	bbb04d0150ee09911e5fbdb35f89cde2ae43090737dea1bf7b245480e1
 libogg	1.3.6	e8a871ef428ed3d33159d1bd60b001c69bcc46f1b042ed814007b2c2e35316b7	19539	libogg-1.3.6.drop	
 libopus	1.0	de8eb5c43864fc51c33fd24c756cfdd7b6006d02f8377b380ae9277d8f4c83de	4088340	libopus-1.0.drop	
 libpng	1.6.58	1c5bde9535a324739760a8304d4f8dceec80e7c1f889af75f2defb01c14ed364	111661	libpng-1.6.58.drop	zlib-devel
-libressl	1.0	ab9d242f10192b581c8dc4c8f227545acb49e48617404ea8d1b68fa400c027e9	327	libressl-1.0.drop	
+libressl	1.0	049959972ec3f584bde15229613c7f0da70f7a360d7720f7e516e78e672dbb4f	327	libressl-1.0.drop	
 librsync	2.3.4	3a6736090122ee4d2b2e73ed13afe4e8da381846836dd24ab44741c41a68bc7c	29834	librsync-2.3.4.drop	zlib-devel bzip2-devel popt-devel
 libtiff	1.0	75684bbed31ddf8c5a414b01a06d724b6350d0dde53a7795fb2f10951af463b7	454029	libtiff-1.0.drop	
 libtool	2.4.7	c1264b2b9ec66caf1e1fc19bcccfb59bac5af91dc3acb59829b971187194c44f	615603	libtool-2.4.7.drop	
@@ -129,11 +129,11 @@ libwebp	1.6.0	dcf54be6429ef409cc41eb178a974551a1c979e901901f91cb243125084c6036	3
 libxcb	1.17.0	1a2feab6c3ff4569dddfbba759dccfc26d11820e52e78fb4e205a575e88497b3	245531	libxcb-1.17.0.drop	libXdmcp-devel libXau-devel
 libxkbcommon	1.13.2	7725dfd3e6044319262ed94d9363916caabcb69e66fcacdfbf8d155d44a7b7e7	186265	libxkbcommon-1.13.2.drop	xkeyboard-config libxcb-devel wayland-devel wayland-protocols
 libxshmfence	1.3.3	3c48679a7ea8ac50e587ae8169f703cfdabb2d39dcd6dc99e1fcff019ae01554	3621	libxshmfence-1.3.3.drop	xorgproto
-lilipod	0.4.1	d5f11b7e43e60c21a9fa60c7cea1e458256eb7ebb1d3737551544393f321c471	362	lilipod-0.4.1.drop	crun curl
+lilipod	0.4.1	b718a49f6bf2b97bb3938c6acd57fdbf0e2b506842f428f2740d579e7d0fd395	362	lilipod-0.4.1.drop	crun curl
 linux-pam	1.0	537bbafa9a23ad20bfd82dff14861a762ee41da5ba8203c40f4999aae46c0b8f	390684	linux-pam-1.0.drop	
-lld	21	10b899d454314279519b299c1e14e3866c968b3645063e5e9a14880df9902f39	251	lld-21.drop	
-llvm	21	b41ddf0369bea725d77ba5252520f22d719485be89e201c0a83a7eadedb5d08a	252	llvm-21.drop	
-luit	1.0	9e55eb62774021d5c75c576bc76a5dbf6480a28e1c3cc24b3b03fe5ff68d3f2c	265	luit-1.0.drop	
+lld	21	60762ceb9f5e9dbd603f63c3c07ae4fed2bc9e20bc0f0de25535e896868ceace	251	lld-21.drop	
+llvm	21	8a4d7391ac9c82682a1737272be384ac0e1560d8182bfc2c7e0dd37efdb3d8d1	252	llvm-21.drop	
+luit	1.0	0173983a91de8c91c84e92a45bc3e4fe8424730fe68a3db774815ecdad59510d	265	luit-1.0.drop	
 lvm2	2.03.29	a25cb479a6042cd4aafb4b57697b7751534fe3c778ef973466f6405c65478e6b	2525202	lvm2-2.03.29.drop	eudev-libudev-devel libaio-devel libblkid-devel
 lxc	6.0.3	fe85ea8b0075e8cb24ad1eee3610e06dc39f256a2e087a7b5e6911274e857c00	747838	lxc-6.0.3.drop	libcap libseccomp gnutls
 lynx	2.9.3	708b55cf3bbcc160de68af93e96b20cfacd8a2f2d1b1a5608cb2c9909af20930	851039	lynx-2.9.3.drop	zlib-devel bzip2-devel ncurses-devel openssl-devel
@@ -141,16 +141,16 @@ lz4	1.10.0	ccaaf69b63010e76cd22068047788046dd78b2675e64382f4bd640b75287f7bf	1230
 m4	1.4.19	2bc5eaf073437583f3e698f980b8b2ada3e07b34e5ace3301190af847f11918b	281229	m4-1.4.19.drop	
 mako	1.11.0	e0a80cd6931f9e6c9c89069ca9df6033d65adf5de318be2d1126283f3b267024	61089	mako-1.11.0.drop	wayland-devel wayland-protocols pango-devel cairo-devel
 mandoc	1.0	78961e779846b359e897ce6d21819e9741689baf6e4ecf5b4b39bfedb4f3ce24	416565	mandoc-1.0.drop	
-mbpfan	2.4.0		0	mbpfan-2.4.0.drop	
+mbpfan	2.4.0	f1e5d47a2458c1e3e27250103fba22966cae6bddf7b6b25979db53e68cabd456	33355	mbpfan-2.4.0.drop	
 mesa	26.1.8	f91a3ae6856492d311776188591a5ea592bf5cd0090a35c34fd4fea24d11b13e	966917	mesa-26.1.8.drop	elfutils-devel expat-devel libXdamage-devel
 meson	1.9.1	9beeec70930106708e7642f22670f4e91648ea823ebc1c963432fe1e0b2ff6aa	915068	meson-1.9.1.drop	
-moc	1.0	1c2588b0b9fd8772a44ce21894f3024e5b6a1a2f3a72840466438a5a875038e7	320	moc-1.0.drop	
+moc	1.0	36f20139486daf94fab98fba8b1c25011acf2d4e9e7ed962368268c805ff3f27	320	moc-1.0.drop	
 mpv	0.41.0	a09bf62316390ba85b591454379d68e5d85633ca12b31253759cb75ddb7801e9	2702247	mpv-0.41.0.drop	MesaLib-devel ffmpeg6-devel harfbuzz-devel libXv-devel libass-devel
 musl-dev	1.2.5	b16fa50ba6f1addc750fea57251e30b674cb9d0441d5dce13c9fd1f22701d97c	728060	musl-dev-1.2.5.drop	
 musl-fts	1.2.7	fd3f5cadc467d76a34439c012cd55b670b33897d50b0145b2df4e19877c7ee2c	7764	musl-fts-1.2.7.drop	
 musl-obstack	1.2.3	41d78b2df3ec1a8c3bff7b1ccc9f94430503cbdcca42a8727b8cb8696f8272b1	3344	musl-obstack-1.2.3.drop	
 nasm	2.16.03	3667d4928e8bba860381f69264b47f90aa94ad69759312ebf85b88f218187acf	607005	nasm-2.16.03.drop	
-neofetch	7.1.0		0	neofetch-7.1.0.drop	bash
+neofetch	7.1.0	ce39b140e2e2f53d837ba582bdbfe966c3fd0c522425e06c20ebaaadddb2fd5c	91666	neofetch-7.1.0.drop	bash
 netsurf	3.11	16347a45cb5aeb62a917b466f40154a3f0a33e88208ef08a7896dbfaa1bd6d83	1811464	netsurf-3.11.drop	
 nsxiv	34	1183b0b493be8e673edcc658e59166ac799c41f53a68c9c746b6ebaadc40f340	50919	nsxiv-34.drop	libX11-devel imlib2-devel giflib-devel libexif-devel libXft-devel
 oclock	1.0.6	1db82436ef31d5df825dede745b005eab081f2744a88e95356f8456098455cb4	10685	oclock-1.0.6.drop	libXmu-devel libxkbfile-devel
@@ -168,12 +168,12 @@ podman	5.8.3	d544863d64ffde44047f6970930758afab51904a9e563dd0b21aefebfce4b667	30
 python3	3.14.6	8a37b78b6142fbf7fb1ec113b346b21ee77485fed67655df70e2e2cefc016010	8575092	python3-3.14.6.drop	libffi-devel readline-devel gdbm-devel openssl-devel
 python3-dev	3.12.2	080c53185a75fcfea1c3b23eccf26972b93d6b1748ff80253f0a9f7042d3acb4	3130892	python3-dev-3.12.2.drop	
 qbe	1.1	c7b87def58657fa2d19a98367c584ac56279002a9950d0b2413fc457fbada92d	113870	qbe-1.1.drop	
-qemu	11.1.0	f79de2a9ffdb1d720eec0a5ff6a91df64ba4e0de4b980e5b6312ca9ceb0ba14a	346	qemu-11.1.0.drop	pixman libglib-devel libepoxy zlib libcap-ng libseccomp alsa-lib
+qemu	11.1.0	d267a8b262d7501798415377ca8780cd7bb6de461439db4ab07f1d26933f7fde	346	qemu-11.1.0.drop	pixman libglib-devel libepoxy zlib libcap-ng libseccomp alsa-lib
 river	0.3.7	04f95d1a782ce3c508223b4ad72e799d8cd439cdc567eed47118c0371de0126e	620901	river-0.3.7.drop	wlroots0.18-devel libevdev-devel pixman-devel
-rustc-bin	1.78.0	ae4a2d6f1f266be3ef53e4180296d56ac5a856d8a1b8136ffcdb9b0a1fba76c6	396	rustc-bin-1.78.0.drop	
+rustc-bin	1.78.0	6fcff2a20bd91069b45e72107fde1bbe596b51a8045426ac3fbe0365545bf402	396	rustc-bin-1.78.0.drop	
 rxvt-unicode	9.31	aa619e3a07165df1231c0d5ef32ef95b3c9c0724fbb4bd7687c6faa9c1cd2183	1383967	rxvt-unicode-9.31.drop	xorgproto fontconfig-devel
-samurai	1.3	cc6f94e9c0528319794cf713fea950519bf91e371ef8f4f89ad517d20713e2d1	36332	samurai-1.3.drop	
-sdorfehs	1.5	b69802cea3c5cdb8b77bfbf4f7f5d73e05224a5a7bf5861187edf0d4c13bc1ff	369	sdorfehs-1.5.drop	
+samurai	1.3	8a0b2a4006d9c80f96ea973bedad05a04e588a8de51a9de0b94e195b11f12831	27965	samurai-1.2.drop	
+sdorfehs	1.5	1cc85762d308ccd1066b4b2fb92972307b2d824c4563b9ac1eb42b3d872ecb56	369	sdorfehs-1.5.drop	
 seatd	0.9.3	4908f7ab69b2e7e80e7637193543f6ad1594936327f8099f7be9a86ccffaf82a	23753	seatd-0.9.3.drop	$(vopt_if elogind elogind-devel)
 setxkbmap	1.3.4	912c6bf8ee74ac10e87050f7bd89f99fe010016710a11a3fbaf67215c833d1fc	12479	setxkbmap-1.3.4.drop	libX11-devel libxkbfile-devel libXrandr-devel
 shadow	4.8.1	abf66fe47be44211dec1cc34a4e3e8fdadb55c6a7b2b229995e184c9105d943a	585773	shadow-4.8.1.drop	acl-devel pam-devel
@@ -183,21 +183,21 @@ slock	1.7	63b178a88f856f7cf3cf4d30f592d917cd0eedd14e4915f5e6503d7d07639897	7156	
 slstatus	20180708	690e242247b31719f6732057146ac455c1e5747fc832163cafd6c55dc1288244	12581	slstatus-20180708.drop	alsa-lib-devel libX11-devel
 slurp	1.5.0	b8f218913fd201301384e720946ead434f6bf60424a817331e36e4e9df0a5704	19112	slurp-1.5.0.drop	wayland-devel wayland-protocols cairo-devel libxkbcommon-devel
 smake	2024.03.21	c0dc51e256a3327fa7257c147e09d0529836451017dc4a4d2bd7dce689f72234	93233	smake-2024.03.21.drop	acl-devel attr-devel e2fsprogs-devel libcap-progs m4
-snapd	2.68.0	fd281411f02d07f911ea46a5fc772db00e8886e8555ebd08173e368427256a5b	386	snapd-2.68.0.drop	libseccomp libcap util-linux squashfs-tools
+snapd	2.68.0	a00557c9b213a44c5c60bef7c41303056ab76efeaa7b00ce0b3d7cc2a706c993	386	snapd-2.68.0.drop	libseccomp libcap util-linux squashfs-tools
 spirv-headers	1.4.350.1	dbf2dffd4afa2df9d873e6fece4bdbaaefcf5817e29811a607b1054d18bb44f6	479670	spirv-headers-1.4.350.1.drop	
 spirv-tools	2026.2	93abd4bf3b2699796d40b15932aa2b7633e8409a82c178c2cb1100496fa5e9cd	8574503	spirv-tools-2026.2.drop	SPIRV-Headers
 st	0.9.3	b1e10cf2eb95dcddc5ee7a7919a3ba769037c702198227b25054948dcd69cae7	47343	st-0.9.3.drop	fontconfig-devel libX11-devel libXft-devel
 sway	1.12	8969fae4a254cbcbf40f4b6fb4ac875351533ee011974e6a8e44373c6b222a2c	5378674	sway-1.12.drop	wlroots0.20-devel pcre2-devel json-c-devel pango-devel cairo-devel
 swaybg	1.2.2	ba536df20ecf7cd2b694289d80d0d74440f82d576e3f05cc2832943061f64b11	14417	swaybg-1.2.2.drop	wayland-protocols cairo-devel gdk-pixbuf-devel wayland-devel
 swaylock	1.8.6	dd2c4e0c0f089df7fd052c919d026bb9e5c0ec9be2255b88e0dab20c7c7f3d9d	31312	swaylock-1.8.6.drop	wayland-protocols cairo-devel gdk-pixbuf-devel pam-devel
-t2fanrd	0.1.0		0	t2fanrd-0.1.0.drop	
+t2fanrd	0.1.0	a264f94134f84a4a5c14b7bdae63e223c7eb948de0d30eae54a38a3f32095e72	248397	t2fanrd-0.1.0.drop	
 tcc	0.9.27.20250903	28b25cc03b02e060a83868630f3c490d67f7588346e1615fc63c897dd226944a	398763	tcc-0.9.27.20250903.drop	
 terminus-font	4.49.1	2e42496d6a197081630657b6328f6a91c39d57656e789821eb14a6d009e71c39	2425492	terminus-font-4.49.1.drop	
-tiny-dfr	0.3.7		0	tiny-dfr-0.3.7.drop	pango libinput gdk-pixbuf librsvg
+tiny-dfr	0.3.7	67c8ec981b0c5bdd4c845f3479bc634024a18dfb6ff218258a2d32e7c92e3e35	746102	tiny-dfr-0.3.7.drop	pango libinput gdk-pixbuf librsvg
 twm	1.0.13.1	e654954adcce59dea4a0753431b5108704fd535449eaab82f7e4b14d73a10bb8	111693	twm-1.0.13.1.drop	libXmu-devel
 util-linux	2.41.4	8695dc262c558f1983b50e1f3dce8dae00a8049f9caa1be90ae4dd20b26d1c35	3280826	util-linux-2.41.4.drop	libcap-ng-devel pam-devel readline-devel zlib-devel
 uxterm	411	92ded9e34be0bc06c2523f0bd79764de2e6a1951c9256c85c205ac5632d4cdc2	502866	uxterm-411.drop	libXaw-devel libXft-devel libutempter-devel libxkbfile-devel
-virtualbox	7.1.6	4a652026c04c1cc4deb2fadb52b1520be7bcb001dec5cf43ab4cd63489e1bd11	388	virtualbox-7.1.6.drop	libxml2 libpng openssl libvpx libX11 libXt
+virtualbox	7.1.6	96f0a98377bcadc5c68f7806e05d72872f86f28591ebd06a38be1ec74569462e	388	virtualbox-7.1.6.drop	libxml2 libpng openssl libvpx libX11 libXt
 vulkan-headers	1.4.350.1	c3bccc4ec7a24d9c79c883ee10732903fb4cf04802978e990bf0c4baa97c144b	3193142	vulkan-headers-1.4.350.1.drop	
 vulkan-loader	1.4.350.1	a928748351ff6939b44f0bc7d0ee8658a4faf59b5da3278e521233bad69830b3	170741	vulkan-loader-1.4.350.1.drop	Vulkan-Headers libxcb-devel libXrandr-devel wayland-devel
 w3m	0.5.6	bd20c401387e9a2d1538f9bd171144c9e6744fd2d03c37961d0e04a3059c9203	1199177	w3m-0.5.6.drop	zlib-devel ncurses-devel gc-devel openssl-devel imlib2-devel
@@ -210,7 +210,7 @@ wine	11.16	157a1abd8e5208acab01ec2ee69ca2532f9e07444d13196a3d97bb8e76795b29	5864
 wireplumber	0.5.15	34a397544435c2c1740658a00ac1c52335b7c8fcc94e4ba8d5a5f50a1ca6e44f	556968	wireplumber-0.5.15.drop	libglib-devel pipewire-devel lua54-devel elogind-devel
 wl-clipboard	2.3.0	3b59dab80f3d3cd49150f5796d54d75700cb8791d796f140e57aa57ed64db2fb	42786	wl-clipboard-2.3.0.drop	wayland-protocols wayland-devel
 wlr-protocols	main	9dad0d5742f3851df9c0b2f9afa4d55637481a693a1631a395cc01bc04c9bc50	75403	wlr-protocols-main.drop	
-wlroots	0.20	2676edb4e526e834111c48cab7c9660114fce4bcc94c570b1a6d5c76519e28e2	275	wlroots-0.20.drop	
+wlroots	0.20	2a388f1cb313a984036c53acab979b88b64c1ef6c486f56c746157f59ae163bb	275	wlroots-0.20.drop	
 wlsunset	0.4.0	b753c0a00e090c6d9e7c32874cb683dcef842f525bac52cf8449b0e80ad32b09	13512	wlsunset-0.4.0.drop	pkg-config wayland-devel wayland-protocols
 wmenu	0.1.8	67f605f77f43440bd83aeea1f0a0ad5ac6a21450b3ad1e3fc0641c660449adeb	34397	wmenu-0.1.8.drop	
 wpa_supplicant	2.12	01124a81f27e8b81cd561eb632f316988610cc02ec0ea1164385cf321980b29d	1603166	wpa_supplicant-2.12.drop	libnl3-devel openssl-devel $(vopt_if dbus dbus-devel)
@@ -227,7 +227,7 @@ xcb-util-wm	0.4.2	5fb96e696196b1c9a2633c41b4e11ca8b286b25a9aee9075943a8c7f6358fc
 xclip	0.13	e1691ea5d3225e8b336747b628dd96b20578a8bd96b9d0063f372febb5d4b1ff	13351	xclip-0.13.drop	libXmu-devel
 xclipboard	1.1.6	c3afaf2bebdccea8e0a5ef203c26aa8de232628f315f0556bc2cfcb83f60ec73	16515	xclipboard-1.1.6.drop	libXaw-devel
 xclock	1.2.1	cc52449da3cd0986d5466caf71e099ddb6f4a55fa03cf6d046002817701aaa76	31248	xclock-1.2.1.drop	libXmu-devel libXaw-devel libxkbfile-devel libXft-devel
-xcutsel	1.0	89eab094769ae440bdb7d8e0fbf185a9761f044ff1af80f3a4766b338c07759f	272	xcutsel-1.0.drop	
+xcutsel	1.0	31b0d2e77b094c4a5a5505590af1da68fdc076c898d3793354d15cb07ecec87c	272	xcutsel-1.0.drop	
 xdpyinfo	1.4.0	27847b20260bfbc0cc0b1c7bf514c804229803dadf0955a03d9cee117ad083e0	13797	xdpyinfo-1.4.0.drop	libXext-devel libXtst-devel
 xedit	1.2.5	8a626a788245973301889ed69ccae864b30bcb6ae23fe358687050bd7901f81d	368933	xedit-1.2.5.drop	libXaw-devel
 xev	1.2.6	3598d7c7b1d7ceb0900474004b9bcad05673c95a8e088859244e05d632849c02	14284	xev-1.2.6.drop	libXrandr-devel
@@ -259,7 +259,7 @@ xwd	1.0.10	6e0a50c587b2dbfb6a120d076a435de4e4ae7e905e5165978ba4575234a69d91	1723
 xwininfo	1.1.7	f455abe1a610a6c00d11951aa728b4e645089227feda00ee25c881b1daece832	23111	xwininfo-1.1.7.drop	libX11-devel
 xwud	1.0.8	6926f1dbb6d97a041b20c2dd60d9c343e0b196c86b5d2c49eef3c281d014ee9e	14530	xwud-1.0.8.drop	libX11-devel
 xxhash	0.8.2	9b8f50b98389b96e506fafee6c7c4f2d21665cc684590e0d23c5b7139d38e7d1	33076	xxhash-0.8.2.drop	
-xz-embedded	1.0	2aef0a151ab57619267cb87895cea69c2e31865747a5b48fcb45667bfc2559d4	334	xz-embedded-1.0.drop	
+xz-embedded	1.0	dbfafcbad6c82b4aca8a89e83b21644a80146bde326bd0b787c2382f416c7c27	334	xz-embedded-1.0.drop	
 yambar	1.10.0	ff6f0836ec5296438141c193bade4025bb44de127ed7bd67f1e725562a0d2246	163810	yambar-1.10.0.drop	
 yasm	1.3.0	82cdc0710ff24bbd89d99b18e3dd551b3f75deb151cfc9f2f9d3b415264f6242	1023429	yasm-1.3.0.drop	
 zathura	2026.07.18	e5504142738fadf1d460f13cb7c637e2780de05e72412d453c7cf22f94ee0acb	641091	zathura-2026.07.18.drop	girara-devel sqlite-devel file-devel zlib-devel libseccomp-devel
