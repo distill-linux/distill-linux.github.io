@@ -165,7 +165,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>281 packages found.</strong> Page 1 of 1.
+  <strong>282 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -1186,6 +1186,20 @@ article {
             <td>
                 <a href="gcc-13.2.1.drop" download style="font-weight: bold; color: #aa2022;">gcc-13.2.1.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">47.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="gcompat" data-desc="the gnu c library compatibility layer for musl" data-date="2026-09-07" data-size="35501">
+            <td><a class="pkg-name" href="https://github.com/Stantheman/gcompat" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gcompat</a></td>
+            <td><span class="pkg-tag">1.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">The GNU C Library compatibility layer for musl</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in gcompat</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="gcompat-1.1.0.drop" download style="font-weight: bold; color: #aa2022;">gcompat-1.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">34.7 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="giflib" data-desc="library to handle, display and manipulate gif images" data-date="2026-09-02" data-size="48656">
@@ -2784,7 +2798,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="36332">
+        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-03" data-size="27965">
             <td><a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">samurai</a></td>
             <td><span class="pkg-tag">1.3-1</span></td>
             <td>
@@ -2792,10 +2806,10 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in samurai</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
-                <a href="samurai-1.3.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">35.5 KB</span>
+                <a href="samurai-1.2.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-02" data-size="369">
