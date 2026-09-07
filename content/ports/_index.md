@@ -165,7 +165,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>265 packages found.</strong> Page 1 of 1.
+  <strong>278 packages found.</strong> Page 1 of 1.
 </div>
 
 <table class="pkg-table" id="pkg-table">
@@ -250,7 +250,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">390 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-02" data-size="31820329">
+        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-05" data-size="31820329">
             <td><a class="pkg-name" href="https://github.com/NoaHimesaka1873/apple-bcm-firmware" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-bcm-firmware</a></td>
             <td><span class="pkg-tag">14.0-1</span></td>
             <td>
@@ -258,13 +258,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in apple-bcm-firmware</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
             <td>
                 <a href="apple-bcm-firmware-14.0.drop" download style="font-weight: bold; color: #aa2022;">apple-bcm-firmware-14.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">30.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="apple-t2-audio-config" data-desc="alsa ucm configuration for the t2bce audio driver on apple t2 macs" data-date="2026-09-02" data-size="1204">
+        <tr class="pkg-row" data-name="apple-t2-audio-config" data-desc="alsa ucm configuration for the t2bce audio driver on apple t2 macs" data-date="2026-09-06" data-size="1204">
             <td><a class="pkg-name" href="https://github.com/deqrocks/t2bce" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-t2-audio-config</a></td>
             <td><span class="pkg-tag">0.4-1</span></td>
             <td>
@@ -272,7 +272,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in apple-t2-audio-config</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-06 (UTC)</td>
             <td>
                 <a href="apple-t2-audio-config-0.4.drop" download style="font-weight: bold; color: #aa2022;">apple-t2-audio-config-0.4.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">1.2 KB</span>
@@ -334,6 +334,34 @@ article {
                 <span style="font-size: 0.8em; color: #666;">90.5 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="bash" data-desc="gnu bourne-again shell" data-date="2026-09-07" data-size="2662552">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bash</a></td>
+            <td><span class="pkg-tag">5.3-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU Bourne-Again Shell</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bash</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bash-5.3.drop" download style="font-weight: bold; color: #aa2022;">bash-5.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.5 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bc" data-desc="arbitrary-precision decimal arithmetic language and calculator" data-date="2026-09-07" data-size="154017">
+            <td><a class="pkg-name" href="https://github.com/gavinhoward/bc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bc</a></td>
+            <td><span class="pkg-tag">7.0.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Arbitrary-precision decimal arithmetic language and calculator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bc-7.0.3.drop" download style="font-weight: bold; color: #aa2022;">bc-7.0.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">150.4 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="bearssl" data-desc="implementation of the ssl/tls protocol in c" data-date="2026-09-02" data-size="370393">
             <td><a class="pkg-name" href="https://bearssl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bearssl</a></td>
             <td><span class="pkg-tag">0.6-1</span></td>
@@ -360,6 +388,20 @@ article {
             <td>
                 <a href="binutils-2.44.drop" download style="font-weight: bold; color: #aa2022;">binutils-2.44.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">2.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bison" data-desc="gnu general-purpose parser generator" data-date="2026-09-07" data-size="916951">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/bison/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bison</a></td>
+            <td><span class="pkg-tag">3.8.2-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU general-purpose parser generator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bison</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bison-3.8.2.drop" download style="font-weight: bold; color: #aa2022;">bison-3.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">895.5 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="bitmap" data-desc="bitmap editor and converter utilities for x" data-date="2026-09-02" data-size="62033">
@@ -740,7 +782,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">20.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="doas" data-desc="execute commands as another user (openbsd doas replacement for sudo)" data-date="2026-09-02" data-size="76569">
+        <tr class="pkg-row" data-name="doas" data-desc="execute commands as another user (openbsd doas replacement for sudo)" data-date="2026-09-06" data-size="76569">
             <td><a class="pkg-name" href="https://github.com/Duncaen/OpenDoas" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">doas</a></td>
             <td><span class="pkg-tag">6.8.2-1</span></td>
             <td>
@@ -748,7 +790,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in doas</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-06 (UTC)</td>
             <td>
                 <a href="doas-6.8.2.drop" download style="font-weight: bold; color: #aa2022;">doas-6.8.2.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">74.8 KB</span>
@@ -782,7 +824,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">92.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-02" data-size="17677">
+        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-07" data-size="68263">
             <td><a class="pkg-name" href="https://github.com/distill-linux/drop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">drop</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -790,10 +832,10 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in drop</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
             <td>
                 <a href="drop-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">drop-0.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">17.3 KB</span>
+                <span style="font-size: 0.8em; color: #666;">66.7 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="dropbear" data-desc="small ssh server and client" data-date="2026-09-02" data-size="295113">
@@ -864,6 +906,20 @@ article {
             <td>
                 <a href="efibootmgr-18.drop" download style="font-weight: bold; color: #aa2022;">efibootmgr-18.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">29.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="elfutils" data-desc="utilities and libraries to handle elf object files" data-date="2026-09-07" data-size="0">
+            <td><a class="pkg-name" href="https://sourceware.org/elfutils/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">elfutils</a></td>
+            <td><span class="pkg-tag">0.191-1</span></td>
+            <td>
+                <div class="pkg-desc">Utilities and libraries to handle ELF object files</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in elfutils</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="elfutils-0.191.drop" download style="font-weight: bold; color: #aa2022;">elfutils-0.191.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="eudev" data-desc="fork of systemd-udev (enhanced userland device daemon)" data-date="2026-09-02" data-size="1918959">
@@ -1132,6 +1188,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">47.5 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="git" data-desc="fast, scalable, distributed revision control system" data-date="2026-09-07" data-size="20745757">
+            <td><a class="pkg-name" href="https://git-scm.com" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">git</a></td>
+            <td><span class="pkg-tag">2.55.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast, scalable, distributed revision control system</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in git</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="git-2.55.0.drop" download style="font-weight: bold; color: #aa2022;">git-2.55.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">19.8 MB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="glslang" data-desc="khronos reference front-end for glsl, essl, and sample spir-v generator" data-date="2026-09-02" data-size="3344300">
             <td><a class="pkg-name" href="https://github.com/KhronosGroup/glslang" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">glslang</a></td>
             <td><span class="pkg-tag">16.3.0-1</span></td>
@@ -1284,6 +1354,20 @@ article {
             <td>
                 <a href="kitty-terminfo-0.48.2.drop" download style="font-weight: bold; color: #aa2022;">kitty-terminfo-0.48.2.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">2.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="kmod" data-desc="linux kernel module handling tools" data-date="2026-09-07" data-size="313791">
+            <td><a class="pkg-name" href="https://kernel.org/pub/linux/utils/kernel/kmod/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kmod</a></td>
+            <td><span class="pkg-tag">32-1</span></td>
+            <td>
+                <div class="pkg-desc">Linux kernel module handling tools</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in kmod</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="kmod-32.drop" download style="font-weight: bold; color: #aa2022;">kmod-32.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">306.4 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="kmscon" data-desc="linux kms/drm based virtual console emulator" data-date="2026-09-02" data-size="1361902">
@@ -1676,6 +1760,20 @@ article {
             <td>
                 <a href="libdrm-2.4.134.drop" download style="font-weight: bold; color: #aa2022;">libdrm-2.4.134.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">166.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libelf" data-desc="elf object file access library" data-date="2026-09-07" data-size="177430">
+            <td><a class="pkg-name" href="https://sourceware.org/elfutils/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libelf</a></td>
+            <td><span class="pkg-tag">0.191-1</span></td>
+            <td>
+                <div class="pkg-desc">ELF object file access library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libelf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libelf-0.191.drop" download style="font-weight: bold; color: #aa2022;">libelf-0.191.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">173.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libepoxy" data-desc="library for handling opengl function pointer management for you" data-date="2026-09-02" data-size="266024">
@@ -2126,6 +2224,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">274.6 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="make" data-desc="gnu make utility" data-date="2026-09-07" data-size="349734">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/make/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">make</a></td>
+            <td><span class="pkg-tag">4.4.1-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU Make utility</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in make</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="make-4.4.1.drop" download style="font-weight: bold; color: #aa2022;">make-4.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">341.5 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="mako" data-desc="lightweight wayland notification daemon" data-date="2026-09-02" data-size="61089">
             <td><a class="pkg-name" href="https://wayland.emersion.fr/mako/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mako</a></td>
             <td><span class="pkg-tag">1.11.0-1</span></td>
@@ -2154,7 +2266,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">406.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mbpfan" data-desc="daemon that uses applesmc to set fan speed on macbook laptops" data-date="2026-09-02" data-size="33355">
+        <tr class="pkg-row" data-name="mbpfan" data-desc="daemon that uses applesmc to set fan speed on macbook laptops" data-date="2026-09-06" data-size="33355">
             <td><a class="pkg-name" href="https://github.com/dgraziotin/mbpfan" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mbpfan</a></td>
             <td><span class="pkg-tag">2.4.0-1</span></td>
             <td>
@@ -2162,7 +2274,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mbpfan</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-06 (UTC)</td>
             <td>
                 <a href="mbpfan-2.4.0.drop" download style="font-weight: bold; color: #aa2022;">mbpfan-2.4.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">32.6 KB</span>
@@ -2280,7 +2392,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">592.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="neofetch" data-desc="cli system information tool written in bash" data-date="2026-09-02" data-size="91666">
+        <tr class="pkg-row" data-name="neofetch" data-desc="cli system information tool written in bash" data-date="2026-09-05" data-size="91666">
             <td><a class="pkg-name" href="https://github.com/dylanaraps/neofetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">neofetch</a></td>
             <td><span class="pkg-tag">7.1.0-1</span></td>
             <td>
@@ -2288,7 +2400,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in neofetch</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
             <td>
                 <a href="neofetch-7.1.0.drop" download style="font-weight: bold; color: #aa2022;">neofetch-7.1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">89.5 KB</span>
@@ -2378,6 +2490,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.2 MB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="openssl" data-desc="toolkit for transport layer security and secure sockets layer protocols" data-date="2026-09-07" data-size="5976944">
+            <td><a class="pkg-name" href="https://www.openssl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openssl</a></td>
+            <td><span class="pkg-tag">3.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Toolkit for Transport Layer Security and Secure Sockets Layer protocols</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in openssl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="openssl-3.3.0.drop" download style="font-weight: bold; color: #aa2022;">openssl-3.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.7 MB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="pango" data-desc="library for layout and rendering of text" data-date="2026-09-02" data-size="299754">
             <td><a class="pkg-name" href="https://www.pango.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pango</a></td>
             <td><span class="pkg-tag">1.56.3-1</span></td>
@@ -2406,6 +2532,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">95.7 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="pcre2" data-desc="perl compatible regular expressions 2" data-date="2026-09-07" data-size="786843">
+            <td><a class="pkg-name" href="https://www.pcre.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pcre2</a></td>
+            <td><span class="pkg-tag">10.47-1</span></td>
+            <td>
+                <div class="pkg-desc">Perl Compatible Regular Expressions 2</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pcre2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="pcre2-10.47.drop" download style="font-weight: bold; color: #aa2022;">pcre2-10.47.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">768.4 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="pdpmake" data-desc="pdpmake package for distill linux" data-date="2026-09-02" data-size="26440">
             <td><a class="pkg-name" href="https://github.com/distill-linux/pdpmake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pdpmake</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
@@ -2418,6 +2558,20 @@ article {
             <td>
                 <a href="pdpmake-1.0.drop" download style="font-weight: bold; color: #aa2022;">pdpmake-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">25.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="perl" data-desc="practical extraction and report language" data-date="2026-09-07" data-size="20849255">
+            <td><a class="pkg-name" href="https://www.perl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">perl</a></td>
+            <td><span class="pkg-tag">5.38.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Practical Extraction and Report Language</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in perl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="perl-5.38.2.drop" download style="font-weight: bold; color: #aa2022;">perl-5.38.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">19.9 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="picom" data-desc="lightweight compositor for x11 (previously a compton fork)" data-date="2026-09-02" data-size="296523">
@@ -2588,7 +2742,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-02" data-size="27965">
+        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-03" data-size="27965">
             <td><a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">samurai</a></td>
             <td><span class="pkg-tag">1.3-1</span></td>
             <td>
@@ -2596,7 +2750,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in samurai</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="samurai-1.2.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.2.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
@@ -2672,7 +2826,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">687.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-02" data-size="13790">
+        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-07" data-size="88670">
             <td><a class="pkg-name" href="https://github.com/distill-linux/sink" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sink</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -2680,10 +2834,10 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in sink</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
             <td>
                 <a href="sink-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">sink-0.1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">13.5 KB</span>
+                <span style="font-size: 0.8em; color: #666;">86.6 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="slock" data-desc="simple screen locker for x" data-date="2026-09-02" data-size="7156">
@@ -2840,7 +2994,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">30.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="t2fanrd" data-desc="supercharged apple t2 mac fan control daemon in rust" data-date="2026-09-02" data-size="248397">
+        <tr class="pkg-row" data-name="t2fanrd" data-desc="supercharged apple t2 mac fan control daemon in rust" data-date="2026-09-06" data-size="248397">
             <td><a class="pkg-name" href="https://github.com/GnomedDev/t2fanrd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">t2fanrd</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -2848,7 +3002,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in t2fanrd</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-06 (UTC)</td>
             <td>
                 <a href="t2fanrd-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">t2fanrd-0.1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">242.6 KB</span>
@@ -2882,7 +3036,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="tiny-dfr" data-desc="dynamic function row daemon for apple touch bar" data-date="2026-09-02" data-size="746102">
+        <tr class="pkg-row" data-name="tiny-dfr" data-desc="dynamic function row daemon for apple touch bar" data-date="2026-09-06" data-size="746102">
             <td><a class="pkg-name" href="https://github.com/AsahiLinux/tiny-dfr" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tiny-dfr</a></td>
             <td><span class="pkg-tag">0.3.7-1</span></td>
             <td>
@@ -2890,7 +3044,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in tiny-dfr</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-02 (UTC)</td>
+            <td class="pkg-meta">2026-09-06 (UTC)</td>
             <td>
                 <a href="tiny-dfr-0.3.7.drop" download style="font-weight: bold; color: #aa2022;">tiny-dfr-0.3.7.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">728.6 KB</span>
@@ -3848,6 +4002,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">999.4 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="yyjson" data-desc="fast json library in ansi c" data-date="2026-09-07" data-size="120735">
+            <td><a class="pkg-name" href="https://github.com/ibireme/yyjson" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yyjson</a></td>
+            <td><span class="pkg-tag">0.12.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast JSON library in ANSI C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in yyjson</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="yyjson-0.12.0.drop" download style="font-weight: bold; color: #aa2022;">yyjson-0.12.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">117.9 KB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="zathura" data-desc="highly customizable and functional document viewer" data-date="2026-09-02" data-size="641091">
             <td><a class="pkg-name" href="https://pwmt.org/projects/zathura/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zathura</a></td>
             <td><span class="pkg-tag">2026.07.18-1</span></td>
@@ -3874,6 +4042,20 @@ article {
             <td>
                 <a href="zathura-pdf-mupdf-2026.07.18.drop" download style="font-weight: bold; color: #aa2022;">zathura-pdf-mupdf-2026.07.18.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">28.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="zlib" data-desc="compression/decompression library" data-date="2026-09-07" data-size="53565">
+            <td><a class="pkg-name" href="https://zlib.net" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zlib</a></td>
+            <td><span class="pkg-tag">1.3.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Compression/decompression Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in zlib</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="zlib-1.3.2.drop" download style="font-weight: bold; color: #aa2022;">zlib-1.3.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">52.3 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="zstd" data-desc="fast real-time compression algorithm - cli tool" data-date="2026-09-02" data-size="153338">
