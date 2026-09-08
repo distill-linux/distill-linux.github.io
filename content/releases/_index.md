@@ -1,15 +1,17 @@
 ---
 title: "releases"
-description: "download official ISO images and release notes for distill linux"
+description: "distill linux release status and edition roadmap"
 ---
 
-<p>distill produces live ISO images built from source through our independent cross-compilation pipeline. we offer a primary <strong>tier 1</strong> release alongside two specialized <strong>tier 2</strong> community editions:</p>
-
 <div class="release-banner">
-latest release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
+distill linux is currently in active pre-release development. there are no official releases available yet.
 </div>
 
-<h3>available editions</h3>
+<p>official live ISO images and release notes will be published here once distill reaches its initial release milestone. in the interim, live system images can be built from source using our build repository scripts.</p>
+
+<h3>planned editions</h3>
+
+<p>when official releases become available, distill will provide live ISO images for the following editions:</p>
 
 <table>
 <thead>
@@ -18,7 +20,7 @@ latest release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
 <th>edition</th>
 <th>target hardware</th>
 <th>kernel & firmware</th>
-<th>download</th>
+<th>status</th>
 </tr>
 </thead>
 <tbody>
@@ -27,21 +29,21 @@ latest release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
 <td><strong>distill-standard</strong></td>
 <td>standard x86_64 PCs, laptops, and servers</td>
 <td>standard linux kernel with device drivers and firmware for common hardware</td>
-<td><a href="#">distill-standard-0.1.0.iso</a></td>
+<td><em>in development</em></td>
 </tr>
 <tr>
 <td><strong>tier 2</strong></td>
 <td><strong>distill-libre</strong></td>
 <td>libre and open-hardware platforms</td>
 <td>linux-libre kernel (deblobbed, zero non-free firmware blobs)</td>
-<td><a href="#">distill-libre-0.1.0.iso</a></td>
+<td><em>in development</em></td>
 </tr>
 <tr>
 <td><strong>tier 2</strong></td>
 <td><strong>distill-t2</strong></td>
 <td>apple t2 macs (2018–2020 macbook pro, air, mini)</td>
 <td>linux with t2 kernel patches (apple spi keyboard, trackpad, audio, wifi, uefi)</td>
-<td><a href="#">distill-t2-0.1.0.iso</a></td>
+<td><em>in development</em></td>
 </tr>
 </tbody>
 </table>
@@ -68,17 +70,4 @@ latest release: <strong>distill-standard 0.1.0-alpha</strong> (x86_64-musl)
 </ul>
 </details>
 
-<details>
-<summary>verification</summary>
-
-```sh
-# verify iso checksum
-sha256sum distill-standard-0.1.0.iso
-
-# verify gpg signature
-gpg --verify distill-standard-0.1.0.iso.sig distill-standard-0.1.0.iso
-```
-
-</details>
-
-<p>for installation steps, see the <a href="/docs/installation/">installation guide</a>.</p>
+<p>for installation steps and build notes, see the <a href="/docs/installation/">installation guide</a>.</p>

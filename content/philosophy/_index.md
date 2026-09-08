@@ -20,7 +20,7 @@ description: "the design goals behind distill linux"
 <summary>editions for different needs</summary>
 <p>we provide distinct editions rather than forcing a one-size-fits-all approach:</p>
 <ul>
-<li><strong>distill-standard (tier 1 / main)</strong>: our primary release, providing a minimal musl/toybox/mksh base with standard hardware drivers and firmware.</li>
+<li><strong>distill-standard (tier 1 / main)</strong>: our primary edition, providing a minimal musl/toybox/mksh base with standard hardware drivers and firmware.</li>
 <li><strong>distill-libre (tier 2)</strong>: a 100% free-software edition with a deblobbed linux-libre kernel for fully open hardware.</li>
 <li><strong>distill-t2 (tier 2)</strong>: dedicated kernel support for Apple T2 Mac computers.</li>
 </ul>

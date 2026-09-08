@@ -3,15 +3,15 @@ title: "installation guide"
 description: "step-by-step installation instructions for distill linux"
 ---
 
-<p>distill linux can be installed directly from an official live ISO onto bare metal or a virtual machine.</p>
+<p>distill linux is currently in active pre-release development. prebuilt installation images will be available on the <a href="/releases/">releases</a> page once initial releases are published. in the interim, live system ISOs can be built from source using our bootstrap build pipeline.</p>
 
 <details open>
-<summary>1. download & verify ISO</summary>
-<p>download your chosen edition from the <a href="/releases/">releases</a> page and verify its checksum:</p>
+<summary>1. installation ISO media</summary>
+<p>if you have built an ISO from source or acquired a development image (e.g. <code>distill-standard.iso</code>), verify its checksum before writing to media:</p>
 
 ```sh
-# download and verify sha256 checksum
-sha256sum distill-standard-0.1.0.iso
+# verify sha256 checksum of your built ISO
+sha256sum distill-standard.iso
 ```
 
 </details>
@@ -21,7 +21,7 @@ sha256sum distill-standard-0.1.0.iso
 <p>write the ISO to a usb flash drive (replace <code>/dev/sdX</code> with your target device):</p>
 
 ```sh
-dd if=distill-standard-0.1.0.iso of=/dev/sdX bs=4M status=progress conv=fsync
+dd if=distill-standard.iso of=/dev/sdX bs=4M status=progress conv=fsync
 ```
 
 <p>boot the machine from the usb drive and log in as <code>root</code> (password: <code>distill</code>).</p>

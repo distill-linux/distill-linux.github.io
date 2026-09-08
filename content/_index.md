@@ -9,14 +9,14 @@ title: "distill"
 <p><em>distill</em> is an independent, from-scratch x86-64 <a href="https://en.wikipedia.org/wiki/Linux">linux</a> distribution built from source. it provides a minimal, simple base system based on <a href="https://musl.libc.org/">musl libc</a>, <a href="https://landley.net/toybox/">toybox</a>, <a href="https://www.mirbsd.org/mksh.htm">mksh</a>, <a href="http://smarden.org/runit/">runit</a>, and a native package management system: <strong><a href="/docs/packages/">drop & sink</a></strong>.</p>
 
 <div class="release-banner">
-latest release: <a href="/releases/">distill-standard 0.1.0-alpha</a> (tier 1 main)
+status: in active pre-release development &mdash; official ISO releases coming soon
 </div>
 
 <details open>
 <summary>editions</summary>
 <ul>
 <li>
-<strong>distill-standard (tier 1 / main)</strong>: our primary release for standard x86_64 PCs, laptops, and servers. provides a minimal base system with standard hardware drivers and firmware for out-of-the-box hardware support.
+<strong>distill-standard (tier 1 / main)</strong>: our primary edition for standard x86_64 PCs, laptops, and servers. provides a minimal base system with standard hardware drivers and firmware for out-of-the-box hardware support.
 </li><li>
 <strong>distill-libre (tier 2)</strong>: 100% free-software edition running the deblobbed <a href="https://www.fsfla.org/ikiwiki/selibre/linux-libre/">linux-libre</a> kernel with no non-free firmware.
 </li><li>

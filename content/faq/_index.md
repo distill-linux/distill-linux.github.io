@@ -10,9 +10,9 @@ description: "common questions about distill linux"
 
 <details open>
 <summary>what editions are available?</summary>
-<p>distill provides three release editions:</p>
+<p>distill provides three editions:</p>
 <ul>
-<li><strong>distill-standard (tier 1 / main)</strong>: our primary release for standard x86_64 PCs, laptops, and servers. includes standard hardware firmware so devices like WiFi, Bluetooth, and graphics work out of the box.</li>
+<li><strong>distill-standard (tier 1 / main)</strong>: our primary edition for standard x86_64 PCs, laptops, and servers. includes standard hardware firmware so devices like WiFi, Bluetooth, and graphics work out of the box.</li>
 <li><strong>distill-libre (tier 2)</strong>: a 100% free-software edition running the linux-libre kernel with no proprietary firmware blobs.</li>
 <li><strong>distill-t2 (tier 2)</strong>: an edition pre-configured with drivers for Intel Apple Macs with the T2 security chip.</li>
 </ul>
