@@ -1,0 +1,31 @@
+#!/usr/bin/expect -f
+spawn qemu-system-x86_64 -m 1G -cdrom /home/foggy/distill/distill-build/out/distill-linux-x86_64-20260902.iso -boot d -nographic -serial mon:stdio -no-reboot
+set timeout 120
+
+# Wait for login prompt
+expect "distill-linux login:"
+
+# Login as root
+send "root\r"
+expect "Password:"
+send "distill\r"
+
+# Wait for shell prompt
+expect "# "
+
+# Run the installer
+send "distill-installer\r"
+
+# Give it some time to start
+sleep 2
+
+# Send Ctrl+C to exit installer (since we can't fully interact with TUI in expect)
+send "\003"
+
+# Wait a bit
+sleep 1
+
+# Exit QEMU
+send "poweroff\r"
+
+expect eof

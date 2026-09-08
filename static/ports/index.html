@@ -1,206 +1,218 @@
----
-title: "ports"
----
-
-<style>
-/* Spread ports page to the edge of the screen */
-article {
-    max-width: none !important;
-    margin-right: 2em !important;
-}
-@media (max-width: 650px) {
-    article {
-        margin-right: 0 !important;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages - Distill Linux</title>
+  <link rel="stylesheet" href="/style.css" type="text/css">
+  <script>
+    (function() {
+        if (localStorage.getItem('distill-inverted') === 'true') {
+            document.documentElement.classList.add('inverted');
+        }
+    })();
+    function toggleInvert() {
+        var isInv = document.documentElement.classList.toggle('inverted');
+        try {
+            localStorage.setItem('distill-inverted', isInv ? 'true' : 'false');
+        } catch (e) {}
     }
-}
-
-/* Arch/AUR Search Criteria Box */
-.pkg-search-box {
-    background: rgba(255, 255, 255, 0.45);
-    border: 1px solid rgba(0, 0, 0, 0.22);
-    border-radius: 4px;
-    margin: 1em 0 1.5em 0;
-    overflow: hidden;
-}
-.pkg-search-title {
-    background: rgba(44, 54, 99, 0.12);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
-    padding: 0.5em 1em;
-    font-weight: bold;
-    color: #0c142e;
-    font-size: 1.05em;
-}
-.pkg-search-form {
-    padding: 0.8em 1em;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 1em;
-    align-items: end;
-}
-@media (max-width: 750px) {
+  </script>
+  <style>
+    body {
+        margin: 1.5em 2.5em;
+        font-family: sans-serif;
+        background: #b4bbed;
+        color: #101426;
+    }
+    .pkg-search-box {
+        background: rgba(255, 255, 255, 0.45);
+        border: 1px solid rgba(0, 0, 0, 0.22);
+        border-radius: 4px;
+        margin: 1em 0 1.5em 0;
+        overflow: hidden;
+    }
+    .pkg-search-title {
+        background: rgba(44, 54, 99, 0.12);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+        padding: 0.5em 1em;
+        font-weight: bold;
+        color: #0c142e;
+        font-size: 1.05em;
+    }
     .pkg-search-form {
-        grid-template-columns: 1fr;
+        padding: 0.8em 1em;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 1em;
+        align-items: end;
     }
-}
-.pkg-form-group {
-    display: flex;
-    flex-direction: column;
-}
-.pkg-form-group label {
-    font-size: 0.85em;
-    font-weight: bold;
-    margin-bottom: 0.3em;
-    color: #2c3663;
-}
-.pkg-form-group input, .pkg-form-group select {
-    padding: 0.45em 0.6em;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
-    background: #ffffff;
-    font-size: 0.9em;
-    box-sizing: border-box;
-    width: 100%;
-}
-.pkg-stats {
-    font-size: 0.9em;
-    margin: 1.2em 0 0.6em 0;
-    color: #101426;
-}
-.pkg-table-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin: 0.5em 0 1.5em 0;
-}
-.pkg-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9em;
-    background: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.18);
-}
-.pkg-table th {
-    background: rgba(44, 54, 99, 0.12);
-    border: 1px solid rgba(0, 0, 0, 0.18);
-    padding: 0.6em 0.8em;
-    text-align: left;
-    color: #0c142e;
-    white-space: nowrap;
-}
-.pkg-table th.sortable {
-    cursor: pointer;
-    user-select: none;
-    transition: background 0.15s ease;
-}
-.pkg-table th.sortable:hover {
-    background: rgba(44, 54, 99, 0.22);
-    color: #aa2022;
-}
-.sort-icon {
-    font-size: 0.85em;
-    margin-left: 0.35em;
-    color: #aa2022;
-}
-.pkg-table td {
-    border: 1px solid rgba(0, 0, 0, 0.18);
-    padding: 0.6em 0.8em;
-    vertical-align: top;
-}
-.pkg-table tr:hover {
-    background: rgba(255, 255, 255, 0.75);
-}
-.pkg-name {
-    font-weight: bold;
-    font-size: 1.05em;
-}
-.pkg-desc {
-    color: #1f293d;
-    margin-top: 0.2em;
-}
-.pkg-tag {
-    display: inline-block;
-    padding: 0.15em 0.45em;
-    background: rgba(170, 32, 34, 0.12);
-    color: #aa2022;
-    border-radius: 3px;
-    font-size: 0.8em;
-    font-family: monospace;
-}
-.pkg-meta {
-    font-size: 0.8em;
-    color: #555;
-    white-space: nowrap;
-}
-.pkg-cmd {
-    font-family: monospace;
-    font-size: 0.82em;
-    background: rgba(255, 255, 255, 0.65);
-    border: 1px solid rgba(0, 0, 0, 0.18);
-    color: #0c142e;
-    padding: 0.2em 0.5em;
-    border-radius: 3px;
-    cursor: pointer;
-    user-select: all;
-    display: inline-block;
-}
-.pkg-cmd:hover {
-    background: rgba(255, 255, 255, 0.95);
-    border-color: #aa2022;
-}
-.catalog-link {
-    float: right;
-    font-size: 0.85em;
-    margin-top: -2.2em;
-}
-</style>
+    @media (max-width: 750px) {
+        .pkg-search-form {
+            grid-template-columns: 1fr;
+        }
+    }
+    .pkg-form-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .pkg-form-group label {
+        font-size: 0.85em;
+        font-weight: bold;
+        margin-bottom: 0.3em;
+        color: #2c3663;
+    }
+    .pkg-form-group input, .pkg-form-group select {
+        padding: 0.45em 0.6em;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 3px;
+        background: #ffffff;
+        font-size: 0.9em;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .pkg-stats {
+        font-size: 0.9em;
+        margin: 1.2em 0 0.6em 0;
+        color: #101426;
+    }
+    .pkg-table-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 0.5em 0 1.5em 0;
+    }
+    .pkg-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9em;
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.18);
+    }
+    .pkg-table th {
+        background: rgba(44, 54, 99, 0.12);
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        padding: 0.6em 0.8em;
+        text-align: left;
+        color: #0c142e;
+        white-space: nowrap;
+    }
+    .pkg-table th.sortable {
+        cursor: pointer;
+        user-select: none;
+        transition: background 0.15s ease;
+    }
+    .pkg-table th.sortable:hover {
+        background: rgba(44, 54, 99, 0.22);
+        color: #aa2022;
+    }
+    .sort-icon {
+        font-size: 0.85em;
+        margin-left: 0.35em;
+        color: #aa2022;
+    }
+    .pkg-table td {
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        padding: 0.6em 0.8em;
+        vertical-align: top;
+    }
+    .pkg-table tr:hover {
+        background: rgba(255, 255, 255, 0.75);
+    }
+    .pkg-name {
+        font-weight: bold;
+        font-size: 1.05em;
+    }
+    .pkg-desc {
+        color: #1f293d;
+        margin-top: 0.2em;
+    }
+    .pkg-tag {
+        display: inline-block;
+        padding: 0.15em 0.45em;
+        background: rgba(170, 32, 34, 0.12);
+        color: #aa2022;
+        border-radius: 3px;
+        font-size: 0.8em;
+        font-family: monospace;
+    }
+    .pkg-meta {
+        font-size: 0.8em;
+        color: #555;
+        white-space: nowrap;
+    }
+    .pkg-cmd {
+        font-family: monospace;
+        font-size: 0.82em;
+        background: rgba(255, 255, 255, 0.65);
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        color: #0c142e;
+        padding: 0.2em 0.5em;
+        border-radius: 3px;
+        cursor: pointer;
+        user-select: all;
+        display: inline-block;
+    }
+    .pkg-cmd:hover {
+        background: rgba(255, 255, 255, 0.95);
+        border-color: #aa2022;
+    }
+    .catalog-link {
+        float: right;
+        font-size: 0.85em;
+        margin-top: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <span class="catalog-link">Raw catalog: <a href="index.tsv" style="color: #aa2022;">index.tsv</a> | <a href="javascript:void(0)" onclick="toggleInvert()" style="color: #aa2022;">invert</a></span>
+  <h1 style="border-bottom: 1px solid rgba(0,0,0,0.22); padding-bottom: 0.4em;"><a href="/" style="color: #101426; text-decoration: none;">distill</a> / packages</h1>
 
-<span class="catalog-link">Raw catalog: <a href="index.tsv" style="color: #aa2022;">index.tsv</a></span>
+  <div class="pkg-search-box">
+      <div class="pkg-search-title">Search Criteria</div>
+      <div class="pkg-search-form">
+          <div class="pkg-form-group">
+              <label for="pkg-keywords">Keywords</label>
+              <input type="text" id="pkg-keywords" placeholder="Search by name or description..." oninput="filterPackages()">
+          </div>
+          <div class="pkg-form-group">
+              <label for="pkg-searchby">Search by</label>
+              <select id="pkg-searchby" onchange="filterPackages()">
+                  <option value="all">Name, Description</option>
+                  <option value="name">Name Only</option>
+                  <option value="desc">Description Only</option>
+              </select>
+          </div>
+          <div class="pkg-form-group">
+              <label for="pkg-sort">Sort by</label>
+              <select id="pkg-sort" onchange="sortPackages()">
+                  <option value="name-asc">Name (A-Z)</option>
+                  <option value="name-desc">Name (Z-A)</option>
+                  <option value="date-desc">Last Updated (Newest)</option>
+                  <option value="date-asc">Last Updated (Oldest)</option>
+                  <option value="size-desc">Size (Largest)</option>
+                  <option value="size-asc">Size (Smallest)</option>
+              </select>
+          </div>
+      </div>
+  </div>
 
-<div class="pkg-search-box">
-    <div class="pkg-search-title">Search Criteria</div>
-    <div class="pkg-search-form">
-        <div class="pkg-form-group">
-            <label for="pkg-keywords">Keywords</label>
-            <input type="text" id="pkg-keywords" placeholder="Search by name or description..." oninput="filterPackages()">
-        </div>
-        <div class="pkg-form-group">
-            <label for="pkg-searchby">Search by</label>
-            <select id="pkg-searchby" onchange="filterPackages()">
-                <option value="all">Name, Description</option>
-                <option value="name">Name Only</option>
-                <option value="desc">Description Only</option>
-            </select>
-        </div>
-        <div class="pkg-form-group">
-            <label for="pkg-sort">Sort by</label>
-            <select id="pkg-sort" onchange="sortPackages()">
-                <option value="name-asc">Name (A-Z)</option>
-                <option value="name-desc">Name (Z-A)</option>
-                <option value="date-desc">Last Updated (Newest)</option>
-                <option value="date-asc">Last Updated (Oldest)</option>
-                <option value="size-desc">Size (Largest)</option>
-                <option value="size-asc">Size (Smallest)</option>
-            </select>
-        </div>
-    </div>
-</div>
+  <div class="pkg-stats" id="pkg-stats">
+    <strong>325 packages found.</strong> Page 1 of 1.
+  </div>
 
-<div class="pkg-stats" id="pkg-stats">
-  <strong>325 packages found.</strong> Page 1 of 1.
-</div>
-
-<div class="pkg-table-wrap">
-<table class="pkg-table" id="pkg-table">
-    <thead>
-        <tr>
-            <th class="sortable" style="width: 18%;" onclick="toggleSort('name')" title="Click to sort by Name">Name<span id="sort-icon-name" class="sort-icon"></span></th>
-            <th style="width: 10%;">Version</th>
-            <th>Description</th>
-            <th style="width: 14%;">Maintainer</th>
-            <th class="sortable" style="width: 15%;" onclick="toggleSort('date')" title="Click to sort by Last Updated">Last Updated<span id="sort-icon-date" class="sort-icon"></span></th>
-            <th class="sortable" style="width: 13%;" onclick="toggleSort('size')" title="Click to sort by Size">Package<span id="sort-icon-size" class="sort-icon"></span></th>
-        </tr>
-    </thead>
-    <tbody id="pkg-body">
+  <div class="pkg-table-wrap">
+  <table class="pkg-table" id="pkg-table">
+      <thead>
+          <tr>
+              <th class="sortable" style="width: 18%;" onclick="toggleSort('name')" title="Click to sort by Name">Name<span id="sort-icon-name" class="sort-icon"></span></th>
+              <th style="width: 10%;">Version</th>
+              <th>Description</th>
+              <th style="width: 14%;">Maintainer</th>
+              <th class="sortable" style="width: 15%;" onclick="toggleSort('date')" title="Click to sort by Last Updated">Last Updated<span id="sort-icon-date" class="sort-icon"></span></th>
+              <th class="sortable" style="width: 13%;" onclick="toggleSort('size')" title="Click to sort by Size">Package<span id="sort-icon-size" class="sort-icon"></span></th>
+          </tr>
+      </thead>
+      <tbody id="pkg-body">
         <tr class="pkg-row" data-name="alacritty" data-desc="cross-platform, gpu-accelerated terminal emulator" data-date="2026-09-07" data-time="1788814060" data-size="3487634">
             <td><a class="pkg-name" href="https://github.com/alacritty/alacritty" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alacritty</a></td>
             <td><span class="pkg-tag">0.17.0-1</span></td>
@@ -215,7 +227,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="alsa-lib" data-desc="advanced linux sound architecture (alsa) library" data-date="2026-09-03" data-time="1788425243" data-size="552780">
+        <tr class="pkg-row" data-name="alsa-lib" data-desc="advanced linux sound architecture (alsa) library" data-date="2026-09-03" data-time="1788424196" data-size="552780">
             <td><a class="pkg-name" href="https://www.alsa-project.org/wiki/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alsa-lib</a></td>
             <td><span class="pkg-tag">1.2.16.1-1</span></td>
             <td>
@@ -271,7 +283,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">384 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-07" data-time="1788740375" data-size="31820329">
+        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-05" data-time="1788641222" data-size="31820329">
             <td><a class="pkg-name" href="https://github.com/NoaHimesaka1873/apple-bcm-firmware" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-bcm-firmware</a></td>
             <td><span class="pkg-tag">14.0-1</span></td>
             <td>
@@ -279,7 +291,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in apple-bcm-firmware</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
             <td>
                 <a href="apple-bcm-firmware-14.0.drop" download style="font-weight: bold; color: #aa2022;">apple-bcm-firmware-14.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">30.3 MB</span>
@@ -299,7 +311,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-03" data-time="1788425244" data-size="993107">
+        <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-03" data-time="1788424196" data-size="993107">
             <td><a class="pkg-name" href="http://www.gnu.org/software/autoconf" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">autoconf</a></td>
             <td><span class="pkg-tag">2.73-1</span></td>
             <td>
@@ -313,7 +325,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">969.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="automake" data-desc="gnu standards-compliant makefile generator" data-date="2026-09-03" data-time="1788425244" data-size="679196">
+        <tr class="pkg-row" data-name="automake" data-desc="gnu standards-compliant makefile generator" data-date="2026-09-03" data-time="1788424196" data-size="679196">
             <td><a class="pkg-name" href="https://www.gnu.org/software/automake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">automake</a></td>
             <td><span class="pkg-tag">1.16.5-1</span></td>
             <td>
@@ -383,7 +395,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">150.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bearssl" data-desc="implementation of the ssl/tls protocol in c" data-date="2026-09-03" data-time="1788425242" data-size="370393">
+        <tr class="pkg-row" data-name="bearssl" data-desc="implementation of the ssl/tls protocol in c" data-date="2026-09-03" data-time="1788424196" data-size="370393">
             <td><a class="pkg-name" href="https://bearssl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bearssl</a></td>
             <td><span class="pkg-tag">0.6-1</span></td>
             <td>
@@ -439,7 +451,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">60.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="brotli" data-desc="generic-purpose lossless compression algorithm" data-date="2026-09-08" data-time="1788866968" data-size="408855">
+        <tr class="pkg-row" data-name="brotli" data-desc="generic-purpose lossless compression algorithm" data-date="2026-09-08" data-time="1788866551" data-size="408855">
             <td><a class="pkg-name" href="https://github.com/google/brotli" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">brotli</a></td>
             <td><span class="pkg-tag">1.1.0-1</span></td>
             <td>
@@ -453,7 +465,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">399.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bsd-mk-files" data-desc="system bmake mk files" data-date="2026-09-05" data-time="1788649871" data-size="354">
+        <tr class="pkg-row" data-name="bsd-mk-files" data-desc="system bmake mk files" data-date="2026-09-03" data-time="1788424196" data-size="354">
             <td><a class="pkg-name" href="https://github.com/crux-arm/mk-files" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bsd-mk-files</a></td>
             <td><span class="pkg-tag">20240414-1</span></td>
             <td>
@@ -461,13 +473,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bsd-mk-files</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="bsd-mk-files-20240414.drop" download style="font-weight: bold; color: #aa2022;">bsd-mk-files-20240414.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">354 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bsdmake" data-desc="bsd make (bmake) ported from netbsd" data-date="2026-09-03" data-time="1788425242" data-size="241982">
+        <tr class="pkg-row" data-name="bsdmake" data-desc="bsd make (bmake) ported from netbsd" data-date="2026-09-03" data-time="1788424196" data-size="241982">
             <td><a class="pkg-name" href="https://github.com/crux-arm/bmake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bsdmake</a></td>
             <td><span class="pkg-tag">20240414-1</span></td>
             <td>
@@ -509,7 +521,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">39.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="byacc" data-desc="berkeley yacc, a lalr(1) parser generator" data-date="2026-09-03" data-time="1788425243" data-size="78108">
+        <tr class="pkg-row" data-name="byacc" data-desc="berkeley yacc, a lalr(1) parser generator" data-date="2026-09-03" data-time="1788424196" data-size="78108">
             <td><a class="pkg-name" href="https://invisible-island.net/byacc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">byacc</a></td>
             <td><span class="pkg-tag">20260126-1</span></td>
             <td>
@@ -523,7 +535,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">76.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="bzip2" data-desc="freely available, patent free, high-quality data compressor" data-date="2026-09-08" data-time="1788866968" data-size="59998">
+        <tr class="pkg-row" data-name="bzip2" data-desc="freely available, patent free, high-quality data compressor" data-date="2026-09-08" data-time="1788866551" data-size="59998">
             <td><a class="pkg-name" href="https://sourceware.org/bzip2/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bzip2</a></td>
             <td><span class="pkg-tag">1.0.8-1</span></td>
             <td>
@@ -537,7 +549,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">58.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="ca-certificates" data-desc="common ca certificates for ssl/tls from mozilla" data-date="2026-09-03" data-time="1788425243" data-size="166292">
+        <tr class="pkg-row" data-name="ca-certificates" data-desc="common ca certificates for ssl/tls from mozilla" data-date="2026-09-03" data-time="1788424196" data-size="166292">
             <td><a class="pkg-name" href="https://wiki.mozilla.org/NSS:Root_certs" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">ca-certificates</a></td>
             <td><span class="pkg-tag">20250419+3.127-1</span></td>
             <td>
@@ -579,7 +591,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">643.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="cargo" data-desc="rust package manager" data-date="2026-09-07" data-time="1788806300" data-size="10896050">
+        <tr class="pkg-row" data-name="cargo" data-desc="rust package manager" data-date="2026-09-07" data-time="1788806300" data-size="11235090">
             <td><a class="pkg-name" href="https://crates.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cargo</a></td>
             <td><span class="pkg-tag">1.78.0-1</span></td>
             <td>
@@ -589,8 +601,8 @@ article {
             <td class="pkg-meta">distill-core</td>
             <td class="pkg-meta">2026-09-07 (UTC)</td>
             <td>
-                <a href="cargo-1.78.0.drop" download style="font-weight: bold; color: #aa2022;">cargo-1.78.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">10.4 MB</span>
+                <a href="cargo-1.98.0.drop" download style="font-weight: bold; color: #aa2022;">cargo-1.98.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.7 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="chrony" data-desc="versatile implementation of the network time protocol (ntp)" data-date="2026-09-07" data-time="1788814060" data-size="299673">
@@ -607,7 +619,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">292.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="clang" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649872" data-size="254">
+        <tr class="pkg-row" data-name="clang" data-desc="llvm meta package" data-date="2026-09-03" data-time="1788424196" data-size="254">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">clang</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -615,13 +627,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in clang</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="clang-21.drop" download style="font-weight: bold; color: #aa2022;">clang-21.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">254 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="compiler-rt" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649873" data-size="265">
+        <tr class="pkg-row" data-name="compiler-rt" data-desc="llvm meta package" data-date="2026-09-03" data-time="1788424196" data-size="265">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">compiler-rt</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -629,7 +641,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in compiler-rt</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="compiler-rt-21.drop" download style="font-weight: bold; color: #aa2022;">compiler-rt-21.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">265 B</span>
@@ -649,7 +661,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">28.1 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="cproc" data-desc="c11 compiler using qbe as backend written by michael forney" data-date="2026-09-05" data-time="1788649871" data-size="365">
+        <tr class="pkg-row" data-name="cproc" data-desc="c11 compiler using qbe as backend written by michael forney" data-date="2026-09-03" data-time="1788424196" data-size="365">
             <td><a class="pkg-name" href="https://github.com/michaelforney/cproc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cproc</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -657,7 +669,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in cproc</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="cproc-main.drop" download style="font-weight: bold; color: #aa2022;">cproc-main.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">365 B</span>
@@ -719,7 +731,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">278.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dav1d" data-desc="small and fast av1 decoder" data-date="2026-09-03" data-time="1788425244" data-size="18716">
+        <tr class="pkg-row" data-name="dav1d" data-desc="small and fast av1 decoder" data-date="2026-09-03" data-time="1788424196" data-size="18716">
             <td><a class="pkg-name" href="https://code.videolan.org/videolan/dav1d" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dav1d</a></td>
             <td><span class="pkg-tag">1.5.3-1</span></td>
             <td>
@@ -747,7 +759,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">162.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dejavu-fonts-ttf" data-desc="dejavu family of truetype fonts" data-date="2026-09-03" data-time="1788425246" data-size="5421004">
+        <tr class="pkg-row" data-name="dejavu-fonts-ttf" data-desc="dejavu family of truetype fonts" data-date="2026-09-03" data-time="1788424196" data-size="5421004">
             <td><a class="pkg-name" href="https://dejavu-fonts.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dejavu-fonts-ttf</a></td>
             <td><span class="pkg-tag">2.37-1</span></td>
             <td>
@@ -775,7 +787,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">202.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="diffutils" data-desc="gnu diff utilities" data-date="2026-09-03" data-time="1788425245" data-size="639231">
+        <tr class="pkg-row" data-name="diffutils" data-desc="gnu diff utilities" data-date="2026-09-03" data-time="1788424196" data-size="639231">
             <td><a class="pkg-name" href="https://www.gnu.org/software/diffutils" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">diffutils</a></td>
             <td><span class="pkg-tag">3.12-1</span></td>
             <td>
@@ -803,7 +815,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">782.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="distrobox" data-desc="use any linux distribution inside your terminal using podman or docker" data-date="2026-09-05" data-time="1788649871" data-size="384">
+        <tr class="pkg-row" data-name="distrobox" data-desc="use any linux distribution inside your terminal using podman or docker" data-date="2026-09-05" data-time="1788639545" data-size="384">
             <td><a class="pkg-name" href="https://github.com/89luca89/distrobox" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">distrobox</a></td>
             <td><span class="pkg-tag">1.8.1.2-1</span></td>
             <td>
@@ -873,7 +885,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">92.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-07" data-time="1788811800" data-size="68927">
+        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-03" data-time="1788419058" data-size="68927">
             <td><a class="pkg-name" href="https://github.com/distill-linux/drop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">drop</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -881,7 +893,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in drop</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="drop-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">drop-0.1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">67.3 KB</span>
@@ -901,7 +913,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">288.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="dwl" data-desc="compact, hackable wayland compositor based on wlroots" data-date="2026-09-05" data-time="1788649871" data-size="354">
+        <tr class="pkg-row" data-name="dwl" data-desc="compact, hackable wayland compositor based on wlroots" data-date="2026-09-03" data-time="1788424196" data-size="354">
             <td><a class="pkg-name" href="https://codeberg.org/dwl/dwl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dwl</a></td>
             <td><span class="pkg-tag">0.6-1</span></td>
             <td>
@@ -909,7 +921,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dwl</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="dwl-0.6.drop" download style="font-weight: bold; color: #aa2022;">dwl-0.6.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">354 B</span>
@@ -929,7 +941,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">30.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="e2fsprogs" data-desc="ext2/3/4 filesystem utilities" data-date="2026-09-08" data-time="1788865897" data-size="1949496">
+        <tr class="pkg-row" data-name="e2fsprogs" data-desc="ext2/3/4 filesystem utilities" data-date="2026-09-07" data-time="1788814060" data-size="1717213">
             <td><a class="pkg-name" href="http://e2fsprogs.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">e2fsprogs</a></td>
             <td><span class="pkg-tag">1.47.2-1</span></td>
             <td>
@@ -937,13 +949,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in e2fsprogs</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
             <td>
                 <a href="e2fsprogs-1.47.2.drop" download style="font-weight: bold; color: #aa2022;">e2fsprogs-1.47.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">1.9 MB</span>
+                <span style="font-size: 0.8em; color: #666;">1.6 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="e2fsprogs-libs" data-desc="ext2/3/4 filesystem utilities - shared libraries" data-date="2026-09-08" data-time="1788866968" data-size="236889">
+        <tr class="pkg-row" data-name="e2fsprogs-libs" data-desc="ext2/3/4 filesystem utilities - shared libraries" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="http://e2fsprogs.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">e2fsprogs-libs</a></td>
             <td><span class="pkg-tag">1.47.2-1</span></td>
             <td>
@@ -954,7 +966,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="e2fsprogs-libs-1.47.2.drop" download style="font-weight: bold; color: #aa2022;">e2fsprogs-libs-1.47.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">231.3 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="efibootmgr" data-desc="tool to modify uefi firmware boot manager variables" data-date="2026-09-07" data-time="1788814060" data-size="30653">
@@ -985,7 +997,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="eudev" data-desc="fork of systemd-udev (enhanced userland device daemon)" data-date="2026-09-08" data-time="1788865890" data-size="1991589">
+        <tr class="pkg-row" data-name="eudev" data-desc="fork of systemd-udev (enhanced userland device daemon)" data-date="2026-09-07" data-time="1788814060" data-size="1918947">
             <td><a class="pkg-name" href="https://github.com/eudev-project/eudev" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">eudev</a></td>
             <td><span class="pkg-tag">3.2.14-1</span></td>
             <td>
@@ -993,13 +1005,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in eudev</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
             <td>
                 <a href="eudev-3.2.14.drop" download style="font-weight: bold; color: #aa2022;">eudev-3.2.14.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">1.9 MB</span>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="eudev-libudev" data-desc="fork of systemd-udev - shared library" data-date="2026-09-08" data-time="1788866968" data-size="73112">
+        <tr class="pkg-row" data-name="eudev-libudev" data-desc="fork of systemd-udev - shared library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://github.com/eudev-project/eudev" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">eudev-libudev</a></td>
             <td><span class="pkg-tag">3.2.14-1</span></td>
             <td>
@@ -1010,10 +1022,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="eudev-libudev-3.2.14.drop" download style="font-weight: bold; color: #aa2022;">eudev-libudev-3.2.14.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">71.4 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="expat" data-desc="xml parser library" data-date="2026-09-08" data-time="1788866968" data-size="73236">
+        <tr class="pkg-row" data-name="expat" data-desc="xml parser library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://libexpat.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">expat</a></td>
             <td><span class="pkg-tag">2.8.4-1</span></td>
             <td>
@@ -1024,7 +1036,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="expat-2.8.4.drop" download style="font-weight: bold; color: #aa2022;">expat-2.8.4.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">71.5 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="fastfetch" data-desc="fast, highly customizable system information fetching tool" data-date="2026-09-07" data-time="1788811964" data-size="781824">
@@ -1041,7 +1053,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">763.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="322">
+        <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="322">
             <td><a class="pkg-name" href="https://github.com/distill-linux/fbpad" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fbpad</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1049,7 +1061,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fbpad</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="fbpad-1.0.drop" download style="font-weight: bold; color: #aa2022;">fbpad-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">322 B</span>
@@ -1153,7 +1165,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">2.6 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="flex" data-desc="fast lexical analyzer" data-date="2026-09-03" data-time="1788425247" data-size="352541">
+        <tr class="pkg-row" data-name="flex" data-desc="fast lexical analyzer" data-date="2026-09-03" data-time="1788424196" data-size="352541">
             <td><a class="pkg-name" href="https://github.com/westes/flex" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flex</a></td>
             <td><span class="pkg-tag">2.6.4-1</span></td>
             <td>
@@ -1167,7 +1179,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">344.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="font-awesome" data-desc="an iconic font" data-date="2026-09-03" data-time="1788425247" data-size="111594">
+        <tr class="pkg-row" data-name="font-awesome" data-desc="an iconic font" data-date="2026-09-03" data-time="1788424196" data-size="111594">
             <td><a class="pkg-name" href="https://fontawesome.com/v4.7.0/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">font-awesome</a></td>
             <td><span class="pkg-tag">4.7.0-1</span></td>
             <td>
@@ -1195,7 +1207,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">198.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="foot" data-desc="fast, lightweight, and minimalistic wayland terminal emulator" data-date="2026-09-03" data-time="1788425247" data-size="378964">
+        <tr class="pkg-row" data-name="foot" data-desc="fast, lightweight, and minimalistic wayland terminal emulator" data-date="2026-09-03" data-time="1788424196" data-size="378964">
             <td><a class="pkg-name" href="https://codeberg.org/dnkl/foot" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">foot</a></td>
             <td><span class="pkg-tag">1.17.2-1</span></td>
             <td>
@@ -1223,7 +1235,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">389.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fribidi" data-desc="free implementation of the unicode bidirectional algorithm" data-date="2026-09-03" data-time="1788425247" data-size="32494">
+        <tr class="pkg-row" data-name="fribidi" data-desc="free implementation of the unicode bidirectional algorithm" data-date="2026-09-03" data-time="1788424196" data-size="32494">
             <td><a class="pkg-name" href="https://github.com/fribidi/fribidi/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fribidi</a></td>
             <td><span class="pkg-tag">1.0.16-1</span></td>
             <td>
@@ -1237,7 +1249,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">31.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="fslsfonts" data-desc="fslsfonts package for distill linux" data-date="2026-09-05" data-time="1788649872" data-size="276">
+        <tr class="pkg-row" data-name="fslsfonts" data-desc="fslsfonts package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="276">
             <td><a class="pkg-name" href="https://github.com/distill-linux/fslsfonts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fslsfonts</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1245,7 +1257,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fslsfonts</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="fslsfonts-1.0.drop" download style="font-weight: bold; color: #aa2022;">fslsfonts-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">276 B</span>
@@ -1293,7 +1305,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">34.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="gdk-pixbuf" data-desc="image loading library for gtk+" data-date="2026-09-08" data-time="1788866968" data-size="684437">
+        <tr class="pkg-row" data-name="gdk-pixbuf" data-desc="image loading library for gtk+" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://wiki.gnome.org/Projects/GdkPixbuf" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gdk-pixbuf</a></td>
             <td><span class="pkg-tag">2.42.12-1</span></td>
             <td>
@@ -1304,10 +1316,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="gdk-pixbuf-2.42.12.drop" download style="font-weight: bold; color: #aa2022;">gdk-pixbuf-2.42.12.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">668.4 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="gettext-libs" data-desc="gnu internationalization library (libintl)" data-date="2026-09-08" data-time="1788866968" data-size="38340">
+        <tr class="pkg-row" data-name="gettext-libs" data-desc="gnu internationalization library (libintl)" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://www.gnu.org/software/gettext/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gettext-libs</a></td>
             <td><span class="pkg-tag">0.22.5-1</span></td>
             <td>
@@ -1318,10 +1330,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="gettext-libs-0.22.5.drop" download style="font-weight: bold; color: #aa2022;">gettext-libs-0.22.5.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">37.4 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="giflib" data-desc="library to handle, display and manipulate gif images" data-date="2026-09-03" data-time="1788425247" data-size="48656">
+        <tr class="pkg-row" data-name="giflib" data-desc="library to handle, display and manipulate gif images" data-date="2026-09-03" data-time="1788424196" data-size="48656">
             <td><a class="pkg-name" href="https://sourceforge.net/projects/giflib/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">giflib</a></td>
             <td><span class="pkg-tag">6.1.3-1</span></td>
             <td>
@@ -1349,7 +1361,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">19.8 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="glib" data-desc="gnu library of c routines" data-date="2026-09-08" data-time="1788866968" data-size="4993819">
+        <tr class="pkg-row" data-name="glib" data-desc="gnu library of c routines" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://www.gtk.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">glib</a></td>
             <td><span class="pkg-tag">2.88.0-1</span></td>
             <td>
@@ -1360,7 +1372,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="glib-2.88.0.drop" download style="font-weight: bold; color: #aa2022;">glib-2.88.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">4.8 MB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="glslang" data-desc="khronos reference front-end for glsl, essl, and sample spir-v generator" data-date="2026-09-07" data-time="1788814060" data-size="3344283">
@@ -1377,7 +1389,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="gmp" data-desc="library for arbitrary precision arithmetic" data-date="2026-09-08" data-time="1788866968" data-size="259250">
+        <tr class="pkg-row" data-name="gmp" data-desc="library for arbitrary precision arithmetic" data-date="2026-09-08" data-time="1788866551" data-size="259250">
             <td><a class="pkg-name" href="https://gmplib.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gmp</a></td>
             <td><span class="pkg-tag">6.3.0-1</span></td>
             <td>
@@ -1391,7 +1403,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">253.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="go" data-desc="go programming language" data-date="2026-09-03" data-time="1788425262" data-size="64215375">
+        <tr class="pkg-row" data-name="go" data-desc="go programming language" data-date="2026-09-03" data-time="1788424196" data-size="64215375">
             <td><a class="pkg-name" href="https://go.dev/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">go</a></td>
             <td><span class="pkg-tag">1.26.5-1</span></td>
             <td>
@@ -1419,7 +1431,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">349.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="graphite" data-desc="graphite smart font system - shared library" data-date="2026-09-08" data-time="1788866968" data-size="88821">
+        <tr class="pkg-row" data-name="graphite" data-desc="graphite smart font system - shared library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://github.com/silnrsi/graphite" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">graphite</a></td>
             <td><span class="pkg-tag">1.3.14-1</span></td>
             <td>
@@ -1430,10 +1442,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="graphite-1.3.14.drop" download style="font-weight: bold; color: #aa2022;">graphite-1.3.14.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">86.7 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="greetd" data-desc="minimal and flexible login manager daemon" data-date="2026-09-08" data-time="1788866968" data-size="822022">
+        <tr class="pkg-row" data-name="greetd" data-desc="minimal and flexible login manager daemon" data-date="2026-09-08" data-time="1788866551" data-size="820597">
             <td><a class="pkg-name" href="https://git.sr.ht/~kennylevinsen/greetd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">greetd</a></td>
             <td><span class="pkg-tag">0.10.3-1</span></td>
             <td>
@@ -1444,7 +1456,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="greetd-0.10.3.drop" download style="font-weight: bold; color: #aa2022;">greetd-0.10.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">802.8 KB</span>
+                <span style="font-size: 0.8em; color: #666;">801.4 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="grim" data-desc="grab images from a wayland compositor" data-date="2026-09-07" data-time="1788814060" data-size="19110">
@@ -1531,7 +1543,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="jwm" data-desc="light-weight window manager for the x11 window system" data-date="2026-09-08" data-time="1788866968" data-size="176863">
+        <tr class="pkg-row" data-name="jwm" data-desc="light-weight window manager for the x11 window system" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="http://joewing.net/projects/jwm" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">jwm</a></td>
             <td><span class="pkg-tag">2.4.6-1</span></td>
             <td>
@@ -1542,7 +1554,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="jwm-2.4.6.drop" download style="font-weight: bold; color: #aa2022;">jwm-2.4.6.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">172.7 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="kitty" data-desc="modern, hackable, featureful, opengl based terminal emulator" data-date="2026-09-07" data-time="1788814060" data-size="12690444">
@@ -1601,7 +1613,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libICE" data-desc="x.org inter-client exchange library" data-date="2026-09-08" data-time="1788866968" data-size="44596">
+        <tr class="pkg-row" data-name="libICE" data-desc="x.org inter-client exchange library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libICE</a></td>
             <td><span class="pkg-tag">1.1.2-1</span></td>
             <td>
@@ -1612,10 +1624,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libICE-1.1.2.drop" download style="font-weight: bold; color: #aa2022;">libICE-1.1.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">43.6 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libSM" data-desc="x.org session management library" data-date="2026-09-08" data-time="1788866968" data-size="16231">
+        <tr class="pkg-row" data-name="libSM" data-desc="x.org session management library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="http://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libSM</a></td>
             <td><span class="pkg-tag">1.2.6-1</span></td>
             <td>
@@ -1626,7 +1638,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libSM-1.2.6.drop" download style="font-weight: bold; color: #aa2022;">libSM-1.2.6.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">15.9 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libX11" data-desc="base x libraries from xorg" data-date="2026-09-07" data-time="1788814060" data-size="1545266">
@@ -1783,7 +1795,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">8.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXfont2" data-desc="x font 2 library" data-date="2026-09-08" data-time="1788866968" data-size="124167">
+        <tr class="pkg-row" data-name="libXfont2" data-desc="x font 2 library" data-date="2026-09-08" data-time="1788866551" data-size="124167">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXfont2</a></td>
             <td><span class="pkg-tag">2.0.7-1</span></td>
             <td>
@@ -1853,7 +1865,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">75.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libXmuu" data-desc="libxmuu package for distill linux" data-date="2026-09-03" data-time="1788425251" data-size="77315">
+        <tr class="pkg-row" data-name="libXmuu" data-desc="libxmuu package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="77315">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libXmuu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXmuu</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -1979,7 +1991,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">370.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libblkid" data-desc="block device identification library (from util-linux)" data-date="2026-09-08" data-time="1788866968" data-size="171670">
+        <tr class="pkg-row" data-name="libblkid" data-desc="block device identification library (from util-linux)" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libblkid</a></td>
             <td><span class="pkg-tag">2.41.4-1</span></td>
             <td>
@@ -1990,7 +2002,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libblkid-2.41.4.drop" download style="font-weight: bold; color: #aa2022;">libblkid-2.41.4.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">167.6 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libcxx" data-desc="llvm compiler infrastructure project - version ${_major}" data-date="2026-09-07" data-time="1788814060" data-size="459890">
@@ -2021,7 +2033,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">103.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libdatrie" data-desc="double-array trie library" data-date="2026-09-08" data-time="1788866968" data-size="22013">
+        <tr class="pkg-row" data-name="libdatrie" data-desc="double-array trie library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://linux.thai.net/projects/datrie" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libdatrie</a></td>
             <td><span class="pkg-tag">0.2.14-1</span></td>
             <td>
@@ -2032,10 +2044,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libdatrie-0.2.14.drop" download style="font-weight: bold; color: #aa2022;">libdatrie-0.2.14.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">21.5 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libdav1d" data-desc="av1 cross-platform decoder - shared libraries" data-date="2026-09-08" data-time="1788866968" data-size="722387">
+        <tr class="pkg-row" data-name="libdav1d" data-desc="av1 cross-platform decoder - shared libraries" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://code.videolan.org/videolan/dav1d" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libdav1d</a></td>
             <td><span class="pkg-tag">1.5.3-1</span></td>
             <td>
@@ -2046,7 +2058,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libdav1d-1.5.3.drop" download style="font-weight: bold; color: #aa2022;">libdav1d-1.5.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">705.5 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libdrm" data-desc="userspace interface to kernel drm services" data-date="2026-09-07" data-time="1788811964" data-size="171475">
@@ -2091,7 +2103,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">259.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="liberation-fonts-ttf" data-desc="fonts from redhat with same metrics as times, arial and courier" data-date="2026-09-03" data-time="1788425255" data-size="2385846">
+        <tr class="pkg-row" data-name="liberation-fonts-ttf" data-desc="fonts from redhat with same metrics as times, arial and courier" data-date="2026-09-03" data-time="1788424196" data-size="2385846">
             <td><a class="pkg-name" href="https://github.com/liberationfonts/liberation-fonts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">liberation-fonts-ttf</a></td>
             <td><span class="pkg-tag">2.1.5-1</span></td>
             <td>
@@ -2105,7 +2117,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libffi" data-desc="foreign function interface library" data-date="2026-09-08" data-time="1788866968" data-size="18574">
+        <tr class="pkg-row" data-name="libffi" data-desc="foreign function interface library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="http://sourceware.org/libffi" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libffi</a></td>
             <td><span class="pkg-tag">3.3-1</span></td>
             <td>
@@ -2116,7 +2128,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libffi-3.3.drop" download style="font-weight: bold; color: #aa2022;">libffi-3.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">18.1 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libfontenc" data-desc="fontenc library from x.org" data-date="2026-09-07" data-time="1788814060" data-size="13037">
@@ -2133,7 +2145,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">12.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libgcc" data-desc="gnu c compiler runtime shared libraries" data-date="2026-09-08" data-time="1788866968" data-size="82145">
+        <tr class="pkg-row" data-name="libgcc" data-desc="gnu c compiler runtime shared libraries" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://gcc.gnu.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libgcc</a></td>
             <td><span class="pkg-tag">14.2.1-1</span></td>
             <td>
@@ -2144,7 +2156,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libgcc-14.2.1.drop" download style="font-weight: bold; color: #aa2022;">libgcc-14.2.1.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">80.2 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libglvnd" data-desc="gl vendor-neutral dispatch library" data-date="2026-09-07" data-time="1788814060" data-size="492837">
@@ -2161,7 +2173,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">481.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libharfbuzz" data-desc="opentype text shaping engine - shared libraries" data-date="2026-09-08" data-time="1788866968" data-size="1446459">
+        <tr class="pkg-row" data-name="libharfbuzz" data-desc="opentype text shaping engine - shared libraries" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://harfbuzz.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libharfbuzz</a></td>
             <td><span class="pkg-tag">14.4.0-1</span></td>
             <td>
@@ -2172,10 +2184,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libharfbuzz-14.4.0.drop" download style="font-weight: bold; color: #aa2022;">libharfbuzz-14.4.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">1.4 MB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libicu78" data-desc="international components for unicode (icu) shared libraries" data-date="2026-09-08" data-time="1788866968" data-size="15314658">
+        <tr class="pkg-row" data-name="libicu78" data-desc="international components for unicode (icu) shared libraries" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://home.unicode.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libicu78</a></td>
             <td><span class="pkg-tag">78.3-1</span></td>
             <td>
@@ -2186,10 +2198,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libicu78-78.3.drop" download style="font-weight: bold; color: #aa2022;">libicu78-78.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">14.6 MB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libjpeg-turbo" data-desc="derivative of libjpeg which uses simd instructions" data-date="2026-09-03" data-time="1788425258" data-size="557513">
+        <tr class="pkg-row" data-name="libjpeg-turbo" data-desc="derivative of libjpeg which uses simd instructions" data-date="2026-09-03" data-time="1788424196" data-size="557513">
             <td><a class="pkg-name" href="https://libjpeg-turbo.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libjpeg-turbo</a></td>
             <td><span class="pkg-tag">3.1.4.1-1</span></td>
             <td>
@@ -2203,7 +2215,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">544.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libmount" data-desc="block device mount library (from util-linux)" data-date="2026-09-08" data-time="1788866968" data-size="207186">
+        <tr class="pkg-row" data-name="libmount" data-desc="block device mount library (from util-linux)" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libmount</a></td>
             <td><span class="pkg-tag">2.41.4-1</span></td>
             <td>
@@ -2214,10 +2226,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libmount-2.41.4.drop" download style="font-weight: bold; color: #aa2022;">libmount-2.41.4.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">202.3 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libogg" data-desc="ogg bitstream file format library" data-date="2026-09-03" data-time="1788425252" data-size="19539">
+        <tr class="pkg-row" data-name="libogg" data-desc="ogg bitstream file format library" data-date="2026-09-03" data-time="1788424196" data-size="19539">
             <td><a class="pkg-name" href="https://www.xiph.org/ogg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libogg</a></td>
             <td><span class="pkg-tag">1.3.6-1</span></td>
             <td>
@@ -2231,7 +2243,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">19.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libopus" data-desc="libopus package for distill linux" data-date="2026-09-03" data-time="1788425254" data-size="4088340">
+        <tr class="pkg-row" data-name="libopus" data-desc="libopus package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="4088340">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libopus" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libopus</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2245,7 +2257,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.9 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libpciaccess" data-desc="x11 pci access library" data-date="2026-09-08" data-time="1788866968" data-size="17856">
+        <tr class="pkg-row" data-name="libpciaccess" data-desc="x11 pci access library" data-date="2026-09-08" data-time="1788866551" data-size="17856">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libpciaccess</a></td>
             <td><span class="pkg-tag">0.19-1</span></td>
             <td>
@@ -2259,7 +2271,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">17.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libpcre2" data-desc="perl compatible regular expressions 2 - shared libraries" data-date="2026-09-08" data-time="1788866968" data-size="786802">
+        <tr class="pkg-row" data-name="libpcre2" data-desc="perl compatible regular expressions 2 - shared libraries" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://www.pcre.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libpcre2</a></td>
             <td><span class="pkg-tag">10.47-1</span></td>
             <td>
@@ -2270,7 +2282,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libpcre2-10.47.drop" download style="font-weight: bold; color: #aa2022;">libpcre2-10.47.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">768.4 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libpng" data-desc="library for manipulating png images" data-date="2026-09-07" data-time="1788814060" data-size="111666">
@@ -2287,7 +2299,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">109.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libressl" data-desc="libressl package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="327">
+        <tr class="pkg-row" data-name="libressl" data-desc="libressl package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="327">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libressl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libressl</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2295,13 +2307,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libressl</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="libressl-1.0.drop" download style="font-weight: bold; color: #aa2022;">libressl-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">327 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="librsvg" data-desc="svg library for gnome" data-date="2026-09-08" data-time="1788866968" data-size="2632692">
+        <tr class="pkg-row" data-name="librsvg" data-desc="svg library for gnome" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://gitlab.gnome.org/GNOME/librsvg" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">librsvg</a></td>
             <td><span class="pkg-tag">2.59.2-1</span></td>
             <td>
@@ -2312,7 +2324,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="librsvg-2.59.2.drop" download style="font-weight: bold; color: #aa2022;">librsvg-2.59.2.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">2.5 MB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="librsync" data-desc="library that implements the rsync remote-delta algorithm (rdiff)" data-date="2026-09-07" data-time="1788814060" data-size="29823">
@@ -2329,7 +2341,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">29.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libstdc++" data-desc="gnu c++ runtime library" data-date="2026-09-08" data-time="1788866968" data-size="1039455">
+        <tr class="pkg-row" data-name="libstdc++" data-desc="gnu c++ runtime library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://gcc.gnu.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libstdc++</a></td>
             <td><span class="pkg-tag">14.2.1-1</span></td>
             <td>
@@ -2340,10 +2352,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libstdc++-14.2.1.drop" download style="font-weight: bold; color: #aa2022;">libstdc++-14.2.1.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">1015.1 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libthai" data-desc="thai language support library" data-date="2026-09-08" data-time="1788866968" data-size="207979">
+        <tr class="pkg-row" data-name="libthai" data-desc="thai language support library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://linux.thai.net/projects/libthai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libthai</a></td>
             <td><span class="pkg-tag">0.1.29-1</span></td>
             <td>
@@ -2354,10 +2366,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libthai-0.1.29.drop" download style="font-weight: bold; color: #aa2022;">libthai-0.1.29.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">203.1 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libtiff" data-desc="libtiff package for distill linux" data-date="2026-09-03" data-time="1788425253" data-size="454029">
+        <tr class="pkg-row" data-name="libtiff" data-desc="libtiff package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="454029">
             <td><a class="pkg-name" href="https://github.com/distill-linux/libtiff" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtiff</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2371,7 +2383,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">443.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libtirpc" data-desc="transport independent rpc library (sunrpc replacement)" data-date="2026-09-08" data-time="1788866968" data-size="88046">
+        <tr class="pkg-row" data-name="libtirpc" data-desc="transport independent rpc library (sunrpc replacement)" data-date="2026-09-08" data-time="1788866551" data-size="88046">
             <td><a class="pkg-name" href="http://libtirpc.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtirpc</a></td>
             <td><span class="pkg-tag">1.3.7-1</span></td>
             <td>
@@ -2385,7 +2397,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">86.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libtool" data-desc="generic library support script" data-date="2026-09-03" data-time="1788425253" data-size="615603">
+        <tr class="pkg-row" data-name="libtool" data-desc="generic library support script" data-date="2026-09-03" data-time="1788424196" data-size="615603">
             <td><a class="pkg-name" href="http://www.gnu.org/software/libtool" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtool</a></td>
             <td><span class="pkg-tag">2.4.7-1</span></td>
             <td>
@@ -2399,7 +2411,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">601.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libuuid" data-desc="universally unique identifier library (from util-linux)" data-date="2026-09-08" data-time="1788866968" data-size="16354">
+        <tr class="pkg-row" data-name="libuuid" data-desc="universally unique identifier library (from util-linux)" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libuuid</a></td>
             <td><span class="pkg-tag">2.41.4-1</span></td>
             <td>
@@ -2410,7 +2422,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libuuid-2.41.4.drop" download style="font-weight: bold; color: #aa2022;">libuuid-2.41.4.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">16.0 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libva" data-desc="video acceleration (va) api" data-date="2026-09-07" data-time="1788814060" data-size="97360">
@@ -2483,7 +2495,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">209.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libvpx" data-desc="vp8 and vp9 video codec" data-date="2026-09-03" data-time="1788425256" data-size="1034851">
+        <tr class="pkg-row" data-name="libvpx" data-desc="vp8 and vp9 video codec" data-date="2026-09-03" data-time="1788424196" data-size="1034851">
             <td><a class="pkg-name" href="http://www.webmproject.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvpx</a></td>
             <td><span class="pkg-tag">1.16.0-1</span></td>
             <td>
@@ -2525,7 +2537,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">239.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libxcvt" data-desc="vesa cvt standard timing modelines generator" data-date="2026-09-08" data-time="1788866968" data-size="8143">
+        <tr class="pkg-row" data-name="libxcvt" data-desc="vesa cvt standard timing modelines generator" data-date="2026-09-08" data-time="1788866551" data-size="8143">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxcvt</a></td>
             <td><span class="pkg-tag">0.1.3-1</span></td>
             <td>
@@ -2553,7 +2565,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">181.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libxkbfile" data-desc="xkbfile library from x.org" data-date="2026-09-08" data-time="1788866968" data-size="74615">
+        <tr class="pkg-row" data-name="libxkbfile" data-desc="xkbfile library from x.org" data-date="2026-09-08" data-time="1788866551" data-size="74615">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxkbfile</a></td>
             <td><span class="pkg-tag">1.1.3-1</span></td>
             <td>
@@ -2567,7 +2579,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">72.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="libxml2" data-desc="xml parser and toolkit" data-date="2026-09-08" data-time="1788866968" data-size="678391">
+        <tr class="pkg-row" data-name="libxml2" data-desc="xml parser and toolkit" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://gitlab.gnome.org/GNOME/libxml2" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxml2</a></td>
             <td><span class="pkg-tag">2.13.8-1</span></td>
             <td>
@@ -2578,7 +2590,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="libxml2-2.13.8.drop" download style="font-weight: bold; color: #aa2022;">libxml2-2.13.8.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">662.5 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="libxshmfence" data-desc="x shared memory 'syncfence' synchronization primitive" data-date="2026-09-07" data-time="1788814060" data-size="3621">
@@ -2595,7 +2607,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="lilipod" data-desc="simple and lightweight container manager in c" data-date="2026-09-05" data-time="1788649871" data-size="362">
+        <tr class="pkg-row" data-name="lilipod" data-desc="simple and lightweight container manager in c" data-date="2026-09-05" data-time="1788639545" data-size="362">
             <td><a class="pkg-name" href="https://github.com/illiliti/lilipod" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lilipod</a></td>
             <td><span class="pkg-tag">0.4.1-1</span></td>
             <td>
@@ -2609,7 +2621,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">362 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="linux-pam" data-desc="linux-pam package for distill linux" data-date="2026-09-08" data-time="1788865893" data-size="426864">
+        <tr class="pkg-row" data-name="linux-pam" data-desc="linux-pam package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="390684">
             <td><a class="pkg-name" href="https://github.com/distill-linux/linux-pam" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">linux-pam</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2617,13 +2629,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in linux-pam</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="linux-pam-1.0.drop" download style="font-weight: bold; color: #aa2022;">linux-pam-1.0.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">416.9 KB</span>
+                <span style="font-size: 0.8em; color: #666;">381.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="lld" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649872" data-size="251">
+        <tr class="pkg-row" data-name="lld" data-desc="llvm meta package" data-date="2026-09-03" data-time="1788424196" data-size="251">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lld</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -2631,13 +2643,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lld</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="lld-21.drop" download style="font-weight: bold; color: #aa2022;">lld-21.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">251 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="llvm" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649872" data-size="252">
+        <tr class="pkg-row" data-name="llvm" data-desc="llvm meta package" data-date="2026-09-03" data-time="1788424196" data-size="252">
             <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">llvm</a></td>
             <td><span class="pkg-tag">21-1</span></td>
             <td>
@@ -2645,13 +2657,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in llvm</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="llvm-21.drop" download style="font-weight: bold; color: #aa2022;">llvm-21.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">252 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="luit" data-desc="luit package for distill linux" data-date="2026-09-05" data-time="1788649872" data-size="265">
+        <tr class="pkg-row" data-name="luit" data-desc="luit package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="265">
             <td><a class="pkg-name" href="https://github.com/distill-linux/luit" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">luit</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2659,7 +2671,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in luit</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="luit-1.0.drop" download style="font-weight: bold; color: #aa2022;">luit-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">265 B</span>
@@ -2707,7 +2719,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">831.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="lz4" data-desc="extremely fast compression algorithm" data-date="2026-09-03" data-time="1788425256" data-size="123099">
+        <tr class="pkg-row" data-name="lz4" data-desc="extremely fast compression algorithm" data-date="2026-09-03" data-time="1788424196" data-size="123099">
             <td><a class="pkg-name" href="https://lz4.github.io/lz4" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lz4</a></td>
             <td><span class="pkg-tag">1.10.0-1</span></td>
             <td>
@@ -2721,7 +2733,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">120.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="m4" data-desc="gnu version of unix m4 macro language processor" data-date="2026-09-03" data-time="1788425256" data-size="281229">
+        <tr class="pkg-row" data-name="m4" data-desc="gnu version of unix m4 macro language processor" data-date="2026-09-03" data-time="1788424196" data-size="281229">
             <td><a class="pkg-name" href="https://www.gnu.org/software/m4/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">m4</a></td>
             <td><span class="pkg-tag">1.4.19-1</span></td>
             <td>
@@ -2763,7 +2775,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">59.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mandoc" data-desc="mandoc package for distill linux" data-date="2026-09-03" data-time="1788425256" data-size="416565">
+        <tr class="pkg-row" data-name="mandoc" data-desc="mandoc package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="416565">
             <td><a class="pkg-name" href="https://github.com/distill-linux/mandoc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mandoc</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2805,7 +2817,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">944.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="meson" data-desc="super fast build system" data-date="2026-09-03" data-time="1788425257" data-size="915068">
+        <tr class="pkg-row" data-name="meson" data-desc="super fast build system" data-date="2026-09-03" data-time="1788424196" data-size="915068">
             <td><a class="pkg-name" href="https://mesonbuild.com" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">meson</a></td>
             <td><span class="pkg-tag">1.9.1-1</span></td>
             <td>
@@ -2819,7 +2831,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">893.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="mit-krb5-libs" data-desc="mit kerberos 5 runtime libraries" data-date="2026-09-08" data-time="1788866968" data-size="814840">
+        <tr class="pkg-row" data-name="mit-krb5-libs" data-desc="mit kerberos 5 runtime libraries" data-date="2026-09-08" data-time="1788866551" data-size="814840">
             <td><a class="pkg-name" href="https://web.mit.edu/kerberos/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mit-krb5-libs</a></td>
             <td><span class="pkg-tag">1.21.3-1</span></td>
             <td>
@@ -2833,7 +2845,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">795.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="moc" data-desc="moc package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="320">
+        <tr class="pkg-row" data-name="moc" data-desc="moc package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="320">
             <td><a class="pkg-name" href="https://github.com/distill-linux/moc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">moc</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -2841,7 +2853,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in moc</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="moc-1.0.drop" download style="font-weight: bold; color: #aa2022;">moc-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">320 B</span>
@@ -2861,7 +2873,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">2.6 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="musl-dev" data-desc="the musl c standard library - development headers" data-date="2026-09-03" data-time="1788425258" data-size="728060">
+        <tr class="pkg-row" data-name="musl-dev" data-desc="the musl c standard library - development headers" data-date="2026-09-03" data-time="1788424196" data-size="728060">
             <td><a class="pkg-name" href="https://git.musl-libc.org/git/musl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-dev</a></td>
             <td><span class="pkg-tag">1.2.5-1</span></td>
             <td>
@@ -2875,7 +2887,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">711.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="musl-fts" data-desc="implementation of fts(3) for musl libc" data-date="2026-09-03" data-time="1788425257" data-size="7764">
+        <tr class="pkg-row" data-name="musl-fts" data-desc="implementation of fts(3) for musl libc" data-date="2026-09-03" data-time="1788424196" data-size="7764">
             <td><a class="pkg-name" href="https://github.com/void-linux/musl-fts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-fts</a></td>
             <td><span class="pkg-tag">1.2.7-1</span></td>
             <td>
@@ -2889,7 +2901,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">7.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="musl-obstack" data-desc="implementation of obstack for musl libc" data-date="2026-09-03" data-time="1788425257" data-size="3344">
+        <tr class="pkg-row" data-name="musl-obstack" data-desc="implementation of obstack for musl libc" data-date="2026-09-03" data-time="1788424196" data-size="3344">
             <td><a class="pkg-name" href="https://github.com/void-linux/musl-obstack" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-obstack</a></td>
             <td><span class="pkg-tag">1.2.3-1</span></td>
             <td>
@@ -2903,7 +2915,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="nasm" data-desc="80x86 assembler designed for portability and modularity" data-date="2026-09-03" data-time="1788425258" data-size="607005">
+        <tr class="pkg-row" data-name="nasm" data-desc="80x86 assembler designed for portability and modularity" data-date="2026-09-03" data-time="1788424196" data-size="607005">
             <td><a class="pkg-name" href="https://www.nasm.us" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nasm</a></td>
             <td><span class="pkg-tag">2.16.03-1</span></td>
             <td>
@@ -2945,7 +2957,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="nettle" data-desc="low-level cryptographic library" data-date="2026-09-08" data-time="1788866968" data-size="363050">
+        <tr class="pkg-row" data-name="nettle" data-desc="low-level cryptographic library" data-date="2026-09-08" data-time="1788866551" data-size="363050">
             <td><a class="pkg-name" href="https://www.lysator.liu.se/~nisse/nettle/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nettle</a></td>
             <td><span class="pkg-tag">3.10.2-1</span></td>
             <td>
@@ -3057,7 +3069,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">5.7 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pam-libs" data-desc="pluggable authentication modules - shared libraries" data-date="2026-09-08" data-time="1788866968" data-size="34857">
+        <tr class="pkg-row" data-name="pam-libs" data-desc="pluggable authentication modules - shared libraries" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://github.com/linux-pam/linux-pam" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pam-libs</a></td>
             <td><span class="pkg-tag">1.5.3-1</span></td>
             <td>
@@ -3068,7 +3080,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="pam-libs-1.5.3.drop" download style="font-weight: bold; color: #aa2022;">pam-libs-1.5.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">34.0 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="pango" data-desc="library for layout and rendering of text" data-date="2026-09-07" data-time="1788814060" data-size="299753">
@@ -3085,7 +3097,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">292.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pango-xft" data-desc="pango x font rendering library" data-date="2026-09-08" data-time="1788866968" data-size="15376">
+        <tr class="pkg-row" data-name="pango-xft" data-desc="pango x font rendering library" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://www.pango.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pango-xft</a></td>
             <td><span class="pkg-tag">1.56.3-1</span></td>
             <td>
@@ -3096,7 +3108,7 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="pango-xft-1.56.3.drop" download style="font-weight: bold; color: #aa2022;">pango-xft-1.56.3.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">15.0 KB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="patch" data-desc="patch files using diff output" data-date="2026-09-07" data-time="1788814060" data-size="97944">
@@ -3127,7 +3139,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">768.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pdpmake" data-desc="pdpmake package for distill linux" data-date="2026-09-03" data-time="1788425258" data-size="26440">
+        <tr class="pkg-row" data-name="pdpmake" data-desc="pdpmake package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="26440">
             <td><a class="pkg-name" href="https://github.com/distill-linux/pdpmake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pdpmake</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -3197,7 +3209,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">314.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="pkgconf" data-desc="provides compiler and linker configuration" data-date="2026-09-03" data-time="1788425259" data-size="33814">
+        <tr class="pkg-row" data-name="pkgconf" data-desc="provides compiler and linker configuration" data-date="2026-09-03" data-time="1788424196" data-size="33814">
             <td><a class="pkg-name" href="http://pkgconf.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pkgconf</a></td>
             <td><span class="pkg-tag">2.1.0-1</span></td>
             <td>
@@ -3239,7 +3251,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">8.2 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="python3-dev" data-desc="python 3 programming language - development headers" data-date="2026-09-07" data-time="1788813998" data-size="3130902">
+        <tr class="pkg-row" data-name="python3-dev" data-desc="python 3 programming language - development headers" data-date="2026-09-03" data-time="1788424196" data-size="3130902">
             <td><a class="pkg-name" href="https://github.com/python/cpython" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">python3-dev</a></td>
             <td><span class="pkg-tag">3.12.2-1</span></td>
             <td>
@@ -3247,13 +3259,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in python3-dev</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="python3-dev-3.12.2.drop" download style="font-weight: bold; color: #aa2022;">python3-dev-3.12.2.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">3.0 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="qbe" data-desc="quick backend for compilers" data-date="2026-09-03" data-time="1788425259" data-size="113870">
+        <tr class="pkg-row" data-name="qbe" data-desc="quick backend for compilers" data-date="2026-09-03" data-time="1788424196" data-size="113870">
             <td><a class="pkg-name" href="https://c9x.me/git/qbe" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">qbe</a></td>
             <td><span class="pkg-tag">1.1-1</span></td>
             <td>
@@ -3309,7 +3321,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">91.5 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="rustc-bin" data-desc="rustc-bin package for distill linux" data-date="2026-09-07" data-time="1788775208" data-size="396">
+        <tr class="pkg-row" data-name="rustc-bin" data-desc="rustc-bin package for distill linux" data-date="2026-09-02" data-time="1788307200" data-size="396">
             <td><a class="pkg-name" href="https://github.com/distill-linux/rustc-bin" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">rustc-bin</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -3317,7 +3329,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in rustc-bin</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td class="pkg-meta">2026-09-02 (UTC)</td>
             <td>
                 <a href="rustc-bin-1.78.0.drop" download style="font-weight: bold; color: #aa2022;">rustc-bin-1.78.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">396 B</span>
@@ -3365,7 +3377,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-05" data-time="1788649871" data-size="369">
+        <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-03" data-time="1788424196" data-size="369">
             <td><a class="pkg-name" href="https://github.com/jcs/sdorfehs" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sdorfehs</a></td>
             <td><span class="pkg-tag">1.5-1</span></td>
             <td>
@@ -3373,7 +3385,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in sdorfehs</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="sdorfehs-1.5.drop" download style="font-weight: bold; color: #aa2022;">sdorfehs-1.5.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">369 B</span>
@@ -3421,7 +3433,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">572.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="shared-mime-info" data-desc="freedesktop.org shared mime database" data-date="2026-09-08" data-time="1788866968" data-size="1163121">
+        <tr class="pkg-row" data-name="shared-mime-info" data-desc="freedesktop.org shared mime database" data-date="2026-09-08" data-time="1788866551" data-size="0">
             <td><a class="pkg-name" href="https://freedesktop.org/Software/shared-mime-info" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">shared-mime-info</a></td>
             <td><span class="pkg-tag">2.4-1</span></td>
             <td>
@@ -3432,10 +3444,10 @@ article {
             <td class="pkg-meta">2026-09-08 (UTC)</td>
             <td>
                 <a href="shared-mime-info-2.4.drop" download style="font-weight: bold; color: #aa2022;">shared-mime-info-2.4.drop</a><br>
-                <span style="font-size: 0.8em; color: #666;">1.1 MB</span>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="simde" data-desc="implementations of simd instruction sets" data-date="2026-09-03" data-time="1788425261" data-size="704231">
+        <tr class="pkg-row" data-name="simde" data-desc="implementations of simd instruction sets" data-date="2026-09-03" data-time="1788424196" data-size="704231">
             <td><a class="pkg-name" href="https://github.com/simd-everywhere/simde" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">simde</a></td>
             <td><span class="pkg-tag">0.8.2-1</span></td>
             <td>
@@ -3449,7 +3461,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">687.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-07" data-time="1788806117" data-size="14594">
+        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-07" data-time="1788805670" data-size="14594">
             <td><a class="pkg-name" href="https://github.com/distill-linux/sink" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sink</a></td>
             <td><span class="pkg-tag">0.1.0-1</span></td>
             <td>
@@ -3533,7 +3545,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">369 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="spirv-headers" data-desc="machine-readable files for the spir-v registry" data-date="2026-09-03" data-time="1788425261" data-size="479670">
+        <tr class="pkg-row" data-name="spirv-headers" data-desc="machine-readable files for the spir-v registry" data-date="2026-09-03" data-time="1788424196" data-size="479670">
             <td><a class="pkg-name" href="https://github.com/KhronosGroup/SPIRV-Headers" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">spirv-headers</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
             <td>
@@ -3631,7 +3643,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">242.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="tcc" data-desc="tiny c compiler" data-date="2026-09-03" data-time="1788425262" data-size="398763">
+        <tr class="pkg-row" data-name="tcc" data-desc="tiny c compiler" data-date="2026-09-03" data-time="1788424196" data-size="398763">
             <td><a class="pkg-name" href="http://bellard.org/tcc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tcc</a></td>
             <td><span class="pkg-tag">0.9.27.20250903-1</span></td>
             <td>
@@ -3645,7 +3657,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">389.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="terminus-font" data-desc="clean, fixed width bitmap font" data-date="2026-09-03" data-time="1788425263" data-size="2425492">
+        <tr class="pkg-row" data-name="terminus-font" data-desc="clean, fixed width bitmap font" data-date="2026-09-03" data-time="1788424196" data-size="2425492">
             <td><a class="pkg-name" href="http://terminus-font.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">terminus-font</a></td>
             <td><span class="pkg-tag">4.49.1-1</span></td>
             <td>
@@ -3673,7 +3685,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">728.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="tuigreet" data-desc="graphical console greeter for greetd" data-date="2026-09-08" data-time="1788866968" data-size="1503028">
+        <tr class="pkg-row" data-name="tuigreet" data-desc="graphical console greeter for greetd" data-date="2026-09-08" data-time="1788866551" data-size="1502698">
             <td><a class="pkg-name" href="https://github.com/apognu/tuigreet" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tuigreet</a></td>
             <td><span class="pkg-tag">0.11.1-1</span></td>
             <td>
@@ -3743,7 +3755,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">388 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="vulkan-headers" data-desc="vulkan header files" data-date="2026-09-03" data-time="1788425264" data-size="3193142">
+        <tr class="pkg-row" data-name="vulkan-headers" data-desc="vulkan header files" data-date="2026-09-03" data-time="1788424196" data-size="3193142">
             <td><a class="pkg-name" href="https://www.khronos.org/vulkan/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">vulkan-headers</a></td>
             <td><span class="pkg-tag">1.4.350.1-1</span></td>
             <td>
@@ -3841,7 +3853,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">201.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wayland-scanner" data-desc="wayland xml protocol tool for generating c bindings" data-date="2026-09-03" data-time="1788425263" data-size="151444">
+        <tr class="pkg-row" data-name="wayland-scanner" data-desc="wayland xml protocol tool for generating c bindings" data-date="2026-09-03" data-time="1788424196" data-size="151444">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/wayland/wayland" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland-scanner</a></td>
             <td><span class="pkg-tag">1.23.0-1</span></td>
             <td>
@@ -3855,7 +3867,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">147.9 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wine" data-desc="compatibility layer for running windows applications on posix systems" data-date="2026-09-05" data-time="1788639849" data-size="58645946">
+        <tr class="pkg-row" data-name="wine" data-desc="compatibility layer for running windows applications on posix systems" data-date="2026-09-05" data-time="1788639545" data-size="58645946">
             <td><a class="pkg-name" href="https://gitlab.winehq.org/wine/wine" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wine</a></td>
             <td><span class="pkg-tag">11.16-1</span></td>
             <td>
@@ -3897,7 +3909,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">41.8 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wlr-protocols" data-desc="wayland protocols used by wlroots and associated compositors" data-date="2026-09-03" data-time="1788425263" data-size="75403">
+        <tr class="pkg-row" data-name="wlr-protocols" data-desc="wayland protocols used by wlroots and associated compositors" data-date="2026-09-03" data-time="1788424196" data-size="75403">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/wlroots/wlr-protocols" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlr-protocols</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -3911,7 +3923,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">73.6 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wlroots" data-desc="modular wayland compositor library" data-date="2026-09-05" data-time="1788649873" data-size="275">
+        <tr class="pkg-row" data-name="wlroots" data-desc="modular wayland compositor library" data-date="2026-09-03" data-time="1788424196" data-size="275">
             <td><a class="pkg-name" href="https://github.com/swaywm/wlroots" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlroots</a></td>
             <td><span class="pkg-tag">0.20-1</span></td>
             <td>
@@ -3919,7 +3931,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wlroots</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="wlroots-0.20.drop" download style="font-weight: bold; color: #aa2022;">wlroots-0.20.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">275 B</span>
@@ -3939,7 +3951,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">13.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="wmenu" data-desc="dynamic menu for wayland (dmenu clone for wlroots)" data-date="2026-09-03" data-time="1788425263" data-size="34397">
+        <tr class="pkg-row" data-name="wmenu" data-desc="dynamic menu for wayland (dmenu clone for wlroots)" data-date="2026-09-03" data-time="1788424196" data-size="34397">
             <td><a class="pkg-name" href="https://codeberg.org/adnano/wmenu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wmenu</a></td>
             <td><span class="pkg-tag">0.1.8-1</span></td>
             <td>
@@ -4149,7 +4161,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">30.5 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xcutsel" data-desc="xcutsel package for distill linux" data-date="2026-09-05" data-time="1788649872" data-size="272">
+        <tr class="pkg-row" data-name="xcutsel" data-desc="xcutsel package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="272">
             <td><a class="pkg-name" href="https://github.com/distill-linux/xcutsel" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcutsel</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -4157,7 +4169,7 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcutsel</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="xcutsel-1.0.drop" download style="font-weight: bold; color: #aa2022;">xcutsel-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">272 B</span>
@@ -4233,7 +4245,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">43.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xf86-video-modesetting" data-desc="generic modesetting video driver for x server (integrated)" data-date="2026-09-03" data-time="1788425267" data-size="1690147">
+        <tr class="pkg-row" data-name="xf86-video-modesetting" data-desc="generic modesetting video driver for x server (integrated)" data-date="2026-09-03" data-time="1788424196" data-size="1690147">
             <td><a class="pkg-name" href="https://github.com/X11Libre/xserver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xf86-video-modesetting</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -4331,7 +4343,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">9.4 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xkbcomp" data-desc="xkb keymap compiler" data-date="2026-09-08" data-time="1788866968" data-size="99069">
+        <tr class="pkg-row" data-name="xkbcomp" data-desc="xkb keymap compiler" data-date="2026-09-08" data-time="1788866551" data-size="99069">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xkbcomp</a></td>
             <td><span class="pkg-tag">1.5.0-1</span></td>
             <td>
@@ -4345,7 +4357,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">96.7 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xkeyboard-config" data-desc="x keyboard configuration database" data-date="2026-09-08" data-time="1788866968" data-size="2928418">
+        <tr class="pkg-row" data-name="xkeyboard-config" data-desc="x keyboard configuration database" data-date="2026-09-08" data-time="1788866551" data-size="2928418">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xkeyboard-config</a></td>
             <td><span class="pkg-tag">2.48-1</span></td>
             <td>
@@ -4373,7 +4385,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">7.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xlibre-server" data-desc="x11libre modern standalone x server without legacy cruft or systemd" data-date="2026-09-08" data-time="1788866968" data-size="1690354">
+        <tr class="pkg-row" data-name="xlibre-server" data-desc="x11libre modern standalone x server without legacy cruft or systemd" data-date="2026-09-08" data-time="1788866551" data-size="1690354">
             <td><a class="pkg-name" href="https://github.com/X11Libre/xserver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xlibre-server</a></td>
             <td><span class="pkg-tag">main-1</span></td>
             <td>
@@ -4471,7 +4483,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">21.1 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xorg-server-common" data-desc="x11 server common files and configuration" data-date="2026-09-08" data-time="1788866968" data-size="7189">
+        <tr class="pkg-row" data-name="xorg-server-common" data-desc="x11 server common files and configuration" data-date="2026-09-08" data-time="1788866551" data-size="7189">
             <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xorg-server-common</a></td>
             <td><span class="pkg-tag">21.1.24-1</span></td>
             <td>
@@ -4485,7 +4497,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">7.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xorgproto" data-desc="combined x.org x11 protocol headers" data-date="2026-09-03" data-time="1788425267" data-size="329111">
+        <tr class="pkg-row" data-name="xorgproto" data-desc="combined x.org x11 protocol headers" data-date="2026-09-03" data-time="1788424196" data-size="329111">
             <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/proto/xorgproto" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xorgproto</a></td>
             <td><span class="pkg-tag">2025.1-1</span></td>
             <td>
@@ -4625,7 +4637,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">14.2 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xxhash" data-desc="fast non-cryptographic hashing algorithm" data-date="2026-09-03" data-time="1788425267" data-size="33076">
+        <tr class="pkg-row" data-name="xxhash" data-desc="fast non-cryptographic hashing algorithm" data-date="2026-09-03" data-time="1788424196" data-size="33076">
             <td><a class="pkg-name" href="https://cyan4973.github.io/xxHash/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xxhash</a></td>
             <td><span class="pkg-tag">0.8.2-1</span></td>
             <td>
@@ -4639,7 +4651,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">32.3 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="xz-embedded" data-desc="xz-embedded package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="334">
+        <tr class="pkg-row" data-name="xz-embedded" data-desc="xz-embedded package for distill linux" data-date="2026-09-03" data-time="1788424196" data-size="334">
             <td><a class="pkg-name" href="https://github.com/distill-linux/xz-embedded" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xz-embedded</a></td>
             <td><span class="pkg-tag">1.0-1</span></td>
             <td>
@@ -4647,13 +4659,13 @@ article {
                 <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xz-embedded</code></div>
             </td>
             <td class="pkg-meta">distill-core</td>
-            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
             <td>
                 <a href="xz-embedded-1.0.drop" download style="font-weight: bold; color: #aa2022;">xz-embedded-1.0.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">334 B</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="yambar" data-desc="modular status panel library and daemon for wayland and x11" data-date="2026-09-03" data-time="1788425268" data-size="163810">
+        <tr class="pkg-row" data-name="yambar" data-desc="modular status panel library and daemon for wayland and x11" data-date="2026-09-03" data-time="1788424196" data-size="163810">
             <td><a class="pkg-name" href="https://codeberg.org/dnkl/yambar" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yambar</a></td>
             <td><span class="pkg-tag">1.10.0-1</span></td>
             <td>
@@ -4667,7 +4679,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">160.0 KB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="yasm" data-desc="complete rewrite of the nasm assembler" data-date="2026-09-03" data-time="1788425268" data-size="1023429">
+        <tr class="pkg-row" data-name="yasm" data-desc="complete rewrite of the nasm assembler" data-date="2026-09-03" data-time="1788424196" data-size="1023429">
             <td><a class="pkg-name" href="http://www.tortall.net/projects/yasm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yasm</a></td>
             <td><span class="pkg-tag">1.3.0-1</span></td>
             <td>
@@ -4751,79 +4763,81 @@ article {
                 <span style="font-size: 0.8em; color: #666;">149.7 KB</span>
             </td>
         </tr>
-    </tbody>
-</table>
-</div>
+      </tbody>
+  </table>
+  </div>
 
-<script>
-function updateSortIcons(sort) {
-    var icons = {'name': '', 'date': '', 'size': ''};
-    if (sort === 'name-asc') icons['name'] = ' ▲';
-    else if (sort === 'name-desc') icons['name'] = ' ▼';
-    else if (sort === 'date-desc') icons['date'] = ' ▼';
-    else if (sort === 'date-asc') icons['date'] = ' ▲';
-    else if (sort === 'size-desc') icons['size'] = ' ▼';
-    else if (sort === 'size-asc') icons['size'] = ' ▲';
-    for (var k in icons) {
-        var el = document.getElementById('sort-icon-' + k);
-        if (el) el.textContent = icons[k];
-    }
-}
+  <script>
+  function updateSortIcons(sort) {
+      var icons = {'name': '', 'date': '', 'size': ''};
+      if (sort === 'name-asc') icons['name'] = ' ▲';
+      else if (sort === 'name-desc') icons['name'] = ' ▼';
+      else if (sort === 'date-desc') icons['date'] = ' ▼';
+      else if (sort === 'date-asc') icons['date'] = ' ▲';
+      else if (sort === 'size-desc') icons['size'] = ' ▼';
+      else if (sort === 'size-asc') icons['size'] = ' ▲';
+      for (var k in icons) {
+          var el = document.getElementById('sort-icon-' + k);
+          if (el) el.textContent = icons[k];
+      }
+  }
 
-function toggleSort(col) {
-    var sel = document.getElementById('pkg-sort');
-    var val = sel.value;
-    if (col === 'name') {
-        sel.value = (val === 'name-asc') ? 'name-desc' : 'name-asc';
-    } else if (col === 'date') {
-        sel.value = (val === 'date-desc') ? 'date-asc' : 'date-desc';
-    } else if (col === 'size') {
-        sel.value = (val === 'size-desc') ? 'size-asc' : 'size-desc';
-    }
-    sortPackages();
-}
+  function toggleSort(col) {
+      var sel = document.getElementById('pkg-sort');
+      var val = sel.value;
+      if (col === 'name') {
+          sel.value = (val === 'name-asc') ? 'name-desc' : 'name-asc';
+      } else if (col === 'date') {
+          sel.value = (val === 'date-desc') ? 'date-asc' : 'date-desc';
+      } else if (col === 'size') {
+          sel.value = (val === 'size-desc') ? 'size-asc' : 'size-desc';
+      }
+      sortPackages();
+  }
 
-function filterPackages() {
-    var query = document.getElementById('pkg-keywords').value.toLowerCase().trim();
-    var mode = document.getElementById('pkg-searchby').value;
-    var rows = document.querySelectorAll('#pkg-body .pkg-row');
-    var visible = 0;
-    rows.forEach(function(row) {
-        var name = row.getAttribute('data-name') || '';
-        var desc = row.getAttribute('data-desc') || '';
-        var match = false;
-        if (!query) match = true;
-        else if (mode === 'name') match = name.indexOf(query) !== -1;
-        else if (mode === 'desc') match = desc.indexOf(query) !== -1;
-        else match = (name.indexOf(query) !== -1) || (desc.indexOf(query) !== -1);
-        if (match) { row.style.display = ''; visible++; }
-        else { row.style.display = 'none'; }
-    });
-    var stats = document.getElementById('pkg-stats');
-    stats.innerHTML = '<strong>' + visible + ' package' + (visible === 1 ? '' : 's') + ' found.</strong> Page 1 of 1.';
-}
+  function filterPackages() {
+      var query = document.getElementById('pkg-keywords').value.toLowerCase().trim();
+      var mode = document.getElementById('pkg-searchby').value;
+      var rows = document.querySelectorAll('#pkg-body .pkg-row');
+      var visible = 0;
+      rows.forEach(function(row) {
+          var name = row.getAttribute('data-name') || '';
+          var desc = row.getAttribute('data-desc') || '';
+          var match = false;
+          if (!query) match = true;
+          else if (mode === 'name') match = name.indexOf(query) !== -1;
+          else if (mode === 'desc') match = desc.indexOf(query) !== -1;
+          else match = (name.indexOf(query) !== -1) || (desc.indexOf(query) !== -1);
+          if (match) { row.style.display = ''; visible++; }
+          else { row.style.display = 'none'; }
+      });
+      var stats = document.getElementById('pkg-stats');
+      stats.innerHTML = '<strong>' + visible + ' package' + (visible === 1 ? '' : 's') + ' found.</strong> Page 1 of 1.';
+  }
 
-function sortPackages() {
-    var sort = document.getElementById('pkg-sort').value;
-    updateSortIcons(sort);
-    var tbody = document.getElementById('pkg-body');
-    var rows = Array.from(tbody.querySelectorAll('.pkg-row'));
-    rows.sort(function(a, b) {
-        var nameA = a.getAttribute('data-name') || '';
-        var nameB = b.getAttribute('data-name') || '';
-        var sizeA = parseInt(a.getAttribute('data-size') || '0', 10);
-        var sizeB = parseInt(b.getAttribute('data-size') || '0', 10);
-        var timeA = parseInt(a.getAttribute('data-time') || '0', 10);
-        var timeB = parseInt(b.getAttribute('data-time') || '0', 10);
-        if (sort === 'name-asc') return nameA.localeCompare(nameB);
-        if (sort === 'name-desc') return nameB.localeCompare(nameA);
-        if (sort === 'size-desc') return (sizeB - sizeA) || nameA.localeCompare(nameB);
-        if (sort === 'size-asc') return (sizeA - sizeB) || nameA.localeCompare(nameB);
-        if (sort === 'date-desc') return (timeB - timeA) || nameA.localeCompare(nameB);
-        if (sort === 'date-asc') return (timeA - timeB) || nameA.localeCompare(nameB);
-        return 0;
-    });
-    rows.forEach(function(row) { tbody.appendChild(row); });
-}
-updateSortIcons('name-asc');
-</script>
+  function sortPackages() {
+      var sort = document.getElementById('pkg-sort').value;
+      updateSortIcons(sort);
+      var tbody = document.getElementById('pkg-body');
+      var rows = Array.from(tbody.querySelectorAll('.pkg-row'));
+      rows.sort(function(a, b) {
+          var nameA = a.getAttribute('data-name') || '';
+          var nameB = b.getAttribute('data-name') || '';
+          var sizeA = parseInt(a.getAttribute('data-size') || '0', 10);
+          var sizeB = parseInt(b.getAttribute('data-size') || '0', 10);
+          var timeA = parseInt(a.getAttribute('data-time') || '0', 10);
+          var timeB = parseInt(b.getAttribute('data-time') || '0', 10);
+          if (sort === 'name-asc') return nameA.localeCompare(nameB);
+          if (sort === 'name-desc') return nameB.localeCompare(nameA);
+          if (sort === 'size-desc') return (sizeB - sizeA) || nameA.localeCompare(nameB);
+          if (sort === 'size-asc') return (sizeA - sizeB) || nameA.localeCompare(nameB);
+          if (sort === 'date-desc') return (timeB - timeA) || nameA.localeCompare(nameB);
+          if (sort === 'date-asc') return (timeA - timeB) || nameA.localeCompare(nameB);
+          return 0;
+      });
+      rows.forEach(function(row) { tbody.appendChild(row); });
+  }
+  updateSortIcons('name-asc');
+  </script>
+</body>
+</html>
