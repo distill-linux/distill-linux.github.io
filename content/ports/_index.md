@@ -185,7 +185,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>325 packages found.</strong> Page 1 of 1.
+  <strong>326 packages found.</strong> Page 1 of 1.
 </div>
 
 <div class="pkg-table-wrap">
@@ -3657,6 +3657,20 @@ article {
             <td>
                 <a href="terminus-font-4.49.1.drop" download style="font-weight: bold; color: #aa2022;">terminus-font-4.49.1.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="tile" data-desc="pure assembly tiling window manager (chasm suite)" data-date="2026-09-09" data-time="1788933517" data-size="34735">
+            <td><a class="pkg-name" href="https://github.com/isene/tile" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tile</a></td>
+            <td><span class="pkg-tag">0.1.53-1</span></td>
+            <td>
+                <div class="pkg-desc">Pure assembly tiling window manager (CHasm suite)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in tile</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="tile-0.1.53.drop" download style="font-weight: bold; color: #aa2022;">tile-0.1.53.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.9 KB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="tiny-dfr" data-desc="dynamic function row daemon for apple touch bar" data-date="2026-09-07" data-time="1788823105" data-size="746083">
