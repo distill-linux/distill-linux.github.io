@@ -185,7 +185,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>326 packages found.</strong> Page 1 of 1.
+  <strong>328 packages found.</strong> Page 1 of 1.
 </div>
 
 <div class="pkg-table-wrap">
@@ -2903,6 +2903,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.3 KB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="nano" data-desc="small and friendly text editor" data-date="2026-09-09" data-time="1788936780" data-size="1108041">
+            <td><a class="pkg-name" href="https://github.com/madnight/nano" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nano</a></td>
+            <td><span class="pkg-tag">9.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Small and friendly text editor</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in nano</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="nano-9.2.drop" download style="font-weight: bold; color: #aa2022;">nano-9.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.1 MB</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="nasm" data-desc="80x86 assembler designed for portability and modularity" data-date="2026-09-03" data-time="1788425318" data-size="607005">
             <td><a class="pkg-name" href="https://www.nasm.us" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nasm</a></td>
             <td><span class="pkg-tag">2.16.03-1</span></td>
@@ -2915,6 +2929,20 @@ article {
             <td>
                 <a href="nasm-2.16.03.drop" download style="font-weight: bold; color: #aa2022;">nasm-2.16.03.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">592.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="ncurses" data-desc="terminal handling library with terminfo database" data-date="2026-09-09" data-time="1788936780" data-size="1774776">
+            <td><a class="pkg-name" href="https://github.com/ThomasDickey/ncurses-snapshots" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">ncurses</a></td>
+            <td><span class="pkg-tag">6.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Terminal handling library with terminfo database</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in ncurses</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="ncurses-6.6.drop" download style="font-weight: bold; color: #aa2022;">ncurses-6.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="neofetch" data-desc="cli system information tool written in bash" data-date="2026-09-07" data-time="1788775208" data-size="91666">
