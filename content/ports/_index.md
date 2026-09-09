@@ -1,327 +1,4899 @@
-# Distill Linux Package Catalog
-# NAME	VERSION	SHA256	SIZE	FILENAME	DEPENDS	OPT_DEPS
-alacritty	0.17.0	012d0d09ce2e024adc8af6b2eacff698d70ef92a961bac0afb9736669436ddb9	3487634	alacritty-0.17.0.drop	freetype fontconfig libxcb libxkbcommon	
-alsa-lib	1.2.16.1	42c0969d81bea2948dafad05bf52b7ccb1d4080eb6a83813965cfb6f39c4d57d	552780	alsa-lib-1.2.16.1.drop		
-alsa-utils	1.2.16	440dac5b116b44f471c7f9242603b95e1cd3f5a54e66ae72fd45fe5d69dac687	1380056	alsa-utils-1.2.16.drop		
-appimage	1.0	e4836c99cdd9d66398f53d5ca80afa69e461af83c7b2f93aa48b6ef3e23597af	366	appimage-1.0.drop	zlib	
-appimaged	20240901	17e2ea65ebdb2ac0b7ca14f5409d6316c59794596683ef86d1cec94123a5e658	384	appimaged-20240901.drop	cairo	
-apple-bcm-firmware	14.0	e99775baa7f596ce342a562a3d4eb68621c126a1d7b01c90b31573b4cf014fec	31820329	apple-bcm-firmware-14.0.drop		
-apple-t2-audio-config	0.4	9979305cdfca95564ae14ffe18f57a758156f3fb9da3f6e0d2034234d3bbcf17	1203	apple-t2-audio-config-0.4.drop		
-autoconf	2.73	16463c02f2ebaa5c3ab52826edc4de995e7c71a131c41b675d11764530bffda9	993107	autoconf-2.73.drop		
-automake	1.16.5	49228018cc7d1688ece65341b2136cf4ae2cf5d4b9235873a64c066c97a1690a	679196	automake-1.16.5.drop		
-azpainter	3.0.12	b2b661228e471f770ed347f9b94dfe0e141aa3f486681669c60220f457dc4ebc	847255	azpainter-3.0.12.drop	fontconfig libXcursor libXi libXrender libjpeg-turbo libpng libwebp zlib freetype	
-badwolf	1.4.0	09a78b4b9809d2328cae5faf3682581f7ed4abeb866445e619132a7eece4d6ac	92640	badwolf-1.4.0.drop		
-bash	5.3	8e06a7745703f8e70b9829728be473a645a781b9a52db842c427e62de4b0369f	2662552	bash-5.3.drop		
-bc	7.0.3	ff3f6e3e4944683f1461b682fd1d821c16994c167fda95781b3e5e34b8e9b0c4	154017	bc-7.0.3.drop		
-bearssl	0.6	7d18744d1b243e68c1806081d0b719268b19a011d93ba5b13e8f828822520691	370393	bearssl-0.6.drop		
-binutils	2.44	a9ff9417d3975256738bca95a6c16847e375b7294e4ffb722d4e71c537c7e8de	2216751	binutils-2.44.drop	zlib	
-bison	3.8.2	60e4dc89970511785e30d3d10db26120ee4f79195f911f5a603cbb024a637823	916951	bison-3.8.2.drop	m4	
-bitmap	1.1.2	b3d1fead55202db5f36fb36a3e334be0bfc6892611bf2fc39ac7525ebcf8d888	62032	bitmap-1.1.2.drop	libXt libXmu libXaw	
-brotli	1.1.0	8095836d091cc9107629af13a35b171db114fa8c0ae4373f3e1c5fb85ea71b65	408855	brotli-1.1.0.drop		
-bsd-mk-files	20240414	a04d2c8bd1299eb0d2ff56ac8b19f39ddd385674f1eff42dadf2bbedd640c920	354	bsd-mk-files-20240414.drop		
-bsdmake	20240414	265c64e92166b6d6626de90527aea7971f47fa5145a170cd2ecc70654206d1df	241982	bsdmake-20240414.drop		
-btrfs-progs	6.11	301c0765819c081c94dce93bb882887c9b1239679998670f5da6b69df1e8c7e6	3023404	btrfs-progs-6.11.drop	zlib	
-bubblewrap	0.12.0	27678a706c32be5dd4b733ae96b43f668a2044352fa63602588a70412300d5ed	40714	bubblewrap-0.12.0.drop		
-byacc	20260126	0b8ce4228aff92c205de619cb8b5c5fde9ceeafde626199f4bf7a46b2e91ec44	78108	byacc-20260126.drop		
-bzip2	1.0.8	a28e6e2066ab1a96cdbd84caf4e95e5dc8a1b98c0e9506354690de066b037e55	59998	bzip2-1.0.8.drop		
-ca-certificates	20250419+3.127	ba0d314dcd645e0ab6f951bae17f4afdd197186ee46a24460f52587f1a72dd34	166292	ca-certificates-20250419+3.127.drop		
-cage	0.3.0	c44e5b23eab579eef742533f7135e1cf4701376d9be696c7a8cd8c505e19fea3	24210	cage-0.3.0.drop	libxkbcommon	
-cairo	1.18.4	8004052be9d685de563b0a7f461f297f0d65fc0a4e8f6844f230394c2146c734	659295	cairo-1.18.4.drop	fontconfig freetype libpng libX11 libxcb libXext libXrender pixman zlib	
-cargo	1.78.0	e78b244bbae4cb5df591f987445094df48715cfe528b4eb10d61f63e97162133	11235090	cargo-1.98.0.drop	rustup	
-chrony	4.8	7b6e098d071290d688fc46dd7c98c64c5ae4768c9a1b30edb16c7b19cf48a982	299673	chrony-4.8.drop		
-clang	21	cec03b6bbe72a6b63bbf7d35df2e0b7b5cdaa9e0160d514fc7ee14ea3168931d	254	clang-21.drop		
-compiler-rt	21	5b35d41b194e912641ea9cf51a8c8701111d3badacb3742be3485d84a6fdb120	265	compiler-rt-21.drop		
-containerd	2.3.2	45f75d118763ed4c4f40cad3764863060328cb57b9325082a131b298deda5f66	29457515	containerd-2.3.2.drop	btrfs-progs	
-cproc	main	731bbfd8e7dc0107efe8c6159a950eb69b3066b1b343c4e8daa7be5ad87a1358	365	cproc-main.drop		
-crio	1.36.3	accce1283689d6635d722b6f7b8c1a8c58b92c2987f619ddd6aaad4937cdea4a	24298327	crio-1.36.3.drop	crun	
-crun	1.29.1	0a747505905aed73f8d04f1dc6acf421458b22171256f32660b1c6a608a28588	284581	crun-1.29.1.drop		
-cryptsetup	2.8.7	1a61455f09618c9377ca764d63569cffa2c7f658d5c0b2094c9fbde4a496e47a	910017	cryptsetup-2.8.7.drop	openssl	
-curl	8.21.0	44d153e06a11cc3582c1d179686e509f425b1eabbb140fa1293ba385e6f267f2	284961	curl-8.21.0.drop	zlib	
-dav1d	1.5.3	0084769ab816162416bd785bdc3b68e0f5a24f02304ee10d880caa3341ccb04e	18716	dav1d-1.5.3.drop		
-dbus	1.16.2	9197232e25831ed57661c77fe9fd8dff64c2e93bceecb9da19e7c20796afefe0	166206	dbus-1.16.2.drop		
-dejavu-fonts-ttf	2.37	040eee998bedb63ee78b58f5d3beb4775226308c72553b63b9e588ca20bb3130	5421004	dejavu-fonts-ttf-2.37.drop		
-dhcpcd	10.3.2	9c67246e7ca569c83e272ef79d8f8592788cde855b1c681fed2e043dbc63d255	206853	dhcpcd-10.3.2.drop		
-diffutils	3.12	889aead6f0d6bb47c5717a3b21286f65784eaf2625f834c5a357b3472cdbe83f	639231	diffutils-3.12.drop		
-dillo	3.3.0	ae5782564ccc0c31c3d5e75586dfb7b1f4420eaba3348236fe6de6a553ded013	800789	dillo-3.3.0.drop	libwebp openssl	
-distrobox	1.8.1.2	c52277f9a10ea4091c9e217bf538010f0d089b43db7cd6577dd0e841c437ed22	384	distrobox-1.8.1.2.drop	podman	
-dmenu	5.4	da1a0cc8aa047de0288a74eb45703e15d9c4fdde3cb4442a483625f9c1ef315d	21439	dmenu-5.4.drop	libXinerama libXft freetype	
-doas	6.8.2	683f351ad6ec2c266999ce95eecc49530f3bc013c943f6d292398449b02230d4	76569	doas-6.8.2.drop		
-docker	29.7.2	b67e7f999525033ca9e040b4b9e38184339ee5063e1125dd092f0160611d45d1	315	docker-29.7.2.drop	containerd ca-certificates	
-dosfstools	4.2	07fca6adb378e087375b132cd69ce3de192ceaef0601d48705725e415f3d9552	94481	dosfstools-4.2.drop		
-drop	0.1.0	7b3bd9bdfabf35232fceaa6f5f8c3149e9521f8fb42660f42d9697f2587c2a69	68927	drop-0.1.0.drop		
-dropbear	2025.89	a61ccb77a3b7320aeb8414445bfa10cfb8a1aa52f4c1586617c5b50d4b860f40	295108	dropbear-2025.89.drop	zlib	
-dwl	0.6	a0752578a848edabb2ca4dd840cff2e86db16ba2511717461939d0bbb7d2006d	354	dwl-0.6.drop		
-dwm	6.8	50965f40c37e3002b6e961bc6dfa79691c80c6a81bc59d454a62b7e9421ef9c1	30681	dwm-6.8.drop	libXinerama libXft freetype	
-e2fsprogs	1.47.2	a1a085f30781cd31f21d5fff0e17c916179b448ed8cc6e3ae6a67f7282452780	1717213	e2fsprogs-1.47.2.drop		
-e2fsprogs-libs	1.47.2		0	e2fsprogs-libs-1.47.2.drop		
-efibootmgr	18	47c382598434adb73e337b116c162af761f0f00f1600c946d5fb9568b98854d5	30653	efibootmgr-18.drop		
-elfutils	0.191		0	elfutils-0.191.drop	libelf	
-eudev	3.2.14	5ef556642b1a42e29a834b19eb21018cfcbd8fcfa8df5427bfabaf6082b99f9f	1918947	eudev-3.2.14.drop		
-eudev-libudev	3.2.14		0	eudev-libudev-3.2.14.drop		
-expat	2.8.4		0	expat-2.8.4.drop		
-fastfetch	2.67.1	e5a75c25e7c1993ae7b3ab5bbb945cd2520a8913872f34874f91b502b18477a9	781824	fastfetch-2.67.1.drop	yyjson	vulkan-loader libXrandr wayland libdrm dbus zlib mesa
-fbpad	1.0	257b0852fd94df4d5bc739b20d6679b69d4cba5823fb06c4a75d9135f0dd4ca8	322	fbpad-1.0.drop		
-fbv	1.0b	5fbcc29c9548776547459e1713d97be4393f6cf901961da1f3a2e5f6989d7604	15716	fbv-1.0b.drop	libpng libjpeg-turbo giflib	
-feh	3.12.2	eb309971a22cf29de77c76f3e54e4d25334eabc193188de0c8173f08a9b8c71b	206734	feh-3.12.2.drop	libXinerama libXt libjpeg-turbo	
-ffmpeg	4.4.8	d9bb40b2365e41aa28822f7187501a4ef53bd0abb9fb8ad2aca370a037a2c4ba	346	ffmpeg-4.4.8.drop	zlib freetype alsa-lib libXfixes libXext libxcb libvorbis harfbuzz	
-fim	0.7.1	605a3e910fbf0384f4b837a5bf369082601b038958cd6a04132fd0eef1467889	821864	fim-0.7.1.drop	giflib libjpeg-turbo libpng libwebp	
-firejail	0.9.80	be5bfbb5b1dd8045e5ff8e3c6dcb0a47743c746098a79dee92264704cf5b0d35	780809	firejail-0.9.80.drop		
-flac	1.5.0	69bbf6e60a4b3023800f86c3b41b35f9d92f1a2370e1afc8f115e567b29caf4b	188153	flac-1.5.0.drop	libogg	
-flatpak	1.18.1	3ad1589b22088623b48eb6158db9b08d6d81475042e028e092c2f061479825f4	2728853	flatpak-1.18.1.drop	bubblewrap libarchive	
-flex	2.6.4	50e3044314a84f338366b41c7b04d7b066cea865298d5afc8eb259a94d89f229	352541	flex-2.6.4.drop	bison	
-font-awesome	4.7.0	73925145bda04952589a4261c8c50f8f49613265c949cada01e9837f34fb0c90	111594	font-awesome-4.7.0.drop		
-fontconfig	2.17.1	287c08cbbae3750b2fb1dbbc837e21c91c752716600b240dc2229ca7f7a6548e	202730	fontconfig-2.17.1.drop	freetype	
-foot	1.17.2	cdb66c045d63aab2a0faf316263fa8cb3571ad7c220d683c3849b362b7710dbf	378964	foot-1.17.2.drop		
-freetype	2.14.3	0acf1aa005c5c37f865550f8ca7e17758f3a93a717edcb0c56ca7e3514ee0d89	398546	freetype-2.14.3.drop	libpng	
-fribidi	1.0.16	f07523eb1853c62f156469cb080262f34a5c93143b1f238708697494a6e9b26b	32494	fribidi-1.0.16.drop		
-fslsfonts	1.0	2bc1d2ce8a642f55051bb8c6c2c011b01fa442c5f354cb1711fecdb812b5f388	276	fslsfonts-1.0.drop		
-fuzzel	1.14.1	265e8d69d1e298a981218f5218bcf7dfb0f99f97e285b5ba84ac926e28255a5b	125753	fuzzel-1.14.1.drop	libpng libxkbcommon pixman wayland	
-gcc	13.2.1	8eb8523e116a0b5514f282783d7109e1433e488a8fccc1466910139ad3c73c38	49726407	gcc-13.2.1.drop	binutils musl-dev	
-gcompat	1.1.0	83e3706b59902f439fce17e74bbf3dcbaf9256d39c2444ccfdcd0175a46b88e3	35501	gcompat-1.1.0.drop		
-gdk-pixbuf	2.42.12		0	gdk-pixbuf-2.42.12.drop	glib libpng libjpeg-turbo shared-mime-info gettext-libs	
-gettext-libs	0.22.5		0	gettext-libs-0.22.5.drop		
-giflib	6.1.3	a9053cda8af1d91871a97ae9fb34ee98476fde1abe1b0b64720e3257a13f84f5	48656	giflib-6.1.3.drop		
-git	2.55.0	9b50fc7b4b7168b43e58a67d5e4eb444eef5a58e2ed5bef3955816215641c7dd	20745757	git-2.55.0.drop	curl pcre2 zlib	
-glib	2.88.0		0	glib-2.88.0.drop	libffi libmount libpcre2 zlib gettext-libs	
-glslang	16.3.0	35a32e36127d678428565fb2efbb93bcff5b1ad88a109f521084cdcf766f43d7	3344283	glslang-16.3.0.drop		
-gmp	6.3.0	55b781e476341fc556c01e56f43e442bc4714ddaa259a10afac26301316ed721	259250	gmp-6.3.0.drop		
-go	1.26.5	f9e9b2b4a990f67ac0942c5e2c349b3b7d21545a194032c61f92ebc5c3d6a46b	64215375	go-1.26.5.drop		
-gptfdisk	1.0.10	c30dbfdccc3fbf3224b7caf752156c7c35a2cc4fdcf7ace983270ffea77e094b	357943	gptfdisk-1.0.10.drop		
-graphite	1.3.14		0	graphite-1.3.14.drop		
-greetd	0.10.3	65c10a1c7114497e02ab300224a9490b02423f389b62921892af58db0ef7d743	820597	greetd-0.10.3.drop	linux-pam libgcc	
-grim	1.5.0	02f2fd2ce93f6c679a483fb06b49ede2fa43347b50917fbd6660b524b71b438c	19110	grim-1.5.0.drop	wayland pixman libjpeg-turbo libpng	
-harfbuzz	14.3.1	2b6f30c0d2fb5c462edd28729ada180c2a1e0c5bb1d0d8b3ae46fe30640f1747	153747	harfbuzz-14.3.1.drop	cairo	
-hsetroot	1.0.5	418102d9b5055f036459aa4e5fa88880a7cff62c618c06ef9c0f936ad29ae0e8	10374	hsetroot-1.0.5.drop	libX11 libXinerama	
-imv	5.0.1	4d6bdb939479fdf3eec4f2458af1978112f5bcc9c40945422a6695bbeed16088	116821	imv-5.0.1.drop	pango libxkbcommon wayland libwebp	
-incus	6.22.0	f12c21c935818ece94e7441d04c3db0a8c99fbad52a9de6236d2085f072f3350	34796994	incus-6.22.0.drop	lxc	
-iproute2	7.1.0	0a0dea5c1cc5e2466fd758e4a54381a0de980b899cde3dc6821322e8034d0aa5	1752904	iproute2-7.1.0.drop	elfutils	
-jwm	2.4.6		0	jwm-2.4.6.drop	libX11 libpng librsvg cairo pango glib libjpeg-turbo libXft libXrender pango-xft libXpm libXext libXmu libXinerama libgcc libstdc++ expat libICE libSM	
-kitty	0.48.2	e97ab2d8f39cf1cdb74a77cfa3e1cf86d4c2bf28564d931b53b739a6e617aa22	12690444	kitty-0.48.2.drop	harfbuzz libxkbcommon python3 wayland openssl dbus libXcursor libXrandr libXi fontconfig libxcb simde	
-kitty-terminfo	0.48.2	9f95736e89e82610895889cf2c05ac04755071b109e78960fcc10f755a4932dc	2330	kitty-terminfo-0.48.2.drop	harfbuzz libxkbcommon python3 wayland openssl dbus libXcursor libXrandr libXi fontconfig libxcb simde	
-kmod	32	09fe97b26fc95d2b2e3c7e10e5229db133aad42f11ee12d1539a5e1336e1a425	313791	kmod-32.drop	zlib	
-kmscon	9.3.4	e5405514a032ccc6cfe13884036596143a8c7199dfdeb1b87a7cfc9d1761fc71	1361893	kmscon-9.3.4.drop	pango libxkbcommon libdrm	
-libICE	1.1.2		0	libICE-1.1.2.drop		
-libSM	1.2.6		0	libSM-1.2.6.drop	libICE	
-libX11	1.8.13	35a1ac7fb41b331114703177d6bd563a2a90605f17d1f999e47a8f6204accfba	1545266	libX11-1.8.13.drop	libxcb	
-libXScrnSaver	1.2.5	c59d04b97e02d89ddc95ab1b1ee236e3b039df806e84ad1fc12e5c2fbf7a559b	4641	libXScrnSaver-1.2.5.drop	libX11 libXext	
-libXau	1.0.12	2b07400b632b64564ab565bcd81495a7d1c6b65e0593b6ec4e97b2ab18b8eb9e	5645	libXau-1.0.12.drop		
-libXaw	1.0.16	6675691b6f1161eb9d9ff577c5730f75a989c20e7ad11011ac17dd1697fb559a	345535	libXaw-1.0.16.drop	libXext libXt libXmu libXpm	
-libXaw3d	1.6.6	ffbb084fbb0d0c83a14543456369cdd91e28d2d954453a6c67aeb64bef5dbf61	169840	libXaw3d-1.6.6.drop	libXmu libXpm	
-libXcomposite	0.4.7	d63bc48e7714214daefff43bf89d7c9c287492c7885f9484884d703f660a05f9	3738	libXcomposite-0.4.7.drop	libXfixes	
-libXcursor	1.2.3	505dec7d3c5fbb2a0ef7d8f33a53c53f9fb7cd1e5c27ec825b6e4c7b0022fa11	20470	libXcursor-1.2.3.drop	libXfixes libXrender	
-libXdamage	1.1.7	0938a4fb204785424aab15e85edadedc268b6b992f3a31b279852ca58412ddab	4687	libXdamage-1.1.7.drop	libXfixes	
-libXdmcp	1.1.5	877028d071950532fb0a0e95bf161b974fab188a7e1629dd04f24d83be8ccab4	26409	libXdmcp-1.1.5.drop		
-libXext	1.3.7	a57845b2d86891f02873bf7cd14870729a741957dbc4df920a80fbb612cee4c3	55476	libXext-1.3.7.drop	libX11	
-libXfixes	6.0.2	32088d9cf2920f7728ac5515b1e3c532059a0ed89ed0a9dab201bc4850b90d9d	8330	libXfixes-6.0.2.drop	libX11	
-libXfont2	2.0.7	a0322be0f6f73d0b156ade7853d05329f50a24a62372cf86da2df4abd6fb66ab	124167	libXfont2-2.0.7.drop	zlib libfontenc freetype	
-libXft	2.3.9	5392e65366af6379b6e24ec1deb37252afd92e36e14422c4520a6085ab5d3db2	46999	libXft-2.3.9.drop	libXrender freetype fontconfig	
-libXi	1.8.3	fd713a93e50cd24671888c9ec5266c9331bf4f4f5c4c0718867444de7aed57e2	29110	libXi-1.8.3.drop	libXfixes libXext	
-libXinerama	1.1.6	41d94ccbd3a804998faa548afb6874630f394eadabf0711a0f29fa88860327da	3650	libXinerama-1.1.6.drop	libXext	
-libXmu	1.3.1	8c69df7ed9b540306daf285be4ec54d080382bc89cc34554eecb2d29deed7871	77319	libXmu-1.3.1.drop	libXext libXt	
-libXmuu	1.0	4aa90f03b09c115acdafcb841c047b9adf3c718c00bf0ed940d0561cb02b632a	77315	libXmuu-1.0.drop		
-libXpm	3.5.19	faf100c510e993073198e313811ae8cebce3f839d2f19ccd41397dba540162f9	58020	libXpm-3.5.19.drop	libXext libXt	
-libXrandr	1.5.5	e5c97df3cb960c748197892620b00fd8014577fb4d802fa8c24fbe1a5bfe8a5a	18321	libXrandr-1.5.5.drop	libXext libXrender libX11	
-libXrender	0.9.12	04690bd93f7bb2e5964273dba631ca5fd32906a623166d074a260266bd133fe7	24329	libXrender-0.9.12.drop	libXext	
-libXres	1.2.3	5da1fbed8b2503ccc753cb06ce85e43b8f6a504a001087ceb3a3fd762510335d	5524	libXres-1.2.3.drop	libXext	
-libXt	1.3.1	ec7e07362cd792005b155fb32ce4603d9325843254822323bfa8960405b7a4b2	187877	libXt-1.3.1.drop	libX11	
-libXtst	1.2.5	1d9105eb37dd8da912535812aa9d7fd7bcd5107fc01a60d1714d7f5a23cc59c4	9545	libXtst-1.2.5.drop	libXext libXi	
-libXv	1.0.13	1b5e3cb4922576812e63e7a2dba77d4c2d3d6ba77b3a6e550b542f0083741f13	7903	libXv-1.0.13.drop	libX11 libXext	
-libarchive	3.8.9	1a1a15b07ae5c3502229e512e386dee7936a57e69bae3e00497f9e2dfa05dca5	379367	libarchive-3.8.9.drop	zlib	
-libblkid	2.41.4		0	libblkid-2.41.4.drop	libuuid	
-libcxx	22.1.4	20a8631910180fe3f188b2782ff45c70936e07ec59f40815b8f0106f4c5df313	459890	libcxx-22.1.4.drop	python3 zlib elfutils binutils	
-libcxxabi	22.1.4	3f5c30cefeacdafdc061224b452121d85bb7bcf56e9a3184e107daf9e72ea1dc	106065	libcxxabi-22.1.4.drop	python3 zlib elfutils binutils	
-libdatrie	0.2.14		0	libdatrie-0.2.14.drop		
-libdav1d	1.5.3		0	libdav1d-1.5.3.drop		
-libdrm	2.4.134	6572368e6b7a060a3e6f9b0594f5e03624e30e113274096601404a89cf1d6bb4	171475	libdrm-2.4.134.drop		
-libelf	0.191	70f97342e1f22e4a2659b159678f474879fb4a3e4a998a837dcaadd392e49eb8	177430	libelf-0.191.drop	zlib	
-libepoxy	1.5.10	82b3837b4f26e0dffa66dd7f6ce91c7b905899f2902f0f5285c62bb1cdc08d1d	266018	libepoxy-1.5.10.drop		
-liberation-fonts-ttf	2.1.5	08f89e993e5fece1799c6ad6b57146502d08ccfbbb208ef43ddff247a07ebddd	2385846	liberation-fonts-ttf-2.1.5.drop		
-libffi	3.3		0	libffi-3.3.drop		
-libfontenc	1.1.9	7085985583e52cc506e4e11774fd67a41d615becee3584681fa198bfbfb32f49	13037	libfontenc-1.1.9.drop	zlib	
-libgcc	14.2.1		0	libgcc-14.2.1.drop		
-libglvnd	1.7.0	187171a21ba9cae2411da4d30dcc64d3481e5c8d0926b37b0113184fa3070137	492837	libglvnd-1.7.0.drop	libXext libX11	
-libharfbuzz	14.4.0		0	libharfbuzz-14.4.0.drop	freetype graphite libicu78 libstdc++	
-libicu78	78.3		0	libicu78-78.3.drop	libstdc++	
-libjpeg-turbo	3.1.4.1	bbb04d0150ee09911e5fbdb35f89cde2ae43090737dea1bf7b245480e199ed1b	557513	libjpeg-turbo-3.1.4.1.drop		
-libmount	2.41.4		0	libmount-2.41.4.drop	libblkid	
-libogg	1.3.6	e8a871ef428ed3d33159d1bd60b001c69bcc46f1b042ed814007b2c2e35316b7	19539	libogg-1.3.6.drop		
-libopus	1.0	de8eb5c43864fc51c33fd24c756cfdd7b6006d02f8377b380ae9277d8f4c83de	4088340	libopus-1.0.drop		
-libpciaccess	0.19	0fbb8b8629bdc94686a905928ae75643fc552218b4c5ff3cb28f36d4d063b92c	17856	libpciaccess-0.19.drop		
-libpcre2	10.47		0	libpcre2-10.47.drop		
-libpng	1.6.58	2b66fb12f7a689901256c4e1530dbb0f675f4725539fa32ba5dc7ff3cdb188fa	111666	libpng-1.6.58.drop	zlib	
-libressl	1.0	049959972ec3f584bde15229613c7f0da70f7a360d7720f7e516e78e672dbb4f	327	libressl-1.0.drop		
-librsvg	2.59.2		0	librsvg-2.59.2.drop	cairo glib libdav1d gdk-pixbuf libxml2 pango libgcc libstdc++	
-librsync	2.3.4	67e4b842591274bb9a2c323e818754155d5db88123ae8ab263adace5efb25b54	29823	librsync-2.3.4.drop	zlib	
-libstdc++	14.2.1		0	libstdc++-14.2.1.drop	libgcc	
-libthai	0.1.29		0	libthai-0.1.29.drop	libdatrie	
-libtiff	1.0	75684bbed31ddf8c5a414b01a06d724b6350d0dde53a7795fb2f10951af463b7	454029	libtiff-1.0.drop		
-libtirpc	1.3.7	3da5805d8014e5111a682f8d959c7d591e17025c94560b3411468e8756d940ea	88046	libtirpc-1.3.7.drop	mit-krb5-libs	
-libtool	2.4.7	c1264b2b9ec66caf1e1fc19bcccfb59bac5af91dc3acb59829b971187194c44f	615603	libtool-2.4.7.drop		
-libuuid	2.41.4		0	libuuid-2.41.4.drop		
-libva	2.24.1	b1d69784b451bf30abfc560d32ca35de7816c666cae992e1912b9a5c0d49e936	97360	libva-2.24.1.drop	libXfixes libXext libdrm	
-libva-utils	2.24.0	942db485fc2af491988df262530ecbbd10123dc5ab18527b64753c5270a39d70	1899780	libva-utils-2.24.0.drop	libva libXfixes libXext libdrm wayland	
-libvdpau	1.5	148d64fe90ed48b14e04fcfa8c7834fa0cc9792ec2e7528210cdba092d343ae0	28860	libvdpau-1.5.drop	libXext	
-libvirt	12.6.0	24b61b6b1a59c9037126940a8124ab2e8beda96a3cfc3bce8c0c6e19a7067808	14647766	libvirt-12.6.0.drop	qemu	
-libvorbis	1.3.7	cef695c78e73a5edd9e1231e9177330a637d6d114dfb25e6347cf8e8bf00fe09	214378	libvorbis-1.3.7.drop	libogg	
-libvpx	1.16.0	6f20ed83753aef0715fa73d142ffd3cda88f4120d2e1e4013783fbb8def98e37	1034851	libvpx-1.16.0.drop		
-libwebp	1.6.0	ffdc957897ec53d1ddc68b7af9598e57fd772bfd88ef392396193931b74d6315	374430	libwebp-1.6.0.drop	giflib libpng	
-libxcb	1.17.0	5f286e747385ed0bfdcff1b1a674a71b1566186b3cc18dbfdf511a787f789c1d	245524	libxcb-1.17.0.drop	libXdmcp libXau	
-libxcvt	0.1.3	e05b41b9cd55d226eeb1f370e119265f4a30ac9a0d2b1a3f4d678970399e7185	8143	libxcvt-0.1.3.drop		
-libxkbcommon	1.13.2	12bae15faae55fac0d1fd3603f186ea5380fa9cced79e5294548b112b5918d7e	186251	libxkbcommon-1.13.2.drop	libxcb wayland	
-libxkbfile	1.1.3	361c12b51bdc5ebcd602a41b8e8d49acfb82c7f2d26697e46ecc0e5c2c760959	74615	libxkbfile-1.1.3.drop	libX11	
-libxml2	2.13.8		0	libxml2-2.13.8.drop	zlib	
-libxshmfence	1.3.3	2768bf96b0c13728986ebbe82fabcdf1a0cbaa9dd0179b260cbccbe808f777d4	3621	libxshmfence-1.3.3.drop		
-lilipod	0.4.1	b718a49f6bf2b97bb3938c6acd57fdbf0e2b506842f428f2740d579e7d0fd395	362	lilipod-0.4.1.drop	crun curl	
-linux-pam	1.0	537bbafa9a23ad20bfd82dff14861a762ee41da5ba8203c40f4999aae46c0b8f	390684	linux-pam-1.0.drop		
-lld	21	60762ceb9f5e9dbd603f63c3c07ae4fed2bc9e20bc0f0de25535e896868ceace	251	lld-21.drop		
-llvm	21	8a4d7391ac9c82682a1737272be384ac0e1560d8182bfc2c7e0dd37efdb3d8d1	252	llvm-21.drop		
-luit	1.0	0173983a91de8c91c84e92a45bc3e4fe8424730fe68a3db774815ecdad59510d	265	luit-1.0.drop		
-lvm2	2.03.29	335824fd2cdabf7fa5706b6cc47d70a35af761b096b265408da689b0371605fa	2525185	lvm2-2.03.29.drop		
-lxc	6.0.3	fcd2be18eb445f653b7f740508253bed0536fa0c8a6144033d8baf695d3df51d	747832	lxc-6.0.3.drop		
-lynx	2.9.3	391402d33d98e2f8c24676bf2045271b28f23002f49110f2b164bc6a28c98ef2	851031	lynx-2.9.3.drop	zlib openssl	
-lz4	1.10.0	ccaaf69b63010e76cd22068047788046dd78b2675e64382f4bd640b75287f7bf	123099	lz4-1.10.0.drop		
-m4	1.4.19	2bc5eaf073437583f3e698f980b8b2ada3e07b34e5ace3301190af847f11918b	281229	m4-1.4.19.drop		
-make	4.4.1	2a0e85c3ce3528aff893981a4da06eefbf5ecd939a9317da146d15739975e854	349734	make-4.4.1.drop		
-mako	1.11.0	d7863e9488a82090939c1c99c257caf1be4afb56a7437107f9bbcea4cb4955eb	61084	mako-1.11.0.drop	wayland pango cairo	
-mandoc	1.0	78961e779846b359e897ce6d21819e9741689baf6e4ecf5b4b39bfedb4f3ce24	416565	mandoc-1.0.drop		
-mbpfan	2.4.0	f1e5d47a2458c1e3e27250103fba22966cae6bddf7b6b25979db53e68cabd456	33355	mbpfan-2.4.0.drop		
-mesa	26.1.8	24e1c0267572338dfeb5bd03f1478a2809062a2bb66414c731252910932663ea	966953	mesa-26.1.8.drop	elfutils libXdamage libdrm libva libxshmfence zlib libXrandr libglvnd libarchive libXext libpng	
-meson	1.9.1	9beeec70930106708e7642f22670f4e91648ea823ebc1c963432fe1e0b2ff6aa	915068	meson-1.9.1.drop		
-mit-krb5-libs	1.21.3	081cbe53a4f1834a6a0dae563f4d693df03b368cb97fad0213391a8e29cbc98a	814840	mit-krb5-libs-1.21.3.drop	e2fsprogs	
-moc	1.0	36f20139486daf94fab98fba8b1c25011acf2d4e9e7ed962368268c805ff3f27	320	moc-1.0.drop		
-mpv	0.41.0	442f2986042da290f2606e12581c9ab9f60beb461343704550fd26a15336b607	2702236	mpv-0.41.0.drop	harfbuzz libXv libva libarchive	
-musl-dev	1.2.5	b16fa50ba6f1addc750fea57251e30b674cb9d0441d5dce13c9fd1f22701d97c	728060	musl-dev-1.2.5.drop		
-musl-fts	1.2.7	fd3f5cadc467d76a34439c012cd55b670b33897d50b0145b2df4e19877c7ee2c	7764	musl-fts-1.2.7.drop		
-musl-obstack	1.2.3	41d78b2df3ec1a8c3bff7b1ccc9f94430503cbdcca42a8727b8cb8696f8272b1	3344	musl-obstack-1.2.3.drop		
-nasm	2.16.03	3667d4928e8bba860381f69264b47f90aa94ad69759312ebf85b88f218187acf	607005	nasm-2.16.03.drop		
-neofetch	7.1.0	ce39b140e2e2f53d837ba582bdbfe966c3fd0c522425e06c20ebaaadddb2fd5c	91666	neofetch-7.1.0.drop	bash	
-netsurf	3.11	7e1902e9f29715d3e5ed484e30553ac7307d60f87aa36565a5d659ffb2a7b699	1811485	netsurf-3.11.drop	libwebp	
-nettle	3.10.2	0b7bd67db38730ea0c91588806b45e561764e399d0de4857787de45b210c4bd7	363050	nettle-3.10.2.drop	gmp	
-nmtui	1.0.0	c0e9dfa7454297ddc097b5ee34aad1db7ff76708b3f47fba1e2e4f8f4329d4d6	83264	nmtui-1.0.0.drop	wpa_supplicant	
-nsxiv	34	f269db61d30fb78d1aa8f9243898dba680bfc432a2414033bce630339dc58b7f	50926	nsxiv-34.drop	libX11 giflib libXft libwebp freetype fontconfig	
-oclock	1.0.6	e0ca95b68c1b9d21fdd59f71d7704db084b231cff4a136d56d4852a3f56a3922	10680	oclock-1.0.6.drop	libXmu	
-openbox	3.6.1	537de6127ce3e7cd7be490bcd6558e78ed169248b430d8170f90ca64a59a0951	332866	openbox-3.6.1.drop	libXrandr libXcursor libXinerama pango	
-openntpd	7.9p1	eb4d34a0efed14ad95624a30c81775eac9189583e0deec8a7cf64471f09e6d56	59328	openntpd-7.9p1.drop		
-openssh	10.5p1	668da70f17f0eee854afa4d6f44c525e1e4eb8ce6d74b27b6cf66a0031c48242	3385076	openssh-10.5p1.drop	zlib	
-openssl	3.3.0	ec06ddeef63412eae8086671f60253e99fa93259f6fd9de7e8855aecc2ce58c6	5976944	openssl-3.3.0.drop	zlib	
-pam-libs	1.5.3		0	pam-libs-1.5.3.drop		
-pango	1.56.3	eda7aed3cda2fda45b787d055d5c6d4434227d55f9310a5953026eafbc51c6bc	299753	pango-1.56.3.drop	fribidi harfbuzz libXft	
-pango-xft	1.56.3		0	pango-xft-1.56.3.drop	pango glib fontconfig libXrender libX11 libXft	
-patch	2.8	35f0ea117b9756fccfb7c73732a3aa5bff8ed85f8be4c15c347500672db1ed3a	97944	patch-2.8.drop		
-pcre2	10.47	93320456f9833ffb00983d4dd11288a61ff87197f2c817e7015b91a742f9e40c	786843	pcre2-10.47.drop		
-pdpmake	1.0	400f5590ae47a4c954bddd94a10f3f5fb3e41ebb7b117fec76b79593ca5b390a	26440	pdpmake-1.0.drop		
-perl	5.38.2	9a83cf8e09c49cec07f0da36346aceef6d1ba5e0b0cb6c1d368fb08bf8c014fc	20849255	perl-5.38.2.drop		
-picom	13	ce3bc1fa9dc04e40bc18d339c30bbb8a547d92e568e7fafb1dad52486be65c9b	296537	picom-13.drop	dbus libepoxy pcre2 pixman xcb-util-image xcb-util-renderutil	
-pipewire	1.6.7	a53fb7d762655d6fb221a8291bf11d4bf30359db1026cdc9a30c45c88403e052	1843811	pipewire-1.6.7.drop	libva vulkan-loader openssl dbus	
-pixman	0.46.4	fd74675ea0937e68598777353d8c8746935ee1ace3110c495527ada6087534e1	321582	pixman-0.46.4.drop	libpng	
-pkgconf	2.1.0	6a8fb0e237d54a74fd45dd61865a6241b474c2131ad3f81fda2cdfea40abd336	33814	pkgconf-2.1.0.drop		
-podman	5.8.3	a229a2872ddad442f3af3309730089fd6ce2b9b2db95254a7683244bc734e070	30556344	podman-5.8.3.drop	crun	
-python3	3.14.6	0ffca68835185d0218bdc3d76bbf2e5133b1f75d59034b6b8468d07b5ef6a409	8575076	python3-3.14.6.drop	openssl zlib	
-python3-dev	3.12.2	72d9657641eb12db8f48d92d754e29b01832ad522a767691c7155330ba925964	3130902	python3-dev-3.12.2.drop		
-qbe	1.1	c7b87def58657fa2d19a98367c584ac56279002a9950d0b2413fc457fbada92d	113870	qbe-1.1.drop		
-qemu	11.1.0	ae9131a521b1ca6301cd61a93b2f03b6eb75b18f9682936a2eb24eefb4cfb502	328	qemu-11.1.0.drop	pixman libepoxy zlib alsa-lib	
-river	0.3.7	43a448fddde5ea2376d7f6f948dc3ed904d02851a0c404d57ef0995fa92f4fc6	620894	river-0.3.7.drop	pixman libxkbcommon wayland	
-rust	1.78.0	e584abc120200c20f95f3de080a7bc93843a78816597f48297825ff399edd701	95977977	rust-1.78.0.drop	cargo lld	
-rustc-bin	1.0	ae4a2d6f1f266be3ef53e4180296d56ac5a856d8a1b8136ffcdb9b0a1fba76c6	396	rustc-bin-1.78.0.drop		
-rustup	1.29.1	edb3a8062745f65869149dcd8fe24bfd727009027b38aa4f431f3b67947a84f2	8192532	rustup-1.29.1.drop		
-rxvt-unicode	9.31	60a2bbbc80c0ce4198878b1e14e979d66bef8413a2a927a5a13a4918287d3384	1383958	rxvt-unicode-9.31.drop	fontconfig libXrender libXft libXt	
-samurai	1.3	8a0b2a4006d9c80f96ea973bedad05a04e588a8de51a9de0b94e195b11f12831	27965	samurai-1.2.drop		
-sdorfehs	1.5	1cc85762d308ccd1066b4b2fb92972307b2d824c4563b9ac1eb42b3d872ecb56	369	sdorfehs-1.5.drop		
-seatd	0.9.3	d429a4a431adf653fb7b92360603a87cfefd11c3f96398e2446cda691cfd58d0	23737	seatd-0.9.3.drop		
-setxkbmap	1.3.4	b2be6c4e47be9a6a4b273be81e12948aa0da4dac332a89da40f349e086ea0ee3	12471	setxkbmap-1.3.4.drop	libX11 libXrandr	
-shadow	4.8.1	f8fd6a3cb55726ac9ef45e5641ff384c3c8485583aa179720c68bd08652ecad6	585768	shadow-4.8.1.drop		
-shared-mime-info	2.4		0	shared-mime-info-2.4.drop	glib libxml2	
-simde	0.8.2	738cd62cc14212c5fb964c1b303c2c329b8d06beeb6c9dabfd52b276c7ff9de1	704231	simde-0.8.2.drop		
-sink	0.1.0	8aafb0725dffc176528fbaea2c65935ae1c8158a1be0a2b6aba87e2771ac93dd	14594	sink-0.1.0.drop	git curl	
-slock	1.7	85e0f5bdd629f79920506e49141e2fd5d26c271ee6995b475aa5bc21aa496cc5	7153	slock-1.7.drop	libXrandr	
-slstatus	20180708	9a4c86944422ed79ae9afb415e59f3deca33a0bebd7463eafb74df1a0d323cef	12580	slstatus-20180708.drop	alsa-lib libX11	
-slurp	1.5.0	d6a9e13a59673ecaf8f1c792e839b8084bcc2666e0f09c519b78f1bdb16bd151	19105	slurp-1.5.0.drop	wayland cairo libxkbcommon	
-smake	2024.03.21	e8edd920dac0976467e7fa94cd9861440e4a2105f149102e02eb67d2cae8fbd2	93219	smake-2024.03.21.drop	e2fsprogs m4	
-snapd	2.68.0	7d82b6c374a042fd6e4a3829722b822a16c9d8104573533901c6fc188f4ffd39	369	snapd-2.68.0.drop	util-linux	
-spirv-headers	1.4.350.1	dbf2dffd4afa2df9d873e6fece4bdbaaefcf5817e29811a607b1054d18bb44f6	479670	spirv-headers-1.4.350.1.drop		
-spirv-tools	2026.2	b348096225baba666ad7762bb9212f63f6a28cd26e4998636bd85f585499608d	8574501	spirv-tools-2026.2.drop		
-st	0.9.3	a84493707edba09dd41e6d8b8780d3538d44e257a8e50861efd074c8676b4a3a	47341	st-0.9.3.drop	fontconfig libX11 libXft	
-sway	1.12	57d06385189b3b48365f2749ef5fdf44e137cd0ebc669fa6d2d81ea3efb8ef95	5378658	sway-1.12.drop	pcre2 pango cairo	
-swaybg	1.2.2	e91226a6990981d76c2a82ccf8521a7b0e525089f5012e799e69fcb0d966aeb0	14399	swaybg-1.2.2.drop	cairo wayland	
-swaylock	1.8.6	78950ff934c326145f45240f1d6b8c41ea0e44b0d717a79c5fc8a57686b435c3	31294	swaylock-1.8.6.drop	cairo libxkbcommon wayland	
-t2fanrd	0.1.0	a264f94134f84a4a5c14b7bdae63e223c7eb948de0d30eae54a38a3f32095e72	248397	t2fanrd-0.1.0.drop		
-tcc	0.9.27.20250903	28b25cc03b02e060a83868630f3c490d67f7588346e1615fc63c897dd226944a	398763	tcc-0.9.27.20250903.drop		
-terminus-font	4.49.1	2e42496d6a197081630657b6328f6a91c39d57656e789821eb14a6d009e71c39	2425492	terminus-font-4.49.1.drop		
-tiny-dfr	0.3.7	0cec06ccb10636f1b49692354ad83b59b88703ebe5da2f174c36f19c37eb65a6	746083	tiny-dfr-0.3.7.drop	pango	
-tuigreet	0.11.1	d51d5763aca683811ff2f346731e00f40281b09248009a089434d4e5128974c1	1502698	tuigreet-0.11.1.drop	greetd libgcc	
-twm	1.0.13.1	2fa4881b1f471ecd2144614680931e401540a67209aff023020c68612e1326ad	111692	twm-1.0.13.1.drop	libXmu	
-util-linux	2.41.4	a2d3fbb89386ebfbc305e652d6b3e99bb4ceff7af0f84c936ddf3df9363e093f	3280803	util-linux-2.41.4.drop	zlib	
-uxterm	411	f04372735c3d7710721aad3a8215f386116b933aaa91f84688794c12688f3ce3	502833	uxterm-411.drop	libXaw libXft	
-virtualbox	7.1.6	8ccf43186eb60025655fa4896742f5f360df57bd09724d5891b8ad5a8c6728c4	388	virtualbox-7.1.6.drop	libpng openssl libvpx libX11 libXt	
-vulkan-headers	1.4.350.1	c3bccc4ec7a24d9c79c883ee10732903fb4cf04802978e990bf0c4baa97c144b	3193142	vulkan-headers-1.4.350.1.drop		
-vulkan-loader	1.4.350.1	d54c003a2a68499a77ac781f4489a08bb168df8cfaa439f97e84bdd045cd23ca	170834	vulkan-loader-1.4.350.1.drop		
-w3m	0.5.6	e29fd5846071de12d1c31c2bf9ad1ef5625da5062eef4c0c979a47637e09f03f	1199152	w3m-0.5.6.drop	zlib openssl libX11	
-waybar	0.15.0	fecfc2f6e64cf5e60069fd98818773437a36d5b26dc198a9d2bc2071ec6029f6	964624	waybar-0.15.0.drop	wayland	
-waydroid	1.6.3	11e910d470cd50966e151d297a85b73706fdfc0ac347306af2833325d9dbe662	226228	waydroid-1.6.3.drop	python3 lxc	
-wayland	1.26.0	1ae39b0b6a12fa739a80d1bdb97cadb3a2a8e1eaa354958235de8c9b3af54358	74207	wayland-1.26.0.drop		
-wayland-protocols	1.49	79907f4d4f77c8f1573cc19fbf8caa23ed271f3ea53b2db76e76d6095e9e0ce1	205984	wayland-protocols-1.49.drop	wayland	
-wayland-scanner	1.23.0	fb16a57efda72259ceee7ef66950a52dcea11c76e4c71c8fa3f2eb6bf1fb3a70	151444	wayland-scanner-1.23.0.drop		
-wine	11.16	157a1abd8e5208acab01ec2ee69ca2532f9e07444d13196a3d97bb8e76795b29	58645946	wine-11.16.drop	freetype fontconfig libX11 libXext libXrender mesa alsa-lib	
-wireplumber	0.5.15	1f88083358ea0f6465ed6ee7815da082108f7dbb9a8f4b4649cbe8f061438483	556948	wireplumber-0.5.15.drop	pipewire	
-wl-clipboard	2.3.0	f203a8dec9f894f0241d10aad57e454f7a5b0f2db4bbce16681bf8135ce22c0a	42780	wl-clipboard-2.3.0.drop	wayland	
-wlr-protocols	main	9dad0d5742f3851df9c0b2f9afa4d55637481a693a1631a395cc01bc04c9bc50	75403	wlr-protocols-main.drop		
-wlroots	0.20	2a388f1cb313a984036c53acab979b88b64c1ef6c486f56c746157f59ae163bb	275	wlroots-0.20.drop		
-wlsunset	0.4.0	06ab3c389a0360fc730103783bd1577ab2ce104d65c5bedc8aaaca096a8ed464	13497	wlsunset-0.4.0.drop	wayland	
-wmenu	0.1.8	67f605f77f43440bd83aeea1f0a0ad5ac6a21450b3ad1e3fc0641c660449adeb	34397	wmenu-0.1.8.drop		
-wpa_supplicant	2.12	8a0ccd82297d05ed348e4b88e8cd5e49cc8b716fe99fe64857085bc598076f41	1603162	wpa_supplicant-2.12.drop	openssl	
-wtype	0.4	57d0d68539268289694925ed8b1a24af751311bb7a5cee429d508947fabfcb1d	8512	wtype-0.4.drop	libxkbcommon wayland	
-xarchiver	0.5.4.26	04c1365b90b4687809acb8625505adaf741e0028d689c18dbfda70c1f1cb97db	457097	xarchiver-0.5.4.26.drop		
-xbiff	1.0.6	7a5aa9aac957988794b4946e4b897d33c962925f7a2a014a85633cd9f3945f84	10870	xbiff-1.0.6.drop	libXaw	
-xcalc	1.1.3	8514e123f8f7366936155ace5bde634125087db46e3195fd418b9a32d8a7cdb3	27665	xcalc-1.1.3.drop	libXaw	
-xcb-proto	1.17.0	623756ef4a64beea630e126a0fd8115431d1af81baa019586a8efe86873fb1e8	116278	xcb-proto-1.17.0.drop		
-xcb-util-cursor	0.1.4	1e1b3544f9e542d20f73ed7fa863bdb678efe32129dd3b2266aa29d6dbbd036d	9238	xcb-util-cursor-0.1.4.drop	xcb-util-renderutil xcb-util-image	
-xcb-util-image	0.4.1	ecf3cf896b7bb1fadb0784c8079cf6b31a1793c503ffe80440b486a1a8e2fa27	8474	xcb-util-image-0.4.1.drop		
-xcb-util-keysyms	0.4.1	92972e8749de1af0258171aef0f09d4cb77b62ea4513575d34751ec01e453059	4896	xcb-util-keysyms-0.4.1.drop	libxcb	
-xcb-util-renderutil	0.3.10	9ba9c5442b85cc56574e63c2701b6dd8983580908a8c9086888a9188a8523f6c	7048	xcb-util-renderutil-0.3.10.drop	libxcb	
-xcb-util-wm	0.4.2	586dcb4258be2ebb9b5deb8c2a8985f24e91aa18ead29b2465a6b97e1732d995	22636	xcb-util-wm-0.4.2.drop	libxcb	
-xclip	0.13	5b957446dfa10a56408e35e396e66893d73cc879f3185f85b2a6ee0ae255ce63	13349	xclip-0.13.drop	libXmu	
-xclipboard	1.1.6	248057a2554ff2c41e160684640c7100d1d097e0bc0f4a72b61d5559665b9402	16516	xclipboard-1.1.6.drop	libXaw	
-xclock	1.2.1	84272c0a49ba3a538187737303074f9046c7adf77701b02d0e7afce37666f040	31235	xclock-1.2.1.drop	libXmu libXaw libXft	
-xcutsel	1.0	31b0d2e77b094c4a5a5505590af1da68fdc076c898d3793354d15cb07ecec87c	272	xcutsel-1.0.drop		
-xdpyinfo	1.4.0	74b11a0bfb1f977ac149d68f4220aa11b4d82c45b6dfc8128bcb7ad121278745	13814	xdpyinfo-1.4.0.drop	libXext libXtst libXrender libXcomposite libXinerama	
-xedit	1.2.5	556e28b2462a1c22741abcc3fceb09ec70c515134d8d1161e61f299ce32a156b	368933	xedit-1.2.5.drop	libXaw	
-xev	1.2.6	d69b52522154fa45161ed4b6a53901d9ec9042f6a451f4119cc80fd3b41ac136	14286	xev-1.2.6.drop	libXrandr	
-xeyes	1.3.1	fa696ebfd2ed97a52f041f25e8da85132c43a9a04565cc12a86fa6cb14f7f443	13661	xeyes-1.3.1.drop	libXmu libXt libXrender libXi	
-xf86-input-libinput	1.5.0	6094daefc2f96867173cdfe6bc22e1b742b4035f01a8c6e52f3dc6be0fd6d324	44737	xf86-input-libinput-1.5.0.drop		
-xf86-video-modesetting	main	cec132263e6b285f31e6eee5b2b438d07541abae413e49aae8e4ce092bb787cd	1690147	xf86-video-modesetting-main.drop		
-xfd	1.1.5	845c70e27ab7129277dd7d73f6208a01150b49571f33782de7470498677b4634	17119	xfd-1.1.5.drop	libXaw freetype libXft	
-xfe	2.1.7	e7d956cb0490cfb7b89c7d61370bfd762d595e25bb1ac128c4e037df081d0cc4	5693496	xfe-2.1.7.drop	libpng	
-xfontsel	1.1.2	8d6bf077509b17a77400fcf11a620754077a147632467068141353b93de82f12	24850	xfontsel-1.1.2.drop	libXaw	
-xfsprogs	6.19.0	9024c1fed7a2f4e1a0712a114a6fba77976d1a762739339f04205c976fdacd2e	1917472	xfsprogs-6.19.0.drop		
-xgamma	1.0.8	f9008efc08f8bfb9cac835c1473a4751841167333c5608a5e7181a92820d7ab4	6608	xgamma-1.0.8.drop	libX11	
-xhost	1.0.10	27ce5692f54f387616bb18593713c7f38b98ea24aa727168f651b99bf84a7c4b	9646	xhost-1.0.10.drop	libX11 libXmu	
-xkbcomp	1.5.0	6c3cc435e28427f2b8af2e32d4e719b5d18095ac0dd4a1597b0bcc59bdda3912	99069	xkbcomp-1.5.0.drop	libX11 libxkbfile	
-xkeyboard-config	2.48	e9ab8daebc3fa826e2bf31133a5cf7c1bab28062930f99d8c04d942b4566241c	2928418	xkeyboard-config-2.48.drop	xkbcomp	
-xkill	1.0.7	9d8e11720f5ac56139c33959dedf7e9a7952ea3952a862971cd9b984bccd7cbe	7128	xkill-1.0.7.drop	libX11 libXmu	
-xlibre-server	main	64c9dda36527132d53a3ec69d9b5c3028002b788058ec77d979fdca37c9e8b25	1690354	xlibre-server-main.drop	xorg-server-common libpciaccess nettle gmp libXfont2 libfontenc freetype libtirpc mit-krb5-libs libxcvt xkbcomp libxkbfile xkeyboard-config pixman libdrm libXau libXdmcp libxshmfence eudev brotli libpng bzip2 zlib	
-xload	1.2.2	879e5f274c6689f9d0f6573360422f165d941f7c2eeea8992ebf75e049576a55	9302	xload-1.2.2.drop	libXaw	
-xlogo	1.0.7	697b733d0e8d87a4f81341c33e6ce621677d9967dff970a705b4b7d53189acba	8836	xlogo-1.0.7.drop	libXaw	
-xlsfonts	1.0.9	0e3582e4fdb54f1a111e4e20bdb6f03bbf5c1d380f2dceb80229cff020fb30a2	10413	xlsfonts-1.0.9.drop	libX11	
-xmag	1.0.8	a0f20fd822b0c23f50c09d9ebbc1c967ef51f8df6e498b260f761c51a49a09de	20444	xmag-1.0.8.drop	libXau libXext libXmu libXaw	
-xmessage	1.0.7	04509963083bba82b690e94a2ad822ada7198b6e538cacb2291dc82929bb1f71	12250	xmessage-1.0.7.drop	libXaw	
-xmodmap	1.0.12	de19c35fe99d107cb95be2a289766d869fa5f79456e10232ac0def17e3e17707	21641	xmodmap-1.0.12.drop	libX11	
-xorg-server-common	21.1.24	93c41ea7a371e47bb082442324f2b0bf0ec46354c157a3bfe7b33b31a7d88d35	7189	xorg-server-common-21.1.24.drop		
-xorgproto	2025.1	21259689296d4548cc8a0f3f0384e6a7eeb4d1779132c3db4419651a017d7555	329111	xorgproto-2025.1.drop		
-xprop	1.2.8	922a6095d28c880b2cd4b6b1e4f1c56eec7e4d365fc38c6fd39e25b0fce14c7e	25708	xprop-1.2.8.drop	libX11 libXmu	
-xrdb	1.2.3	6d5c8a12cd1d72266cfb5edd5d710dcad304c963bb82017e9cc9bc30afbb1363	18942	xrdb-1.2.3.drop	libX11 libXmu	
-xrefresh	1.1.1	7957cd835b0450d4d9259a90b079b791fbf4c6f99a6862206a12cec51d8a76ba	6967	xrefresh-1.1.1.drop	libX11	
-xrestop	0.6	ef1326d46bc4e287fc87d0baa1eed7c72ef7c15c2bce13fa9f2794c773fffe1f	7651	xrestop-0.6.drop	libXres	
-xsel	1.2.1	c444b11621974f3571da584999b94224d2b970f4ab5c4cbcecee95e394b50a99	17209	xsel-1.2.1.drop	libXt	
-xterm	411	e0070e470938a4e2d1d2989a3c27f281f35f04b7f8c37874a674ea6b6ea70a36	502830	xterm-411.drop	libXaw libXft	
-xwd	1.0.10	abf74b0ac57fe6e357af8615211f995d37dc2cffe25e4d8e59c95b6a5790c169	17221	xwd-1.0.10.drop	libX11	
-xwininfo	1.1.7	a83328c0d9691a3e7e2d103057c8f4859c602e415fa5647f93ffbab0a1f3abc6	23110	xwininfo-1.1.7.drop	libX11	
-xwud	1.0.8	3209373b515b8ffc38e7028fac4499a1ad24a2b77ade22ace2c55a726f924b82	14531	xwud-1.0.8.drop	libX11	
-xxhash	0.8.2	9b8f50b98389b96e506fafee6c7c4f2d21665cc684590e0d23c5b7139d38e7d1	33076	xxhash-0.8.2.drop		
-xz-embedded	1.0	dbfafcbad6c82b4aca8a89e83b21644a80146bde326bd0b787c2382f416c7c27	334	xz-embedded-1.0.drop		
-yambar	1.10.0	ff6f0836ec5296438141c193bade4025bb44de127ed7bd67f1e725562a0d2246	163810	yambar-1.10.0.drop		
-yasm	1.3.0	82cdc0710ff24bbd89d99b18e3dd551b3f75deb151cfc9f2f9d3b415264f6242	1023429	yasm-1.3.0.drop		
-yyjson	0.12.0	4669e77dda746e4e4d60dc67ca7615e0ae1b4c1358e5422a0c24d2320a3f6878	120735	yyjson-0.12.0.drop		
-zathura	2026.07.18	c8ad07006f39a056e3ad48e2328f6427d338f0518d8095d68ca850760d905587	641067	zathura-2026.07.18.drop	zlib	
-zathura-pdf-mupdf	2026.07.18	669079244f0e61e2e36b5cdddb98358ce8ce0958cd171aa40de471354c4c4276	30333362	zathura-pdf-mupdf-2026.07.18.drop	zathura	
-zlib	1.3.2	e1b6500716d8d028591e95b3dd68687544634c56acb9a385e8c7b18580782e6d	53565	zlib-1.3.2.drop		
-zstd	1.5.7	138627312d72d24deeb27385335ea06894e5ca52903b63cf08cda057cd0d00fa	153330	zstd-1.5.7.drop	zlib	
+---
+title: "ports"
+---
+
+<style>
+/* Spread ports page to the edge of the screen */
+article {
+    max-width: none !important;
+    margin-right: 2em !important;
+}
+@media (max-width: 650px) {
+    article {
+        margin-right: 0 !important;
+    }
+}
+
+/* Arch/AUR Search Criteria Box */
+.pkg-search-box {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 4px;
+    margin: 1em 0 1.5em 0;
+    overflow: hidden;
+}
+.pkg-search-title {
+    background: rgba(44, 54, 99, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: #0c142e;
+    font-size: 1.05em;
+}
+.pkg-search-form {
+    padding: 0.8em 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1em;
+    align-items: end;
+}
+@media (max-width: 750px) {
+    .pkg-search-form {
+        grid-template-columns: 1fr;
+    }
+}
+.pkg-form-group {
+    display: flex;
+    flex-direction: column;
+}
+.pkg-form-group label {
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    color: #2c3663;
+}
+.pkg-form-group input, .pkg-form-group select {
+    padding: 0.45em 0.6em;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    background: #ffffff;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    width: 100%;
+}
+.pkg-stats {
+    font-size: 0.9em;
+    margin: 1.2em 0 0.6em 0;
+    color: #101426;
+}
+.pkg-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0.5em 0 1.5em 0;
+}
+.pkg-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+.pkg-table th {
+    background: rgba(44, 54, 99, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    padding: 0.6em 0.8em;
+    text-align: left;
+    color: #0c142e;
+    white-space: nowrap;
+}
+.pkg-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s ease;
+}
+.pkg-table th.sortable:hover {
+    background: rgba(44, 54, 99, 0.22);
+    color: #aa2022;
+}
+.sort-icon {
+    font-size: 0.85em;
+    margin-left: 0.35em;
+    color: #aa2022;
+}
+.pkg-table td {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    padding: 0.6em 0.8em;
+    vertical-align: top;
+}
+.pkg-table tr:hover {
+    background: rgba(255, 255, 255, 0.75);
+}
+.pkg-name {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+.pkg-desc {
+    color: #1f293d;
+    margin-top: 0.2em;
+}
+.pkg-tag {
+    display: inline-block;
+    padding: 0.15em 0.45em;
+    background: rgba(170, 32, 34, 0.12);
+    color: #aa2022;
+    border-radius: 3px;
+    font-size: 0.8em;
+    font-family: monospace;
+}
+.pkg-meta {
+    font-size: 0.8em;
+    color: #555;
+    white-space: nowrap;
+}
+.pkg-cmd {
+    font-family: monospace;
+    font-size: 0.82em;
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    color: #0c142e;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: all;
+    display: inline-block;
+}
+.pkg-cmd:hover {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #aa2022;
+}
+.catalog-link {
+    float: right;
+    font-size: 0.85em;
+    margin-top: -2.2em;
+}
+</style>
+
+<span class="catalog-link">Raw catalog: <a href="index.tsv" style="color: #aa2022;">index.tsv</a></span>
+
+<div class="pkg-search-box">
+    <div class="pkg-search-title">Search Criteria</div>
+    <div class="pkg-search-form">
+        <div class="pkg-form-group">
+            <label for="pkg-keywords">Keywords</label>
+            <input type="text" id="pkg-keywords" placeholder="Search by name or description..." oninput="filterPackages()">
+        </div>
+        <div class="pkg-form-group">
+            <label for="pkg-searchby">Search by</label>
+            <select id="pkg-searchby" onchange="filterPackages()">
+                <option value="all">Name, Description</option>
+                <option value="name">Name Only</option>
+                <option value="desc">Description Only</option>
+            </select>
+        </div>
+        <div class="pkg-form-group">
+            <label for="pkg-sort">Sort by</label>
+            <select id="pkg-sort" onchange="sortPackages()">
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="date-desc">Last Updated (Newest)</option>
+                <option value="date-asc">Last Updated (Oldest)</option>
+                <option value="size-desc">Size (Largest)</option>
+                <option value="size-asc">Size (Smallest)</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="pkg-stats" id="pkg-stats">
+  <strong>330 packages found.</strong> Page 1 of 1.
+</div>
+
+<div class="pkg-table-wrap">
+<table class="pkg-table" id="pkg-table">
+    <thead>
+        <tr>
+            <th class="sortable" style="width: 18%;" onclick="toggleSort('name')" title="Click to sort by Name">Name<span id="sort-icon-name" class="sort-icon"></span></th>
+            <th style="width: 10%;">Version</th>
+            <th>Description</th>
+            <th style="width: 14%;">Maintainer</th>
+            <th class="sortable" style="width: 15%;" onclick="toggleSort('date')" title="Click to sort by Last Updated">Last Updated<span id="sort-icon-date" class="sort-icon"></span></th>
+            <th class="sortable" style="width: 13%;" onclick="toggleSort('size')" title="Click to sort by Size">Package<span id="sort-icon-size" class="sort-icon"></span></th>
+        </tr>
+    </thead>
+    <tbody id="pkg-body">
+        <tr class="pkg-row" data-name="alacritty" data-desc="cross-platform, gpu-accelerated terminal emulator" data-date="2026-09-07" data-time="1788814060" data-size="3487634">
+            <td><a class="pkg-name" href="https://github.com/alacritty/alacritty" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alacritty</a></td>
+            <td><span class="pkg-tag">0.17.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Cross-platform, GPU-accelerated terminal emulator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in alacritty</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="alacritty-0.17.0.drop" download style="font-weight: bold; color: #aa2022;">alacritty-0.17.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="alsa-lib" data-desc="advanced linux sound architecture (alsa) library" data-date="2026-09-03" data-time="1788425243" data-size="552780">
+            <td><a class="pkg-name" href="https://www.alsa-project.org/wiki/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alsa-lib</a></td>
+            <td><span class="pkg-tag">1.2.16.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Advanced Linux Sound Architecture (ALSA) library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in alsa-lib</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="alsa-lib-1.2.16.1.drop" download style="font-weight: bold; color: #aa2022;">alsa-lib-1.2.16.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">539.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="alsa-utils" data-desc="advanced linux sound architecture (alsa) utilities" data-date="2026-09-07" data-time="1788814060" data-size="1380056">
+            <td><a class="pkg-name" href="https://www.alsa-project.org/wiki/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">alsa-utils</a></td>
+            <td><span class="pkg-tag">1.2.16-1</span></td>
+            <td>
+                <div class="pkg-desc">Advanced Linux Sound Architecture (ALSA) utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in alsa-utils</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="alsa-utils-1.2.16.drop" download style="font-weight: bold; color: #aa2022;">alsa-utils-1.2.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="appimage" data-desc="appimage runtime and desktop integration utility" data-date="2026-09-07" data-time="1788814060" data-size="366">
+            <td><a class="pkg-name" href="https://github.com/AppImage/AppImageKit" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">appimage</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">AppImage runtime and desktop integration utility</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in appimage</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="appimage-1.0.drop" download style="font-weight: bold; color: #aa2022;">appimage-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">366 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="appimaged" data-desc="daemon that monitors the system and integrates appimages" data-date="2026-09-07" data-time="1788814060" data-size="384">
+            <td><a class="pkg-name" href="https://github.com/probonopd/go-appimage" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">appimaged</a></td>
+            <td><span class="pkg-tag">20240901-1</span></td>
+            <td>
+                <div class="pkg-desc">Daemon that monitors the system and integrates AppImages</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in appimaged</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="appimaged-20240901.drop" download style="font-weight: bold; color: #aa2022;">appimaged-20240901.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">384 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="apple-bcm-firmware" data-desc="wi-fi and bluetooth firmware from macos big sur for t2 and m1 macs" data-date="2026-09-07" data-time="1788740375" data-size="31820329">
+            <td><a class="pkg-name" href="https://github.com/NoaHimesaka1873/apple-bcm-firmware" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-bcm-firmware</a></td>
+            <td><span class="pkg-tag">14.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Wi-Fi and Bluetooth Firmware from macOS Big Sur for T2 and M1 Macs</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in apple-bcm-firmware</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="apple-bcm-firmware-14.0.drop" download style="font-weight: bold; color: #aa2022;">apple-bcm-firmware-14.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">30.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="apple-t2-audio-config" data-desc="alsa ucm configuration for the t2bce audio driver on apple t2 macs" data-date="2026-09-07" data-time="1788814060" data-size="1203">
+            <td><a class="pkg-name" href="https://github.com/deqrocks/t2bce" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">apple-t2-audio-config</a></td>
+            <td><span class="pkg-tag">0.4-1</span></td>
+            <td>
+                <div class="pkg-desc">ALSA UCM configuration for the t2bce audio driver on Apple T2 Macs</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in apple-t2-audio-config</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="apple-t2-audio-config-0.4.drop" download style="font-weight: bold; color: #aa2022;">apple-t2-audio-config-0.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="autoconf" data-desc="generates automatic source code configuration scripts" data-date="2026-09-03" data-time="1788425244" data-size="993107">
+            <td><a class="pkg-name" href="http://www.gnu.org/software/autoconf" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">autoconf</a></td>
+            <td><span class="pkg-tag">2.73-1</span></td>
+            <td>
+                <div class="pkg-desc">Generates automatic source code configuration scripts</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in autoconf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="autoconf-2.73.drop" download style="font-weight: bold; color: #aa2022;">autoconf-2.73.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">969.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="automake" data-desc="gnu standards-compliant makefile generator" data-date="2026-09-03" data-time="1788425244" data-size="679196">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/automake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">automake</a></td>
+            <td><span class="pkg-tag">1.16.5-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU Standards-compliant Makefile generator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in automake</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="automake-1.16.5.drop" download style="font-weight: bold; color: #aa2022;">automake-1.16.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">663.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="azpainter" data-desc="painting software for illustrations and image editing" data-date="2026-09-07" data-time="1788814060" data-size="847255">
+            <td><a class="pkg-name" href="https://azelpg.gitlab.io/azsky2" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">azpainter</a></td>
+            <td><span class="pkg-tag">3.0.12-1</span></td>
+            <td>
+                <div class="pkg-desc">Painting software for illustrations and image editing</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in azpainter</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="azpainter-3.0.12.drop" download style="font-weight: bold; color: #aa2022;">azpainter-3.0.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">827.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="badwolf" data-desc="minimalist and privacy-oriented webkitgtk+ browser" data-date="2026-09-07" data-time="1788814060" data-size="92640">
+            <td><a class="pkg-name" href="https://hacktivis.me/projects/badwolf" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">badwolf</a></td>
+            <td><span class="pkg-tag">1.4.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Minimalist and privacy-oriented WebKitGTK+ browser</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in badwolf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="badwolf-1.4.0.drop" download style="font-weight: bold; color: #aa2022;">badwolf-1.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">90.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bash" data-desc="gnu bourne-again shell" data-date="2026-09-07" data-time="1788805670" data-size="2662552">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bash</a></td>
+            <td><span class="pkg-tag">5.3-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU Bourne-Again Shell</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bash</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bash-5.3.drop" download style="font-weight: bold; color: #aa2022;">bash-5.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.5 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bc" data-desc="arbitrary-precision decimal arithmetic language and calculator" data-date="2026-09-07" data-time="1788805670" data-size="154017">
+            <td><a class="pkg-name" href="https://github.com/gavinhoward/bc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bc</a></td>
+            <td><span class="pkg-tag">7.0.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Arbitrary-precision decimal arithmetic language and calculator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bc-7.0.3.drop" download style="font-weight: bold; color: #aa2022;">bc-7.0.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">150.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bearssl" data-desc="implementation of the ssl/tls protocol in c" data-date="2026-09-03" data-time="1788425242" data-size="370393">
+            <td><a class="pkg-name" href="https://bearssl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bearssl</a></td>
+            <td><span class="pkg-tag">0.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Implementation of the SSL/TLS protocol in C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bearssl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="bearssl-0.6.drop" download style="font-weight: bold; color: #aa2022;">bearssl-0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">361.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="binutils" data-desc="gnu binary utilities" data-date="2026-09-07" data-time="1788814060" data-size="2216751">
+            <td><a class="pkg-name" href="http://www.gnu.org/software/binutils/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">binutils</a></td>
+            <td><span class="pkg-tag">2.44-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU binary utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in binutils</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="binutils-2.44.drop" download style="font-weight: bold; color: #aa2022;">binutils-2.44.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bison" data-desc="gnu general-purpose parser generator" data-date="2026-09-07" data-time="1788805670" data-size="916951">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/bison/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bison</a></td>
+            <td><span class="pkg-tag">3.8.2-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU general-purpose parser generator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bison</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bison-3.8.2.drop" download style="font-weight: bold; color: #aa2022;">bison-3.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">895.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bitmap" data-desc="bitmap editor and converter utilities for x" data-date="2026-09-07" data-time="1788814060" data-size="62032">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bitmap</a></td>
+            <td><span class="pkg-tag">1.1.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Bitmap editor and converter utilities for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bitmap</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bitmap-1.1.2.drop" download style="font-weight: bold; color: #aa2022;">bitmap-1.1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">60.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="brotli" data-desc="generic-purpose lossless compression algorithm" data-date="2026-09-08" data-time="1788867103" data-size="408855">
+            <td><a class="pkg-name" href="https://github.com/google/brotli" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">brotli</a></td>
+            <td><span class="pkg-tag">1.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Generic-purpose lossless compression algorithm</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in brotli</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="brotli-1.1.0.drop" download style="font-weight: bold; color: #aa2022;">brotli-1.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">399.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bsd-mk-files" data-desc="system bmake mk files" data-date="2026-09-05" data-time="1788649871" data-size="354">
+            <td><a class="pkg-name" href="https://github.com/crux-arm/mk-files" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bsd-mk-files</a></td>
+            <td><span class="pkg-tag">20240414-1</span></td>
+            <td>
+                <div class="pkg-desc">System bmake mk files</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bsd-mk-files</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="bsd-mk-files-20240414.drop" download style="font-weight: bold; color: #aa2022;">bsd-mk-files-20240414.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">354 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bsdmake" data-desc="bsd make (bmake) ported from netbsd" data-date="2026-09-03" data-time="1788425242" data-size="241982">
+            <td><a class="pkg-name" href="https://github.com/crux-arm/bmake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bsdmake</a></td>
+            <td><span class="pkg-tag">20240414-1</span></td>
+            <td>
+                <div class="pkg-desc">BSD Make (bmake) ported from NetBSD</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bsdmake</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="bsdmake-20240414.drop" download style="font-weight: bold; color: #aa2022;">bsdmake-20240414.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">236.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="btrfs-progs" data-desc="btrfs filesystem utilities" data-date="2026-09-07" data-time="1788814060" data-size="3023404">
+            <td><a class="pkg-name" href="https://btrfs.wiki.kernel.org/index.php/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">btrfs-progs</a></td>
+            <td><span class="pkg-tag">6.11-1</span></td>
+            <td>
+                <div class="pkg-desc">Btrfs filesystem utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in btrfs-progs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="btrfs-progs-6.11.drop" download style="font-weight: bold; color: #aa2022;">btrfs-progs-6.11.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bubblewrap" data-desc="unprivileged sandboxing tool utilizing linux user namespaces" data-date="2026-09-07" data-time="1788814060" data-size="40714">
+            <td><a class="pkg-name" href="https://github.com/containers/bubblewrap" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bubblewrap</a></td>
+            <td><span class="pkg-tag">0.12.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Unprivileged sandboxing tool utilizing Linux user namespaces</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bubblewrap</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="bubblewrap-0.12.0.drop" download style="font-weight: bold; color: #aa2022;">bubblewrap-0.12.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">39.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="byacc" data-desc="berkeley yacc, a lalr(1) parser generator" data-date="2026-09-03" data-time="1788425243" data-size="78108">
+            <td><a class="pkg-name" href="https://invisible-island.net/byacc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">byacc</a></td>
+            <td><span class="pkg-tag">20260126-1</span></td>
+            <td>
+                <div class="pkg-desc">Berkeley yacc, a LALR(1) parser generator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in byacc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="byacc-20260126.drop" download style="font-weight: bold; color: #aa2022;">byacc-20260126.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">76.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="bzip2" data-desc="freely available, patent free, high-quality data compressor" data-date="2026-09-08" data-time="1788867103" data-size="59998">
+            <td><a class="pkg-name" href="https://sourceware.org/bzip2/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">bzip2</a></td>
+            <td><span class="pkg-tag">1.0.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Freely available, patent free, high-quality data compressor</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in bzip2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="bzip2-1.0.8.drop" download style="font-weight: bold; color: #aa2022;">bzip2-1.0.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">58.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="ca-certificates" data-desc="common ca certificates for ssl/tls from mozilla" data-date="2026-09-03" data-time="1788425243" data-size="166292">
+            <td><a class="pkg-name" href="https://wiki.mozilla.org/NSS:Root_certs" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">ca-certificates</a></td>
+            <td><span class="pkg-tag">20250419+3.127-1</span></td>
+            <td>
+                <div class="pkg-desc">Common CA certificates for SSL/TLS from Mozilla</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in ca-certificates</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="ca-certificates-20250419+3.127.drop" download style="font-weight: bold; color: #aa2022;">ca-certificates-20250419+3.127.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">162.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="cage" data-desc="kiosk compositor for wayland" data-date="2026-09-07" data-time="1788814060" data-size="24210">
+            <td><a class="pkg-name" href="https://www.hjdskes.nl/projects/cage/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cage</a></td>
+            <td><span class="pkg-tag">0.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Kiosk compositor for Wayland</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in cage</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="cage-0.3.0.drop" download style="font-weight: bold; color: #aa2022;">cage-0.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="cairo" data-desc="vector graphics library with cross-device output support" data-date="2026-09-07" data-time="1788814060" data-size="659295">
+            <td><a class="pkg-name" href="https://cairographics.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cairo</a></td>
+            <td><span class="pkg-tag">1.18.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Vector graphics library with cross-device output support</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in cairo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="cairo-1.18.4.drop" download style="font-weight: bold; color: #aa2022;">cairo-1.18.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">643.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="cargo" data-desc="rust package manager" data-date="2026-09-07" data-time="1788806300" data-size="10896050">
+            <td><a class="pkg-name" href="https://crates.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cargo</a></td>
+            <td><span class="pkg-tag">1.78.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Rust package manager</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in cargo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="cargo-1.78.0.drop" download style="font-weight: bold; color: #aa2022;">cargo-1.78.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="chrony" data-desc="versatile implementation of the network time protocol (ntp)" data-date="2026-09-07" data-time="1788814060" data-size="299673">
+            <td><a class="pkg-name" href="https://chrony-project.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">chrony</a></td>
+            <td><span class="pkg-tag">4.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Versatile implementation of the Network Time Protocol (NTP)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in chrony</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="chrony-4.8.drop" download style="font-weight: bold; color: #aa2022;">chrony-4.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">292.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="clang" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649872" data-size="254">
+            <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">clang</a></td>
+            <td><span class="pkg-tag">21-1</span></td>
+            <td>
+                <div class="pkg-desc">LLVM meta package</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in clang</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="clang-21.drop" download style="font-weight: bold; color: #aa2022;">clang-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">254 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="compiler-rt" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649873" data-size="265">
+            <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">compiler-rt</a></td>
+            <td><span class="pkg-tag">21-1</span></td>
+            <td>
+                <div class="pkg-desc">LLVM meta package</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in compiler-rt</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="compiler-rt-21.drop" download style="font-weight: bold; color: #aa2022;">compiler-rt-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">265 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="containerd" data-desc="open and reliable container runtime daemon" data-date="2026-09-07" data-time="1788814060" data-size="29457515">
+            <td><a class="pkg-name" href="https://github.com/containerd/containerd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">containerd</a></td>
+            <td><span class="pkg-tag">2.3.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Open and reliable container runtime daemon</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in containerd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="containerd-2.3.2.drop" download style="font-weight: bold; color: #aa2022;">containerd-2.3.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="cproc" data-desc="c11 compiler using qbe as backend written by michael forney" data-date="2026-09-05" data-time="1788649871" data-size="365">
+            <td><a class="pkg-name" href="https://github.com/michaelforney/cproc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cproc</a></td>
+            <td><span class="pkg-tag">main-1</span></td>
+            <td>
+                <div class="pkg-desc">C11 compiler using QBE as backend written by Michael Forney</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in cproc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="cproc-main.drop" download style="font-weight: bold; color: #aa2022;">cproc-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">365 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="crio" data-desc="lightweight container runtime interface for kubernetes" data-date="2026-09-07" data-time="1788814060" data-size="24298327">
+            <td><a class="pkg-name" href="https://github.com/cri-o/cri-o" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">crio</a></td>
+            <td><span class="pkg-tag">1.36.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Lightweight Container Runtime Interface for Kubernetes</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in crio</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="crio-1.36.3.drop" download style="font-weight: bold; color: #aa2022;">crio-1.36.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="crun" data-desc="fast and lightweight fully compliant oci container runtime in c" data-date="2026-09-07" data-time="1788814060" data-size="284581">
+            <td><a class="pkg-name" href="https://github.com/containers/crun" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">crun</a></td>
+            <td><span class="pkg-tag">1.29.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast and lightweight fully compliant OCI container runtime in C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in crun</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="crun-1.29.1.drop" download style="font-weight: bold; color: #aa2022;">crun-1.29.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">277.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="cryptsetup" data-desc="setup virtual encryption devices under linux dm-crypt" data-date="2026-09-07" data-time="1788814060" data-size="910017">
+            <td><a class="pkg-name" href="https://gitlab.com/cryptsetup/cryptsetup" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">cryptsetup</a></td>
+            <td><span class="pkg-tag">2.8.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Setup virtual encryption devices under Linux dm-crypt</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in cryptsetup</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="cryptsetup-2.8.7.drop" download style="font-weight: bold; color: #aa2022;">cryptsetup-2.8.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">888.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="curl" data-desc="client that groks urls" data-date="2026-09-07" data-time="1788814060" data-size="284961">
+            <td><a class="pkg-name" href="https://curl.se" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">curl</a></td>
+            <td><span class="pkg-tag">8.21.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Client that groks URLs</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in curl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="curl-8.21.0.drop" download style="font-weight: bold; color: #aa2022;">curl-8.21.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">278.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dav1d" data-desc="small and fast av1 decoder" data-date="2026-09-03" data-time="1788425244" data-size="18716">
+            <td><a class="pkg-name" href="https://code.videolan.org/videolan/dav1d" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dav1d</a></td>
+            <td><span class="pkg-tag">1.5.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Small and fast AV1 Decoder</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dav1d</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="dav1d-1.5.3.drop" download style="font-weight: bold; color: #aa2022;">dav1d-1.5.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dbus" data-desc="message bus system" data-date="2026-09-07" data-time="1788811964" data-size="166206">
+            <td><a class="pkg-name" href="https://dbus.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dbus</a></td>
+            <td><span class="pkg-tag">1.16.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Message bus system</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dbus</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="dbus-1.16.2.drop" download style="font-weight: bold; color: #aa2022;">dbus-1.16.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">162.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dejavu-fonts-ttf" data-desc="dejavu family of truetype fonts" data-date="2026-09-03" data-time="1788425246" data-size="5421004">
+            <td><a class="pkg-name" href="https://dejavu-fonts.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dejavu-fonts-ttf</a></td>
+            <td><span class="pkg-tag">2.37-1</span></td>
+            <td>
+                <div class="pkg-desc">DejaVu family of TrueType fonts</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dejavu-fonts-ttf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="dejavu-fonts-ttf-2.37.drop" download style="font-weight: bold; color: #aa2022;">dejavu-fonts-ttf-2.37.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dhcpcd" data-desc="rfc2131 compliant dhcp client" data-date="2026-09-07" data-time="1788814060" data-size="206853">
+            <td><a class="pkg-name" href="https://roy.marples.name/projects/dhcpcd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dhcpcd</a></td>
+            <td><span class="pkg-tag">10.3.2-1</span></td>
+            <td>
+                <div class="pkg-desc">RFC2131 compliant DHCP client</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dhcpcd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="dhcpcd-10.3.2.drop" download style="font-weight: bold; color: #aa2022;">dhcpcd-10.3.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">202.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="diffutils" data-desc="gnu diff utilities" data-date="2026-09-03" data-time="1788425245" data-size="639231">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/diffutils" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">diffutils</a></td>
+            <td><span class="pkg-tag">3.12-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU diff utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in diffutils</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="diffutils-3.12.drop" download style="font-weight: bold; color: #aa2022;">diffutils-3.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">624.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dillo" data-desc="small and light graphical web browser" data-date="2026-09-07" data-time="1788814060" data-size="800789">
+            <td><a class="pkg-name" href="https://dillo-browser.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dillo</a></td>
+            <td><span class="pkg-tag">3.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Small and light graphical web browser</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dillo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="dillo-3.3.0.drop" download style="font-weight: bold; color: #aa2022;">dillo-3.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">782.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="distrobox" data-desc="use any linux distribution inside your terminal using podman or docker" data-date="2026-09-05" data-time="1788649871" data-size="384">
+            <td><a class="pkg-name" href="https://github.com/89luca89/distrobox" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">distrobox</a></td>
+            <td><span class="pkg-tag">1.8.1.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Use any Linux distribution inside your terminal using Podman or Docker</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in distrobox</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="distrobox-1.8.1.2.drop" download style="font-weight: bold; color: #aa2022;">distrobox-1.8.1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">384 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dmenu" data-desc="generic menu for x" data-date="2026-09-07" data-time="1788814060" data-size="21439">
+            <td><a class="pkg-name" href="https://tools.suckless.org/dmenu/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dmenu</a></td>
+            <td><span class="pkg-tag">5.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Generic menu for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dmenu</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="dmenu-5.4.drop" download style="font-weight: bold; color: #aa2022;">dmenu-5.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">20.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="doas" data-desc="execute commands as another user (openbsd doas replacement for sudo)" data-date="2026-09-07" data-time="1788770278" data-size="76569">
+            <td><a class="pkg-name" href="https://github.com/Duncaen/OpenDoas" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">doas</a></td>
+            <td><span class="pkg-tag">6.8.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Execute commands as another user (OpenBSD doas replacement for sudo)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in doas</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="doas-6.8.2.drop" download style="font-weight: bold; color: #aa2022;">doas-6.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">74.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="docker" data-desc="pack, ship and run any application as a lightweight container" data-date="2026-09-07" data-time="1788814060" data-size="315">
+            <td><a class="pkg-name" href="https://github.com/moby/moby" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">docker</a></td>
+            <td><span class="pkg-tag">29.7.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Pack, ship and run any application as a lightweight container</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in docker</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="docker-29.7.2.drop" download style="font-weight: bold; color: #aa2022;">docker-29.7.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">315 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dosfstools" data-desc="dos filesystem tools" data-date="2026-09-07" data-time="1788814060" data-size="94481">
+            <td><a class="pkg-name" href="https://github.com/dosfstools/dosfstools" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dosfstools</a></td>
+            <td><span class="pkg-tag">4.2-1</span></td>
+            <td>
+                <div class="pkg-desc">DOS filesystem tools</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dosfstools</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="dosfstools-4.2.drop" download style="font-weight: bold; color: #aa2022;">dosfstools-4.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">92.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="drop" data-desc="native minimal binary package manager for distill linux" data-date="2026-09-07" data-time="1788811800" data-size="68927">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/drop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">drop</a></td>
+            <td><span class="pkg-tag">0.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Native minimal binary package manager for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in drop</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="drop-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">drop-0.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">67.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dropbear" data-desc="small ssh server and client" data-date="2026-09-07" data-time="1788814060" data-size="295108">
+            <td><a class="pkg-name" href="https://matt.ucc.asn.au/dropbear/dropbear.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dropbear</a></td>
+            <td><span class="pkg-tag">2025.89-1</span></td>
+            <td>
+                <div class="pkg-desc">Small SSH server and client</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dropbear</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="dropbear-2025.89.drop" download style="font-weight: bold; color: #aa2022;">dropbear-2025.89.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">288.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dwl" data-desc="compact, hackable wayland compositor based on wlroots" data-date="2026-09-05" data-time="1788649871" data-size="354">
+            <td><a class="pkg-name" href="https://codeberg.org/dwl/dwl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dwl</a></td>
+            <td><span class="pkg-tag">0.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Compact, hackable Wayland compositor based on wlroots</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dwl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="dwl-0.6.drop" download style="font-weight: bold; color: #aa2022;">dwl-0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">354 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="dwm" data-desc="dynamic window manager for x" data-date="2026-09-07" data-time="1788814060" data-size="30681">
+            <td><a class="pkg-name" href="https://dwm.suckless.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">dwm</a></td>
+            <td><span class="pkg-tag">6.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Dynamic window manager for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in dwm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="dwm-6.8.drop" download style="font-weight: bold; color: #aa2022;">dwm-6.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">30.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="e2fsprogs" data-desc="ext2/3/4 filesystem utilities" data-date="2026-09-08" data-time="1788865897" data-size="1949496">
+            <td><a class="pkg-name" href="http://e2fsprogs.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">e2fsprogs</a></td>
+            <td><span class="pkg-tag">1.47.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Ext2/3/4 Filesystem Utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in e2fsprogs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="e2fsprogs-1.47.2.drop" download style="font-weight: bold; color: #aa2022;">e2fsprogs-1.47.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="e2fsprogs-libs" data-desc="ext2/3/4 filesystem utilities - shared libraries" data-date="2026-09-08" data-time="1788867103" data-size="236889">
+            <td><a class="pkg-name" href="http://e2fsprogs.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">e2fsprogs-libs</a></td>
+            <td><span class="pkg-tag">1.47.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Ext2/3/4 Filesystem Utilities - shared libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in e2fsprogs-libs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="e2fsprogs-libs-1.47.2.drop" download style="font-weight: bold; color: #aa2022;">e2fsprogs-libs-1.47.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">231.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="efibootmgr" data-desc="tool to modify uefi firmware boot manager variables" data-date="2026-09-07" data-time="1788814060" data-size="30653">
+            <td><a class="pkg-name" href="https://github.com/rhboot/efibootmgr" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">efibootmgr</a></td>
+            <td><span class="pkg-tag">18-1</span></td>
+            <td>
+                <div class="pkg-desc">Tool to modify UEFI Firmware Boot Manager Variables</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in efibootmgr</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="efibootmgr-18.drop" download style="font-weight: bold; color: #aa2022;">efibootmgr-18.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">29.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="elfutils" data-desc="utilities and libraries to handle elf object files" data-date="2026-09-07" data-time="1788805670" data-size="0">
+            <td><a class="pkg-name" href="https://sourceware.org/elfutils/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">elfutils</a></td>
+            <td><span class="pkg-tag">0.191-1</span></td>
+            <td>
+                <div class="pkg-desc">Utilities and libraries to handle ELF object files</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in elfutils</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="elfutils-0.191.drop" download style="font-weight: bold; color: #aa2022;">elfutils-0.191.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="eudev" data-desc="fork of systemd-udev (enhanced userland device daemon)" data-date="2026-09-08" data-time="1788865890" data-size="1991589">
+            <td><a class="pkg-name" href="https://github.com/eudev-project/eudev" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">eudev</a></td>
+            <td><span class="pkg-tag">3.2.14-1</span></td>
+            <td>
+                <div class="pkg-desc">Fork of systemd-udev (enhanced userland device daemon)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in eudev</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="eudev-3.2.14.drop" download style="font-weight: bold; color: #aa2022;">eudev-3.2.14.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="eudev-libudev" data-desc="fork of systemd-udev - shared library" data-date="2026-09-08" data-time="1788867103" data-size="73112">
+            <td><a class="pkg-name" href="https://github.com/eudev-project/eudev" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">eudev-libudev</a></td>
+            <td><span class="pkg-tag">3.2.14-1</span></td>
+            <td>
+                <div class="pkg-desc">Fork of systemd-udev - shared library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in eudev-libudev</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="eudev-libudev-3.2.14.drop" download style="font-weight: bold; color: #aa2022;">eudev-libudev-3.2.14.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">71.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="expat" data-desc="xml parser library" data-date="2026-09-08" data-time="1788867103" data-size="73236">
+            <td><a class="pkg-name" href="https://libexpat.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">expat</a></td>
+            <td><span class="pkg-tag">2.8.4-1</span></td>
+            <td>
+                <div class="pkg-desc">XML parser library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in expat</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="expat-2.8.4.drop" download style="font-weight: bold; color: #aa2022;">expat-2.8.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">71.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fastfetch" data-desc="fast, highly customizable system information fetching tool" data-date="2026-09-07" data-time="1788811964" data-size="781824">
+            <td><a class="pkg-name" href="https://github.com/fastfetch-cli/fastfetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fastfetch</a></td>
+            <td><span class="pkg-tag">2.67.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast, highly customizable system information fetching tool</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fastfetch</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="fastfetch-2.67.1.drop" download style="font-weight: bold; color: #aa2022;">fastfetch-2.67.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">763.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fbpad" data-desc="fbpad package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="322">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/fbpad" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fbpad</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">fbpad package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fbpad</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="fbpad-1.0.drop" download style="font-weight: bold; color: #aa2022;">fbpad-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">322 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fbv" data-desc="framebuffer image viewer" data-date="2026-09-07" data-time="1788814060" data-size="15716">
+            <td><a class="pkg-name" href="http://www.eclis.ch/fbv/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fbv</a></td>
+            <td><span class="pkg-tag">1.0b-1</span></td>
+            <td>
+                <div class="pkg-desc">Framebuffer image viewer</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fbv</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="fbv-1.0b.drop" download style="font-weight: bold; color: #aa2022;">fbv-1.0b.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">15.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="feh" data-desc="fast and light imlib2-based image viewer" data-date="2026-09-07" data-time="1788814060" data-size="206734">
+            <td><a class="pkg-name" href="https://feh.finalrewind.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">feh</a></td>
+            <td><span class="pkg-tag">3.12.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast and light imlib2-based image viewer</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in feh</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="feh-3.12.2.drop" download style="font-weight: bold; color: #aa2022;">feh-3.12.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">201.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="ffmpeg" data-desc="decoding, encoding and streaming software (transitional dummy package)" data-date="2026-09-07" data-time="1788814060" data-size="346">
+            <td><a class="pkg-name" href="https://www.ffmpeg.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">ffmpeg</a></td>
+            <td><span class="pkg-tag">4.4.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Decoding, encoding and streaming software (transitional dummy package)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in ffmpeg</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="ffmpeg-4.4.8.drop" download style="font-weight: bold; color: #aa2022;">ffmpeg-4.4.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">346 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fim" data-desc="fbi improved - image viewer" data-date="2026-09-07" data-time="1788814060" data-size="821864">
+            <td><a class="pkg-name" href="https://www.nongnu.org/fbi-improved/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fim</a></td>
+            <td><span class="pkg-tag">0.7.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Fbi IMproved - image viewer</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fim</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="fim-0.7.1.drop" download style="font-weight: bold; color: #aa2022;">fim-0.7.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">802.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="firejail" data-desc="linux namespaces sandbox program using seccomp-bpf filters" data-date="2026-09-07" data-time="1788814060" data-size="780809">
+            <td><a class="pkg-name" href="https://github.com/netblue30/firejail" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">firejail</a></td>
+            <td><span class="pkg-tag">0.9.80-1</span></td>
+            <td>
+                <div class="pkg-desc">Linux namespaces sandbox program using seccomp-bpf filters</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in firejail</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="firejail-0.9.80.drop" download style="font-weight: bold; color: #aa2022;">firejail-0.9.80.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">762.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="flac" data-desc="free lossless audio codec" data-date="2026-09-07" data-time="1788814060" data-size="188153">
+            <td><a class="pkg-name" href="https://xiph.org/flac/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flac</a></td>
+            <td><span class="pkg-tag">1.5.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Free Lossless Audio Codec</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in flac</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="flac-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">flac-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">183.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="flatpak" data-desc="application sandboxing and distribution framework for desktop apps" data-date="2026-09-07" data-time="1788814060" data-size="2728853">
+            <td><a class="pkg-name" href="https://github.com/flatpak/flatpak" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flatpak</a></td>
+            <td><span class="pkg-tag">1.18.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Application sandboxing and distribution framework for desktop apps</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in flatpak</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="flatpak-1.18.1.drop" download style="font-weight: bold; color: #aa2022;">flatpak-1.18.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.6 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="flex" data-desc="fast lexical analyzer" data-date="2026-09-03" data-time="1788425247" data-size="352541">
+            <td><a class="pkg-name" href="https://github.com/westes/flex" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">flex</a></td>
+            <td><span class="pkg-tag">2.6.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast Lexical Analyzer</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in flex</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="flex-2.6.4.drop" download style="font-weight: bold; color: #aa2022;">flex-2.6.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">344.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="font-awesome" data-desc="an iconic font" data-date="2026-09-03" data-time="1788425247" data-size="111594">
+            <td><a class="pkg-name" href="https://fontawesome.com/v4.7.0/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">font-awesome</a></td>
+            <td><span class="pkg-tag">4.7.0-1</span></td>
+            <td>
+                <div class="pkg-desc">An iconic font</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in font-awesome</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="font-awesome-4.7.0.drop" download style="font-weight: bold; color: #aa2022;">font-awesome-4.7.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">109.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fontconfig" data-desc="library for configuring and customizing font access" data-date="2026-09-07" data-time="1788814060" data-size="202730">
+            <td><a class="pkg-name" href="http://www.fontconfig.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fontconfig</a></td>
+            <td><span class="pkg-tag">2.17.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Library for configuring and customizing font access</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fontconfig</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="fontconfig-2.17.1.drop" download style="font-weight: bold; color: #aa2022;">fontconfig-2.17.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">198.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="foot" data-desc="fast, lightweight, and minimalistic wayland terminal emulator" data-date="2026-09-03" data-time="1788425247" data-size="378964">
+            <td><a class="pkg-name" href="https://codeberg.org/dnkl/foot" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">foot</a></td>
+            <td><span class="pkg-tag">1.17.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast, lightweight, and minimalistic Wayland terminal emulator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in foot</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="foot-1.17.2.drop" download style="font-weight: bold; color: #aa2022;">foot-1.17.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">370.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="freetype" data-desc="font rendering engine and library api" data-date="2026-09-07" data-time="1788814060" data-size="398546">
+            <td><a class="pkg-name" href="https://www.freetype.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">freetype</a></td>
+            <td><span class="pkg-tag">2.14.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Font rendering engine and library API</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in freetype</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="freetype-2.14.3.drop" download style="font-weight: bold; color: #aa2022;">freetype-2.14.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">389.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fribidi" data-desc="free implementation of the unicode bidirectional algorithm" data-date="2026-09-03" data-time="1788425247" data-size="32494">
+            <td><a class="pkg-name" href="https://github.com/fribidi/fribidi/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fribidi</a></td>
+            <td><span class="pkg-tag">1.0.16-1</span></td>
+            <td>
+                <div class="pkg-desc">Free Implementation of the Unicode Bidirectional Algorithm</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fribidi</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="fribidi-1.0.16.drop" download style="font-weight: bold; color: #aa2022;">fribidi-1.0.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">31.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fslsfonts" data-desc="fslsfonts package for distill linux" data-date="2026-09-05" data-time="1788649872" data-size="276">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/fslsfonts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fslsfonts</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">fslsfonts package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fslsfonts</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="fslsfonts-1.0.drop" download style="font-weight: bold; color: #aa2022;">fslsfonts-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">276 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="fuzzel" data-desc="application launcher for wlroots based wayland compositors" data-date="2026-09-07" data-time="1788814060" data-size="125753">
+            <td><a class="pkg-name" href="https://codeberg.org/dnkl/fuzzel" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">fuzzel</a></td>
+            <td><span class="pkg-tag">1.14.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Application launcher for wlroots based Wayland compositors</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in fuzzel</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="fuzzel-1.14.1.drop" download style="font-weight: bold; color: #aa2022;">fuzzel-1.14.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">122.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="gcc" data-desc="the gnu compiler collection (c compiler and runtime)" data-date="2026-09-07" data-time="1788808449" data-size="49726407">
+            <td><a class="pkg-name" href="https://gcc.gnu.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gcc</a></td>
+            <td><span class="pkg-tag">13.2.1-1</span></td>
+            <td>
+                <div class="pkg-desc">The GNU Compiler Collection (C compiler and runtime)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in gcc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="gcc-13.2.1.drop" download style="font-weight: bold; color: #aa2022;">gcc-13.2.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">47.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="gcompat" data-desc="the gnu c library compatibility layer for musl" data-date="2026-09-07" data-time="1788809348" data-size="35501">
+            <td><a class="pkg-name" href="https://github.com/Stantheman/gcompat" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gcompat</a></td>
+            <td><span class="pkg-tag">1.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">The GNU C Library compatibility layer for musl</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in gcompat</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="gcompat-1.1.0.drop" download style="font-weight: bold; color: #aa2022;">gcompat-1.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">34.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="gdk-pixbuf" data-desc="image loading library for gtk+" data-date="2026-09-08" data-time="1788867103" data-size="684437">
+            <td><a class="pkg-name" href="https://wiki.gnome.org/Projects/GdkPixbuf" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gdk-pixbuf</a></td>
+            <td><span class="pkg-tag">2.42.12-1</span></td>
+            <td>
+                <div class="pkg-desc">Image loading library for GTK+</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in gdk-pixbuf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="gdk-pixbuf-2.42.12.drop" download style="font-weight: bold; color: #aa2022;">gdk-pixbuf-2.42.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">668.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="gettext-libs" data-desc="gnu internationalization library (libintl)" data-date="2026-09-08" data-time="1788867103" data-size="38340">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/gettext/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gettext-libs</a></td>
+            <td><span class="pkg-tag">0.22.5-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU internationalization library (libintl)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in gettext-libs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="gettext-libs-0.22.5.drop" download style="font-weight: bold; color: #aa2022;">gettext-libs-0.22.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">37.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="giflib" data-desc="library to handle, display and manipulate gif images" data-date="2026-09-03" data-time="1788425247" data-size="48656">
+            <td><a class="pkg-name" href="https://sourceforge.net/projects/giflib/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">giflib</a></td>
+            <td><span class="pkg-tag">6.1.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Library to handle, display and manipulate GIF images</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in giflib</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="giflib-6.1.3.drop" download style="font-weight: bold; color: #aa2022;">giflib-6.1.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">47.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="git" data-desc="fast, scalable, distributed revision control system" data-date="2026-09-07" data-time="1788805670" data-size="20745757">
+            <td><a class="pkg-name" href="https://git-scm.com" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">git</a></td>
+            <td><span class="pkg-tag">2.55.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast, scalable, distributed revision control system</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in git</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="git-2.55.0.drop" download style="font-weight: bold; color: #aa2022;">git-2.55.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">19.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="glib" data-desc="gnu library of c routines" data-date="2026-09-08" data-time="1788867103" data-size="4993819">
+            <td><a class="pkg-name" href="https://www.gtk.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">glib</a></td>
+            <td><span class="pkg-tag">2.88.0-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU library of C routines</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in glib</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="glib-2.88.0.drop" download style="font-weight: bold; color: #aa2022;">glib-2.88.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">4.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="glslang" data-desc="khronos reference front-end for glsl, essl, and sample spir-v generator" data-date="2026-09-07" data-time="1788814060" data-size="3344283">
+            <td><a class="pkg-name" href="https://github.com/KhronosGroup/glslang" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">glslang</a></td>
+            <td><span class="pkg-tag">16.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Khronos reference front-end for GLSL, ESSL, and sample SPIR-V generator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in glslang</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="glslang-16.3.0.drop" download style="font-weight: bold; color: #aa2022;">glslang-16.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="gmp" data-desc="library for arbitrary precision arithmetic" data-date="2026-09-08" data-time="1788867103" data-size="259250">
+            <td><a class="pkg-name" href="https://gmplib.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gmp</a></td>
+            <td><span class="pkg-tag">6.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Library for arbitrary precision arithmetic</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in gmp</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="gmp-6.3.0.drop" download style="font-weight: bold; color: #aa2022;">gmp-6.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">253.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="go" data-desc="go programming language" data-date="2026-09-03" data-time="1788425262" data-size="64215375">
+            <td><a class="pkg-name" href="https://go.dev/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">go</a></td>
+            <td><span class="pkg-tag">1.26.5-1</span></td>
+            <td>
+                <div class="pkg-desc">Go Programming Language</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in go</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="go-1.26.5.drop" download style="font-weight: bold; color: #aa2022;">go-1.26.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">61.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="gptfdisk" data-desc="gpt fdisk text-mode partitioning tool" data-date="2026-09-07" data-time="1788814060" data-size="357943">
+            <td><a class="pkg-name" href="https://www.rodsbooks.com/gdisk/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">gptfdisk</a></td>
+            <td><span class="pkg-tag">1.0.10-1</span></td>
+            <td>
+                <div class="pkg-desc">GPT fdisk text-mode partitioning tool</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in gptfdisk</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="gptfdisk-1.0.10.drop" download style="font-weight: bold; color: #aa2022;">gptfdisk-1.0.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">349.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="graphite" data-desc="graphite smart font system - shared library" data-date="2026-09-08" data-time="1788867103" data-size="88821">
+            <td><a class="pkg-name" href="https://github.com/silnrsi/graphite" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">graphite</a></td>
+            <td><span class="pkg-tag">1.3.14-1</span></td>
+            <td>
+                <div class="pkg-desc">Graphite smart font system - shared library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in graphite</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="graphite-1.3.14.drop" download style="font-weight: bold; color: #aa2022;">graphite-1.3.14.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">86.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="greetd" data-desc="minimal and flexible login manager daemon" data-date="2026-09-08" data-time="1788867103" data-size="822022">
+            <td><a class="pkg-name" href="https://git.sr.ht/~kennylevinsen/greetd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">greetd</a></td>
+            <td><span class="pkg-tag">0.10.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Minimal and flexible login manager daemon</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in greetd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="greetd-0.10.3.drop" download style="font-weight: bold; color: #aa2022;">greetd-0.10.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">802.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="grim" data-desc="grab images from a wayland compositor" data-date="2026-09-07" data-time="1788814060" data-size="19110">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/emersion/grim" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">grim</a></td>
+            <td><span class="pkg-tag">1.5.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Grab images from a Wayland compositor</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in grim</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="grim-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">grim-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="harfbuzz" data-desc="opentype text shaping engine" data-date="2026-09-07" data-time="1788814060" data-size="153747">
+            <td><a class="pkg-name" href="https://harfbuzz.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">harfbuzz</a></td>
+            <td><span class="pkg-tag">14.3.1-1</span></td>
+            <td>
+                <div class="pkg-desc">OpenType text shaping engine</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in harfbuzz</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="harfbuzz-14.3.1.drop" download style="font-weight: bold; color: #aa2022;">harfbuzz-14.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">150.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="hsetroot" data-desc="tool which changes x server wallpapers" data-date="2026-09-07" data-time="1788814060" data-size="10374">
+            <td><a class="pkg-name" href="https://github.com/himdel/hsetroot" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">hsetroot</a></td>
+            <td><span class="pkg-tag">1.0.5-1</span></td>
+            <td>
+                <div class="pkg-desc">Tool which changes X server wallpapers</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in hsetroot</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="hsetroot-1.0.5.drop" download style="font-weight: bold; color: #aa2022;">hsetroot-1.0.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="imv" data-desc="image viewer for x11/wayland" data-date="2026-09-07" data-time="1788814060" data-size="116821">
+            <td><a class="pkg-name" href="https://sr.ht/~exec64/imv/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">imv</a></td>
+            <td><span class="pkg-tag">5.0.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Image viewer for X11/Wayland</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in imv</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="imv-5.0.1.drop" download style="font-weight: bold; color: #aa2022;">imv-5.0.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">114.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="incus" data-desc="community fork of lxd system container and virtual machine manager" data-date="2026-09-07" data-time="1788814060" data-size="34796994">
+            <td><a class="pkg-name" href="https://github.com/lxc/incus" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">incus</a></td>
+            <td><span class="pkg-tag">6.22.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Community fork of LXD system container and virtual machine manager</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in incus</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="incus-6.22.0.drop" download style="font-weight: bold; color: #aa2022;">incus-6.22.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="iproute2" data-desc="ip routing utilities" data-date="2026-09-07" data-time="1788814060" data-size="1752904">
+            <td><a class="pkg-name" href="https://wiki.linuxfoundation.org/networking/iproute2" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">iproute2</a></td>
+            <td><span class="pkg-tag">7.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">IP Routing Utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in iproute2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="iproute2-7.1.0.drop" download style="font-weight: bold; color: #aa2022;">iproute2-7.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="jwm" data-desc="light-weight window manager for the x11 window system" data-date="2026-09-08" data-time="1788867103" data-size="176863">
+            <td><a class="pkg-name" href="http://joewing.net/projects/jwm" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">jwm</a></td>
+            <td><span class="pkg-tag">2.4.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Light-weight window manager for the X11 Window System</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in jwm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="jwm-2.4.6.drop" download style="font-weight: bold; color: #aa2022;">jwm-2.4.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">172.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="kitty" data-desc="modern, hackable, featureful, opengl based terminal emulator" data-date="2026-09-07" data-time="1788814060" data-size="12690444">
+            <td><a class="pkg-name" href="https://sw.kovidgoyal.net/kitty/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kitty</a></td>
+            <td><span class="pkg-tag">0.48.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Modern, hackable, featureful, OpenGL based terminal emulator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in kitty</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="kitty-0.48.2.drop" download style="font-weight: bold; color: #aa2022;">kitty-0.48.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="kitty-terminfo" data-desc="modern, hackable, featureful, opengl based terminal emulator" data-date="2026-09-07" data-time="1788814060" data-size="2330">
+            <td><a class="pkg-name" href="https://sw.kovidgoyal.net/kitty/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kitty-terminfo</a></td>
+            <td><span class="pkg-tag">0.48.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Modern, hackable, featureful, OpenGL based terminal emulator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in kitty-terminfo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="kitty-terminfo-0.48.2.drop" download style="font-weight: bold; color: #aa2022;">kitty-terminfo-0.48.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="kmod" data-desc="linux kernel module handling tools" data-date="2026-09-07" data-time="1788805670" data-size="313791">
+            <td><a class="pkg-name" href="https://kernel.org/pub/linux/utils/kernel/kmod/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kmod</a></td>
+            <td><span class="pkg-tag">32-1</span></td>
+            <td>
+                <div class="pkg-desc">Linux kernel module handling tools</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in kmod</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="kmod-32.drop" download style="font-weight: bold; color: #aa2022;">kmod-32.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">306.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="kmscon" data-desc="linux kms/drm based virtual console emulator" data-date="2026-09-07" data-time="1788814060" data-size="1361893">
+            <td><a class="pkg-name" href="https://github.com/kmscon/kmscon" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">kmscon</a></td>
+            <td><span class="pkg-tag">9.3.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Linux KMS/DRM based virtual Console Emulator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in kmscon</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="kmscon-9.3.4.drop" download style="font-weight: bold; color: #aa2022;">kmscon-9.3.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libICE" data-desc="x.org inter-client exchange library" data-date="2026-09-08" data-time="1788867103" data-size="44596">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libICE</a></td>
+            <td><span class="pkg-tag">1.1.2-1</span></td>
+            <td>
+                <div class="pkg-desc">X.Org Inter-Client Exchange library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libICE</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libICE-1.1.2.drop" download style="font-weight: bold; color: #aa2022;">libICE-1.1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">43.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libSM" data-desc="x.org session management library" data-date="2026-09-08" data-time="1788867103" data-size="16231">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libSM</a></td>
+            <td><span class="pkg-tag">1.2.6-1</span></td>
+            <td>
+                <div class="pkg-desc">X.Org Session Management library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libSM</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libSM-1.2.6.drop" download style="font-weight: bold; color: #aa2022;">libSM-1.2.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">15.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libX11" data-desc="base x libraries from xorg" data-date="2026-09-07" data-time="1788814060" data-size="1545266">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libx11" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libX11</a></td>
+            <td><span class="pkg-tag">1.8.13-1</span></td>
+            <td>
+                <div class="pkg-desc">Base X libraries from Xorg</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libX11</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libX11-1.8.13.drop" download style="font-weight: bold; color: #aa2022;">libX11-1.8.13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.5 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXScrnSaver" data-desc="x11 screen saver library" data-date="2026-09-07" data-time="1788814060" data-size="4641">
+            <td><a class="pkg-name" href="https://cgit.freedesktop.org/xorg/lib/libXScrnSaver/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXScrnSaver</a></td>
+            <td><span class="pkg-tag">1.2.5-1</span></td>
+            <td>
+                <div class="pkg-desc">X11 Screen Saver Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXScrnSaver</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXScrnSaver-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">libXScrnSaver-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">4.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXau" data-desc="authorization protocol for x" data-date="2026-09-07" data-time="1788814060" data-size="5645">
+            <td><a class="pkg-name" href="$XORG_SITE" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXau</a></td>
+            <td><span class="pkg-tag">1.0.12-1</span></td>
+            <td>
+                <div class="pkg-desc">Authorization Protocol for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXau</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXau-1.0.12.drop" download style="font-weight: bold; color: #aa2022;">libXau-1.0.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXaw" data-desc="x athena widgets library" data-date="2026-09-07" data-time="1788814060" data-size="345535">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXaw</a></td>
+            <td><span class="pkg-tag">1.0.16-1</span></td>
+            <td>
+                <div class="pkg-desc">X Athena Widgets Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXaw</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXaw-1.0.16.drop" download style="font-weight: bold; color: #aa2022;">libXaw-1.0.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">337.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXaw3d" data-desc="x athena widget 3d library" data-date="2026-09-07" data-time="1788814060" data-size="169840">
+            <td><a class="pkg-name" href="https://cgit.freedesktop.org/xorg/lib/libXaw3d" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXaw3d</a></td>
+            <td><span class="pkg-tag">1.6.6-1</span></td>
+            <td>
+                <div class="pkg-desc">X Athena Widget 3d library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXaw3d</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXaw3d-1.6.6.drop" download style="font-weight: bold; color: #aa2022;">libXaw3d-1.6.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">165.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXcomposite" data-desc="x composite library" data-date="2026-09-07" data-time="1788814060" data-size="3738">
+            <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXcomposite</a></td>
+            <td><span class="pkg-tag">0.4.7-1</span></td>
+            <td>
+                <div class="pkg-desc">X Composite Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXcomposite</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXcomposite-0.4.7.drop" download style="font-weight: bold; color: #aa2022;">libXcomposite-0.4.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXcursor" data-desc="client-side cursor loading library for x" data-date="2026-09-07" data-time="1788814060" data-size="20470">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcursor" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXcursor</a></td>
+            <td><span class="pkg-tag">1.2.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Client-side cursor loading library for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXcursor</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXcursor-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">libXcursor-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">20.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXdamage" data-desc="xdamage extension library" data-date="2026-09-07" data-time="1788814060" data-size="4687">
+            <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXdamage</a></td>
+            <td><span class="pkg-tag">1.1.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Xdamage extension Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXdamage</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXdamage-1.1.7.drop" download style="font-weight: bold; color: #aa2022;">libXdamage-1.1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">4.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXdmcp" data-desc="x display manager control protocol library" data-date="2026-09-07" data-time="1788814060" data-size="26409">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXdmcp</a></td>
+            <td><span class="pkg-tag">1.1.5-1</span></td>
+            <td>
+                <div class="pkg-desc">X Display Manager Control Protocol library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXdmcp</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXdmcp-1.1.5.drop" download style="font-weight: bold; color: #aa2022;">libXdmcp-1.1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">25.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXext" data-desc="x extension library" data-date="2026-09-07" data-time="1788814060" data-size="55476">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxext" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXext</a></td>
+            <td><span class="pkg-tag">1.3.7-1</span></td>
+            <td>
+                <div class="pkg-desc">X Extension library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXext</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXext-1.3.7.drop" download style="font-weight: bold; color: #aa2022;">libXext-1.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">54.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXfixes" data-desc="xfixes library and extension of x randr from modular x.org" data-date="2026-09-07" data-time="1788814060" data-size="8330">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXfixes</a></td>
+            <td><span class="pkg-tag">6.0.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Xfixes library and extension of X RandR from modular X.org</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXfixes</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXfixes-6.0.2.drop" download style="font-weight: bold; color: #aa2022;">libXfixes-6.0.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXfont2" data-desc="x font 2 library" data-date="2026-09-08" data-time="1788867103" data-size="124167">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXfont2</a></td>
+            <td><span class="pkg-tag">2.0.7-1</span></td>
+            <td>
+                <div class="pkg-desc">X font 2 Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXfont2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libXfont2-2.0.7.drop" download style="font-weight: bold; color: #aa2022;">libXfont2-2.0.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">121.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXft" data-desc="library for configuring and customizing font access" data-date="2026-09-07" data-time="1788814060" data-size="46999">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxft" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXft</a></td>
+            <td><span class="pkg-tag">2.3.9-1</span></td>
+            <td>
+                <div class="pkg-desc">Library for configuring and customizing font access</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXft</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXft-2.3.9.drop" download style="font-weight: bold; color: #aa2022;">libXft-2.3.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">45.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXi" data-desc="x input extension library" data-date="2026-09-07" data-time="1788814060" data-size="29110">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxi" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXi</a></td>
+            <td><span class="pkg-tag">1.8.3-1</span></td>
+            <td>
+                <div class="pkg-desc">X Input extension library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXi</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXi-1.8.3.drop" download style="font-weight: bold; color: #aa2022;">libXi-1.8.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXinerama" data-desc="x panoramix extension library" data-date="2026-09-07" data-time="1788814060" data-size="3650">
+            <td><a class="pkg-name" href="https://www.x.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXinerama</a></td>
+            <td><span class="pkg-tag">1.1.6-1</span></td>
+            <td>
+                <div class="pkg-desc">X PanoramiX extension library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXinerama</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXinerama-1.1.6.drop" download style="font-weight: bold; color: #aa2022;">libXinerama-1.1.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXmu" data-desc="x miscellaneous utilities library" data-date="2026-09-07" data-time="1788814060" data-size="77319">
+            <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXmu</a></td>
+            <td><span class="pkg-tag">1.3.1-1</span></td>
+            <td>
+                <div class="pkg-desc">X Miscellaneous Utilities library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXmu</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXmu-1.3.1.drop" download style="font-weight: bold; color: #aa2022;">libXmu-1.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">75.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXmuu" data-desc="libxmuu package for distill linux" data-date="2026-09-03" data-time="1788425251" data-size="77315">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/libXmuu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXmuu</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">libXmuu package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXmuu</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="libXmuu-1.0.drop" download style="font-weight: bold; color: #aa2022;">libXmuu-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">75.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXpm" data-desc="x pixmap library from modular xorg x11" data-date="2026-09-07" data-time="1788814060" data-size="58020">
+            <td><a class="pkg-name" href="https://www.x.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXpm</a></td>
+            <td><span class="pkg-tag">3.5.19-1</span></td>
+            <td>
+                <div class="pkg-desc">X PixMap Library from modular Xorg X11</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXpm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXpm-3.5.19.drop" download style="font-weight: bold; color: #aa2022;">libXpm-3.5.19.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">56.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXrandr" data-desc="x randr library from x.org" data-date="2026-09-07" data-time="1788811964" data-size="18321">
+            <td><a class="pkg-name" href="https://www.x.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXrandr</a></td>
+            <td><span class="pkg-tag">1.5.5-1</span></td>
+            <td>
+                <div class="pkg-desc">X RandR Library from X.org</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXrandr</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXrandr-1.5.5.drop" download style="font-weight: bold; color: #aa2022;">libXrandr-1.5.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">17.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXrender" data-desc="x render library" data-date="2026-09-07" data-time="1788814060" data-size="24329">
+            <td><a class="pkg-name" href="${XORG_SITE}" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXrender</a></td>
+            <td><span class="pkg-tag">0.9.12-1</span></td>
+            <td>
+                <div class="pkg-desc">X Render Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXrender</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXrender-0.9.12.drop" download style="font-weight: bold; color: #aa2022;">libXrender-0.9.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXres" data-desc="x resource information extension library" data-date="2026-09-07" data-time="1788814060" data-size="5524">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxres" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXres</a></td>
+            <td><span class="pkg-tag">1.2.3-1</span></td>
+            <td>
+                <div class="pkg-desc">X Resource Information Extension Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXres</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXres-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">libXres-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXt" data-desc="x toolkit intrinsics library" data-date="2026-09-07" data-time="1788814060" data-size="187877">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXt</a></td>
+            <td><span class="pkg-tag">1.3.1-1</span></td>
+            <td>
+                <div class="pkg-desc">X Toolkit Intrinsics library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXt</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXt-1.3.1.drop" download style="font-weight: bold; color: #aa2022;">libXt-1.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">183.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXtst" data-desc="x tst library" data-date="2026-09-07" data-time="1788814060" data-size="9545">
+            <td><a class="pkg-name" href="${XORG_SITE}" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXtst</a></td>
+            <td><span class="pkg-tag">1.2.5-1</span></td>
+            <td>
+                <div class="pkg-desc">X Tst Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXtst</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXtst-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">libXtst-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libXv" data-desc="xv extension library" data-date="2026-09-07" data-time="1788814060" data-size="7903">
+            <td><a class="pkg-name" href="${XORG_SITE}" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libXv</a></td>
+            <td><span class="pkg-tag">1.0.13-1</span></td>
+            <td>
+                <div class="pkg-desc">Xv Extension library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libXv</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libXv-1.0.13.drop" download style="font-weight: bold; color: #aa2022;">libXv-1.0.13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libarchive" data-desc="library to read/write several different streaming archive formats" data-date="2026-09-07" data-time="1788814060" data-size="379367">
+            <td><a class="pkg-name" href="https://www.libarchive.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libarchive</a></td>
+            <td><span class="pkg-tag">3.8.9-1</span></td>
+            <td>
+                <div class="pkg-desc">Library to read/write several different streaming archive formats</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libarchive</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libarchive-3.8.9.drop" download style="font-weight: bold; color: #aa2022;">libarchive-3.8.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">370.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libblkid" data-desc="block device identification library (from util-linux)" data-date="2026-09-08" data-time="1788867103" data-size="171670">
+            <td><a class="pkg-name" href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libblkid</a></td>
+            <td><span class="pkg-tag">2.41.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Block device identification library (from util-linux)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libblkid</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libblkid-2.41.4.drop" download style="font-weight: bold; color: #aa2022;">libblkid-2.41.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">167.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libcxx" data-desc="llvm compiler infrastructure project - version ${_major}" data-date="2026-09-07" data-time="1788814060" data-size="459890">
+            <td><a class="pkg-name" href="https://www.llvm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libcxx</a></td>
+            <td><span class="pkg-tag">22.1.4-1</span></td>
+            <td>
+                <div class="pkg-desc">LLVM Compiler Infrastructure Project - Version ${_major}</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libcxx</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libcxx-22.1.4.drop" download style="font-weight: bold; color: #aa2022;">libcxx-22.1.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">449.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libcxxabi" data-desc="llvm compiler infrastructure project - version ${_major}" data-date="2026-09-07" data-time="1788814060" data-size="106065">
+            <td><a class="pkg-name" href="https://www.llvm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libcxxabi</a></td>
+            <td><span class="pkg-tag">22.1.4-1</span></td>
+            <td>
+                <div class="pkg-desc">LLVM Compiler Infrastructure Project - Version ${_major}</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libcxxabi</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libcxxabi-22.1.4.drop" download style="font-weight: bold; color: #aa2022;">libcxxabi-22.1.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">103.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libdatrie" data-desc="double-array trie library" data-date="2026-09-08" data-time="1788867103" data-size="22013">
+            <td><a class="pkg-name" href="https://linux.thai.net/projects/datrie" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libdatrie</a></td>
+            <td><span class="pkg-tag">0.2.14-1</span></td>
+            <td>
+                <div class="pkg-desc">Double-array trie library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libdatrie</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libdatrie-0.2.14.drop" download style="font-weight: bold; color: #aa2022;">libdatrie-0.2.14.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">21.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libdav1d" data-desc="av1 cross-platform decoder - shared libraries" data-date="2026-09-08" data-time="1788867103" data-size="722387">
+            <td><a class="pkg-name" href="https://code.videolan.org/videolan/dav1d" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libdav1d</a></td>
+            <td><span class="pkg-tag">1.5.3-1</span></td>
+            <td>
+                <div class="pkg-desc">AV1 cross-platform decoder - shared libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libdav1d</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libdav1d-1.5.3.drop" download style="font-weight: bold; color: #aa2022;">libdav1d-1.5.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">705.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libdrm" data-desc="userspace interface to kernel drm services" data-date="2026-09-07" data-time="1788811964" data-size="171475">
+            <td><a class="pkg-name" href="https://dri.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libdrm</a></td>
+            <td><span class="pkg-tag">2.4.134-1</span></td>
+            <td>
+                <div class="pkg-desc">Userspace interface to kernel DRM services</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libdrm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libdrm-2.4.134.drop" download style="font-weight: bold; color: #aa2022;">libdrm-2.4.134.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">167.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libelf" data-desc="elf object file access library" data-date="2026-09-07" data-time="1788805670" data-size="177430">
+            <td><a class="pkg-name" href="https://sourceware.org/elfutils/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libelf</a></td>
+            <td><span class="pkg-tag">0.191-1</span></td>
+            <td>
+                <div class="pkg-desc">ELF object file access library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libelf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libelf-0.191.drop" download style="font-weight: bold; color: #aa2022;">libelf-0.191.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">173.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libepoxy" data-desc="library for handling opengl function pointer management for you" data-date="2026-09-07" data-time="1788814060" data-size="266018">
+            <td><a class="pkg-name" href="https://github.com/anholt/libepoxy" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libepoxy</a></td>
+            <td><span class="pkg-tag">1.5.10-1</span></td>
+            <td>
+                <div class="pkg-desc">Library for handling OpenGL function pointer management for you</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libepoxy</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libepoxy-1.5.10.drop" download style="font-weight: bold; color: #aa2022;">libepoxy-1.5.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">259.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="liberation-fonts-ttf" data-desc="fonts from redhat with same metrics as times, arial and courier" data-date="2026-09-03" data-time="1788425255" data-size="2385846">
+            <td><a class="pkg-name" href="https://github.com/liberationfonts/liberation-fonts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">liberation-fonts-ttf</a></td>
+            <td><span class="pkg-tag">2.1.5-1</span></td>
+            <td>
+                <div class="pkg-desc">Fonts from RedHat with same metrics as Times, Arial and Courier</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in liberation-fonts-ttf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="liberation-fonts-ttf-2.1.5.drop" download style="font-weight: bold; color: #aa2022;">liberation-fonts-ttf-2.1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libffi" data-desc="foreign function interface library" data-date="2026-09-08" data-time="1788867103" data-size="18574">
+            <td><a class="pkg-name" href="http://sourceware.org/libffi" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libffi</a></td>
+            <td><span class="pkg-tag">3.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Foreign Function Interface library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libffi</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libffi-3.3.drop" download style="font-weight: bold; color: #aa2022;">libffi-3.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libfontenc" data-desc="fontenc library from x.org" data-date="2026-09-07" data-time="1788814060" data-size="13037">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libfontenc</a></td>
+            <td><span class="pkg-tag">1.1.9-1</span></td>
+            <td>
+                <div class="pkg-desc">Fontenc Library from X.org</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libfontenc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libfontenc-1.1.9.drop" download style="font-weight: bold; color: #aa2022;">libfontenc-1.1.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libgcc" data-desc="gnu c compiler runtime shared libraries" data-date="2026-09-08" data-time="1788867103" data-size="82145">
+            <td><a class="pkg-name" href="https://gcc.gnu.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libgcc</a></td>
+            <td><span class="pkg-tag">14.2.1-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU C Compiler runtime shared libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libgcc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libgcc-14.2.1.drop" download style="font-weight: bold; color: #aa2022;">libgcc-14.2.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">80.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libglvnd" data-desc="gl vendor-neutral dispatch library" data-date="2026-09-07" data-time="1788814060" data-size="492837">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/glvnd/libglvnd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libglvnd</a></td>
+            <td><span class="pkg-tag">1.7.0-1</span></td>
+            <td>
+                <div class="pkg-desc">GL Vendor-Neutral Dispatch library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libglvnd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libglvnd-1.7.0.drop" download style="font-weight: bold; color: #aa2022;">libglvnd-1.7.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">481.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libharfbuzz" data-desc="opentype text shaping engine - shared libraries" data-date="2026-09-08" data-time="1788867103" data-size="1446459">
+            <td><a class="pkg-name" href="https://harfbuzz.github.io/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libharfbuzz</a></td>
+            <td><span class="pkg-tag">14.4.0-1</span></td>
+            <td>
+                <div class="pkg-desc">OpenType text shaping engine - shared libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libharfbuzz</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libharfbuzz-14.4.0.drop" download style="font-weight: bold; color: #aa2022;">libharfbuzz-14.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libicu78" data-desc="international components for unicode (icu) shared libraries" data-date="2026-09-08" data-time="1788867103" data-size="15314658">
+            <td><a class="pkg-name" href="https://home.unicode.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libicu78</a></td>
+            <td><span class="pkg-tag">78.3-1</span></td>
+            <td>
+                <div class="pkg-desc">International Components for Unicode (ICU) shared libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libicu78</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libicu78-78.3.drop" download style="font-weight: bold; color: #aa2022;">libicu78-78.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.6 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libjpeg-turbo" data-desc="derivative of libjpeg which uses simd instructions" data-date="2026-09-03" data-time="1788425258" data-size="557513">
+            <td><a class="pkg-name" href="https://libjpeg-turbo.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libjpeg-turbo</a></td>
+            <td><span class="pkg-tag">3.1.4.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Derivative of libjpeg which uses SIMD instructions</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libjpeg-turbo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="libjpeg-turbo-3.1.4.1.drop" download style="font-weight: bold; color: #aa2022;">libjpeg-turbo-3.1.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">544.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libmount" data-desc="block device mount library (from util-linux)" data-date="2026-09-08" data-time="1788867103" data-size="207186">
+            <td><a class="pkg-name" href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libmount</a></td>
+            <td><span class="pkg-tag">2.41.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Block device mount library (from util-linux)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libmount</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libmount-2.41.4.drop" download style="font-weight: bold; color: #aa2022;">libmount-2.41.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">202.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libogg" data-desc="ogg bitstream file format library" data-date="2026-09-03" data-time="1788425252" data-size="19539">
+            <td><a class="pkg-name" href="https://www.xiph.org/ogg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libogg</a></td>
+            <td><span class="pkg-tag">1.3.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Ogg bitstream file format library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libogg</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="libogg-1.3.6.drop" download style="font-weight: bold; color: #aa2022;">libogg-1.3.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">19.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libopus" data-desc="libopus package for distill linux" data-date="2026-09-03" data-time="1788425254" data-size="4088340">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/libopus" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libopus</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">libopus package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libopus</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="libopus-1.0.drop" download style="font-weight: bold; color: #aa2022;">libopus-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libpciaccess" data-desc="x11 pci access library" data-date="2026-09-08" data-time="1788867103" data-size="17856">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libpciaccess</a></td>
+            <td><span class="pkg-tag">0.19-1</span></td>
+            <td>
+                <div class="pkg-desc">X11 PCI Access library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libpciaccess</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libpciaccess-0.19.drop" download style="font-weight: bold; color: #aa2022;">libpciaccess-0.19.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">17.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libpcre2" data-desc="perl compatible regular expressions 2 - shared libraries" data-date="2026-09-08" data-time="1788867103" data-size="786802">
+            <td><a class="pkg-name" href="https://www.pcre.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libpcre2</a></td>
+            <td><span class="pkg-tag">10.47-1</span></td>
+            <td>
+                <div class="pkg-desc">Perl Compatible Regular Expressions 2 - shared libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libpcre2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libpcre2-10.47.drop" download style="font-weight: bold; color: #aa2022;">libpcre2-10.47.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">768.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libpng" data-desc="library for manipulating png images" data-date="2026-09-07" data-time="1788814060" data-size="111666">
+            <td><a class="pkg-name" href="http://www.libpng.org/pub/png/libpng.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libpng</a></td>
+            <td><span class="pkg-tag">1.6.58-1</span></td>
+            <td>
+                <div class="pkg-desc">Library for manipulating PNG images</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libpng</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libpng-1.6.58.drop" download style="font-weight: bold; color: #aa2022;">libpng-1.6.58.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">109.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libressl" data-desc="libressl package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="327">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/libressl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libressl</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">libressl package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libressl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="libressl-1.0.drop" download style="font-weight: bold; color: #aa2022;">libressl-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">327 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="librsvg" data-desc="svg library for gnome" data-date="2026-09-08" data-time="1788867103" data-size="2632692">
+            <td><a class="pkg-name" href="https://gitlab.gnome.org/GNOME/librsvg" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">librsvg</a></td>
+            <td><span class="pkg-tag">2.59.2-1</span></td>
+            <td>
+                <div class="pkg-desc">SVG library for GNOME</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in librsvg</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="librsvg-2.59.2.drop" download style="font-weight: bold; color: #aa2022;">librsvg-2.59.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.5 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="librsync" data-desc="library that implements the rsync remote-delta algorithm (rdiff)" data-date="2026-09-07" data-time="1788814060" data-size="29823">
+            <td><a class="pkg-name" href="http://librsync.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">librsync</a></td>
+            <td><span class="pkg-tag">2.3.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Library that implements the rsync remote-delta algorithm (rdiff)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in librsync</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="librsync-2.3.4.drop" download style="font-weight: bold; color: #aa2022;">librsync-2.3.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">29.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libstdc++" data-desc="gnu c++ runtime library" data-date="2026-09-08" data-time="1788867103" data-size="1039455">
+            <td><a class="pkg-name" href="https://gcc.gnu.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libstdc++</a></td>
+            <td><span class="pkg-tag">14.2.1-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU C++ runtime library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libstdc++</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libstdc++-14.2.1.drop" download style="font-weight: bold; color: #aa2022;">libstdc++-14.2.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1015.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libthai" data-desc="thai language support library" data-date="2026-09-08" data-time="1788867103" data-size="207979">
+            <td><a class="pkg-name" href="https://linux.thai.net/projects/libthai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libthai</a></td>
+            <td><span class="pkg-tag">0.1.29-1</span></td>
+            <td>
+                <div class="pkg-desc">Thai language support library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libthai</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libthai-0.1.29.drop" download style="font-weight: bold; color: #aa2022;">libthai-0.1.29.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">203.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libtiff" data-desc="libtiff package for distill linux" data-date="2026-09-03" data-time="1788425253" data-size="454029">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/libtiff" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtiff</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">libtiff package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libtiff</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="libtiff-1.0.drop" download style="font-weight: bold; color: #aa2022;">libtiff-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">443.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libtirpc" data-desc="transport independent rpc library (sunrpc replacement)" data-date="2026-09-08" data-time="1788867103" data-size="88046">
+            <td><a class="pkg-name" href="http://libtirpc.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtirpc</a></td>
+            <td><span class="pkg-tag">1.3.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Transport Independent RPC library (SunRPC replacement)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libtirpc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libtirpc-1.3.7.drop" download style="font-weight: bold; color: #aa2022;">libtirpc-1.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">86.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libtool" data-desc="generic library support script" data-date="2026-09-03" data-time="1788425253" data-size="615603">
+            <td><a class="pkg-name" href="http://www.gnu.org/software/libtool" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libtool</a></td>
+            <td><span class="pkg-tag">2.4.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Generic library support script</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libtool</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="libtool-2.4.7.drop" download style="font-weight: bold; color: #aa2022;">libtool-2.4.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">601.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libuuid" data-desc="universally unique identifier library (from util-linux)" data-date="2026-09-08" data-time="1788867103" data-size="16354">
+            <td><a class="pkg-name" href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libuuid</a></td>
+            <td><span class="pkg-tag">2.41.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Universally Unique Identifier library (from util-linux)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libuuid</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libuuid-2.41.4.drop" download style="font-weight: bold; color: #aa2022;">libuuid-2.41.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libva" data-desc="video acceleration (va) api" data-date="2026-09-07" data-time="1788814060" data-size="97360">
+            <td><a class="pkg-name" href="https://intel.github.io/libva" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libva</a></td>
+            <td><span class="pkg-tag">2.24.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Video Acceleration (VA) API</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libva</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libva-2.24.1.drop" download style="font-weight: bold; color: #aa2022;">libva-2.24.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">95.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libva-utils" data-desc="video acceleration (va) api - utilities" data-date="2026-09-07" data-time="1788814060" data-size="1899780">
+            <td><a class="pkg-name" href="https://github.com/intel/libva-utils" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libva-utils</a></td>
+            <td><span class="pkg-tag">2.24.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Video Acceleration (VA) API - Utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libva-utils</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libva-utils-2.24.0.drop" download style="font-weight: bold; color: #aa2022;">libva-utils-2.24.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libvdpau" data-desc="video decode and presentation api for unix" data-date="2026-09-07" data-time="1788814060" data-size="28860">
+            <td><a class="pkg-name" href="https://freedesktop.org/wiki/Software/VDPAU/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvdpau</a></td>
+            <td><span class="pkg-tag">1.5-1</span></td>
+            <td>
+                <div class="pkg-desc">Video Decode and Presentation API for UNIX</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libvdpau</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libvdpau-1.5.drop" download style="font-weight: bold; color: #aa2022;">libvdpau-1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libvirt" data-desc="virtualization management toolkit and daemon for kvm, qemu and lxc" data-date="2026-09-07" data-time="1788814060" data-size="14647766">
+            <td><a class="pkg-name" href="https://gitlab.com/libvirt/libvirt" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvirt</a></td>
+            <td><span class="pkg-tag">12.6.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Virtualization management toolkit and daemon for KVM, QEMU and LXC</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libvirt</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libvirt-12.6.0.drop" download style="font-weight: bold; color: #aa2022;">libvirt-12.6.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.0 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libvorbis" data-desc="the vorbis general audio compression codec" data-date="2026-09-07" data-time="1788814060" data-size="214378">
+            <td><a class="pkg-name" href="https://www.xiph.org/vorbis/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvorbis</a></td>
+            <td><span class="pkg-tag">1.3.7-1</span></td>
+            <td>
+                <div class="pkg-desc">The Vorbis General Audio Compression Codec</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libvorbis</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libvorbis-1.3.7.drop" download style="font-weight: bold; color: #aa2022;">libvorbis-1.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">209.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libvpx" data-desc="vp8 and vp9 video codec" data-date="2026-09-03" data-time="1788425256" data-size="1034851">
+            <td><a class="pkg-name" href="http://www.webmproject.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libvpx</a></td>
+            <td><span class="pkg-tag">1.16.0-1</span></td>
+            <td>
+                <div class="pkg-desc">VP8 and VP9 video codec</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libvpx</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="libvpx-1.16.0.drop" download style="font-weight: bold; color: #aa2022;">libvpx-1.16.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1010.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libwebp" data-desc="webp image format" data-date="2026-09-07" data-time="1788814060" data-size="374430">
+            <td><a class="pkg-name" href="https://developers.google.com/speed/webp/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libwebp</a></td>
+            <td><span class="pkg-tag">1.6.0-1</span></td>
+            <td>
+                <div class="pkg-desc">WebP image format</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libwebp</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libwebp-1.6.0.drop" download style="font-weight: bold; color: #aa2022;">libwebp-1.6.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">365.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libxcb" data-desc="x protocol c-language binding" data-date="2026-09-07" data-time="1788814060" data-size="245524">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxcb</a></td>
+            <td><span class="pkg-tag">1.17.0-1</span></td>
+            <td>
+                <div class="pkg-desc">X protocol C-language Binding</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libxcb</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libxcb-1.17.0.drop" download style="font-weight: bold; color: #aa2022;">libxcb-1.17.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">239.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libxcvt" data-desc="vesa cvt standard timing modelines generator" data-date="2026-09-08" data-time="1788867103" data-size="8143">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxcvt</a></td>
+            <td><span class="pkg-tag">0.1.3-1</span></td>
+            <td>
+                <div class="pkg-desc">VESA CVT standard timing modelines generator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libxcvt</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libxcvt-0.1.3.drop" download style="font-weight: bold; color: #aa2022;">libxcvt-0.1.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libxkbcommon" data-desc="library to handle keyboard descriptions" data-date="2026-09-07" data-time="1788814060" data-size="186251">
+            <td><a class="pkg-name" href="https://xkbcommon.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxkbcommon</a></td>
+            <td><span class="pkg-tag">1.13.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Library to handle keyboard descriptions</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libxkbcommon</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libxkbcommon-1.13.2.drop" download style="font-weight: bold; color: #aa2022;">libxkbcommon-1.13.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">181.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libxkbfile" data-desc="xkbfile library from x.org" data-date="2026-09-08" data-time="1788867103" data-size="74615">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxkbfile</a></td>
+            <td><span class="pkg-tag">1.1.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Xkbfile Library from X.org</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libxkbfile</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libxkbfile-1.1.3.drop" download style="font-weight: bold; color: #aa2022;">libxkbfile-1.1.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">72.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libxml2" data-desc="xml parser and toolkit" data-date="2026-09-08" data-time="1788867103" data-size="678391">
+            <td><a class="pkg-name" href="https://gitlab.gnome.org/GNOME/libxml2" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxml2</a></td>
+            <td><span class="pkg-tag">2.13.8-1</span></td>
+            <td>
+                <div class="pkg-desc">XML parser and toolkit</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libxml2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="libxml2-2.13.8.drop" download style="font-weight: bold; color: #aa2022;">libxml2-2.13.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">662.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="libxshmfence" data-desc="x shared memory 'syncfence' synchronization primitive" data-date="2026-09-07" data-time="1788814060" data-size="3621">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">libxshmfence</a></td>
+            <td><span class="pkg-tag">1.3.3-1</span></td>
+            <td>
+                <div class="pkg-desc">X Shared memory 'SyncFence' synchronization primitive</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in libxshmfence</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="libxshmfence-1.3.3.drop" download style="font-weight: bold; color: #aa2022;">libxshmfence-1.3.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="lilipod" data-desc="simple and lightweight container manager in c" data-date="2026-09-05" data-time="1788649871" data-size="362">
+            <td><a class="pkg-name" href="https://github.com/illiliti/lilipod" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lilipod</a></td>
+            <td><span class="pkg-tag">0.4.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Simple and lightweight container manager in C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lilipod</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="lilipod-0.4.1.drop" download style="font-weight: bold; color: #aa2022;">lilipod-0.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">362 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="linux-pam" data-desc="linux-pam package for distill linux" data-date="2026-09-08" data-time="1788865893" data-size="426864">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/linux-pam" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">linux-pam</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">linux-pam package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in linux-pam</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="linux-pam-1.0.drop" download style="font-weight: bold; color: #aa2022;">linux-pam-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">416.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="lld" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649872" data-size="251">
+            <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lld</a></td>
+            <td><span class="pkg-tag">21-1</span></td>
+            <td>
+                <div class="pkg-desc">LLVM meta package</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lld</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="lld-21.drop" download style="font-weight: bold; color: #aa2022;">lld-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">251 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="llvm" data-desc="llvm meta package" data-date="2026-09-05" data-time="1788649872" data-size="252">
+            <td><a class="pkg-name" href="https://www.voidlinux.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">llvm</a></td>
+            <td><span class="pkg-tag">21-1</span></td>
+            <td>
+                <div class="pkg-desc">LLVM meta package</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in llvm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="llvm-21.drop" download style="font-weight: bold; color: #aa2022;">llvm-21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">252 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="luit" data-desc="luit package for distill linux" data-date="2026-09-05" data-time="1788649872" data-size="265">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/luit" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">luit</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">luit package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in luit</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="luit-1.0.drop" download style="font-weight: bold; color: #aa2022;">luit-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">265 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="lvm2" data-desc="logical volume manager 2 utilities" data-date="2026-09-07" data-time="1788814060" data-size="2525185">
+            <td><a class="pkg-name" href="https://sourceware.org/lvm2/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lvm2</a></td>
+            <td><span class="pkg-tag">2.03.29-1</span></td>
+            <td>
+                <div class="pkg-desc">Logical Volume Manager 2 utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lvm2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="lvm2-2.03.29.drop" download style="font-weight: bold; color: #aa2022;">lvm2-2.03.29.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="lxc" data-desc="linux containers userspace tools and runtime library" data-date="2026-09-07" data-time="1788814060" data-size="747832">
+            <td><a class="pkg-name" href="https://github.com/lxc/lxc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lxc</a></td>
+            <td><span class="pkg-tag">6.0.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Linux Containers userspace tools and runtime library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lxc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="lxc-6.0.3.drop" download style="font-weight: bold; color: #aa2022;">lxc-6.0.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">730.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="lynx" data-desc="text browser for the world wide web" data-date="2026-09-07" data-time="1788814060" data-size="851031">
+            <td><a class="pkg-name" href="http://lynx.invisible-island.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lynx</a></td>
+            <td><span class="pkg-tag">2.9.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Text browser for the World Wide Web</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lynx</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="lynx-2.9.3.drop" download style="font-weight: bold; color: #aa2022;">lynx-2.9.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">831.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="lz4" data-desc="extremely fast compression algorithm" data-date="2026-09-03" data-time="1788425256" data-size="123099">
+            <td><a class="pkg-name" href="https://lz4.github.io/lz4" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">lz4</a></td>
+            <td><span class="pkg-tag">1.10.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Extremely fast compression algorithm</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in lz4</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="lz4-1.10.0.drop" download style="font-weight: bold; color: #aa2022;">lz4-1.10.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">120.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="m4" data-desc="gnu version of unix m4 macro language processor" data-date="2026-09-03" data-time="1788425256" data-size="281229">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/m4/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">m4</a></td>
+            <td><span class="pkg-tag">1.4.19-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU version of UNIX m4 macro language processor</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in m4</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="m4-1.4.19.drop" download style="font-weight: bold; color: #aa2022;">m4-1.4.19.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">274.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="make" data-desc="gnu make utility" data-date="2026-09-07" data-time="1788805670" data-size="349734">
+            <td><a class="pkg-name" href="https://www.gnu.org/software/make/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">make</a></td>
+            <td><span class="pkg-tag">4.4.1-1</span></td>
+            <td>
+                <div class="pkg-desc">GNU Make utility</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in make</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="make-4.4.1.drop" download style="font-weight: bold; color: #aa2022;">make-4.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">341.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="mako" data-desc="lightweight wayland notification daemon" data-date="2026-09-07" data-time="1788814060" data-size="61084">
+            <td><a class="pkg-name" href="https://wayland.emersion.fr/mako/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mako</a></td>
+            <td><span class="pkg-tag">1.11.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Lightweight Wayland notification daemon</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mako</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="mako-1.11.0.drop" download style="font-weight: bold; color: #aa2022;">mako-1.11.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">59.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="mandoc" data-desc="mandoc package for distill linux" data-date="2026-09-03" data-time="1788425256" data-size="416565">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/mandoc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mandoc</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">mandoc package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mandoc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="mandoc-1.0.drop" download style="font-weight: bold; color: #aa2022;">mandoc-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">406.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="mbpfan" data-desc="daemon that uses applesmc to set fan speed on macbook laptops" data-date="2026-09-07" data-time="1788740455" data-size="33355">
+            <td><a class="pkg-name" href="https://github.com/dgraziotin/mbpfan" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mbpfan</a></td>
+            <td><span class="pkg-tag">2.4.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Daemon that uses applesmc to set fan speed on MacBook laptops</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mbpfan</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="mbpfan-2.4.0.drop" download style="font-weight: bold; color: #aa2022;">mbpfan-2.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">32.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="mesa" data-desc="open source implementation of opengl and vulkan" data-date="2026-09-07" data-time="1788814060" data-size="966953">
+            <td><a class="pkg-name" href="https://www.mesa3d.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mesa</a></td>
+            <td><span class="pkg-tag">26.1.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Open source implementation of OpenGL and Vulkan</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mesa</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="mesa-26.1.8.drop" download style="font-weight: bold; color: #aa2022;">mesa-26.1.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">944.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="meson" data-desc="super fast build system" data-date="2026-09-03" data-time="1788425257" data-size="915068">
+            <td><a class="pkg-name" href="https://mesonbuild.com" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">meson</a></td>
+            <td><span class="pkg-tag">1.9.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Super fast build system</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in meson</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="meson-1.9.1.drop" download style="font-weight: bold; color: #aa2022;">meson-1.9.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">893.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="mit-krb5-libs" data-desc="mit kerberos 5 runtime libraries" data-date="2026-09-08" data-time="1788867103" data-size="814840">
+            <td><a class="pkg-name" href="https://web.mit.edu/kerberos/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mit-krb5-libs</a></td>
+            <td><span class="pkg-tag">1.21.3-1</span></td>
+            <td>
+                <div class="pkg-desc">MIT Kerberos 5 runtime libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mit-krb5-libs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="mit-krb5-libs-1.21.3.drop" download style="font-weight: bold; color: #aa2022;">mit-krb5-libs-1.21.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">795.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="moc" data-desc="moc package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="320">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/moc" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">moc</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">moc package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in moc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="moc-1.0.drop" download style="font-weight: bold; color: #aa2022;">moc-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">320 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="mpv" data-desc="video player based on mplayer/mplayer2" data-date="2026-09-07" data-time="1788814060" data-size="2702236">
+            <td><a class="pkg-name" href="https://mpv.io" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">mpv</a></td>
+            <td><span class="pkg-tag">0.41.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Video player based on MPlayer/mplayer2</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in mpv</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="mpv-0.41.0.drop" download style="font-weight: bold; color: #aa2022;">mpv-0.41.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.6 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="musl-dev" data-desc="the musl c standard library - development headers" data-date="2026-09-03" data-time="1788425258" data-size="728060">
+            <td><a class="pkg-name" href="https://git.musl-libc.org/git/musl" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-dev</a></td>
+            <td><span class="pkg-tag">1.2.5-1</span></td>
+            <td>
+                <div class="pkg-desc">The musl C standard library - development headers</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in musl-dev</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="musl-dev-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">musl-dev-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">711.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="musl-fts" data-desc="implementation of fts(3) for musl libc" data-date="2026-09-03" data-time="1788425257" data-size="7764">
+            <td><a class="pkg-name" href="https://github.com/void-linux/musl-fts" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-fts</a></td>
+            <td><span class="pkg-tag">1.2.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Implementation of fts(3) for musl libc</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in musl-fts</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="musl-fts-1.2.7.drop" download style="font-weight: bold; color: #aa2022;">musl-fts-1.2.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="musl-obstack" data-desc="implementation of obstack for musl libc" data-date="2026-09-03" data-time="1788425257" data-size="3344">
+            <td><a class="pkg-name" href="https://github.com/void-linux/musl-obstack" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">musl-obstack</a></td>
+            <td><span class="pkg-tag">1.2.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Implementation of obstack for musl libc</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in musl-obstack</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="musl-obstack-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">musl-obstack-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="nano" data-desc="small and friendly text editor" data-date="2026-09-09" data-time="1788936752" data-size="1108041">
+            <td><a class="pkg-name" href="https://github.com/madnight/nano" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nano</a></td>
+            <td><span class="pkg-tag">9.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Small and friendly text editor</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in nano</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="nano-9.2.drop" download style="font-weight: bold; color: #aa2022;">nano-9.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="nasm" data-desc="80x86 assembler designed for portability and modularity" data-date="2026-09-03" data-time="1788425258" data-size="607005">
+            <td><a class="pkg-name" href="https://www.nasm.us" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nasm</a></td>
+            <td><span class="pkg-tag">2.16.03-1</span></td>
+            <td>
+                <div class="pkg-desc">80x86 assembler designed for portability and modularity</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in nasm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="nasm-2.16.03.drop" download style="font-weight: bold; color: #aa2022;">nasm-2.16.03.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">592.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="ncurses" data-desc="terminal handling library with terminfo database" data-date="2026-09-09" data-time="1788936752" data-size="1774776">
+            <td><a class="pkg-name" href="https://github.com/ThomasDickey/ncurses-snapshots" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">ncurses</a></td>
+            <td><span class="pkg-tag">6.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Terminal handling library with terminfo database</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in ncurses</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="ncurses-6.6.drop" download style="font-weight: bold; color: #aa2022;">ncurses-6.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="neofetch" data-desc="cli system information tool written in bash" data-date="2026-09-05" data-time="1788649935" data-size="91666">
+            <td><a class="pkg-name" href="https://github.com/dylanaraps/neofetch" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">neofetch</a></td>
+            <td><span class="pkg-tag">7.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">CLI system information tool written in bash</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in neofetch</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="neofetch-7.1.0.drop" download style="font-weight: bold; color: #aa2022;">neofetch-7.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">89.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="netsurf" data-desc="free, open source web browser written in c" data-date="2026-09-07" data-time="1788814060" data-size="1811485">
+            <td><a class="pkg-name" href="https://www.netsurf-browser.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">netsurf</a></td>
+            <td><span class="pkg-tag">3.11-1</span></td>
+            <td>
+                <div class="pkg-desc">Free, open source web browser written in C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in netsurf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="netsurf-3.11.drop" download style="font-weight: bold; color: #aa2022;">netsurf-3.11.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.7 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="nettle" data-desc="low-level cryptographic library" data-date="2026-09-08" data-time="1788867103" data-size="363050">
+            <td><a class="pkg-name" href="https://www.lysator.liu.se/~nisse/nettle/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nettle</a></td>
+            <td><span class="pkg-tag">3.10.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Low-level cryptographic library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in nettle</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="nettle-3.10.2.drop" download style="font-weight: bold; color: #aa2022;">nettle-3.10.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">354.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="nmtui" data-desc="networkmanager tui clone and terminal network configuration tool" data-date="2026-09-07" data-time="1788814737" data-size="83264">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/nmtui" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nmtui</a></td>
+            <td><span class="pkg-tag">1.0.0-1</span></td>
+            <td>
+                <div class="pkg-desc">NetworkManager TUI clone and terminal network configuration tool</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in nmtui</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="nmtui-1.0.0.drop" download style="font-weight: bold; color: #aa2022;">nmtui-1.0.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">81.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="nsxiv" data-desc="neo (or new or not) simple (or small or suckless) x image viewer" data-date="2026-09-07" data-time="1788814060" data-size="50926">
+            <td><a class="pkg-name" href="https://codeberg.org/nsxiv/nsxiv" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">nsxiv</a></td>
+            <td><span class="pkg-tag">34-1</span></td>
+            <td>
+                <div class="pkg-desc">Neo (or New or Not) Simple (or Small or Suckless) X Image Viewer</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in nsxiv</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="nsxiv-34.drop" download style="font-weight: bold; color: #aa2022;">nsxiv-34.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">49.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="oclock" data-desc="round x clock" data-date="2026-09-07" data-time="1788814060" data-size="10680">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">oclock</a></td>
+            <td><span class="pkg-tag">1.0.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Round X clock</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in oclock</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="oclock-1.0.6.drop" download style="font-weight: bold; color: #aa2022;">oclock-1.0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="openbox" data-desc="standards compliant, fast, light-weight, extensible window manager" data-date="2026-09-07" data-time="1788814060" data-size="332866">
+            <td><a class="pkg-name" href="http://www.openbox.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openbox</a></td>
+            <td><span class="pkg-tag">3.6.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Standards compliant, fast, light-weight, extensible window manager</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in openbox</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="openbox-3.6.1.drop" download style="font-weight: bold; color: #aa2022;">openbox-3.6.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">325.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="openntpd" data-desc="free, easy to use implementation of the network time protocol" data-date="2026-09-07" data-time="1788814060" data-size="59328">
+            <td><a class="pkg-name" href="http://openntpd.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openntpd</a></td>
+            <td><span class="pkg-tag">7.9p1-1</span></td>
+            <td>
+                <div class="pkg-desc">FREE, easy to use implementation of the Network Time Protocol</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in openntpd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="openntpd-7.9p1.drop" download style="font-weight: bold; color: #aa2022;">openntpd-7.9p1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">57.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="openssh" data-desc="openssh free secure shell (ssh) client and server implementation" data-date="2026-09-07" data-time="1788814060" data-size="3385076">
+            <td><a class="pkg-name" href="https://www.openssh.com" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openssh</a></td>
+            <td><span class="pkg-tag">10.5p1-1</span></td>
+            <td>
+                <div class="pkg-desc">OpenSSH free Secure Shell (SSH) client and server implementation</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in openssh</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="openssh-10.5p1.drop" download style="font-weight: bold; color: #aa2022;">openssh-10.5p1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="openssl" data-desc="toolkit for transport layer security and secure sockets layer protocols" data-date="2026-09-07" data-time="1788805670" data-size="5976944">
+            <td><a class="pkg-name" href="https://www.openssl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">openssl</a></td>
+            <td><span class="pkg-tag">3.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Toolkit for Transport Layer Security and Secure Sockets Layer protocols</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in openssl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="openssl-3.3.0.drop" download style="font-weight: bold; color: #aa2022;">openssl-3.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.7 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pam-libs" data-desc="pluggable authentication modules - shared libraries" data-date="2026-09-08" data-time="1788867103" data-size="34857">
+            <td><a class="pkg-name" href="https://github.com/linux-pam/linux-pam" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pam-libs</a></td>
+            <td><span class="pkg-tag">1.5.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Pluggable Authentication Modules - shared libraries</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pam-libs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="pam-libs-1.5.3.drop" download style="font-weight: bold; color: #aa2022;">pam-libs-1.5.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">34.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pango" data-desc="library for layout and rendering of text" data-date="2026-09-07" data-time="1788814060" data-size="299753">
+            <td><a class="pkg-name" href="https://www.pango.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pango</a></td>
+            <td><span class="pkg-tag">1.56.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Library for layout and rendering of text</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pango</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="pango-1.56.3.drop" download style="font-weight: bold; color: #aa2022;">pango-1.56.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">292.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pango-xft" data-desc="pango x font rendering library" data-date="2026-09-08" data-time="1788867103" data-size="15376">
+            <td><a class="pkg-name" href="https://www.pango.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pango-xft</a></td>
+            <td><span class="pkg-tag">1.56.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Pango X font rendering library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pango-xft</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="pango-xft-1.56.3.drop" download style="font-weight: bold; color: #aa2022;">pango-xft-1.56.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">15.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="patch" data-desc="patch files using diff output" data-date="2026-09-07" data-time="1788814060" data-size="97944">
+            <td><a class="pkg-name" href="http://www.gnu.org/software/patch/patch.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">patch</a></td>
+            <td><span class="pkg-tag">2.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Patch files using diff output</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in patch</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="patch-2.8.drop" download style="font-weight: bold; color: #aa2022;">patch-2.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">95.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pcre2" data-desc="perl compatible regular expressions 2" data-date="2026-09-07" data-time="1788805670" data-size="786843">
+            <td><a class="pkg-name" href="https://www.pcre.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pcre2</a></td>
+            <td><span class="pkg-tag">10.47-1</span></td>
+            <td>
+                <div class="pkg-desc">Perl Compatible Regular Expressions 2</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pcre2</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="pcre2-10.47.drop" download style="font-weight: bold; color: #aa2022;">pcre2-10.47.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">768.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pdpmake" data-desc="pdpmake package for distill linux" data-date="2026-09-03" data-time="1788425258" data-size="26440">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/pdpmake" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pdpmake</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">pdpmake package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pdpmake</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="pdpmake-1.0.drop" download style="font-weight: bold; color: #aa2022;">pdpmake-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">25.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="perl" data-desc="practical extraction and report language" data-date="2026-09-07" data-time="1788805670" data-size="20849255">
+            <td><a class="pkg-name" href="https://www.perl.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">perl</a></td>
+            <td><span class="pkg-tag">5.38.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Practical Extraction and Report Language</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in perl</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="perl-5.38.2.drop" download style="font-weight: bold; color: #aa2022;">perl-5.38.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">19.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="picom" data-desc="lightweight compositor for x11 (previously a compton fork)" data-date="2026-09-07" data-time="1788814060" data-size="296537">
+            <td><a class="pkg-name" href="https://github.com/yshui/picom/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">picom</a></td>
+            <td><span class="pkg-tag">13-1</span></td>
+            <td>
+                <div class="pkg-desc">Lightweight compositor for X11 (previously a compton fork)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in picom</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="picom-13.drop" download style="font-weight: bold; color: #aa2022;">picom-13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">289.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pipewire" data-desc="server and user space api to deal with multimedia pipelines" data-date="2026-09-07" data-time="1788814060" data-size="1843811">
+            <td><a class="pkg-name" href="https://pipewire.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pipewire</a></td>
+            <td><span class="pkg-tag">1.6.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Server and user space API to deal with multimedia pipelines</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pipewire</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="pipewire-1.6.7.drop" download style="font-weight: bold; color: #aa2022;">pipewire-1.6.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pixman" data-desc="library of low-level pixel manipulation routines" data-date="2026-09-07" data-time="1788814060" data-size="321582">
+            <td><a class="pkg-name" href="http://pixman.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pixman</a></td>
+            <td><span class="pkg-tag">0.46.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Library of low-level pixel manipulation routines</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pixman</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="pixman-0.46.4.drop" download style="font-weight: bold; color: #aa2022;">pixman-0.46.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">314.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="pkgconf" data-desc="provides compiler and linker configuration" data-date="2026-09-03" data-time="1788425259" data-size="33814">
+            <td><a class="pkg-name" href="http://pkgconf.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">pkgconf</a></td>
+            <td><span class="pkg-tag">2.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Provides compiler and linker configuration</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in pkgconf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="pkgconf-2.1.0.drop" download style="font-weight: bold; color: #aa2022;">pkgconf-2.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="podman" data-desc="tool and library for managing oci containers and pods without a daemon" data-date="2026-09-07" data-time="1788814060" data-size="30556344">
+            <td><a class="pkg-name" href="https://github.com/containers/podman" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">podman</a></td>
+            <td><span class="pkg-tag">5.8.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Tool and library for managing OCI containers and pods without a daemon</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in podman</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="podman-5.8.3.drop" download style="font-weight: bold; color: #aa2022;">podman-5.8.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">29.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="python3" data-desc="python programming language (${version%.*} series)" data-date="2026-09-07" data-time="1788814060" data-size="8575076">
+            <td><a class="pkg-name" href="https://www.python.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">python3</a></td>
+            <td><span class="pkg-tag">3.14.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Python programming language (${version%.*} series)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in python3</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="python3-3.14.6.drop" download style="font-weight: bold; color: #aa2022;">python3-3.14.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="python3-dev" data-desc="python 3 programming language - development headers" data-date="2026-09-07" data-time="1788813998" data-size="3130902">
+            <td><a class="pkg-name" href="https://github.com/python/cpython" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">python3-dev</a></td>
+            <td><span class="pkg-tag">3.12.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Python 3 programming language - development headers</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in python3-dev</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="python3-dev-3.12.2.drop" download style="font-weight: bold; color: #aa2022;">python3-dev-3.12.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.0 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="qbe" data-desc="quick backend for compilers" data-date="2026-09-03" data-time="1788425259" data-size="113870">
+            <td><a class="pkg-name" href="https://c9x.me/git/qbe" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">qbe</a></td>
+            <td><span class="pkg-tag">1.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Quick Backend for compilers</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in qbe</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="qbe-1.1.drop" download style="font-weight: bold; color: #aa2022;">qbe-1.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">111.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="qemu" data-desc="generic machine emulator and virtualizer with kvm kernel acceleration" data-date="2026-09-07" data-time="1788814060" data-size="328">
+            <td><a class="pkg-name" href="https://github.com/qemu/qemu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">qemu</a></td>
+            <td><span class="pkg-tag">11.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Generic machine emulator and virtualizer with KVM kernel acceleration</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in qemu</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="qemu-11.1.0.drop" download style="font-weight: bold; color: #aa2022;">qemu-11.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">328 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="river" data-desc="dynamic tiling wayland compositor" data-date="2026-09-07" data-time="1788814060" data-size="620894">
+            <td><a class="pkg-name" href="https://codeberg.org/river/river" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">river</a></td>
+            <td><span class="pkg-tag">0.3.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Dynamic tiling Wayland compositor</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in river</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="river-0.3.7.drop" download style="font-weight: bold; color: #aa2022;">river-0.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">606.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="rust" data-desc="the rust programming language toolchain" data-date="2026-09-07" data-time="1788808058" data-size="95977977">
+            <td><a class="pkg-name" href="https://static.rust-lang.org/dist/rust-1.78.0-x86_64-unknown-linux-musl.tar.gz" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">rust</a></td>
+            <td><span class="pkg-tag">1.78.0-1</span></td>
+            <td>
+                <div class="pkg-desc">The Rust programming language toolchain</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in rust</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="rust-1.78.0.drop" download style="font-weight: bold; color: #aa2022;">rust-1.78.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">91.5 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="rustc-bin" data-desc="rustc-bin package for distill linux" data-date="2026-09-07" data-time="1788775208" data-size="396">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/rustc-bin" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">rustc-bin</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">rustc-bin package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in rustc-bin</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="rustc-bin-1.78.0.drop" download style="font-weight: bold; color: #aa2022;">rustc-bin-1.78.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">396 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="rustup" data-desc="the rust toolchain installer" data-date="2026-09-07" data-time="1788806300" data-size="8192532">
+            <td><a class="pkg-name" href="https://rustup.rs/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">rustup</a></td>
+            <td><span class="pkg-tag">1.29.1-1</span></td>
+            <td>
+                <div class="pkg-desc">The Rust toolchain installer</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in rustup</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="rustup-1.29.1.drop" download style="font-weight: bold; color: #aa2022;">rustup-1.29.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="rxvt-unicode" data-desc="terminal emulator supporting xft fonts and unicode" data-date="2026-09-07" data-time="1788814060" data-size="1383958">
+            <td><a class="pkg-name" href="http://software.schmorp.de/pkg/rxvt-unicode.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">rxvt-unicode</a></td>
+            <td><span class="pkg-tag">9.31-1</span></td>
+            <td>
+                <div class="pkg-desc">Terminal emulator supporting Xft fonts and Unicode</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in rxvt-unicode</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="rxvt-unicode-9.31.drop" download style="font-weight: bold; color: #aa2022;">rxvt-unicode-9.31.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="samurai" data-desc="ninja-compatible build tool written in c" data-date="2026-09-03" data-time="1788424196" data-size="27965">
+            <td><a class="pkg-name" href="https://github.com/michaelforney/samurai" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">samurai</a></td>
+            <td><span class="pkg-tag">1.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Ninja-compatible build tool written in C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in samurai</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="samurai-1.2.drop" download style="font-weight: bold; color: #aa2022;">samurai-1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">27.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="sdorfehs" data-desc="tiling window manager derived from ratpoison with virtual screens" data-date="2026-09-05" data-time="1788649871" data-size="369">
+            <td><a class="pkg-name" href="https://github.com/jcs/sdorfehs" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sdorfehs</a></td>
+            <td><span class="pkg-tag">1.5-1</span></td>
+            <td>
+                <div class="pkg-desc">Tiling window manager derived from ratpoison with virtual screens</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in sdorfehs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="sdorfehs-1.5.drop" download style="font-weight: bold; color: #aa2022;">sdorfehs-1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">369 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="seatd" data-desc="minimal seat management daemon" data-date="2026-09-07" data-time="1788814060" data-size="23737">
+            <td><a class="pkg-name" href="https://sr.ht/~kennylevinsen/seatd/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">seatd</a></td>
+            <td><span class="pkg-tag">0.9.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Minimal seat management daemon</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in seatd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="seatd-0.9.3.drop" download style="font-weight: bold; color: #aa2022;">seatd-0.9.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="setxkbmap" data-desc="set the keyboard map using the x keyboard extension" data-date="2026-09-07" data-time="1788814060" data-size="12471">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/setxkbmap" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">setxkbmap</a></td>
+            <td><span class="pkg-tag">1.3.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Set the keyboard map using the X Keyboard Extension</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in setxkbmap</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="setxkbmap-1.3.4.drop" download style="font-weight: bold; color: #aa2022;">setxkbmap-1.3.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="shadow" data-desc="shadow password file utilities" data-date="2026-09-07" data-time="1788814060" data-size="585768">
+            <td><a class="pkg-name" href="https://github.com/shadow-maint/shadow" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">shadow</a></td>
+            <td><span class="pkg-tag">4.8.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Shadow password file utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in shadow</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="shadow-4.8.1.drop" download style="font-weight: bold; color: #aa2022;">shadow-4.8.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">572.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="shared-mime-info" data-desc="freedesktop.org shared mime database" data-date="2026-09-08" data-time="1788867103" data-size="1163121">
+            <td><a class="pkg-name" href="https://freedesktop.org/Software/shared-mime-info" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">shared-mime-info</a></td>
+            <td><span class="pkg-tag">2.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Freedesktop.org shared MIME database</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in shared-mime-info</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="shared-mime-info-2.4.drop" download style="font-weight: bold; color: #aa2022;">shared-mime-info-2.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="simde" data-desc="implementations of simd instruction sets" data-date="2026-09-03" data-time="1788425261" data-size="704231">
+            <td><a class="pkg-name" href="https://github.com/simd-everywhere/simde" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">simde</a></td>
+            <td><span class="pkg-tag">0.8.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Implementations of SIMD instruction sets</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in simde</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="simde-0.8.2.drop" download style="font-weight: bold; color: #aa2022;">simde-0.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">687.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="sink" data-desc="community source builder and ports engine for distill linux" data-date="2026-09-07" data-time="1788806117" data-size="14594">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/sink" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sink</a></td>
+            <td><span class="pkg-tag">0.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Community source builder and ports engine for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in sink</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="sink-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">sink-0.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="slock" data-desc="simple screen locker for x" data-date="2026-09-07" data-time="1788814060" data-size="7153">
+            <td><a class="pkg-name" href="http://tools.suckless.org/slock" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">slock</a></td>
+            <td><span class="pkg-tag">1.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Simple screen locker for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in slock</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="slock-1.7.drop" download style="font-weight: bold; color: #aa2022;">slock-1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="slstatus" data-desc="suckless status monitor for dwm" data-date="2026-09-07" data-time="1788814060" data-size="12580">
+            <td><a class="pkg-name" href="https://tools.suckless.org/slstatus/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">slstatus</a></td>
+            <td><span class="pkg-tag">20180708-1</span></td>
+            <td>
+                <div class="pkg-desc">Suckless status monitor for dwm</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in slstatus</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="slstatus-20180708.drop" download style="font-weight: bold; color: #aa2022;">slstatus-20180708.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="slurp" data-desc="select a region in a wayland compositor" data-date="2026-09-07" data-time="1788814060" data-size="19105">
+            <td><a class="pkg-name" href="https://wayland.emersion.fr/slurp/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">slurp</a></td>
+            <td><span class="pkg-tag">1.5.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Select a region in a Wayland compositor</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in slurp</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="slurp-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">slurp-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="smake" data-desc="schily's portable tools" data-date="2026-09-07" data-time="1788814060" data-size="93219">
+            <td><a class="pkg-name" href="https://codeberg.org/schilytools/schilytools" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">smake</a></td>
+            <td><span class="pkg-tag">2024.03.21-1</span></td>
+            <td>
+                <div class="pkg-desc">Schily's portable tools</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in smake</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="smake-2024.03.21.drop" download style="font-weight: bold; color: #aa2022;">smake-2024.03.21.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">91.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="snapd" data-desc="service and tools for management of snap packages" data-date="2026-09-07" data-time="1788814060" data-size="369">
+            <td><a class="pkg-name" href="https://github.com/canonical/snapd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">snapd</a></td>
+            <td><span class="pkg-tag">2.68.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Service and tools for management of snap packages</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in snapd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="snapd-2.68.0.drop" download style="font-weight: bold; color: #aa2022;">snapd-2.68.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">369 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="spirv-headers" data-desc="machine-readable files for the spir-v registry" data-date="2026-09-03" data-time="1788425261" data-size="479670">
+            <td><a class="pkg-name" href="https://github.com/KhronosGroup/SPIRV-Headers" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">spirv-headers</a></td>
+            <td><span class="pkg-tag">1.4.350.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Machine-readable files for the SPIR-V Registry</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in spirv-headers</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="spirv-headers-1.4.350.1.drop" download style="font-weight: bold; color: #aa2022;">spirv-headers-1.4.350.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">468.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="spirv-tools" data-desc="api and commands for processing spir-v modules" data-date="2026-09-07" data-time="1788814060" data-size="8574501">
+            <td><a class="pkg-name" href="https://github.com/KhronosGroup/SPIRV-Tools" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">spirv-tools</a></td>
+            <td><span class="pkg-tag">2026.2-1</span></td>
+            <td>
+                <div class="pkg-desc">API and commands for processing SPIR-V modules</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in spirv-tools</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="spirv-tools-2026.2.drop" download style="font-weight: bold; color: #aa2022;">spirv-tools-2026.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.2 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="st" data-desc="simple terminal implementation for x" data-date="2026-09-07" data-time="1788814060" data-size="47341">
+            <td><a class="pkg-name" href="https://st.suckless.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">st</a></td>
+            <td><span class="pkg-tag">0.9.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Simple terminal implementation for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in st</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="st-0.9.3.drop" download style="font-weight: bold; color: #aa2022;">st-0.9.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">46.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="sway" data-desc="tiling wayland compositor compatible with i3" data-date="2026-09-07" data-time="1788814060" data-size="5378658">
+            <td><a class="pkg-name" href="https://swaywm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">sway</a></td>
+            <td><span class="pkg-tag">1.12-1</span></td>
+            <td>
+                <div class="pkg-desc">Tiling Wayland compositor compatible with i3</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in sway</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="sway-1.12.drop" download style="font-weight: bold; color: #aa2022;">sway-1.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="swaybg" data-desc="wallpaper tool for wayland compositors" data-date="2026-09-07" data-time="1788814060" data-size="14399">
+            <td><a class="pkg-name" href="https://swaywm.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">swaybg</a></td>
+            <td><span class="pkg-tag">1.2.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Wallpaper tool for Wayland compositors</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in swaybg</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="swaybg-1.2.2.drop" download style="font-weight: bold; color: #aa2022;">swaybg-1.2.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="swaylock" data-desc="screen locker for wayland" data-date="2026-09-07" data-time="1788814060" data-size="31294">
+            <td><a class="pkg-name" href="https://github.com/swaywm/swaylock" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">swaylock</a></td>
+            <td><span class="pkg-tag">1.8.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Screen locker for Wayland</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in swaylock</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="swaylock-1.8.6.drop" download style="font-weight: bold; color: #aa2022;">swaylock-1.8.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">30.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="t2fanrd" data-desc="supercharged apple t2 mac fan control daemon in rust" data-date="2026-09-07" data-time="1788806300" data-size="248397">
+            <td><a class="pkg-name" href="https://github.com/GnomedDev/t2fanrd" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">t2fanrd</a></td>
+            <td><span class="pkg-tag">0.1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Supercharged Apple T2 Mac fan control daemon in Rust</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in t2fanrd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="t2fanrd-0.1.0.drop" download style="font-weight: bold; color: #aa2022;">t2fanrd-0.1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">242.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="tcc" data-desc="tiny c compiler" data-date="2026-09-03" data-time="1788425262" data-size="398763">
+            <td><a class="pkg-name" href="http://bellard.org/tcc/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tcc</a></td>
+            <td><span class="pkg-tag">0.9.27.20250903-1</span></td>
+            <td>
+                <div class="pkg-desc">Tiny C Compiler</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in tcc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="tcc-0.9.27.20250903.drop" download style="font-weight: bold; color: #aa2022;">tcc-0.9.27.20250903.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">389.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="terminus-font" data-desc="clean, fixed width bitmap font" data-date="2026-09-03" data-time="1788425263" data-size="2425492">
+            <td><a class="pkg-name" href="http://terminus-font.sourceforge.net/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">terminus-font</a></td>
+            <td><span class="pkg-tag">4.49.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Clean, fixed width bitmap font</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in terminus-font</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="terminus-font-4.49.1.drop" download style="font-weight: bold; color: #aa2022;">terminus-font-4.49.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="tile" data-desc="pure assembly tiling window manager (chasm suite)" data-date="2026-09-09" data-time="1788934796" data-size="34745">
+            <td><a class="pkg-name" href="https://github.com/isene/tile" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tile</a></td>
+            <td><span class="pkg-tag">0.1.53-1</span></td>
+            <td>
+                <div class="pkg-desc">Pure assembly tiling window manager (CHasm suite)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in tile</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="tile-0.1.53.drop" download style="font-weight: bold; color: #aa2022;">tile-0.1.53.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="tiny-dfr" data-desc="dynamic function row daemon for apple touch bar" data-date="2026-09-07" data-time="1788814060" data-size="746083">
+            <td><a class="pkg-name" href="https://github.com/AsahiLinux/tiny-dfr" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tiny-dfr</a></td>
+            <td><span class="pkg-tag">0.3.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Dynamic function row daemon for Apple Touch Bar</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in tiny-dfr</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="tiny-dfr-0.3.7.drop" download style="font-weight: bold; color: #aa2022;">tiny-dfr-0.3.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">728.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="tuigreet" data-desc="graphical console greeter for greetd" data-date="2026-09-08" data-time="1788867103" data-size="1503028">
+            <td><a class="pkg-name" href="https://github.com/apognu/tuigreet" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tuigreet</a></td>
+            <td><span class="pkg-tag">0.11.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Graphical console greeter for greetd</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in tuigreet</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="tuigreet-0.11.1.drop" download style="font-weight: bold; color: #aa2022;">tuigreet-0.11.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="twm" data-desc="tab window manager for the x window system" data-date="2026-09-07" data-time="1788814060" data-size="111692">
+            <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/twm.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">twm</a></td>
+            <td><span class="pkg-tag">1.0.13.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Tab Window Manager for the X Window System</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in twm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="twm-1.0.13.1.drop" download style="font-weight: bold; color: #aa2022;">twm-1.0.13.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">109.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="util-linux" data-desc="miscellaneous linux utilities (includes mcookie)" data-date="2026-09-09" data-time="1788940473" data-size="12022240">
+            <td><a class="pkg-name" href="https://github.com/util-linux/util-linux" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">util-linux</a></td>
+            <td><span class="pkg-tag">2.42.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Miscellaneous linux utilities (includes mcookie)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in util-linux</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="util-linux-2.42.3.drop" download style="font-weight: bold; color: #aa2022;">util-linux-2.42.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">11.5 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="util-macros" data-desc="x.org autotools macros" data-date="2026-09-09" data-time="1788939423" data-size="23695">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/util/macros" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">util-macros</a></td>
+            <td><span class="pkg-tag">1.20.2-1</span></td>
+            <td>
+                <div class="pkg-desc">X.Org autotools macros</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in util-macros</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="util-macros-1.20.2.drop" download style="font-weight: bold; color: #aa2022;">util-macros-1.20.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">23.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="uxterm" data-desc="x terminal emulator" data-date="2026-09-07" data-time="1788814060" data-size="502833">
+            <td><a class="pkg-name" href="https://invisible-island.net/xterm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">uxterm</a></td>
+            <td><span class="pkg-tag">411-1</span></td>
+            <td>
+                <div class="pkg-desc">X Terminal Emulator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in uxterm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="uxterm-411.drop" download style="font-weight: bold; color: #aa2022;">uxterm-411.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">491.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="virtualbox" data-desc="powerful x86 and amd64/intel64 virtualization software" data-date="2026-09-07" data-time="1788814060" data-size="388">
+            <td><a class="pkg-name" href="https://www.virtualbox.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">virtualbox</a></td>
+            <td><span class="pkg-tag">7.1.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Powerful x86 and AMD64/Intel64 virtualization software</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in virtualbox</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="virtualbox-7.1.6.drop" download style="font-weight: bold; color: #aa2022;">virtualbox-7.1.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">388 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="vulkan-headers" data-desc="vulkan header files" data-date="2026-09-03" data-time="1788425264" data-size="3193142">
+            <td><a class="pkg-name" href="https://www.khronos.org/vulkan/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">vulkan-headers</a></td>
+            <td><span class="pkg-tag">1.4.350.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Vulkan header files</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in vulkan-headers</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="vulkan-headers-1.4.350.1.drop" download style="font-weight: bold; color: #aa2022;">vulkan-headers-1.4.350.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">3.0 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="vulkan-loader" data-desc="vulkan installable client driver (icd) loader" data-date="2026-09-07" data-time="1788811964" data-size="170834">
+            <td><a class="pkg-name" href="https://www.khronos.org/vulkan/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">vulkan-loader</a></td>
+            <td><span class="pkg-tag">1.4.350.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Vulkan Installable Client Driver (ICD) loader</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in vulkan-loader</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="vulkan-loader-1.4.350.1.drop" download style="font-weight: bold; color: #aa2022;">vulkan-loader-1.4.350.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">166.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="w3m" data-desc="text-based web browser and pager (with debian patches)" data-date="2026-09-07" data-time="1788814060" data-size="1199152">
+            <td><a class="pkg-name" href="https://sr.ht/~rkta/w3m/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">w3m</a></td>
+            <td><span class="pkg-tag">0.5.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Text-based Web browser and pager (with Debian patches)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in w3m</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="w3m-0.5.6.drop" download style="font-weight: bold; color: #aa2022;">w3m-0.5.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.1 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="waybar" data-desc="polybar-like wayland bar for sway and wlroots based compositors" data-date="2026-09-07" data-time="1788814060" data-size="964624">
+            <td><a class="pkg-name" href="https://github.com/Alexays/Waybar" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">waybar</a></td>
+            <td><span class="pkg-tag">0.15.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Polybar-like Wayland Bar for Sway and Wlroots based compositors</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in waybar</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="waybar-0.15.0.drop" download style="font-weight: bold; color: #aa2022;">waybar-0.15.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">942.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="waydroid" data-desc="container-based approach to boot a full android system on wayland" data-date="2026-09-07" data-time="1788814060" data-size="226228">
+            <td><a class="pkg-name" href="https://github.com/waydroid/waydroid" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">waydroid</a></td>
+            <td><span class="pkg-tag">1.6.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Container-based approach to boot a full Android system on Wayland</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in waydroid</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="waydroid-1.6.3.drop" download style="font-weight: bold; color: #aa2022;">waydroid-1.6.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">220.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wayland" data-desc="core wayland window system code and protocol" data-date="2026-09-07" data-time="1788811964" data-size="74207">
+            <td><a class="pkg-name" href="https://wayland.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland</a></td>
+            <td><span class="pkg-tag">1.26.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Core Wayland window system code and protocol</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wayland</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="wayland-1.26.0.drop" download style="font-weight: bold; color: #aa2022;">wayland-1.26.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">72.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wayland-protocols" data-desc="protocols and extensions complementing the wayland core protocol" data-date="2026-09-07" data-time="1788814060" data-size="205984">
+            <td><a class="pkg-name" href="https://wayland.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland-protocols</a></td>
+            <td><span class="pkg-tag">1.49-1</span></td>
+            <td>
+                <div class="pkg-desc">Protocols and extensions complementing the Wayland core protocol</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wayland-protocols</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="wayland-protocols-1.49.drop" download style="font-weight: bold; color: #aa2022;">wayland-protocols-1.49.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">201.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wayland-scanner" data-desc="wayland xml protocol tool for generating c bindings" data-date="2026-09-03" data-time="1788425263" data-size="151444">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/wayland/wayland" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wayland-scanner</a></td>
+            <td><span class="pkg-tag">1.23.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Wayland XML protocol tool for generating C bindings</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wayland-scanner</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="wayland-scanner-1.23.0.drop" download style="font-weight: bold; color: #aa2022;">wayland-scanner-1.23.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">147.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wine" data-desc="compatibility layer for running windows applications on posix systems" data-date="2026-09-05" data-time="1788639849" data-size="58645946">
+            <td><a class="pkg-name" href="https://gitlab.winehq.org/wine/wine" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wine</a></td>
+            <td><span class="pkg-tag">11.16-1</span></td>
+            <td>
+                <div class="pkg-desc">Compatibility layer for running Windows applications on POSIX systems</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wine</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="wine-11.16.drop" download style="font-weight: bold; color: #aa2022;">wine-11.16.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">55.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wireplumber" data-desc="session and policy manager implementation for pipewire" data-date="2026-09-07" data-time="1788814060" data-size="556948">
+            <td><a class="pkg-name" href="https://pipewire.pages.freedesktop.org/wireplumber" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wireplumber</a></td>
+            <td><span class="pkg-tag">0.5.15-1</span></td>
+            <td>
+                <div class="pkg-desc">Session and policy manager implementation for PipeWire</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wireplumber</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="wireplumber-0.5.15.drop" download style="font-weight: bold; color: #aa2022;">wireplumber-0.5.15.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">543.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wl-clipboard" data-desc="wayland clipboard utilities" data-date="2026-09-07" data-time="1788814060" data-size="42780">
+            <td><a class="pkg-name" href="https://github.com/bugaevc/wl-clipboard" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wl-clipboard</a></td>
+            <td><span class="pkg-tag">2.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Wayland clipboard utilities</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wl-clipboard</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="wl-clipboard-2.3.0.drop" download style="font-weight: bold; color: #aa2022;">wl-clipboard-2.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">41.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wlr-protocols" data-desc="wayland protocols used by wlroots and associated compositors" data-date="2026-09-03" data-time="1788425263" data-size="75403">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/wlroots/wlr-protocols" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlr-protocols</a></td>
+            <td><span class="pkg-tag">main-1</span></td>
+            <td>
+                <div class="pkg-desc">Wayland protocols used by wlroots and associated compositors</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wlr-protocols</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="wlr-protocols-main.drop" download style="font-weight: bold; color: #aa2022;">wlr-protocols-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">73.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wlroots" data-desc="modular wayland compositor library" data-date="2026-09-05" data-time="1788649873" data-size="275">
+            <td><a class="pkg-name" href="https://github.com/swaywm/wlroots" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlroots</a></td>
+            <td><span class="pkg-tag">0.20-1</span></td>
+            <td>
+                <div class="pkg-desc">Modular Wayland compositor library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wlroots</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="wlroots-0.20.drop" download style="font-weight: bold; color: #aa2022;">wlroots-0.20.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">275 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wlsunset" data-desc="day/night gamma adjustments for wayland compositors" data-date="2026-09-07" data-time="1788814060" data-size="13497">
+            <td><a class="pkg-name" href="https://sr.ht/~kennylevinsen/wlsunset/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wlsunset</a></td>
+            <td><span class="pkg-tag">0.4.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Day/night gamma adjustments for Wayland compositors</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wlsunset</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="wlsunset-0.4.0.drop" download style="font-weight: bold; color: #aa2022;">wlsunset-0.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wmenu" data-desc="dynamic menu for wayland (dmenu clone for wlroots)" data-date="2026-09-03" data-time="1788425263" data-size="34397">
+            <td><a class="pkg-name" href="https://codeberg.org/adnano/wmenu" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wmenu</a></td>
+            <td><span class="pkg-tag">0.1.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Dynamic menu for Wayland (dmenu clone for wlroots)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wmenu</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="wmenu-0.1.8.drop" download style="font-weight: bold; color: #aa2022;">wmenu-0.1.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">33.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wpa_supplicant" data-desc="wpa/wpa2/ieee 802.1x supplicant" data-date="2026-09-07" data-time="1788814060" data-size="1603162">
+            <td><a class="pkg-name" href="http://w1.fi/wpa_supplicant/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wpa_supplicant</a></td>
+            <td><span class="pkg-tag">2.12-1</span></td>
+            <td>
+                <div class="pkg-desc">WPA/WPA2/IEEE 802.1X Supplicant</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wpa_supplicant</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="wpa_supplicant-2.12.drop" download style="font-weight: bold; color: #aa2022;">wpa_supplicant-2.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.5 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="wtype" data-desc="wayland version of xdotool" data-date="2026-09-07" data-time="1788814060" data-size="8512">
+            <td><a class="pkg-name" href="https://github.com/atx/wtype" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">wtype</a></td>
+            <td><span class="pkg-tag">0.4-1</span></td>
+            <td>
+                <div class="pkg-desc">Wayland version of xdotool</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in wtype</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="wtype-0.4.drop" download style="font-weight: bold; color: #aa2022;">wtype-0.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xarchiver" data-desc="lightweight desktop independent archive manager" data-date="2026-09-07" data-time="1788814060" data-size="457097">
+            <td><a class="pkg-name" href="https://github.com/ib/xarchiver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xarchiver</a></td>
+            <td><span class="pkg-tag">0.5.4.26-1</span></td>
+            <td>
+                <div class="pkg-desc">Lightweight desktop independent archive manager</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xarchiver</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xarchiver-0.5.4.26.drop" download style="font-weight: bold; color: #aa2022;">xarchiver-0.5.4.26.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">446.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xbiff" data-desc="mailbox flag for x" data-date="2026-09-07" data-time="1788814060" data-size="10870">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xbiff</a></td>
+            <td><span class="pkg-tag">1.0.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Mailbox flag for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xbiff</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xbiff-1.0.6.drop" download style="font-weight: bold; color: #aa2022;">xbiff-1.0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcalc" data-desc="scientific calculator for x" data-date="2026-09-07" data-time="1788814060" data-size="27665">
+            <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xcalc.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcalc</a></td>
+            <td><span class="pkg-tag">1.1.3-1</span></td>
+            <td>
+                <div class="pkg-desc">Scientific calculator for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcalc</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xcalc-1.1.3.drop" download style="font-weight: bold; color: #aa2022;">xcalc-1.1.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">27.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcb-proto" data-desc="xml-xcb (x c bindings) protocol descriptions" data-date="2026-09-07" data-time="1788814060" data-size="116278">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/proto/xcbproto" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-proto</a></td>
+            <td><span class="pkg-tag">1.17.0-1</span></td>
+            <td>
+                <div class="pkg-desc">XML-XCB (X C Bindings) protocol descriptions</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcb-proto</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xcb-proto-1.17.0.drop" download style="font-weight: bold; color: #aa2022;">xcb-proto-1.17.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">113.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcb-util-cursor" data-desc="xcb cursor library (libxcursor port)" data-date="2026-09-07" data-time="1788814060" data-size="9238">
+            <td><a class="pkg-name" href="https://xcb.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-cursor</a></td>
+            <td><span class="pkg-tag">0.1.4-1</span></td>
+            <td>
+                <div class="pkg-desc">XCB cursor library (libxcursor port)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcb-util-cursor</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xcb-util-cursor-0.1.4.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-cursor-0.1.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcb-util-image" data-desc="utility libraries for xcb - ximage and xshmimage functions" data-date="2026-09-07" data-time="1788814060" data-size="8474">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb-image" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-image</a></td>
+            <td><span class="pkg-tag">0.4.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Utility libraries for XCB - XImage and XShmImage functions</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcb-util-image</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xcb-util-image-0.4.1.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-image-0.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcb-util-keysyms" data-desc="utility libraries for xcb - key constants and keycode conversion" data-date="2026-09-07" data-time="1788814060" data-size="4896">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb-keysyms" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-keysyms</a></td>
+            <td><span class="pkg-tag">0.4.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Utility libraries for XCB - key constants and keycode conversion</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcb-util-keysyms</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xcb-util-keysyms-0.4.1.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-keysyms-0.4.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">4.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcb-util-renderutil" data-desc="utility libraries for xcb - render extension convenience functions" data-date="2026-09-07" data-time="1788814060" data-size="7048">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/lib/libxcb-render-util" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-renderutil</a></td>
+            <td><span class="pkg-tag">0.3.10-1</span></td>
+            <td>
+                <div class="pkg-desc">Utility libraries for XCB - Render extension convenience functions</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcb-util-renderutil</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xcb-util-renderutil-0.3.10.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-renderutil-0.3.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">6.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcb-util-wm" data-desc="utility libraries for xc binding - window-manager helpers for icccm" data-date="2026-09-07" data-time="1788814060" data-size="22636">
+            <td><a class="pkg-name" href="https://xcb.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcb-util-wm</a></td>
+            <td><span class="pkg-tag">0.4.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Utility libraries for XC Binding - window-manager helpers for ICCCM</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcb-util-wm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xcb-util-wm-0.4.2.drop" download style="font-weight: bold; color: #aa2022;">xcb-util-wm-0.4.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">22.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xclip" data-desc="command line interface to the x11 clipboard" data-date="2026-09-07" data-time="1788814060" data-size="13349">
+            <td><a class="pkg-name" href="https://github.com/astrand/xclip" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xclip</a></td>
+            <td><span class="pkg-tag">0.13-1</span></td>
+            <td>
+                <div class="pkg-desc">Command line interface to the X11 clipboard</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xclip</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xclip-0.13.drop" download style="font-weight: bold; color: #aa2022;">xclip-0.13.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xclipboard" data-desc="x clipboard client" data-date="2026-09-07" data-time="1788814060" data-size="16516">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xclipboard</a></td>
+            <td><span class="pkg-tag">1.1.6-1</span></td>
+            <td>
+                <div class="pkg-desc">X clipboard client</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xclipboard</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xclipboard-1.1.6.drop" download style="font-weight: bold; color: #aa2022;">xclipboard-1.1.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xclock" data-desc="analog and digital clock for x" data-date="2026-09-07" data-time="1788814060" data-size="31235">
+            <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xclock.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xclock</a></td>
+            <td><span class="pkg-tag">1.2.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Analog and digital clock for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xclock</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xclock-1.2.1.drop" download style="font-weight: bold; color: #aa2022;">xclock-1.2.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">30.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xcutsel" data-desc="xcutsel package for distill linux" data-date="2026-09-05" data-time="1788649872" data-size="272">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/xcutsel" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xcutsel</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">xcutsel package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xcutsel</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="xcutsel-1.0.drop" download style="font-weight: bold; color: #aa2022;">xcutsel-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">272 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xdpyinfo" data-desc="display information utility for x" data-date="2026-09-07" data-time="1788814060" data-size="13814">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xdpyinfo" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xdpyinfo</a></td>
+            <td><span class="pkg-tag">1.4.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Display information utility for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xdpyinfo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xdpyinfo-1.4.0.drop" download style="font-weight: bold; color: #aa2022;">xdpyinfo-1.4.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xedit" data-desc="simple text editor for x" data-date="2026-09-07" data-time="1788814060" data-size="368933">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xedit</a></td>
+            <td><span class="pkg-tag">1.2.5-1</span></td>
+            <td>
+                <div class="pkg-desc">Simple text editor for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xedit</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xedit-1.2.5.drop" download style="font-weight: bold; color: #aa2022;">xedit-1.2.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">360.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xev" data-desc="display x events" data-date="2026-09-07" data-time="1788814060" data-size="14286">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xev</a></td>
+            <td><span class="pkg-tag">1.2.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Display X events</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xev</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xev-1.2.6.drop" download style="font-weight: bold; color: #aa2022;">xev-1.2.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xeyes" data-desc="follow the mouse" data-date="2026-09-07" data-time="1788814060" data-size="13661">
+            <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xeyes.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xeyes</a></td>
+            <td><span class="pkg-tag">1.3.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Follow the mouse</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xeyes</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xeyes-1.3.1.drop" download style="font-weight: bold; color: #aa2022;">xeyes-1.3.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">13.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xf86-input-libinput" data-desc="generic input driver for the x.org server based on libinput" data-date="2026-09-07" data-time="1788814060" data-size="44737">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xf86-input-libinput</a></td>
+            <td><span class="pkg-tag">1.5.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Generic input driver for the X.Org server based on libinput</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xf86-input-libinput</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xf86-input-libinput-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">xf86-input-libinput-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">43.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xf86-video-modesetting" data-desc="generic modesetting video driver for x server (integrated)" data-date="2026-09-03" data-time="1788425267" data-size="1690147">
+            <td><a class="pkg-name" href="https://github.com/X11Libre/xserver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xf86-video-modesetting</a></td>
+            <td><span class="pkg-tag">main-1</span></td>
+            <td>
+                <div class="pkg-desc">Generic modesetting video driver for X server (integrated)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xf86-video-modesetting</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="xf86-video-modesetting-main.drop" download style="font-weight: bold; color: #aa2022;">xf86-video-modesetting-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.6 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xfd" data-desc="display all the characters in an x font" data-date="2026-09-07" data-time="1788814060" data-size="17119">
+            <td><a class="pkg-name" href="https://wiki.freedesktop.org/xorg/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfd</a></td>
+            <td><span class="pkg-tag">1.1.5-1</span></td>
+            <td>
+                <div class="pkg-desc">Display all the characters in an X font</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xfd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xfd-1.1.5.drop" download style="font-weight: bold; color: #aa2022;">xfd-1.1.5.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xfe" data-desc="lightweight file manager for x" data-date="2026-09-07" data-time="1788814060" data-size="5693496">
+            <td><a class="pkg-name" href="http://roland65.free.fr/xfe/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfe</a></td>
+            <td><span class="pkg-tag">2.1.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Lightweight file manager for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xfe</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xfe-2.1.7.drop" download style="font-weight: bold; color: #aa2022;">xfe-2.1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">5.4 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xfontsel" data-desc="x font selector" data-date="2026-09-07" data-time="1788814060" data-size="24850">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfontsel</a></td>
+            <td><span class="pkg-tag">1.1.2-1</span></td>
+            <td>
+                <div class="pkg-desc">X font selector</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xfontsel</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xfontsel-1.1.2.drop" download style="font-weight: bold; color: #aa2022;">xfontsel-1.1.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">24.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xfsprogs" data-desc="utilities for managing the xfs filesystem" data-date="2026-09-07" data-time="1788814060" data-size="1917472">
+            <td><a class="pkg-name" href="http://xfs.org/index.php/Main_Page" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xfsprogs</a></td>
+            <td><span class="pkg-tag">6.19.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Utilities for managing the XFS filesystem</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xfsprogs</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xfsprogs-6.19.0.drop" download style="font-weight: bold; color: #aa2022;">xfsprogs-6.19.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xgamma" data-desc="alter gamma correction" data-date="2026-09-07" data-time="1788814060" data-size="6608">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xgamma</a></td>
+            <td><span class="pkg-tag">1.0.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Alter gamma correction</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xgamma</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xgamma-1.0.8.drop" download style="font-weight: bold; color: #aa2022;">xgamma-1.0.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">6.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xhost" data-desc="server access control program for x" data-date="2026-09-07" data-time="1788814060" data-size="9646">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xhost</a></td>
+            <td><span class="pkg-tag">1.0.10-1</span></td>
+            <td>
+                <div class="pkg-desc">Server access control program for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xhost</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xhost-1.0.10.drop" download style="font-weight: bold; color: #aa2022;">xhost-1.0.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xinit" data-desc="x window system initializer (provides startx)" data-date="2026-09-09" data-time="1788939423" data-size="32565">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xinit" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xinit</a></td>
+            <td><span class="pkg-tag">1.4.4-1</span></td>
+            <td>
+                <div class="pkg-desc">X Window System initializer (provides startx)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xinit</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="xinit-1.4.4.drop" download style="font-weight: bold; color: #aa2022;">xinit-1.4.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">31.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xkbcomp" data-desc="xkb keymap compiler" data-date="2026-09-08" data-time="1788867103" data-size="99069">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xkbcomp</a></td>
+            <td><span class="pkg-tag">1.5.0-1</span></td>
+            <td>
+                <div class="pkg-desc">XKB keymap compiler</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xkbcomp</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="xkbcomp-1.5.0.drop" download style="font-weight: bold; color: #aa2022;">xkbcomp-1.5.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">96.7 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xkeyboard-config" data-desc="x keyboard configuration database" data-date="2026-09-08" data-time="1788867103" data-size="2928418">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xkeyboard-config</a></td>
+            <td><span class="pkg-tag">2.48-1</span></td>
+            <td>
+                <div class="pkg-desc">X Keyboard Configuration Database</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xkeyboard-config</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="xkeyboard-config-2.48.drop" download style="font-weight: bold; color: #aa2022;">xkeyboard-config-2.48.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">2.8 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xkill" data-desc="kill a client by its x resource" data-date="2026-09-07" data-time="1788814060" data-size="7128">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xkill</a></td>
+            <td><span class="pkg-tag">1.0.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Kill a client by its X resource</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xkill</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xkill-1.0.7.drop" download style="font-weight: bold; color: #aa2022;">xkill-1.0.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xlibre-server" data-desc="x11libre modern standalone x server without legacy cruft or systemd" data-date="2026-09-08" data-time="1788867103" data-size="1690354">
+            <td><a class="pkg-name" href="https://github.com/X11Libre/xserver" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xlibre-server</a></td>
+            <td><span class="pkg-tag">main-1</span></td>
+            <td>
+                <div class="pkg-desc">X11Libre modern standalone X server without legacy cruft or systemd</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xlibre-server</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="xlibre-server-main.drop" download style="font-weight: bold; color: #aa2022;">xlibre-server-main.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">1.6 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xload" data-desc="system load average display for x" data-date="2026-09-07" data-time="1788814060" data-size="9302">
+            <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xload.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xload</a></td>
+            <td><span class="pkg-tag">1.2.2-1</span></td>
+            <td>
+                <div class="pkg-desc">System load average display for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xload</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xload-1.2.2.drop" download style="font-weight: bold; color: #aa2022;">xload-1.2.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">9.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xlogo" data-desc="x window system logo" data-date="2026-09-07" data-time="1788814060" data-size="8836">
+            <td><a class="pkg-name" href="http://www.x.org/archive/X11R6.8.1/doc/xlogo.1.html" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xlogo</a></td>
+            <td><span class="pkg-tag">1.0.7-1</span></td>
+            <td>
+                <div class="pkg-desc">X Window System logo</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xlogo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xlogo-1.0.7.drop" download style="font-weight: bold; color: #aa2022;">xlogo-1.0.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">8.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xlsfonts" data-desc="server font list displayer for x" data-date="2026-09-07" data-time="1788814060" data-size="10413">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xlsfonts</a></td>
+            <td><span class="pkg-tag">1.0.9-1</span></td>
+            <td>
+                <div class="pkg-desc">Server font list displayer for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xlsfonts</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xlsfonts-1.0.9.drop" download style="font-weight: bold; color: #aa2022;">xlsfonts-1.0.9.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">10.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xmag" data-desc="x utility to magnify parts of the screen" data-date="2026-09-07" data-time="1788814060" data-size="20444">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xmag" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xmag</a></td>
+            <td><span class="pkg-tag">1.0.8-1</span></td>
+            <td>
+                <div class="pkg-desc">X utility to Magnify parts of the screen</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xmag</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xmag-1.0.8.drop" download style="font-weight: bold; color: #aa2022;">xmag-1.0.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">20.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xmessage" data-desc="display a message or query in a x window" data-date="2026-09-07" data-time="1788814060" data-size="12250">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xmessage</a></td>
+            <td><span class="pkg-tag">1.0.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Display a message or query in a X window</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xmessage</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xmessage-1.0.7.drop" download style="font-weight: bold; color: #aa2022;">xmessage-1.0.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">12.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xmodmap" data-desc="x modmap program to modify keymaps and pointer button mappings" data-date="2026-09-07" data-time="1788814060" data-size="21641">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xmodmap</a></td>
+            <td><span class="pkg-tag">1.0.12-1</span></td>
+            <td>
+                <div class="pkg-desc">X modmap program to modify keymaps and pointer button mappings</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xmodmap</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xmodmap-1.0.12.drop" download style="font-weight: bold; color: #aa2022;">xmodmap-1.0.12.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">21.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xorg-server-common" data-desc="x11 server common files and configuration" data-date="2026-09-08" data-time="1788867103" data-size="7189">
+            <td><a class="pkg-name" href="https://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xorg-server-common</a></td>
+            <td><span class="pkg-tag">21.1.24-1</span></td>
+            <td>
+                <div class="pkg-desc">X11 server common files and configuration</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xorg-server-common</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-08 (UTC)</td>
+            <td>
+                <a href="xorg-server-common-21.1.24.drop" download style="font-weight: bold; color: #aa2022;">xorg-server-common-21.1.24.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xorgproto" data-desc="combined x.org x11 protocol headers" data-date="2026-09-03" data-time="1788425267" data-size="329111">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/proto/xorgproto" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xorgproto</a></td>
+            <td><span class="pkg-tag">2025.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Combined X.Org X11 Protocol headers</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xorgproto</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="xorgproto-2025.1.drop" download style="font-weight: bold; color: #aa2022;">xorgproto-2025.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">321.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xprop" data-desc="property displayer for x" data-date="2026-09-07" data-time="1788814060" data-size="25708">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xprop" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xprop</a></td>
+            <td><span class="pkg-tag">1.2.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Property displayer for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xprop</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xprop-1.2.8.drop" download style="font-weight: bold; color: #aa2022;">xprop-1.2.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">25.1 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xrdb" data-desc="x server resource database utility" data-date="2026-09-07" data-time="1788814060" data-size="18942">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xrdb" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xrdb</a></td>
+            <td><span class="pkg-tag">1.2.3-1</span></td>
+            <td>
+                <div class="pkg-desc">X server resource database utility</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xrdb</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xrdb-1.2.3.drop" download style="font-weight: bold; color: #aa2022;">xrdb-1.2.3.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">18.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xrefresh" data-desc="refresh all or part of an x screen" data-date="2026-09-07" data-time="1788814060" data-size="6967">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xrefresh" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xrefresh</a></td>
+            <td><span class="pkg-tag">1.1.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Refresh all or part of an X screen</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xrefresh</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xrefresh-1.1.1.drop" download style="font-weight: bold; color: #aa2022;">xrefresh-1.1.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">6.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xrestop" data-desc="top-like x server resource usage monitor that uses the xres extension" data-date="2026-09-07" data-time="1788814060" data-size="7651">
+            <td><a class="pkg-name" href="https://www.freedesktop.org/wiki/Software/xrestop/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xrestop</a></td>
+            <td><span class="pkg-tag">0.6-1</span></td>
+            <td>
+                <div class="pkg-desc">Top-like X Server resource usage monitor that uses the XRes extension</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xrestop</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xrestop-0.6.drop" download style="font-weight: bold; color: #aa2022;">xrestop-0.6.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">7.5 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xsel" data-desc="command-line getting and setting the contents of the x selection" data-date="2026-09-07" data-time="1788814060" data-size="17209">
+            <td><a class="pkg-name" href="http://www.kfish.org/software/xsel/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xsel</a></td>
+            <td><span class="pkg-tag">1.2.1-1</span></td>
+            <td>
+                <div class="pkg-desc">Command-line getting and setting the contents of the X selection</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xsel</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xsel-1.2.1.drop" download style="font-weight: bold; color: #aa2022;">xsel-1.2.1.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xterm" data-desc="x terminal emulator" data-date="2026-09-07" data-time="1788814060" data-size="502830">
+            <td><a class="pkg-name" href="https://invisible-island.net/xterm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xterm</a></td>
+            <td><span class="pkg-tag">411-1</span></td>
+            <td>
+                <div class="pkg-desc">X Terminal Emulator</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xterm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xterm-411.drop" download style="font-weight: bold; color: #aa2022;">xterm-411.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">491.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xwd" data-desc="dump an image of an x window" data-date="2026-09-07" data-time="1788814060" data-size="17221">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xwd</a></td>
+            <td><span class="pkg-tag">1.0.10-1</span></td>
+            <td>
+                <div class="pkg-desc">Dump an image of an X window</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xwd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xwd-1.0.10.drop" download style="font-weight: bold; color: #aa2022;">xwd-1.0.10.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">16.8 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xwininfo" data-desc="query information about x windows" data-date="2026-09-07" data-time="1788814060" data-size="23110">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xwininfo</a></td>
+            <td><span class="pkg-tag">1.1.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Query information about X windows</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xwininfo</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xwininfo-1.1.7.drop" download style="font-weight: bold; color: #aa2022;">xwininfo-1.1.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">22.6 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xwud" data-desc="image displayer for x" data-date="2026-09-07" data-time="1788814060" data-size="14531">
+            <td><a class="pkg-name" href="http://xorg.freedesktop.org" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xwud</a></td>
+            <td><span class="pkg-tag">1.0.8-1</span></td>
+            <td>
+                <div class="pkg-desc">Image displayer for X</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xwud</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="xwud-1.0.8.drop" download style="font-weight: bold; color: #aa2022;">xwud-1.0.8.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">14.2 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xxhash" data-desc="fast non-cryptographic hashing algorithm" data-date="2026-09-03" data-time="1788425267" data-size="33076">
+            <td><a class="pkg-name" href="https://cyan4973.github.io/xxHash/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xxhash</a></td>
+            <td><span class="pkg-tag">0.8.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast non-cryptographic hashing algorithm</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xxhash</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="xxhash-0.8.2.drop" download style="font-weight: bold; color: #aa2022;">xxhash-0.8.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">32.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xz-embedded" data-desc="xz-embedded package for distill linux" data-date="2026-09-05" data-time="1788649871" data-size="334">
+            <td><a class="pkg-name" href="https://github.com/distill-linux/xz-embedded" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xz-embedded</a></td>
+            <td><span class="pkg-tag">1.0-1</span></td>
+            <td>
+                <div class="pkg-desc">xz-embedded package for Distill Linux</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xz-embedded</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-05 (UTC)</td>
+            <td>
+                <a href="xz-embedded-1.0.drop" download style="font-weight: bold; color: #aa2022;">xz-embedded-1.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">334 B</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="yambar" data-desc="modular status panel library and daemon for wayland and x11" data-date="2026-09-03" data-time="1788425268" data-size="163810">
+            <td><a class="pkg-name" href="https://codeberg.org/dnkl/yambar" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yambar</a></td>
+            <td><span class="pkg-tag">1.10.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Modular status panel library and daemon for Wayland and X11</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in yambar</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="yambar-1.10.0.drop" download style="font-weight: bold; color: #aa2022;">yambar-1.10.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">160.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="yasm" data-desc="complete rewrite of the nasm assembler" data-date="2026-09-03" data-time="1788425268" data-size="1023429">
+            <td><a class="pkg-name" href="http://www.tortall.net/projects/yasm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yasm</a></td>
+            <td><span class="pkg-tag">1.3.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Complete rewrite of the NASM assembler</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in yasm</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-03 (UTC)</td>
+            <td>
+                <a href="yasm-1.3.0.drop" download style="font-weight: bold; color: #aa2022;">yasm-1.3.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">999.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="yyjson" data-desc="fast json library in ansi c" data-date="2026-09-07" data-time="1788805670" data-size="120735">
+            <td><a class="pkg-name" href="https://github.com/ibireme/yyjson" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">yyjson</a></td>
+            <td><span class="pkg-tag">0.12.0-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast JSON library in ANSI C</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in yyjson</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="yyjson-0.12.0.drop" download style="font-weight: bold; color: #aa2022;">yyjson-0.12.0.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">117.9 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="zathura" data-desc="highly customizable and functional document viewer" data-date="2026-09-07" data-time="1788814060" data-size="641067">
+            <td><a class="pkg-name" href="https://pwmt.org/projects/zathura/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zathura</a></td>
+            <td><span class="pkg-tag">2026.07.18-1</span></td>
+            <td>
+                <div class="pkg-desc">Highly customizable and functional document viewer</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in zathura</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="zathura-2026.07.18.drop" download style="font-weight: bold; color: #aa2022;">zathura-2026.07.18.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">626.0 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="zathura-pdf-mupdf" data-desc="pdf support for zathura (using mupdf)" data-date="2026-09-07" data-time="1788814060" data-size="30333362">
+            <td><a class="pkg-name" href="https://pwmt.org/projects/zathura-pdf-mupdf/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zathura-pdf-mupdf</a></td>
+            <td><span class="pkg-tag">2026.07.18-1</span></td>
+            <td>
+                <div class="pkg-desc">PDF support for zathura (using mupdf)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in zathura-pdf-mupdf</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="zathura-pdf-mupdf-2026.07.18.drop" download style="font-weight: bold; color: #aa2022;">zathura-pdf-mupdf-2026.07.18.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">28.9 MB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="zlib" data-desc="compression/decompression library" data-date="2026-09-07" data-time="1788805670" data-size="53565">
+            <td><a class="pkg-name" href="https://zlib.net" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zlib</a></td>
+            <td><span class="pkg-tag">1.3.2-1</span></td>
+            <td>
+                <div class="pkg-desc">Compression/decompression Library</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in zlib</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="zlib-1.3.2.drop" download style="font-weight: bold; color: #aa2022;">zlib-1.3.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">52.3 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="zstd" data-desc="fast real-time compression algorithm - cli tool" data-date="2026-09-07" data-time="1788814060" data-size="153330">
+            <td><a class="pkg-name" href="https://facebook.github.io/zstd/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">zstd</a></td>
+            <td><span class="pkg-tag">1.5.7-1</span></td>
+            <td>
+                <div class="pkg-desc">Fast real-time compression algorithm - CLI tool</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in zstd</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-07 (UTC)</td>
+            <td>
+                <a href="zstd-1.5.7.drop" download style="font-weight: bold; color: #aa2022;">zstd-1.5.7.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">149.7 KB</span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<script>
+function updateSortIcons(sort) {
+    var icons = {'name': '', 'date': '', 'size': ''};
+    if (sort === 'name-asc') icons['name'] = ' ▲';
+    else if (sort === 'name-desc') icons['name'] = ' ▼';
+    else if (sort === 'date-desc') icons['date'] = ' ▼';
+    else if (sort === 'date-asc') icons['date'] = ' ▲';
+    else if (sort === 'size-desc') icons['size'] = ' ▼';
+    else if (sort === 'size-asc') icons['size'] = ' ▲';
+    for (var k in icons) {
+        var el = document.getElementById('sort-icon-' + k);
+        if (el) el.textContent = icons[k];
+    }
+}
+
+function toggleSort(col) {
+    var sel = document.getElementById('pkg-sort');
+    var val = sel.value;
+    if (col === 'name') {
+        sel.value = (val === 'name-asc') ? 'name-desc' : 'name-asc';
+    } else if (col === 'date') {
+        sel.value = (val === 'date-desc') ? 'date-asc' : 'date-desc';
+    } else if (col === 'size') {
+        sel.value = (val === 'size-desc') ? 'size-asc' : 'size-desc';
+    }
+    sortPackages();
+}
+
+function filterPackages() {
+    var query = document.getElementById('pkg-keywords').value.toLowerCase().trim();
+    var mode = document.getElementById('pkg-searchby').value;
+    var rows = document.querySelectorAll('#pkg-body .pkg-row');
+    var visible = 0;
+    rows.forEach(function(row) {
+        var name = row.getAttribute('data-name') || '';
+        var desc = row.getAttribute('data-desc') || '';
+        var match = false;
+        if (!query) match = true;
+        else if (mode === 'name') match = name.indexOf(query) !== -1;
+        else if (mode === 'desc') match = desc.indexOf(query) !== -1;
+        else match = (name.indexOf(query) !== -1) || (desc.indexOf(query) !== -1);
+        if (match) { row.style.display = ''; visible++; }
+        else { row.style.display = 'none'; }
+    });
+    var stats = document.getElementById('pkg-stats');
+    stats.innerHTML = '<strong>' + visible + ' package' + (visible === 1 ? '' : 's') + ' found.</strong> Page 1 of 1.';
+}
+
+function sortPackages() {
+    var sort = document.getElementById('pkg-sort').value;
+    updateSortIcons(sort);
+    var tbody = document.getElementById('pkg-body');
+    var rows = Array.from(tbody.querySelectorAll('.pkg-row'));
+    rows.sort(function(a, b) {
+        var nameA = a.getAttribute('data-name') || '';
+        var nameB = b.getAttribute('data-name') || '';
+        var sizeA = parseInt(a.getAttribute('data-size') || '0', 10);
+        var sizeB = parseInt(b.getAttribute('data-size') || '0', 10);
+        var timeA = parseInt(a.getAttribute('data-time') || '0', 10);
+        var timeB = parseInt(b.getAttribute('data-time') || '0', 10);
+        if (sort === 'name-asc') return nameA.localeCompare(nameB);
+        if (sort === 'name-desc') return nameB.localeCompare(nameA);
+        if (sort === 'size-desc') return (sizeB - sizeA) || nameA.localeCompare(nameB);
+        if (sort === 'size-asc') return (sizeA - sizeB) || nameA.localeCompare(nameB);
+        if (sort === 'date-desc') return (timeB - timeA) || nameA.localeCompare(nameB);
+        if (sort === 'date-asc') return (timeA - timeB) || nameA.localeCompare(nameB);
+        return 0;
+    });
+    rows.forEach(function(row) { tbody.appendChild(row); });
+}
+updateSortIcons('name-asc');
+</script>
