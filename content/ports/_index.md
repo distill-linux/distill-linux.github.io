@@ -3659,7 +3659,7 @@ article {
                 <span style="font-size: 0.8em; color: #666;">2.3 MB</span>
             </td>
         </tr>
-        <tr class="pkg-row" data-name="tile" data-desc="pure assembly tiling window manager (chasm suite)" data-date="2026-09-09" data-time="1788933517" data-size="34735">
+        <tr class="pkg-row" data-name="tile" data-desc="pure assembly tiling window manager (chasm suite)" data-date="2026-09-09" data-time="1788934829" data-size="34745">
             <td><a class="pkg-name" href="https://github.com/isene/tile" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">tile</a></td>
             <td><span class="pkg-tag">0.1.53-1</span></td>
             <td>
