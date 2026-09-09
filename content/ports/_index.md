@@ -185,7 +185,7 @@ article {
 </div>
 
 <div class="pkg-stats" id="pkg-stats">
-  <strong>328 packages found.</strong> Page 1 of 1.
+  <strong>330 packages found.</strong> Page 1 of 1.
 </div>
 
 <div class="pkg-table-wrap">
@@ -3757,6 +3757,20 @@ article {
                 <span style="font-size: 0.8em; color: #666;">3.1 MB</span>
             </td>
         </tr>
+        <tr class="pkg-row" data-name="util-macros" data-desc="x.org autotools macros" data-date="2026-09-09" data-time="1788939423" data-size="0">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/util/macros" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">util-macros</a></td>
+            <td><span class="pkg-tag">1.20.2-1</span></td>
+            <td>
+                <div class="pkg-desc">X.Org autotools macros</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in util-macros</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="util-macros-1.20.2.drop" download style="font-weight: bold; color: #aa2022;">util-macros-1.20.2.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
+            </td>
+        </tr>
         <tr class="pkg-row" data-name="uxterm" data-desc="x terminal emulator" data-date="2026-09-07" data-time="1788823117" data-size="502833">
             <td><a class="pkg-name" href="https://invisible-island.net/xterm/" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">uxterm</a></td>
             <td><span class="pkg-tag">411-1</span></td>
@@ -4371,6 +4385,20 @@ article {
             <td>
                 <a href="xhost-1.0.10.drop" download style="font-weight: bold; color: #aa2022;">xhost-1.0.10.drop</a><br>
                 <span style="font-size: 0.8em; color: #666;">9.4 KB</span>
+            </td>
+        </tr>
+        <tr class="pkg-row" data-name="xinit" data-desc="x window system initializer (provides startx)" data-date="2026-09-09" data-time="1788939423" data-size="0">
+            <td><a class="pkg-name" href="https://gitlab.freedesktop.org/xorg/app/xinit" target="_blank" rel="noopener" style="color: #aa2022; text-decoration: none;" title="View source code">xinit</a></td>
+            <td><span class="pkg-tag">1.4.4-1</span></td>
+            <td>
+                <div class="pkg-desc">X Window System initializer (provides startx)</div>
+                <div style="margin-top: 0.3em;"><code class="pkg-cmd" title="Click to copy">drop in xinit</code></div>
+            </td>
+            <td class="pkg-meta">distill-core</td>
+            <td class="pkg-meta">2026-09-09 (UTC)</td>
+            <td>
+                <a href="xinit-1.4.4.drop" download style="font-weight: bold; color: #aa2022;">xinit-1.4.4.drop</a><br>
+                <span style="font-size: 0.8em; color: #666;">prebuilt package</span>
             </td>
         </tr>
         <tr class="pkg-row" data-name="xkbcomp" data-desc="xkb keymap compiler" data-date="2026-09-08" data-time="1788867103" data-size="99069">

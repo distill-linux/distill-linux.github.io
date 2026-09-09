@@ -254,6 +254,7 @@ tiny-dfr	0.3.7	0cec06ccb10636f1b49692354ad83b59b88703ebe5da2f174c36f19c37eb65a6	
 tuigreet	0.11.1	d48728d89da90e02f6d25d88ae224a257d03d7b8654ff55927d66535469b1ecf	1503028	tuigreet-0.11.1.drop	greetd libgcc	
 twm	1.0.13.1	2fa4881b1f471ecd2144614680931e401540a67209aff023020c68612e1326ad	111692	twm-1.0.13.1.drop	libXmu	
 util-linux	2.41.4	a2d3fbb89386ebfbc305e652d6b3e99bb4ceff7af0f84c936ddf3df9363e093f	3280803	util-linux-2.41.4.drop	zlib	
+util-macros	1.20.2		0	util-macros-1.20.2.drop		
 uxterm	411	f04372735c3d7710721aad3a8215f386116b933aaa91f84688794c12688f3ce3	502833	uxterm-411.drop	libXaw libXft	
 virtualbox	7.1.6	8ccf43186eb60025655fa4896742f5f360df57bd09724d5891b8ad5a8c6728c4	388	virtualbox-7.1.6.drop	libpng openssl libvpx libX11 libXt	
 vulkan-headers	1.4.350.1	c3bccc4ec7a24d9c79c883ee10732903fb4cf04802978e990bf0c4baa97c144b	3193142	vulkan-headers-1.4.350.1.drop		
@@ -298,6 +299,7 @@ xfontsel	1.1.2	8d6bf077509b17a77400fcf11a620754077a147632467068141353b93de82f12	
 xfsprogs	6.19.0	9024c1fed7a2f4e1a0712a114a6fba77976d1a762739339f04205c976fdacd2e	1917472	xfsprogs-6.19.0.drop		
 xgamma	1.0.8	f9008efc08f8bfb9cac835c1473a4751841167333c5608a5e7181a92820d7ab4	6608	xgamma-1.0.8.drop	libX11	
 xhost	1.0.10	27ce5692f54f387616bb18593713c7f38b98ea24aa727168f651b99bf84a7c4b	9646	xhost-1.0.10.drop	libX11 libXmu	
+xinit	1.4.4		0	xinit-1.4.4.drop	xlibre-server libX11	
 xkbcomp	1.5.0	6c3cc435e28427f2b8af2e32d4e719b5d18095ac0dd4a1597b0bcc59bdda3912	99069	xkbcomp-1.5.0.drop	libX11 libxkbfile	
 xkeyboard-config	2.48	e9ab8daebc3fa826e2bf31133a5cf7c1bab28062930f99d8c04d942b4566241c	2928418	xkeyboard-config-2.48.drop	xkbcomp	
 xkill	1.0.7	9d8e11720f5ac56139c33959dedf7e9a7952ea3952a862971cd9b984bccd7cbe	7128	xkill-1.0.7.drop	libX11 libXmu	
